@@ -1,23 +1,26 @@
 """
-工作流节点定义 — 知识库流水线的 6 个核心节点
+工作流节点定义 — V3 知识库流水线的 6 个节点（+HumanFlag 终点）
 
 每个节点是一个纯函数: State → dict（部分状态更新）
 LangGraph 会自动将返回值合并到全局 State 中。
 
-节点调用链:
-    plan → collect → analyze → organize → review → (conditional) → save
-                                    ↑                                │
-                                    └── organize (retry) ←───────────┘ (如果审核未通过)
+节点职责严格隔离（Single Responsibility）：
 
-【职责 vs 文件的映射说明（重要教学点）】
-- Planner 职责    → patterns/planner.py::planner_node  （只规划）
-- Collector 职责  → collect_node                      （只采集）
-- Analyzer 职责   → analyze_node                      （只分析单条）
-- Organizer 职责  → organize_node + _organize_fresh   （初次整理）
-- Reviser 职责    → organize_node + _organize_with_feedback (带反馈修正)
-                   ↑ Organizer 和 Reviser 是同一节点的两种模式
-- Reviewer 职责   → review_node                       （只评分，不改）
-- Saver 职责      → save_node                         （只持久化）
+    ① plan       → Planner     → 动态规划策略（patterns/planner.py）
+    ② collect    → Collector   → 数据采集
+    ③ analyze    → Analyzer    → 单条 LLM 分析
+    ④ review     → Reviewer    → 审核 analyses（1-10 分 × 5 维）
+    ⑤ revise     → Reviser     → 读 feedback，LLM 定向修改 analyses（只在未通过时）
+    ⑥ organize   → Organizer   → 过滤 + 去重 + 格式化 + 写盘（终点，只在通过后）
+    ⑦ human_flag → HumanFlag   → 超过 max_iterations，标记人工介入（终点）
+
+拓扑：
+
+    plan → collect → analyze → review ┬─[pass]────→ organize → END
+                                      │
+                                      ├─[fail]────→ revise → review（循环）
+                                      │
+                                      └─[>max]────→ human_flag → END
 """
 
 import json
@@ -29,14 +32,11 @@ from workflows.model_client import accumulate_usage, chat, chat_json
 from workflows.state import KBState
 
 
-# ---------------------------------------------------------------------------
-# 节点 1: 采集节点 — 从 GitHub API + RSS 获取原始数据
-# ---------------------------------------------------------------------------
+# ═══════════════════════════════════════════════════════════════════════════
+# ② Collector — 数据采集
+# ═══════════════════════════════════════════════════════════════════════════
 def collect_node(state: KBState) -> dict:
     """采集节点：调用 GitHub Trending API 获取今日热门项目
-
-    实际生产中会并行调用多个数据源（GitHub、HN、arXiv）。
-    这里以 GitHub 为例，展示数据采集的标准模式。
 
     读取 state["plan"]["per_source_limit"] 决定抓取条数（由 Planner 节点给出）。
     """
@@ -44,21 +44,22 @@ def collect_node(state: KBState) -> dict:
     import urllib.parse
 
     sources: list[dict] = []
-
-    # 读 Planner 策略，没有就用默认 10
     plan = state.get("plan", {}) or {}
     per_source_limit = int(plan.get("per_source_limit", 10))
 
-    # --- GitHub Trending (通过 Search API 近似) ---
     github_token = os.getenv("GITHUB_TOKEN", "")
     headers = {"Accept": "application/vnd.github.v3+json"}
     if github_token:
         headers["Authorization"] = f"token {github_token}"
 
-    # 搜索最近一周更新的、星标数高的 AI 相关仓库
-    one_week_ago = (datetime.now(timezone.utc) - __import__('datetime').timedelta(days=7)).strftime("%Y-%m-%d")
+    one_week_ago = (
+        datetime.now(timezone.utc) - __import__("datetime").timedelta(days=7)
+    ).strftime("%Y-%m-%d")
     query = f"ai agent llm stars:>100 pushed:>{one_week_ago}"
-    url = f"https://api.github.com/search/repositories?q={urllib.parse.quote(query)}&sort=stars&per_page={per_source_limit}"
+    url = (
+        f"https://api.github.com/search/repositories?q={urllib.parse.quote(query)}"
+        f"&sort=stars&per_page={per_source_limit}"
+    )
 
     try:
         req = urllib.request.Request(url, headers=headers)
@@ -76,7 +77,6 @@ def collect_node(state: KBState) -> dict:
                 "collected_at": datetime.now(timezone.utc).isoformat(),
             })
     except Exception as e:
-        # 网络失败时不中断流程，记录错误继续
         sources.append({
             "source": "github",
             "title": "[ERROR] GitHub API 请求失败",
@@ -91,24 +91,19 @@ def collect_node(state: KBState) -> dict:
     return {"sources": sources}
 
 
-# ---------------------------------------------------------------------------
-# 节点 2: 分析节点 — 用 LLM 对每条数据进行深度分析
-# ---------------------------------------------------------------------------
+# ═══════════════════════════════════════════════════════════════════════════
+# ③ Analyzer — 单条 LLM 分析
+# ═══════════════════════════════════════════════════════════════════════════
 def analyze_node(state: KBState) -> dict:
     """分析节点：对采集到的原始数据进行 LLM 分析
 
-    为每条数据生成:
-    - 中文技术摘要 (200字以内)
-    - 相关标签 (英文)
-    - 相关性评分 (0.0 - 1.0)
-    - 技术领域分类
+    为每条数据生成摘要 / 标签 / 相关性评分 / 分类 / 核心洞察。
     """
     sources = state["sources"]
     analyses: list[dict] = []
     tracker = state.get("cost_tracker", {})
 
     for item in sources:
-        # 跳过错误条目
         if item.get("title", "").startswith("[ERROR]"):
             continue
 
@@ -155,195 +150,102 @@ URL: {item.get('url', '')}
     return {"analyses": analyses, "cost_tracker": tracker}
 
 
-# ---------------------------------------------------------------------------
-# 节点 3: 整理节点 — 双模式：首次整理（Organizer） / 带反馈修正（Reviser）
-# ---------------------------------------------------------------------------
-# 【教学重点：一个节点，两种职责】
-# organize_node 在代码里是一个节点，但承担两个逻辑职责:
-#   • 首次进入    → _organize_fresh()        (职责 = Organizer: 过滤+去重+格式化)
-#   • 带反馈回流  → _organize_with_feedback() (职责 = Reviser: 读反馈，改条目)
-# 这种"一节点两职责"是工程简化 —— 物理文件少，逻辑仍然清晰。
-# 在 PPT 里它们是两个独立的 Agent（Organizer / Reviser），在代码里用分支实现。
-# ---------------------------------------------------------------------------
-def _organize_fresh(analyses: list[dict], plan: dict) -> list[dict]:
-    """【Organizer 职责】首次整理：相关性过滤 + URL 去重 + 格式化
-
-    Args:
-        analyses: 来自 analyze_node 的分析结果
-        plan: Planner 给出的策略，读取其中的 relevance_threshold
-
-    Returns:
-        articles: 格式化后的知识条目列表
-    """
-    threshold = float(plan.get("relevance_threshold", 0.6))
-
-    # 步骤 1: 相关性过滤（阈值由 Planner 决定）
-    qualified = [a for a in analyses if a.get("relevance_score", 0) >= threshold]
-
-    # 步骤 2: URL 去重
-    seen_urls: set[str] = set()
-    unique: list[dict] = []
-    for item in qualified:
-        url = item.get("url", "")
-        if url and url not in seen_urls:
-            seen_urls.add(url)
-            unique.append(item)
-
-    # 步骤 3: 生成标准格式的知识条目
-    articles: list[dict] = []
-    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
-    for i, item in enumerate(unique):
-        articles.append({
-            "id": f"{today}-{i:03d}",
-            "title": item.get("title", ""),
-            "source": item.get("source", "unknown"),
-            "url": item.get("url", ""),
-            "collected_at": item.get("collected_at", ""),
-            "summary": item.get("summary", ""),
-            "tags": item.get("tags", []),
-            "relevance_score": item.get("relevance_score", 0.5),
-            "category": item.get("category", "other"),
-            "key_insight": item.get("key_insight", ""),
-        })
-    return articles
+# ═══════════════════════════════════════════════════════════════════════════
+# ④ Reviewer — 五维度评分（只评估，不修改）
+# ═══════════════════════════════════════════════════════════════════════════
+# 权重写在代码里，不写在 prompt 里 —— 方便不改 prompt 调整权重
+# 总分范围 0-10，通过阈值 7.0
+REVIEWER_WEIGHTS = {
+    "summary_quality": 0.25,  # 摘要质量
+    "technical_depth": 0.25,  # 技术深度
+    "relevance":       0.20,  # 相关性
+    "originality":     0.15,  # 原创性
+    "formatting":      0.15,  # 格式规范
+}
+REVIEWER_PASS_THRESHOLD = 7.0
 
 
-def _organize_with_feedback(
-    articles: list[dict], feedback: str, tracker: dict
-) -> tuple[list[dict], dict]:
-    """【Reviser 职责】带反馈修正：读审核反馈，用 LLM 改条目
-
-    Args:
-        articles: 上一轮已整理的 articles（已格式化）
-        feedback: review_node 给出的具体改进建议
-        tracker: 成本追踪器
-
-    Returns:
-        (revised_articles, updated_tracker)
-    """
-    prompt = f"""你是知识库编辑。以下是审核员的反馈，请据此改进这些知识条目。
-
-审核反馈:
-{feedback}
-
-当前条目 (JSON):
-{json.dumps(articles, ensure_ascii=False, indent=2)}
-
-请返回改进后的条目列表（JSON 数组），保持相同字段结构。"""
-
-    try:
-        improved, usage = chat_json(prompt)
-        tracker = accumulate_usage(tracker, usage)
-        if isinstance(improved, list) and improved:
-            return improved, tracker
-    except Exception as e:
-        print(f"[Reviser] 根据反馈修正失败: {e}，沿用原 articles")
-
-    return articles, tracker
-
-
-def organize_node(state: KBState) -> dict:
-    """整理节点：根据是否有反馈，走 Organizer 或 Reviser 分支
-
-    首次进入（iteration=0，无 feedback）→ _organize_fresh()
-    带反馈回流（iteration>0，有 feedback）→ _organize_with_feedback()
-    """
-    analyses = state["analyses"]
-    feedback = state.get("review_feedback", "")
-    iteration = state.get("iteration", 0)
-    tracker = state.get("cost_tracker", {})
-    plan = state.get("plan", {}) or {}
-
-    if feedback and iteration > 0 and state.get("articles"):
-        # ---- Reviser 分支：读反馈，改已有 articles ----
-        articles, tracker = _organize_with_feedback(
-            state["articles"], feedback, tracker
-        )
-        print(f"[Reviser] 根据反馈修正 {len(articles)} 条条目 (迭代 {iteration})")
-    else:
-        # ---- Organizer 分支：首次从 analyses 整理 ----
-        articles = _organize_fresh(analyses, plan)
-        print(f"[Organizer] 整理出 {len(articles)} 条知识条目 (迭代 {iteration})")
-
-    return {"articles": articles, "cost_tracker": tracker}
-
-
-# ---------------------------------------------------------------------------
-# 节点 4: 审核节点 — LLM 质量审核，决定通过或打回
-# ---------------------------------------------------------------------------
-# 【教学重点】这是 Review Loop 的核心！
-# 审核节点评估文章质量，返回 pass/fail + 具体反馈。
-# 如果 fail，工作流会回到 organize_node 进行修正，最多循环 3 次。
-# ---------------------------------------------------------------------------
 def review_node(state: KBState) -> dict:
-    """审核节点：对知识条目进行质量审核
+    """Reviewer 节点：对 analyses 进行 5 维度质量审核
 
-    审核维度:
-    1. 摘要质量 — 是否准确、简洁、有洞察
-    2. 标签准确性 — 是否与内容匹配
-    3. 分类合理性 — 是否归入正确类别
-    4. 整体一致性 — 条目之间是否有冲突或重复
+    核心原则：**只评估不修改（Evaluate, don't modify）**。
+    Reviewer 看到的是 Analyzer 输出的 analyses，不做任何改动，只给分 + 反馈。
+
+    审核维度（每维 1-10 分）:
+        1. summary_quality  - 摘要质量
+        2. technical_depth  - 技术深度
+        3. relevance        - 相关性
+        4. originality      - 原创性
+        5. formatting       - 格式规范
 
     Returns:
-        review_passed: True/False
-        review_feedback: 具体反馈意见
-        iteration: 递增的迭代计数器
+        review_passed, review_feedback, iteration, cost_tracker
     """
-    articles = state.get("articles", [])
+    analyses = state.get("analyses", [])
     iteration = state.get("iteration", 0)
     tracker = state.get("cost_tracker", {})
-    plan = state.get("plan", {}) or {}
-    max_iter = int(plan.get("max_iterations", 3))
 
-    if not articles:
+    if not analyses:
         return {
             "review_passed": True,
             "review_feedback": "没有条目需要审核",
             "iteration": iteration + 1,
         }
 
-    prompt = f"""你是知识库质量审核员。请审核以下知识条目：
+    # 只审核前 5 条，控制 token 消耗
+    sample = analyses[:5]
 
-{json.dumps(articles, ensure_ascii=False, indent=2)}
+    prompt = f"""你是知识库质量审核员。请审核以下分析结果：
 
-请按以下维度评估（每项1-5分）：
-1. 摘要质量：准确性、简洁性、洞察深度
-2. 标签准确性：标签是否与内容匹配
-3. 分类合理性：类别是否正确
-4. 整体一致性：条目间是否有冲突或冗余
+{json.dumps(sample, ensure_ascii=False, indent=2)}
+
+请按以下维度评分（每项 1-10 分）：
+1. summary_quality  - 摘要质量（准确、简洁、有洞察）
+2. technical_depth  - 技术深度（原理分析、对比、实现细节）
+3. relevance        - 相关性（与 AI/Agent 主题的匹配度）
+4. originality      - 原创性（是否有独立见解）
+5. formatting       - 格式规范（字段完整、标签清晰）
 
 请用 JSON 格式回复：
 {{
-    "passed": true或false,
-    "overall_score": 4.2,
-    "feedback": "具体的改进建议（如果不通过）",
     "scores": {{
-        "summary_quality": 4,
-        "tag_accuracy": 3,
-        "category_correctness": 5,
-        "consistency": 4
-    }}
+        "summary_quality": 8,
+        "technical_depth": 6,
+        "relevance": 9,
+        "originality": 5,
+        "formatting": 8
+    }},
+    "feedback": "具体的改进建议（指出弱项）",
+    "weak_dimensions": ["technical_depth", "originality"]
 }}
 
-评分标准：overall_score >= 3.5 即通过。第 {iteration + 1} 次审核（最多3次）。"""
+当前是第 {iteration + 1} 次审核。"""
 
     try:
         result, usage = chat_json(
             prompt,
             system="你是严格但公正的知识库质量审核员。给出具体、可操作的反馈。",
+            temperature=0.1,  # 低温度保证评分一致性
         )
         tracker = accumulate_usage(tracker, usage)
 
-        passed = result.get("passed", False)
+        # 【关键设计】用代码重算加权总分，不信任模型算术
+        scores = result.get("scores", {})
+        weighted_total = sum(
+            scores.get(dim, 0) * w for dim, w in REVIEWER_WEIGHTS.items()
+        )
+        weighted_total = round(weighted_total, 2)
+        passed = weighted_total >= REVIEWER_PASS_THRESHOLD
+
         feedback = result.get("feedback", "")
-        score = result.get("overall_score", 0)
+        weak_dims = result.get("weak_dimensions", [])
+        if weak_dims:
+            feedback = f"[弱项: {', '.join(weak_dims)}] {feedback}"
 
-        # 达到 Planner 设定的最大迭代次数时强制通过，避免无限循环
-        if iteration + 1 >= max_iter:
-            passed = True
-            feedback += f"\n[系统] 已达最大审核次数({max_iter}次)，强制通过。"
-
-        print(f"[Reviewer] 审核得分: {score}, 通过: {passed} (迭代 {iteration + 1}/{max_iter})")
+        print(
+            f"[Reviewer] 加权总分: {weighted_total}/10, "
+            f"通过: {passed} (第 {iteration + 1} 次审核)"
+        )
 
     except Exception as e:
         # LLM 调用失败时直接通过，不阻塞流程
@@ -359,46 +261,141 @@ def review_node(state: KBState) -> dict:
     }
 
 
-# ---------------------------------------------------------------------------
-# 节点 5: 保存节点 — 写入最终知识条目到文件
-# ---------------------------------------------------------------------------
-def save_node(state: KBState) -> dict:
-    """保存节点：将通过审核的知识条目写入 JSON 文件
+# ═══════════════════════════════════════════════════════════════════════════
+# ⑤ Reviser — 读 feedback，LLM 定向修改 analyses（只评估不修改的对立面）
+# ═══════════════════════════════════════════════════════════════════════════
+def revise_node(state: KBState) -> dict:
+    """Reviser 节点：根据 Reviewer 反馈，定向修改 analyses
 
-    输出路径: knowledge/articles/{date}-{index}.json
-    同时更新 knowledge/articles/index.json 索引文件
+    核心原则：**只修改不评估（Modify, don't evaluate）**。
+    Reviser 和 Reviewer 是两个独立的 Agent —— 这样做是为了避免 Reviewer 给自己高分。
+
+    Reviser 读取 state["review_feedback"]，用 LLM 定向改 analyses 的弱项。
+    修改后的 analyses 回流到 review_node 重新评分。
     """
-    articles = state.get("articles", [])
+    analyses = state.get("analyses", [])
+    feedback = state.get("review_feedback", "")
+    iteration = state.get("iteration", 0)
     tracker = state.get("cost_tracker", {})
 
-    if not articles:
-        print("[Saver] 没有条目需要保存")
-        return state
+    if not analyses or not feedback:
+        print("[Reviser] 无可修改内容，跳过")
+        return {}
 
-    # 确定输出目录（相对于项目根目录）
+    prompt = f"""你是知识库编辑。以下是审核员的反馈，请据此修改这些分析结果。
+
+【审核反馈】
+{feedback}
+
+【当前分析结果】
+{json.dumps(analyses, ensure_ascii=False, indent=2)}
+
+【修改要求】
+- 重点改进反馈中提到的弱项维度
+- 保留已经不错的部分，不要过度修改
+- 保持相同的字段结构和类型
+- 返回修改后的 JSON 数组（和输入格式一致）"""
+
+    try:
+        improved, usage = chat_json(
+            prompt,
+            system="你是经验丰富的知识库编辑。根据反馈定向修改，不要过度发散。",
+            temperature=0.4,  # 略高温度允许创造性改写
+        )
+        tracker = accumulate_usage(tracker, usage)
+
+        if isinstance(improved, list) and improved:
+            print(
+                f"[Reviser] 定向修改 {len(improved)} 条 analyses (迭代 {iteration})"
+            )
+            return {"analyses": improved, "cost_tracker": tracker}
+    except Exception as e:
+        print(f"[Reviser] 修改失败: {e}，沿用原 analyses")
+
+    return {"cost_tracker": tracker}
+
+
+# ═══════════════════════════════════════════════════════════════════════════
+# ⑥ Organizer — 整理入库（终点：过滤 + 去重 + 格式化 + 写盘）
+# ═══════════════════════════════════════════════════════════════════════════
+def organize_node(state: KBState) -> dict:
+    """Organizer 节点：将通过审核的 analyses 整理成标准知识条目并入库
+
+    这是工作流的**正常终点** —— 只有 Reviewer 通过后才会到达。
+
+    职责:
+        1. 按 plan.relevance_threshold 过滤低质条目
+        2. URL 去重
+        3. 格式化为标准 article 结构
+        4. 写入 knowledge/articles/*.json
+        5. 更新索引 index.json
+    """
+    analyses = state.get("analyses", [])
+    plan = state.get("plan", {}) or {}
+    tracker = state.get("cost_tracker", {})
+
+    threshold = float(plan.get("relevance_threshold", 0.6))
+
+    # Step 1: 相关性过滤
+    qualified = [a for a in analyses if a.get("relevance_score", 0) >= threshold]
+
+    # Step 2: URL 去重
+    seen_urls: set[str] = set()
+    unique: list[dict] = []
+    for item in qualified:
+        url = item.get("url", "")
+        if url and url not in seen_urls:
+            seen_urls.add(url)
+            unique.append(item)
+
+    # Step 3: 格式化为标准 article
+    articles: list[dict] = []
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    for i, item in enumerate(unique):
+        articles.append({
+            "id": f"{today}-{i:03d}",
+            "title": item.get("title", ""),
+            "source": item.get("source", "unknown"),
+            "url": item.get("url", ""),
+            "collected_at": item.get("collected_at", ""),
+            "summary": item.get("summary", ""),
+            "tags": item.get("tags", []),
+            "relevance_score": item.get("relevance_score", 0.5),
+            "category": item.get("category", "other"),
+            "key_insight": item.get("key_insight", ""),
+        })
+
+    print(f"[Organizer] 整理出 {len(articles)} 条知识条目（准备入库）")
+
+    # Step 4: 写盘
+    _save_articles_to_disk(articles, tracker)
+
+    return {"articles": articles, "cost_tracker": tracker}
+
+
+def _save_articles_to_disk(articles: list[dict], tracker: dict) -> None:
+    """把 articles 写入 knowledge/articles/ 并更新 index.json"""
+    if not articles:
+        return
+
     base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     articles_dir = os.path.join(base_dir, "knowledge", "articles")
     os.makedirs(articles_dir, exist_ok=True)
 
-    # 保存每篇文章
-    saved_files: list[str] = []
     for article in articles:
-        filename = f"{article['id']}.json"
-        filepath = os.path.join(articles_dir, filename)
+        filepath = os.path.join(articles_dir, f"{article['id']}.json")
         with open(filepath, "w", encoding="utf-8") as f:
             json.dump(article, f, ensure_ascii=False, indent=2)
-        saved_files.append(filename)
 
-    # 更新索引文件
+    # 更新索引
     index_path = os.path.join(articles_dir, "index.json")
     index: list[dict] = []
     if os.path.exists(index_path):
         with open(index_path, "r", encoding="utf-8") as f:
             index = json.load(f)
 
+    existing_ids = {entry["id"] for entry in index}
     for article in articles:
-        # 避免重复
-        existing_ids = {entry["id"] for entry in index}
         if article["id"] not in existing_ids:
             index.append({
                 "id": article["id"],
@@ -410,6 +407,54 @@ def save_node(state: KBState) -> dict:
     with open(index_path, "w", encoding="utf-8") as f:
         json.dump(index, f, ensure_ascii=False, indent=2)
 
-    print(f"[Saver] 保存 {len(saved_files)} 篇文章")
-    print(f"[Saver] 本次运行总成本: ¥{tracker.get('total_cost_yuan', 0)}")
-    return state
+    print(f"[Organizer] 已写入 {len(articles)} 篇到磁盘")
+    print(f"[Organizer] 本次运行总成本: ¥{tracker.get('total_cost_yuan', 0)}")
+
+
+# ═══════════════════════════════════════════════════════════════════════════
+# ⑦ HumanFlag — 人工介入（非正常终点）
+# ═══════════════════════════════════════════════════════════════════════════
+def human_flag_node(state: KBState) -> dict:
+    """HumanFlag 节点：循环超过 max_iterations 仍未通过时走到这里
+
+    职责:
+        1. 记录审核链路（当前迭代数、最后一次反馈）
+        2. 把 analyses 写入 knowledge/pending_review/ 目录
+        3. 设置 needs_human_review=True 让外层知道需要人工
+        4. END（不再保存到 articles/）
+    """
+    analyses = state.get("analyses", [])
+    iteration = state.get("iteration", 0)
+    feedback = state.get("review_feedback", "")
+    plan = state.get("plan", {}) or {}
+    max_iter = int(plan.get("max_iterations", 3))
+
+    print(
+        f"[HumanFlag] ⚠️ 达到 {max_iter} 次审核仍未通过，标记人工介入"
+    )
+    print(f"[HumanFlag] 最后反馈: {feedback[:200]}")
+
+    # 写入 pending_review 目录（不污染 articles/）
+    base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    pending_dir = os.path.join(base_dir, "knowledge", "pending_review")
+    os.makedirs(pending_dir, exist_ok=True)
+
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%d-%H%M%S")
+    filepath = os.path.join(pending_dir, f"pending-{today}.json")
+    with open(filepath, "w", encoding="utf-8") as f:
+        json.dump(
+            {
+                "timestamp": today,
+                "iterations_used": iteration,
+                "max_iterations": max_iter,
+                "last_feedback": feedback,
+                "analyses": analyses,
+            },
+            f,
+            ensure_ascii=False,
+            indent=2,
+        )
+
+    print(f"[HumanFlag] 已保存到 {filepath}，等待人工审核")
+
+    return {"needs_human_review": True}

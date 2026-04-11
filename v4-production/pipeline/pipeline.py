@@ -67,6 +67,7 @@ async def run_pipeline(publish: bool = True) -> list[dict]:
         "review_feedback": "",
         "review_passed": False,
         "iteration": 0,
+        "needs_human_review": False,
         "cost_tracker": {},
     }
 
