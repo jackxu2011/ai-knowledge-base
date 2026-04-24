@@ -35,10 +35,10 @@ jobs:
 
       - name: Run V4 pipeline (collect + analyze + organize)
         env:
-          # V4 的 LangGraph 流水线所需 LLM 配置
-          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
-          LLM_BASE_URL: ${{ secrets.LLM_BASE_URL || 'https://api.deepseek.com' }}
-          LLM_MODEL: ${{ secrets.LLM_MODEL || 'deepseek-chat' }}
+          # 复用 V2 已配好的 DeepSeek secret(避免学员重复配置)
+          LLM_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          LLM_BASE_URL: https://api.deepseek.com
+          LLM_MODEL: deepseek-chat
           PRICE_INPUT_PER_MILLION: "1.0"
           PRICE_OUTPUT_PER_MILLION: "2.0"
           PLANNER_TARGET_COUNT: "10"
@@ -81,17 +81,17 @@ jobs:
           echo "================================"
 
       - name: Commit and push results
+        # 整个 job 的 working-directory 是 v4-production,
+        # 所以这里的 git add 用相对路径 knowledge/ 即可
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          git add v4-production/knowledge/
+          git add knowledge/
           if git diff --staged --quiet; then
             echo "No new articles to commit"
           else
             COUNT=$(git diff --staged --name-only | grep -c 'knowledge/articles/2026' || true)
             git commit -m "chore(v4): daily collection - $COUNT new/updated articles [$(date -u +%Y-%m-%d)]"
-            # working-directory 是 v4-production,但 git 需要回根目录 push
-            cd ..
             git push
           fi
