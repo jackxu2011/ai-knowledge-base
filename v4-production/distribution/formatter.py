@@ -67,12 +67,13 @@ def json_to_telegram(article: dict) -> str:
     url = article.get("url", "#")
     tags = " ".join(f"\\#{escape_md(tag.replace('-', '_'))}" for tag in article.get("tags", []))
     score = article.get("relevance_score", 0)
+    score_str = escape_md(f"{score:.1f}")  # 0.9 → 0\.9 (MarkdownV2 要求 . 转义)
 
     return f"""📌 [{title}]({url})
 
 {summary}
 
-📊 相关性：{score:.1f} \\| 来源：{source}
+📊 相关性：{score_str} \\| 来源：{source}
 {tags}"""
 
 
@@ -257,9 +258,10 @@ def _build_telegram_digest(date: str, articles: list[dict]) -> str:
             for t in article.get("tags", [])
         )
 
+        score_str = escape_md(f"{score:.1f}")  # MarkdownV2: 0.9 → 0\.9
         lines.append(f"{i}\\. [{title}]({url})")
         lines.append(f"   {summary[:80]}{'\\.\\.\\.' if len(summary) > 80 else ''}")
-        lines.append(f"   📊 {score:.1f} {tags}\n")
+        lines.append(f"   📊 {score_str} {tags}\n")
 
     return "\n".join(lines)
 
