@@ -238,5 +238,65 @@
     "title": "CherryHQ/cherry-studio",
     "category": "tool",
     "relevance_score": 0.85
+  },
+  {
+    "id": "2026-04-27-000",
+    "title": "langgenius/dify",
+    "category": "agent",
+    "relevance_score": 0.9
+  },
+  {
+    "id": "2026-04-27-001",
+    "title": "langchain-ai/langchain",
+    "category": "framework",
+    "relevance_score": 0.95
+  },
+  {
+    "id": "2026-04-27-002",
+    "title": "NousResearch/hermes-agent",
+    "category": "agent",
+    "relevance_score": 0.7
+  },
+  {
+    "id": "2026-04-27-003",
+    "title": "browser-use/browser-use",
+    "category": "tool",
+    "relevance_score": 0.85
+  },
+  {
+    "id": "2026-04-27-004",
+    "title": "OpenHands/OpenHands",
+    "category": "tool",
+    "relevance_score": 0.85
+  },
+  {
+    "id": "2026-04-27-005",
+    "title": "hiyouga/LlamaFactory",
+    "category": "framework",
+    "relevance_score": 0.9
+  },
+  {
+    "id": "2026-04-27-006",
+    "title": "bytedance/deer-flow",
+    "category": "agent",
+    "relevance_score": 0.9
+  },
+  {
+    "id": "2026-04-27-007",
+    "title": "mem0ai/mem0",
+    "category": "framework",
+    "relevance_score": 0.85
+  },
+  {
+    "id": "2026-04-27-008",
+    "title": "jeecgboot/JeecgBoot",
+    "category": "framework",
+    "relevance_score": 0.85
+  },
+  {
+    "id": "2026-04-27-009",
+    "title": "CherryHQ/cherry-studio",
+    "category": "tool",
+    "relevance_score": 0.85
   }
 ]
