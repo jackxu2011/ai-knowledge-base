@@ -1,0 +1,18 @@
+{
+  "id": "2026-04-21-002",
+  "title": "NousResearch/hermes-agent",
+  "source": "github",
+  "url": "https://github.com/NousResearch/hermes-agent",
+  "collected_at": "2026-04-21T17:06:08.092464+00:00",
+  "summary": "NousResearch/hermes-agent 是一个开源智能体框架，旨在构建能够持续学习和进化的AI助手。该项目强调智能体应具备随着用户交互而成长的能力，通过模块化架构支持工具调用、记忆管理和任务规划等功能。它基于大型语言模型（LLM）构建，提供了可扩展的接口，允许开发者自定义工具和知识库，使智能体能够适应不同场景需求并积累经验。",
+  "tags": [
+    "智能体",
+    "LLM",
+    "开源框架",
+    "持续学习",
+    "工具调用"
+  ],
+  "relevance_score": 0.85,
+  "category": "agent",
+  "key_insight": "该框架的核心是设计了一个能够通过交互持续进化的智能体系统，使AI助手具备长期学习和适应能力。"
+}

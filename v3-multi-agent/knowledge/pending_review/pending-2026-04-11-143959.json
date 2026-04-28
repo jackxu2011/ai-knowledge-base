@@ -1,0 +1,19 @@
+{
+  "timestamp": "2026-04-11-143959",
+  "iterations_used": 1,
+  "max_iterations": 2,
+  "last_feedback": "摘要太短，需要扩展到 100 字以上",
+  "analyses": [
+    {
+      "title": "test",
+      "url": "http://x/1",
+      "summary": "短",
+      "tags": [
+        "t1"
+      ],
+      "relevance_score": 0.8,
+      "category": "other",
+      "key_insight": "none"
+    }
+  ]
+}
