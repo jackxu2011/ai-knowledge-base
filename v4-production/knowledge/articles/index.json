@@ -3,7 +3,7 @@
     "id": "2026-04-11-000",
     "title": "langgenius/dify",
     "category": "framework",
-    "relevance_score": 0.95
+    "relevance_score": 0.9
   },
   {
     "id": "2026-04-11-001",
@@ -358,5 +358,65 @@
     "title": "jeecgboot/JeecgBoot",
     "category": "framework",
     "relevance_score": 0.85
+  },
+  {
+    "id": "2026-04-29-000",
+    "title": "langgenius/dify",
+    "category": "agent",
+    "relevance_score": 0.9
+  },
+  {
+    "id": "2026-04-29-001",
+    "title": "langchain-ai/langchain",
+    "category": "framework",
+    "relevance_score": 0.95
+  },
+  {
+    "id": "2026-04-29-002",
+    "title": "NousResearch/hermes-agent",
+    "category": "agent",
+    "relevance_score": 0.85
+  },
+  {
+    "id": "2026-04-29-003",
+    "title": "Shubhamsaboo/awesome-llm-apps",
+    "category": "agent",
+    "relevance_score": 0.9
+  },
+  {
+    "id": "2026-04-29-004",
+    "title": "browser-use/browser-use",
+    "category": "agent",
+    "relevance_score": 0.85
+  },
+  {
+    "id": "2026-04-29-005",
+    "title": "OpenHands/OpenHands",
+    "category": "tool",
+    "relevance_score": 0.85
+  },
+  {
+    "id": "2026-04-29-006",
+    "title": "hiyouga/LlamaFactory",
+    "category": "framework",
+    "relevance_score": 0.9
+  },
+  {
+    "id": "2026-04-29-007",
+    "title": "bytedance/deer-flow",
+    "category": "agent",
+    "relevance_score": 0.85
+  },
+  {
+    "id": "2026-04-29-008",
+    "title": "mem0ai/mem0",
+    "category": "framework",
+    "relevance_score": 0.85
+  },
+  {
+    "id": "2026-04-29-009",
+    "title": "jeecgboot/JeecgBoot",
+    "category": "framework",
+    "relevance_score": 0.9
   }
 ]
