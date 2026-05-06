@@ -1,0 +1,109 @@
+# AI 知识库助手 - 协作规范
+
+## 1. 项目概述
+
+AI 驱动的技术动态知识库，自动从 GitHub Trending 和 Hacker News 采集 AI/LLM/Agent 领域热点，经大模型结构化分析后存储为标准 JSON 格式（不存数据库，使用文件系统），支持多渠道分发（Telegram/飞书），帮助开发者快速追踪前沿技术趋势。
+
+## 2. 技术栈
+
+| 组件 | 选型 |
+|------|------|
+| 运行时 | Python 3.12+ |
+| 开发框架 | OpenCode + 国产大模型 |
+| 工作流编排 | LangGraph |
+| 浏览器自动化 | OpenClaw |
+| 包管理 | uv |
+
+## 3. 编码规范
+
+- **风格规范**: 严格遵循 PEP 8
+- **命名规范**: 变量/函数使用 snake_case，常量使用 UPPER_SNAKE_CASE
+- **文档字符串**: Google 风格 docstring
+- **日志输出**: 禁止裸 print()，统一使用 logging 模块
+- **异步优先**: IO 密集型操作优先使用 async/await
+
+## 4. 项目结构
+
+```
+.opencode-test/
+├── .opencode/
+│   ├── agents/           # Agent 定义与工作流
+│   └── skills/           # 可复用技能模块
+├── knowledge/
+│   ├── raw/              # 原始采集数据（HTML/Markdown）
+│   └── articles/         # 结构化知识条目（JSON）
+├── main.py               # 入口脚本
+└── pyproject.toml        # 项目配置
+```
+
+## 5. 知识条目 JSON 格式
+
+```json
+{
+  "id": "string",
+  "title": "string",
+  "source_url": "string",
+  "source_type": "github_trending|hacker_news",
+  "summary": "string",
+  "key_points": ["string"],
+  "technical_depth": "beginner|intermediate|advanced",
+  "tags": ["string"],
+  "published_at": "ISO-8601 datetime",
+  "collected_at": "ISO-8601 datetime",
+  "status": "pending|analyzed|published",
+  "score": 0,
+  "metadata": {
+    "stars": 0,
+    "author": "string"
+  },
+  "multi_dim_scores": {
+    "tech_category": {
+      "label": "string",
+      "score": 0
+    },
+    "innovation": 0,
+    "usability": 0
+  }
+}
+```
+
+## 6. Agent 角色概览
+
+| Agent 角色 | 职责 | 输入 | 输出 |
+|-----------|------|------|------|
+| **Collector** | 采集 GitHub Trending（最多 20 条，先关键字过滤 AI 相关）、Hacker News 页面内容，去重后保存原始数据；不补充非 Trending 内容；架构预留扩展接口（未来可接入 ArXiv/Reddit） | 数据源配置 | raw/ 目录下原始文件 |
+| **Analyzer** | 自动爬取项目 README 或 Hacker News 原文，调用大模型分析，提取关键信息，生成结构化摘要、标签、技术深度、技术类别（含打分）、创新点打分、使用难度打分，通过加权平均值计算最终得分并以 `score` 字段平铺到最外层 | 原始数据文件 | articles/ 目录下结构化 JSON（含多维度评分及最外层 score） |
+| **Organizer** | 知识条目质量校验（JSON Schema 校验必须字段完整性）、多维度评分过滤、标签规范化、分发队列管理；前期结合人工 review 持续迭代优化评分标准 | 结构化 JSON | 分发就绪的知识条目 |
+
+## 7. 边界 & 验收
+
+### 失败处理
+- 单次失败：重试 3 次后放弃，跳过该条数据（不回滚其他成功数据）
+- 多次失败：连续失败发邮件告警通知
+- 超时机制：整个 pipeline 超过 10 分钟强制终止
+
+### 性能要求
+- 每天处理时间控制在 10 分钟内
+- 定时任务：凌晨 3 点（服务器空闲）运行，不影响次日分发时效性
+
+### 成本控制
+- 大模型 token 成本：先运行观察后再定预算
+- 超预算策略：继续运行并发邮件告警
+- 监控方式：每次运行完后统计 token 消耗
+
+### 质量保证
+- 工具自动化验证项目可运行（能启动不报错）；若生成的 JSON 为空或格式错误，视为不可运行
+- JSON Schema 强制校验 12 个标准字段 + 多维度评分字段，确保必要内容不缺失（summary 由 AI 生成，理论不为空）
+- 模型多维度评分 + 前期人工 review 双重保障；通过持续迭代模型评分标准优化长期质量
+
+## 8. 红线（绝对禁止）
+
+1. 禁止在代码中硬编码 API Key 或敏感凭证
+2. 禁止修改 knowledge/ 目录下已归档的历史数据
+3. 禁止同步阻塞调用大模型 API，必须使用异步客户端
+4. 禁止跳过去重逻辑重复采集相同 URL
+5. 禁止在采集阶段对目标站点发起高频率请求
+6. 禁止做通用爬虫（产品定位；架构需预留扩展接口）
+7. 禁止跳过 JSON Schema 校验直接输出知识条目
+8. 禁止单次采集超过 20 条 GitHub Trending 数据
+9. 禁止 pipeline 运行超过 10 分钟不设超时终止
