@@ -1,0 +1,28 @@
+{
+  "id": "f6a2b2c3d4e5-github-trending",
+  "title": "Scrapling",
+  "source_url": "https://github.com/D4Vinci/Scrapling",
+  "source_type": "github_trending",
+  "summary": "Scrapling 是一个自适应网页爬取框架，支持从单次请求到大规模爬取的多种场景，具备智能解析和反爬规避能力，为数据采集提供了灵活的解决方案。",
+  "key_points": [
+    "自适应网页爬取框架",
+    "支持单次请求到大规模爬取",
+    "智能解析和反爬规避",
+    "适用于多种数据采集场景"
+  ],
+  "technical_depth": "intermediate",
+  "tags": ["网页爬取", "数据采集", "反爬虫", "开发者工具"],
+  "published_at": "2026-05-07T00:00:00Z",
+  "collected_at": "2026-05-07T00:00:00Z",
+  "status": "pending",
+  "score": 8,
+  "metadata": {
+    "stars": 46783,
+    "author": "D4Vinci"
+  },
+  "multi_dim_scores": {
+    "tech_depth": 7,
+    "innovation": 7,
+    "usability": 8
+  }
+}

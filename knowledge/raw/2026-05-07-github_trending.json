@@ -1,0 +1,122 @@
+[
+  {
+    "id": "a1b2c3d4e5f6-github-trending",
+    "title": "DeepSeek-TUI",
+    "url": "https://github.com/Hmbown/DeepSeek-TUI",
+    "source": "github_trending",
+    "popularity": 16796,
+    "description": "Coding agent for DeepSeek models that runs in your terminal",
+    "summary": "DeepSeek-TUI 是一个终端编码代理工具，支持 DeepSeek 系列模型，允许用户在终端中与 AI 助手进行交互式编程，支持代码补全、调试和项目管理功能。",
+    "collected_date": "2026-05-07"
+  },
+  {
+    "id": "b2c3d4e5f6a1-github-trending",
+    "title": "agent-skills",
+    "url": "https://github.com/addyosmani/agent-skills",
+    "source": "github_trending",
+    "popularity": 31916,
+    "description": "Production-grade engineering skills for AI coding agents",
+    "summary": "agent-skills 是 Addy Osmani 创建的生产级 AI 编码代理技能库，提供高质量的工程实践技能，帮助开发者构建更可靠的 AI 辅助编程工作流。",
+    "collected_date": "2026-05-07"
+  },
+  {
+    "id": "c3d4e5f6a1b2-github-trending",
+    "title": "TabPFN",
+    "url": "https://github.com/PriorLabs/TabPFN",
+    "source": "github_trending",
+    "popularity": 6685,
+    "description": "TabPFN: Foundation Model for Tabular Data",
+    "summary": "TabPFN 是一个面向表格数据的预训练基础模型，能够在少量样本下完成分类任务，无需手动调参即可获得优秀的性能表现。",
+    "collected_date": "2026-05-07"
+  },
+  {
+    "id": "d4e5f6a1b2c3-github-trending",
+    "title": "local-deep-research",
+    "url": "https://github.com/LearningCircuit/local-deep-research",
+    "source": "github_trending",
+    "popularity": 5913,
+    "description": "~95% on SimpleQA (e.g. Qwen3.6-27B on a 3090). Supports all local and cloud LLMs (llama.cpp, Ollama, Google, ...). 10+ search engines - arXiv, PubMed, your private documents. Everything Local & Encrypted.",
+    "summary": "local-deep-research 是一个本地深度研究工具，支持多种本地和云端大语言模型，提供 10+ 搜索引擎集成，可在 3090 显卡上达到 SimpleQA 约 95% 准确率，数据全程本地加密处理。",
+    "collected_date": "2026-05-07"
+  },
+  {
+    "id": "e5f6a1b2c3d4-github-trending",
+    "title": "InsForge",
+    "url": "https://github.com/InsForge/InsForge",
+    "source": "github_trending",
+    "popularity": 8635,
+    "description": "InsForge is a Postgres-based backend with auth, storage, compute, hosting, and AI gateway. Built for coding agents.",
+    "summary": "InsForge 是一个基于 Postgres 的后端服务，集成了认证、存储、计算、托管和 AI 网关功能，专为编码代理设计，支持快速构建 AI 应用。",
+    "collected_date": "2026-05-07"
+  },
+  {
+    "id": "f6a1b2c3d4e5-github-trending",
+    "title": "dexter",
+    "url": "https://github.com/virattt/dexter",
+    "source": "github_trending",
+    "popularity": 24578,
+    "description": "An autonomous agent for deep financial research",
+    "summary": "dexter 是一个自主金融研究代理，能够自动化分析财务报表、新闻和市场数据，帮助用户进行深度投资研究。",
+    "collected_date": "2026-05-07"
+  },
+  {
+    "id": "a1b2c3d4e5f7-github-trending",
+    "title": "ruflo",
+    "url": "https://github.com/ruvnet/ruflo",
+    "source": "github_trending",
+    "popularity": 45660,
+    "description": "The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems.",
+    "summary": "ruflo 是 Claude 的首选代理编排平台，支持多代理蜂群部署、自主工作流编排和对话式 AI 系统构建，提供企业级架构和 RAG 集成。",
+    "collected_date": "2026-05-07"
+  },
+  {
+    "id": "b2c3d4e5f6a2-github-trending",
+    "title": "free-llm-api-resources",
+    "url": "https://github.com/cheahjs/free-llm-api-resources",
+    "source": "github_trending",
+    "popularity": 20778,
+    "description": "A list of free LLM inference resources accessible via API",
+    "summary": "free-llm-api-resources 是一个免费大语言模型 API 资源列表，收录了多种可通过 API 访问的免费 LLM 推理服务。",
+    "collected_date": "2026-05-07"
+  },
+  {
+    "id": "c3d4e5f6a2b2-github-trending",
+    "title": "Shadowbroker",
+    "url": "https://github.com/BigBodyCobain/Shadowbroker",
+    "source": "github_trending",
+    "popularity": 6057,
+    "description": "Open-source intelligence for the global theater. Track everything from the corporate/private jets of the wealthy, and spy satellites, to seismic events in one unified interface.",
+    "summary": "Shadowbroker 是一个开源情报平台，整合全球飞机轨迹、卫星数据和地震信息等开源情报，支持 AI 代理进行数据关联分析。",
+    "collected_date": "2026-05-07"
+  },
+  {
+    "id": "d4e5f6a2b2c3-github-trending",
+    "title": "Kronos",
+    "url": "https://github.com/shiyu-coder/Kronos",
+    "source": "github_trending",
+    "popularity": 23321,
+    "description": "Kronos: A Foundation Model for the Language of Financial Markets",
+    "summary": "Kronos 是一个金融市场语言模型，能够理解和生成金融市场的专业表达，用于金融文本分析和预测任务。",
+    "collected_date": "2026-05-07"
+  },
+  {
+    "id": "e5f6a2b2c3d4-github-trending",
+    "title": "deer-flow",
+    "url": "https://github.com/bytedance/deer-flow",
+    "source": "github_trending",
+    "popularity": 65783,
+    "description": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks.",
+    "summary": "deer-flow 是字节跳动开源的长程超级智能体框架，支持研究和编码任务，具备沙箱、记忆、工具、子代理和消息网关等功能。",
+    "collected_date": "2026-05-07"
+  },
+  {
+    "id": "f6a2b2c3d4e5-github-trending",
+    "title": "Scrapling",
+    "url": "https://github.com/D4Vinci/Scrapling",
+    "source": "github_trending",
+    "popularity": 46783,
+    "description": "An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl!",
+    "summary": "Scrapling 是一个自适应网页爬取框架，支持从单次请求到大规模爬取的多种场景，具备智能解析和反爬规避能力。",
+    "collected_date": "2026-05-07"
+  }
+]

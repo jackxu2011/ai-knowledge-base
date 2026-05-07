@@ -1,0 +1,28 @@
+{
+  "id": "a1b2c3d4e5f6-github-trending",
+  "title": "DeepSeek-TUI",
+  "source_url": "https://github.com/Hmbown/DeepSeek-TUI",
+  "source_type": "github_trending",
+  "summary": "DeepSeek-TUI 是一个终端编码代理工具，支持 DeepSeek 系列模型，允许用户在终端中与 AI 助手进行交互式编程，提供代码补全、调试和项目管理功能，适合命令行爱好者。",
+  "key_points": [
+    "基于 DeepSeek 模型的终端编程工具",
+    "支持交互式代码补全和调试",
+    "轻量级终端界面，适合 CLI 用户",
+    "开源可定制，支持私有化部署"
+  ],
+  "technical_depth": "beginner",
+  "tags": ["DeepSeek", "终端工具", "代码补全", "CLI"],
+  "published_at": "2026-05-07T00:00:00Z",
+  "collected_at": "2026-05-07T00:00:00Z",
+  "status": "pending",
+  "score": 7,
+  "metadata": {
+    "stars": 16796,
+    "author": "Hmbown"
+  },
+  "multi_dim_scores": {
+    "tech_depth": 6,
+    "innovation": 7,
+    "usability": 8
+  }
+}

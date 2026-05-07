@@ -1,0 +1,62 @@
+[
+  {
+    "id": "hn-48046397",
+    "title": "Making LLM Training Faster with Unsloth and NVIDIA",
+    "url": "https://unsloth.ai/blog/nvidia-collab",
+    "source": "hacker_news",
+    "popularity": 27,
+    "description": "Article URL: https://unsloth.ai/blog/nvidia-collab",
+    "summary": "Unsloth 与 NVIDIA 合作发布文章，介绍如何使用 Unsloth 优化技术加速大语言模型训练过程，降低计算成本。",
+    "collected_date": "2026-05-07"
+  },
+  {
+    "id": "hn-48046023",
+    "title": "Show HN: Agent-skills-eval – Test whether Agent Skills improve outputs",
+    "url": "https://github.com/darkrishabh/agent-skills-eval",
+    "source": "hacker_news",
+    "popularity": 19,
+    "description": "一个用于测试 Agent 技能是否改善 AI 输出的评估框架，帮助开发者量化代理技能的有效性。",
+    "summary": "agent-skills-eval 是一个开源评估工具，用于测试 AI 编码代理的技能是否真正改善了输出质量。",
+    "collected_date": "2026-05-07"
+  },
+  {
+    "id": "hn-48045174",
+    "title": "ProgramBench: Can Language Models Rebuild Programs from Scratch?",
+    "url": "https://arxiv.org/abs/2605.03546",
+    "source": "hacker_news",
+    "popularity": 43,
+    "description": "ArXiv paper investigating whether language models can rebuild programs from scratch",
+    "summary": "ProgramBench 是一项研究大语言模型是否能够从零重建程序的研究工作，探讨 LLM 在代码生成和重构方面的能力边界。",
+    "collected_date": "2026-05-07"
+  },
+  {
+    "id": "hn-48040002",
+    "title": "Learning the Integral of a Diffusion Model",
+    "url": "https://sander.ai/2026/05/06/flow-maps.html",
+    "source": "hacker_news",
+    "popularity": 132,
+    "description": "Article exploring flow maps and the integral of diffusion models",
+    "summary": "这篇深度文章探讨了扩散模型的积分问题，介绍了 flow maps 技术在理解和改进扩散模型生成过程中的应用。",
+    "collected_date": "2026-05-07"
+  },
+  {
+    "id": "hn-48037724",
+    "title": "Show HN: Tilde.run – Agent sandbox with a transactional, versioned filesystem",
+    "url": "https://tilde.run/",
+    "source": "hacker_news",
+    "popularity": 161,
+    "description": "Tilde.run is an agent sandbox with a transactional, versioned filesystem for AI agents",
+    "summary": "Tilde.run 是一个专为 AI 代理设计的沙箱环境，提供事务性版本文件系统，支持代理在隔离环境中安全执行代码和操作文件。",
+    "collected_date": "2026-05-07"
+  },
+  {
+    "id": "hn-48037128",
+    "title": "Vibe coding and agentic engineering are getting closer than I'd like",
+    "url": "https://simonwillison.net/2026/May/6/vibe-coding-and-agentic-engineering/",
+    "source": "hacker_news",
+    "popularity": 589,
+    "description": "Simon Willison's thoughts on vibe coding and agentic engineering convergence",
+    "summary": "Simon Willison 探讨了氛围编程（vibe coding）与代理工程的融合趋势，思考 AI 辅助编程的现状与未来。",
+    "collected_date": "2026-05-07"
+  }
+]

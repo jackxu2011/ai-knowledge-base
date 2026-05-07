@@ -1,0 +1,28 @@
+{
+  "id": "e5f6a1b2c3d4-github-trending",
+  "title": "InsForge",
+  "source_url": "https://github.com/InsForge/InsForge",
+  "source_type": "github_trending",
+  "summary": "InsForge 是一个基于 Postgres 的后端服务，集成了认证、存储、计算、托管和 AI 网关功能，专为编码代理设计，支持快速构建 AI 应用，降低开发者的基础设施复杂度。",
+  "key_points": [
+    "基于 Postgres 的全栈后端解决方案",
+    "集成认证、存储、AI 网关",
+    "专为编码代理场景优化",
+    "简化 AI 应用开发部署流程"
+  ],
+  "technical_depth": "intermediate",
+  "tags": ["后端服务", "AI网关", "Postgres", "开发者工具"],
+  "published_at": "2026-05-07T00:00:00Z",
+  "collected_at": "2026-05-07T00:00:00Z",
+  "status": "pending",
+  "score": 7,
+  "metadata": {
+    "stars": 8635,
+    "author": "InsForge"
+  },
+  "multi_dim_scores": {
+    "tech_depth": 7,
+    "innovation": 7,
+    "usability": 8
+  }
+}
