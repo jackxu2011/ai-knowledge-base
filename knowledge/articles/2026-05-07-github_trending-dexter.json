@@ -4,25 +4,32 @@
   "source_url": "https://github.com/virattt/dexter",
   "source_type": "github_trending",
   "summary": "dexter 是一个自主金融研究代理，能够自动化分析财务报表、新闻和市场数据，帮助用户进行深度投资研究，解放人力并提高研究效率。",
-  "key_points": [
-    "自主金融研究代理自动化分析",
-    "处理财务报表、新闻、市场数据",
-    "提高投资研究效率",
-    "支持多数据源整合分析"
-  ],
-  "technical_depth": "intermediate",
-  "tags": ["金融科技", "AI代理", "投资研究", "自动化"],
   "published_at": "2026-05-07T00:00:00Z",
   "collected_at": "2026-05-07T00:00:00Z",
   "status": "pending",
-  "score": 8,
   "metadata": {
     "stars": 24578,
     "author": "virattt"
   },
-  "multi_dim_scores": {
-    "tech_depth": 7,
-    "innovation": 8,
-    "usability": 8
+  "analysis": {
+    "score": 8,
+    "scoring_reasons": "历史数据待补充",
+    "scoring_dimensions": {
+      "tech_depth": 7,
+      "innovation": 8,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "自主金融研究代理自动化分析",
+      "处理财务报表、新闻、市场数据",
+      "提高投资研究效率",
+      "支持多数据源整合分析"
+    ],
+    "tags": [
+      "金融科技",
+      "AI代理",
+      "投资研究",
+      "自动化"
+    ]
   }
 }

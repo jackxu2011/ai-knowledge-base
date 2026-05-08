@@ -4,25 +4,32 @@
   "source_url": "https://github.com/BigBodyCobain/Shadowbroker",
   "source_type": "github_trending",
   "summary": "Shadowbroker 是一个开源情报平台，整合全球飞机轨迹、卫星数据和地震信息等开源情报，支持 AI 代理进行数据关联分析，适用于安全研究和商业情报场景。",
-  "key_points": [
-    "整合多源开源情报数据",
-    "飞机轨迹、卫星数据、地震信息",
-    "支持 AI 代理数据关联分析",
-    "统一界面便于情报整合分析"
-  ],
-  "technical_depth": "intermediate",
-  "tags": ["开源情报", "数据分析", "AI代理", "安全研究"],
   "published_at": "2026-05-07T00:00:00Z",
   "collected_at": "2026-05-07T00:00:00Z",
   "status": "pending",
-  "score": 7,
   "metadata": {
     "stars": 6057,
     "author": "BigBodyCobain"
   },
-  "multi_dim_scores": {
-    "tech_depth": 7,
-    "innovation": 8,
-    "usability": 6
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "历史数据待补充",
+    "scoring_dimensions": {
+      "tech_depth": 7,
+      "innovation": 8,
+      "usability": 6
+    },
+    "technical_highlights": [
+      "整合多源开源情报数据",
+      "飞机轨迹、卫星数据、地震信息",
+      "支持 AI 代理数据关联分析",
+      "统一界面便于情报整合分析"
+    ],
+    "tags": [
+      "开源情报",
+      "数据分析",
+      "AI代理",
+      "安全研究"
+    ]
   }
 }

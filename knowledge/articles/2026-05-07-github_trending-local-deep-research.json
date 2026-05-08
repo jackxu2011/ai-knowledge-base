@@ -4,25 +4,32 @@
   "source_url": "https://github.com/LearningCircuit/local-deep-research",
   "source_type": "github_trending",
   "summary": "local-deep-research 是一个本地深度研究工具，支持多种本地和云端大语言模型，提供 10+ 搜索引擎集成，可在 3090 显卡上达到 SimpleQA 约 95% 准确率，数据全程本地加密处理。",
-  "key_points": [
-    "支持 llama.cpp、Ollama 等本地模型",
-    "集成 10+ 搜索引擎包括 ArXiv、PubMed",
-    "本地运行，保护数据隐私",
-    "3090 显卡即可达到 95% 准确率"
-  ],
-  "technical_depth": "intermediate",
-  "tags": ["本地部署", "深度研究", "隐私保护", "LLM"],
   "published_at": "2026-05-07T00:00:00Z",
   "collected_at": "2026-05-07T00:00:00Z",
   "status": "pending",
-  "score": 8,
   "metadata": {
     "stars": 5913,
     "author": "LearningCircuit"
   },
-  "multi_dim_scores": {
-    "tech_depth": 7,
-    "innovation": 8,
-    "usability": 9
+  "analysis": {
+    "score": 8,
+    "scoring_reasons": "历史数据待补充",
+    "scoring_dimensions": {
+      "tech_depth": 7,
+      "innovation": 8,
+      "usability": 9
+    },
+    "technical_highlights": [
+      "支持 llama.cpp、Ollama 等本地模型",
+      "集成 10+ 搜索引擎包括 ArXiv、PubMed",
+      "本地运行，保护数据隐私",
+      "3090 显卡即可达到 95% 准确率"
+    ],
+    "tags": [
+      "本地部署",
+      "深度研究",
+      "隐私保护",
+      "LLM"
+    ]
   }
 }

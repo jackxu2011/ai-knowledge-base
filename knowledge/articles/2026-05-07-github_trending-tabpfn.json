@@ -4,25 +4,32 @@
   "source_url": "https://github.com/PriorLabs/TabPFN",
   "source_type": "github_trending",
   "summary": "TabPFN 是一个面向表格数据的预训练基础模型，能够在少量样本下完成分类任务，无需手动调参即可获得优秀的性能表现，为表格数据分析提供了新的解决方案。",
-  "key_points": [
-    "表格数据的预训练基础模型",
-    "少样本分类，无需调参",
-    "适用于结构化数据分析场景",
-    "提供 API 方便集成到现有工作流"
-  ],
-  "technical_depth": "advanced",
-  "tags": ["机器学习", "表格数据", "少样本学习", "预训练模型"],
   "published_at": "2026-05-07T00:00:00Z",
   "collected_at": "2026-05-07T00:00:00Z",
   "status": "pending",
-  "score": 7,
   "metadata": {
     "stars": 6685,
     "author": "PriorLabs"
   },
-  "multi_dim_scores": {
-    "tech_depth": 8,
-    "innovation": 8,
-    "usability": 6
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "历史数据待补充",
+    "scoring_dimensions": {
+      "tech_depth": 8,
+      "innovation": 8,
+      "usability": 6
+    },
+    "technical_highlights": [
+      "表格数据的预训练基础模型",
+      "少样本分类，无需调参",
+      "适用于结构化数据分析场景",
+      "提供 API 方便集成到现有工作流"
+    ],
+    "tags": [
+      "机器学习",
+      "表格数据",
+      "少样本学习",
+      "预训练模型"
+    ]
   }
 }
