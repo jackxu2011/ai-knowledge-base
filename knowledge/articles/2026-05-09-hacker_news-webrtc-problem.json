@@ -1,0 +1,30 @@
+{
+  "id": "hn-004",
+  "title": "OpenAI's WebRTC Problem",
+  "source_url": "https://moq.dev/blog/webrtc-is-the-problem/",
+  "source_type": "hacker_news",
+  "summary": "WebRTC 协议设计不适合语音 AI 场景，其主动丢包机制会损害 AI 助手理解用户prompt的质量。作者建议使用 QUIC/WebTransport 替代，简化架构并提高可扩展性。",
+  "published_at": "2026-05-09T06:30:00Z",
+  "collected_at": "2026-05-09T06:30:00Z",
+  "status": "analyzed",
+  "metadata": {
+    "score": 370,
+    "comments": 94,
+    "author": "atgctg"
+  },
+  "analysis": {
+    "score": 8,
+    "scoring_reasons": "370 分，技术深度分析文章；指出 WebRTC 在语音 AI 场景的架构问题，提出 QUIC/WebTransport 替代方案，技术分析深入，解决方案具有实际价值。",
+    "scoring_dimensions": {
+      "tech_depth": 9,
+      "innovation": 8,
+      "usability": 7
+    },
+    "technical_highlights": [
+      "WebRTC 协议不适合语音 AI 场景",
+      "主动丢包机制影响 AI 理解质量",
+      "建议使用 QUIC/WebTransport 替代方案"
+    ],
+    "tags": ["WebRTC", "Voice AI", "Protocol Optimization"]
+  }
+}

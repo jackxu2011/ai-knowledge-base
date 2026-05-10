@@ -1,0 +1,29 @@
+{
+  "id": "github-010",
+  "title": "farion1231/cc-switch",
+  "source_url": "https://github.com/farion1231/cc-switch",
+  "source_type": "github_trending",
+  "summary": "CC-Switch 是一个跨平台桌面 AI 助理工具，连接 Claude Code、Codex 和 Gemini CLI，值得关注是因为它提供了多 AI 引擎的统一切换体验。",
+  "published_at": "2026-05-09T12:00:00Z",
+  "collected_at": "2026-05-09T12:00:00Z",
+  "status": "analyzed",
+  "metadata": {
+    "stars": 63550,
+    "author": "farion1231"
+  },
+  "analysis": {
+    "score": 6,
+    "scoring_reasons": "63k 星标，多 AI 引擎切换工具；支持 Claude Code、Codex 和 Gemini CLI 的统一切换，解决多 AI 引擎的使用体验问题，实用性较强但技术创新性一般。",
+    "scoring_dimensions": {
+      "tech_depth": 5,
+      "innovation": 6,
+      "usability": 9
+    },
+    "technical_highlights": [
+      "跨平台桌面 AI 助理工具",
+      "连接 Claude Code、Codex、Gemini CLI",
+      "多 AI 引擎统一切换体验"
+    ],
+    "tags": ["Claude", "Cursor", "Copilot", "AI Assistant"]
+  }
+}

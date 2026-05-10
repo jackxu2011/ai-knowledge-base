@@ -1,0 +1,30 @@
+{
+  "id": "hn-007",
+  "title": "GPT-5.5 Price Increase: What It Costs",
+  "source_url": "https://openrouter.ai/announcements/gpt55-cost-analysis",
+  "source_type": "hacker_news",
+  "summary": "OpenRouter 分析显示 GPT-5.5 实际成本比 GPT-5.4 上涨 49-92%。虽然长prompt下输出token减少19-34%，但输入成本翻倍导致整体费用大幅上升。",
+  "published_at": "2026-05-09T06:30:00Z",
+  "collected_at": "2026-05-09T06:30:00Z",
+  "status": "analyzed",
+  "metadata": {
+    "score": 206,
+    "comments": 65,
+    "author": "gmays"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "206 分，LLM 成本分析文章；揭示 GPT-5.5 成本上涨 49-92% 的实际问题，对开发者和用户具有重要的成本参考价值，引发对 AI 服务定价的关注。",
+    "scoring_dimensions": {
+      "tech_depth": 7,
+      "innovation": 6,
+      "usability": 9
+    },
+    "technical_highlights": [
+      "GPT-5.5 成本比 GPT-5.4 上涨 49-92%",
+      "长 prompt 输出 token 减少 19-34%",
+      "输入成本翻倍导致整体费用上升"
+    ],
+    "tags": ["GPT-5.5", "Cost Analysis", "LLM Pricing"]
+  }
+}

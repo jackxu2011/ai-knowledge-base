@@ -1,0 +1,94 @@
+{
+  "source": "hacker_news",
+  "collected_at": "2026-05-09T06:30:00Z",
+  "items": [
+    {
+      "title": "Rumors of my death are slightly exaggerated",
+      "url": "https://www.facebook.com/story.php?story_fbid=989939243570691&id=100076638743004",
+      "summary": "Cliff Stoll 发现自己的死讯竟由 AI 生成并流传，AI 幻觉已延伸到可以提前宣告某人死亡。Mark Twain 的名言被实际测试，说明 AI 生成的虚假信息正在互联网上扩散。",
+      "score": 1598,
+      "comments": 246,
+      "author": "CliffStoll"
+    },
+    {
+      "title": "AI slop is killing online communities",
+      "url": "https://rmoff.net/2026/05/06/ai-slop-is-killing-online-communities/",
+      "summary": "AI 生成的低质量内容正在污染在线社区，Stack Overflow 等平台充斥着 AI 生成的错误答案，导致讨论质量下降。内容农场和 SEO 优化内容正在取代真实的用户贡献。",
+      "score": 817,
+      "comments": 707,
+      "author": "thm"
+    },
+    {
+      "title": "Mojo 1.0 Beta",
+      "url": "https://mojolang.org/",
+      "summary": "Mojo 语言发布 1.0 Beta 版本，这是一种专为 AI 和 ML 场景设计的新编程语言，结合了 Python 的易用性和系统级性能，支持 Swift 风格的预处理器宏。",
+      "score": 357,
+      "comments": 224,
+      "author": "sbt567"
+    },
+    {
+      "title": "OpenAI's WebRTC Problem",
+      "url": "https://moq.dev/blog/webrtc-is-the-problem/",
+      "summary": "WebRTC 协议设计不适合语音 AI 场景，其主动丢包机制会损害 AI 助手理解用户prompt的质量。作者建议使用 QUIC/WebTransport 替代，简化架构并提高可扩展性。",
+      "score": 370,
+      "comments": 94,
+      "author": "atgctg"
+    },
+    {
+      "title": "AI is breaking two vulnerability cultures",
+      "url": "https://www.jefftk.com/p/ai-is-breaking-two-vulnerability-cultures",
+      "summary": "AI 正在加速漏洞发现，传统的 90 天保密期已不再适用。研究人员展示了 AI 如何快速识别 Linux 内核安全补丁，打破传统与开源社区之间的漏洞披露文化冲突。",
+      "score": 361,
+      "comments": 142,
+      "author": "speckx"
+    },
+    {
+      "title": "Hardening Firefox with Claude Mythos Preview",
+      "url": "https://hacks.mozilla.org/2026/05/behind-the-scenes-hardening-firefox/",
+      "summary": "Mozilla 使用 Claude Mythos Preview AI 工具在 Firefox 150 版本中发现并修复了 271 个安全漏洞，其中 180 个为高危。AI 驱动的代码审计显著提升了安全修复效率。",
+      "score": 356,
+      "comments": 159,
+      "author": "HieronymusBosch"
+    },
+    {
+      "title": "GPT-5.5 Price Increase: What It Costs",
+      "url": "https://openrouter.ai/announcements/gpt55-cost-analysis",
+      "summary": "OpenRouter 分析显示 GPT-5.5 实际成本比 GPT-5.4 上涨 49-92%。虽然长prompt下输出token减少19-34%，但输入成本翻倍导致整体费用大幅上升。",
+      "score": 206,
+      "comments": 65,
+      "author": "gmays"
+    },
+    {
+      "title": "Teaching Claude Why",
+      "url": "https://www.anthropic.com/research/teaching-claude-why",
+      "summary": "Anthropic 分享了如何通过「困难建议」数据集和宪法文档训练来对齐 Claude。通过教授伦理推理原则而非仅展示正确行为，AI 对齐效果提升 3 倍以上。",
+      "score": 202,
+      "comments": 92,
+      "author": "pretext"
+    },
+    {
+      "title": "All my clients wanted a carousel, now it's an AI chatbot",
+      "url": "https://adele.pages.casa/md/blog/all-my-clients-wanted-a-carousel-now-it-s-an-ai-chatbot.md",
+      "summary": "设计师发现客户需求从传统的轮播图设计转变为 AI 聊天机器人界面。这一转变反映了 Web 设计行业对生成式 AI 的快速适应和客户期望的变化。",
+      "score": 117,
+      "comments": 53,
+      "author": "edent"
+    },
+    {
+      "title": "Can LLMs model real-world systems in TLA+?",
+      "url": "https://www.sigops.org/2026/can-llms-model-real-world-systems-in-tla/",
+      "summary": "研究表明 LLMs 可以写出语法正确的 TLA+ 规范，但在系统行为一致性检验和不变式验证上表现不佳，平均仅 46% 和 41%。LLM 倾向于「复述教材」而非真正建模具体系统。",
+      "score": 99,
+      "comments": 26,
+      "author": "mad"
+    },
+    {
+      "title": "Boosting multimodal inference performance by >10% with a single Python dict",
+      "url": "https://modal.com/blog/boosting-multimodal-inference-performance-by-greater-than-10-with-a-single-python-dictionary",
+      "summary": "Modal 通过添加简单的 Python dict 缓存 CUDA IPC 句柄，将 SGLang 多模态推理吞吐量提升 16%，首 token延迟降低 13%。该优化已合并入 SGLang v0.5.10。",
+      "score": 13,
+      "comments": 0,
+      "author": "jxmorris12"
+    }
+  ]
+}

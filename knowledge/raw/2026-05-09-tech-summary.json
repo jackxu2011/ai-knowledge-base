@@ -1,0 +1,830 @@
+{
+  "source": "tech-summary",
+  "analyzed_at": "2026-05-09T12:30:00Z",
+  "trend_analysis": {
+    "common_themes": [
+      "AI Agent 编排框架",
+      "Claude 生态扩展",
+      "Token 消耗优化",
+      "本地轻量级部署"
+    ],
+    "emerging_concepts": [
+      "自进化智能体",
+      "多模态代理",
+      "语音 AI 协议优化"
+    ],
+    "summary": "本期技术趋势显示 AI 编码助手生态持续繁荣，Claude 相关项目占据热门主导地位。两大趋势值得关注：一是多代理协作框架的成熟，Agency Agents、TradingAgents 等项目展示了企业级多智能体解决方案的落地；二是 Token 优化成为硬需求，RTK 等工具通过压缩技术实现 60-90% 的 token 节省。在新兴概念方面，Hermes Agent 的自进化机制和 UI-TARS-desktop 的多模态能力代表了两个重要方向。同时，安全与漏洞发现领域正在被 AI 深刻改变，Mozilla 使用 Claude 发现 271 个漏洞的案例说明了 AI 在代码审计中的巨大潜力。"
+  },
+  "items": [
+    {
+      "id": "github-001",
+      "title": "obra/superpowers",
+      "source_url": "https://github.com/obra/superpowers",
+      "source_type": "github_trending",
+      "summary": "Superpowers 是一个 Claude Code 核心技能库，提供经过实战验证的 AI 编码能力提升方案，帮助开发者充分利用 Claude 的高级功能，值得关注是因为它是当前最受欢迎的 Claude 技能扩展之一。",
+      "published_at": "2026-05-09T12:00:00Z",
+      "collected_at": "2026-05-09T12:00:00Z",
+      "status": "pending",
+      "metadata": {
+        "stars": 183000,
+        "language": "Shell",
+        "author": "obra"
+      },
+      "analysis": {
+        "score": 8,
+        "scoring_reasons": "星标数高达 183k，社区认可度极高；聚焦 Claude Code 这一热门场景，实用性强；提供了系统性的 AI 编码能力提升方案，不是简单的技巧堆砌，而是经过实战验证的方法论。",
+        "scoring_dimensions": {
+          "tech_depth": 7,
+          "innovation": 7,
+          "usability": 9
+        },
+        "technical_highlights": [
+          "Claude Code 核心技能库，经过实战验证",
+          "帮助开发者充分利用 Claude 高级功能",
+          "当前最受欢迎的 Claude 技能扩展之一"
+        ],
+        "tags": ["Claude", "AI Agent", "Coding Assistant"]
+      }
+    },
+    {
+      "id": "github-002",
+      "title": "NousResearch/hermes-agent",
+      "source_url": "https://github.com/NousResearch/hermes-agent",
+      "source_type": "github_trending",
+      "summary": "Hermes Agent 是一个自进化 AI 智能体框架，内置学习循环让 Agent 在使用过程中不断自我优化，值得关注是因为它代表了自主智能体技术的重要突破。",
+      "published_at": "2026-05-09T12:00:00Z",
+      "collected_at": "2026-05-09T12:00:00Z",
+      "status": "pending",
+      "metadata": {
+        "stars": 138882,
+        "language": "Python",
+        "author": "NousResearch"
+      },
+      "analysis": {
+        "score": 9,
+        "scoring_reasons": "138k 星标，自进化概念极具创新性，代表了自主智能体技术的重要突破；内置学习循环让 Agent 在使用过程中不断自我优化，这是 AI Agent 发展的重要方向。",
+        "scoring_dimensions": {
+          "tech_depth": 9,
+          "innovation": 10,
+          "usability": 7
+        },
+        "technical_highlights": [
+          "自进化 AI 智能体框架",
+          "内置学习循环，Agent 自我优化",
+          "代表自主智能体技术重要突破"
+        ],
+        "tags": ["AI Agent", "Self-Evolving", "LLM"]
+      }
+    },
+    {
+      "id": "github-003",
+      "title": "multica-ai/andrej-karpathy-skills",
+      "source_url": "https://github.com/multica-ai/andrej-karpathy-skills",
+      "source_type": "github_trending",
+      "summary": "Andrej Karpathy Skills 是一个 Claude Code 行为改进文档库，源自 Karpathy 对 LLM 编码陷阱的观察，值得关注是因为它集合了顶级 AI 专家的实战经验总结。",
+      "published_at": "2026-05-09T12:00:00Z",
+      "collected_at": "2026-05-09T12:00:00Z",
+      "status": "pending",
+      "metadata": {
+        "stars": 120286,
+        "language": null,
+        "author": "multica-ai"
+      },
+      "analysis": {
+        "score": 8,
+        "scoring_reasons": "120k 星标，来自 AI 领域顶级专家 Karpathy 的实战经验；针对 LLM 编码陷阱提供行为改进方案，具有很高的实用价值和指导意义。",
+        "scoring_dimensions": {
+          "tech_depth": 8,
+          "innovation": 7,
+          "usability": 9
+        },
+        "technical_highlights": [
+          "Claude Code 行为改进文档库",
+          "源自 Karpathy 对 LLM 编码陷阱的深度观察",
+          "顶级 AI 专家实战经验总结"
+        ],
+        "tags": ["Claude", "LLM", "Coding Best Practices"]
+      }
+    },
+    {
+      "id": "github-004",
+      "title": "forrestchang/andrej-karpathy-skills",
+      "source_url": "https://github.com/forrestchang/andrej-karpathy-skills",
+      "source_type": "github_trending",
+      "summary": "Andrej Karpathy Skills 是一个 Claude Code 行为改进文档库，源自 Karpathy 对 LLM 编码陷阱的深度观察，值得关注是因为它能显著提升 AI 编码质量。",
+      "published_at": "2026-05-09T12:00:00Z",
+      "collected_at": "2026-05-09T12:00:00Z",
+      "status": "pending",
+      "metadata": {
+        "stars": 120284,
+        "language": null,
+        "author": "forrestchang"
+      },
+      "analysis": {
+        "score": 7,
+        "scoring_reasons": "120k 星标，同样基于 Karpathy 的 LLM 编码研究；与上一个项目类似，但具体实现和侧重点可能有所不同，作为参考价值较高。",
+        "scoring_dimensions": {
+          "tech_depth": 7,
+          "innovation": 6,
+          "usability": 8
+        },
+        "technical_highlights": [
+          "Claude Code 行为改进文档",
+          "聚焦 LLM 编码质量提升",
+          "实战经验驱动的优化方案"
+        ],
+        "tags": ["Claude", "LLM", "Coding Quality"]
+      }
+    },
+    {
+      "id": "github-005",
+      "title": "msitarzewski/agency-agents",
+      "source_url": "https://github.com/msitarzewski/agency-agents",
+      "source_type": "github_trending",
+      "summary": "Agency Agents 是一个完整 AI 机构框架，每个代理都是具有个性、流程和可交付成果的专业专家，值得关注是因为它提供了企业级多代理协作的完整解决方案。",
+      "published_at": "2026-05-09T12:00:00Z",
+      "collected_at": "2026-05-09T12:00:00Z",
+      "status": "pending",
+      "metadata": {
+        "stars": 93367,
+        "language": null,
+        "author": "msitarzewski"
+      },
+      "analysis": {
+        "score": 8,
+        "scoring_reasons": "93k 星标，企业级多代理协作框架；每个代理都有专业个性和流程设计，提供完整的可交付成果，这种架构设计对企业应用场景非常有价值。",
+        "scoring_dimensions": {
+          "tech_depth": 8,
+          "innovation": 7,
+          "usability": 9
+        },
+        "technical_highlights": [
+          "完整 AI 机构框架",
+          "专业代理具有个性、流程和可交付成果",
+          "企业级多代理协作解决方案"
+        ],
+        "tags": ["AI Agent", "Multi-Agent", "Framework"]
+      }
+    },
+    {
+      "id": "github-006",
+      "title": "TauricResearch/TradingAgents",
+      "source_url": "https://github.com/TauricResearch/TradingAgents",
+      "source_type": "github_trending",
+      "summary": "TradingAgents 是一个多代理 LLM 金融交易框架，整合多个 AI 代理进行量化交易决策，值得关注是因为它展示了 AI Agent 在金融领域的实际应用潜力。",
+      "published_at": "2026-05-09T12:00:00Z",
+      "collected_at": "2026-05-09T12:00:00Z",
+      "status": "pending",
+      "metadata": {
+        "stars": 71631,
+        "language": "Python",
+        "author": "TauricResearch"
+      },
+      "analysis": {
+        "score": 8,
+        "scoring_reasons": "71k 星标，AI Agent 在垂直领域的落地案例；多代理 LLM 金融交易框架展示了 AI 在量化交易决策中的应用潜力，技术架构具有参考价值。",
+        "scoring_dimensions": {
+          "tech_depth": 8,
+          "innovation": 8,
+          "usability": 7
+        },
+        "technical_highlights": [
+          "多代理 LLM 金融交易框架",
+          "整合多个 AI 代理进行量化交易",
+          "AI Agent 金融领域应用示范"
+        ],
+        "tags": ["LLM", "Trading", "AI Agent", "Finance"]
+      }
+    },
+    {
+      "id": "github-007",
+      "title": "mattpocock/skills",
+      "source_url": "https://github.com/mattpocock/skills",
+      "source_type": "github_trending",
+      "summary": "Mattpocock Skills 是一个个人 Claude 技能目录，直接来自 .claude 目录的实战配置，值得关注是因为它是学习如何构建高效 AI 编码技能的参考范例。",
+      "published_at": "2026-05-09T12:00:00Z",
+      "collected_at": "2026-05-09T12:00:00Z",
+      "status": "pending",
+      "metadata": {
+        "stars": 66250,
+        "language": "Shell",
+        "author": "mattpocock"
+      },
+      "analysis": {
+        "score": 6,
+        "scoring_reasons": "66k 星标，来自Matt Pocock的实战技能目录；提供真实的 .claude 配置参考，对于学习 Claude 技能构建很有帮助，但创新性相对一般。",
+        "scoring_dimensions": {
+          "tech_depth": 6,
+          "innovation": 5,
+          "usability": 8
+        },
+        "technical_highlights": [
+          "个人 Claude 技能目录",
+          "直接来自 .claude 目录实战配置",
+          "学习构建高效 AI 编码技能的参考"
+        ],
+        "tags": ["Claude", "Skills", "Coding Assistant"]
+      }
+    },
+    {
+      "id": "github-008",
+      "title": "ruvnet/ruflo",
+      "source_url": "https://github.com/ruvnet/ruflo",
+      "source_type": "github_trending",
+      "summary": "Ruflo 是一个 Claude 领先的代理编排平台，支持智能多主体群和自主工作流程协调，值得关注是因为它提供了企业级 RAG 集成和 Claude/Codex 原生支持。",
+      "published_at": "2026-05-09T12:00:00Z",
+      "collected_at": "2026-05-09T12:00:00Z",
+      "status": "pending",
+      "metadata": {
+        "stars": 46676,
+        "language": "TypeScript",
+        "author": "ruvnet"
+      },
+      "analysis": {
+        "score": 7,
+        "scoring_reasons": "46k 星标，代理编排平台；支持智能多主体群协调和自主工作流程，提供企业级 RAG 集成，在代理框架领域具有较强的竞争力。",
+        "scoring_dimensions": {
+          "tech_depth": 7,
+          "innovation": 7,
+          "usability": 8
+        },
+        "technical_highlights": [
+          "Claude 领先的代理编排平台",
+          "支持智能多主体群协调",
+          "企业级 RAG 集成 + Claude/Codex 原生支持"
+        ],
+        "tags": ["Claude", "Agent Orchestration", "RAG"]
+      }
+    },
+    {
+      "id": "github-009",
+      "title": "ruvnet/claude-flow",
+      "source_url": "https://github.com/ruvnet/claude-flow",
+      "source_type": "github_trending",
+      "summary": "Claude Flow 是一个 Claude 领先的代理编排平台，专注多主体群协调和对话式 AI 系统构建，值得关注是因为它在代理框架领域排名第一。",
+      "published_at": "2026-05-09T12:00:00Z",
+      "collected_at": "2026-05-09T12:00:00Z",
+      "status": "pending",
+      "metadata": {
+        "stars": 46675,
+        "language": "JavaScript",
+        "author": "ruvnet"
+      },
+      "analysis": {
+        "score": 7,
+        "scoring_reasons": "46k 星标，代理编排平台；专注多主体群协调和对话式 AI 系统构建，在代理框架领域排名第一，有一定的社区影响力。",
+        "scoring_dimensions": {
+          "tech_depth": 7,
+          "innovation": 6,
+          "usability": 8
+        },
+        "technical_highlights": [
+          "代理编排平台，专注多主体群协调",
+          "对话式 AI 系统构建",
+          "代理框架领域排名第一"
+        ],
+        "tags": ["Claude", "Agent Orchestration", "Conversational AI"]
+      }
+    },
+    {
+      "id": "github-010",
+      "title": "farion1231/cc-switch",
+      "source_url": "https://github.com/farion1231/cc-switch",
+      "source_type": "github_trending",
+      "summary": "CC-Switch 是一个跨平台桌面 AI 助理工具，连接 Claude Code、Codex 和 Gemini CLI，值得关注是因为它提供了多 AI 引擎的统一切换体验。",
+      "published_at": "2026-05-09T12:00:00Z",
+      "collected_at": "2026-05-09T12:00:00Z",
+      "status": "pending",
+      "metadata": {
+        "stars": 63550,
+        "language": "TypeScript",
+        "author": "farion1231"
+      },
+      "analysis": {
+        "score": 6,
+        "scoring_reasons": "63k 星标，多 AI 引擎切换工具；支持 Claude Code、Codex 和 Gemini CLI 的统一切换，解决多 AI 引擎的使用体验问题，实用性较强但技术创新性一般。",
+        "scoring_dimensions": {
+          "tech_depth": 5,
+          "innovation": 6,
+          "usability": 9
+        },
+        "technical_highlights": [
+          "跨平台桌面 AI 助理工具",
+          "连接 Claude Code、Codex、Gemini CLI",
+          "多 AI 引擎统一切换体验"
+        ],
+        "tags": ["Claude", "Cursor", "Copilot", "AI Assistant"]
+      }
+    },
+    {
+      "id": "github-011",
+      "title": "addyosmani/agent-skills",
+      "source_url": "https://github.com/addyosmani/agent-skills",
+      "source_type": "github_trending",
+      "summary": "Agent Skills 是 AI 编码代理的生产级工程技能集合，值得关注是因为它来自 Google 工程师的实战总结，具有极高的工程参考价值。",
+      "published_at": "2026-05-09T12:00:00Z",
+      "collected_at": "2026-05-09T12:00:00Z",
+      "status": "pending",
+      "metadata": {
+        "stars": 34618,
+        "language": "Shell",
+        "author": "addyosmani"
+      },
+      "analysis": {
+        "score": 8,
+        "scoring_reasons": "34k 星标，来自 Google 工程师的生产级技能集合；工程价值很高，提供了 AI 编码代理在实际生产环境中的最佳实践，具有很高的参考价值。",
+        "scoring_dimensions": {
+          "tech_depth": 9,
+          "innovation": 7,
+          "usability": 8
+        },
+        "technical_highlights": [
+          "AI 编码代理的生产级工程技能",
+          "Google 工程师实战总结",
+          "极高的工程参考价值"
+        ],
+        "tags": ["AI Agent", "Engineering", "Production"]
+      }
+    },
+    {
+      "id": "github-012",
+      "title": "Hmbown/DeepSeek-TUI",
+      "source_url": "https://github.com/Hmbown/DeepSeek-TUI",
+      "source_type": "github_trending",
+      "summary": "DeepSeek-TUI 是一个在终端运行的 DeepSeek 编码代理，使用 Rust 开发注重性能，值得关注是因为它提供了轻量化的本地 AI 编码方案。",
+      "published_at": "2026-05-09T12:00:00Z",
+      "collected_at": "2026-05-09T12:00:00Z",
+      "status": "pending",
+      "metadata": {
+        "stars": 21461,
+        "language": "Rust",
+        "author": "Hmbown"
+      },
+      "analysis": {
+        "score": 6,
+        "scoring_reasons": "21k 星标，Rust 开发的 DeepSeek TUI 工具；轻量化本地 AI 编码方案，Rust 语言保证了性能，但对于大多数用户可能更习惯使用 Web 界面。",
+        "scoring_dimensions": {
+          "tech_depth": 6,
+          "innovation": 6,
+          "usability": 7
+        },
+        "technical_highlights": [
+          "终端运行的 DeepSeek 编码代理",
+          "Rust 语言开发，注重性能",
+          "轻量化本地 AI 编码方案"
+        ],
+        "tags": ["DeepSeek", "TUI", "Coding Agent"]
+      }
+    },
+    {
+      "id": "github-013",
+      "title": "anthropics/financial-services",
+      "source_url": "https://github.com/anthropics/financial-services",
+      "source_type": "github_trending",
+      "summary": "Anthropic Financial Services 是 Anthropic 官方的金融领域 AI 应用示例，值得关注是因为它展示了 Claude 在专业领域应用的可能性。",
+      "published_at": "2026-05-09T12:00:00Z",
+      "collected_at": "2026-05-09T12:00:00Z",
+      "status": "pending",
+      "metadata": {
+        "stars": 14182,
+        "language": "Python",
+        "author": "anthropics"
+      },
+      "analysis": {
+        "score": 7,
+        "scoring_reasons": "14k 星标，Anthropic 官方金融领域示例；展示 Claude 在专业领域的应用可能，虽然星标不高，但作为官方示例具有指导和参考价值。",
+        "scoring_dimensions": {
+          "tech_depth": 7,
+          "innovation": 7,
+          "usability": 7
+        },
+        "technical_highlights": [
+          "Anthropic 官方金融领域 AI 应用",
+          "展示 Claude 专业领域应用可能性",
+          "官方示例具有指导参考价值"
+        ],
+        "tags": ["Anthropic", "Claude", "Finance"]
+      }
+    },
+    {
+      "id": "github-014",
+      "title": "rtk-ai/rtk",
+      "source_url": "https://github.com/rtk-ai/rtk",
+      "source_type": "github_trending",
+      "summary": "RTK 是一个 CLI 代理工具，可将常用开发命令的 LLM token 消耗减少 60-90%，值得关注的亮点是单一 Rust 二进制零依赖的设计。",
+      "published_at": "2026-05-09T12:00:00Z",
+      "collected_at": "2026-05-09T12:00:00Z",
+      "status": "pending",
+      "metadata": {
+        "stars": 44611,
+        "language": "Rust",
+        "author": "rtk-ai"
+      },
+      "analysis": {
+        "score": 8,
+        "scoring_reasons": "44k 星标，Token 优化工具；可以将 LLM token 消耗减少 60-90%，单一 Rust 二进制零依赖设计，技术创新性强，解决实际痛点。",
+        "scoring_dimensions": {
+          "tech_depth": 8,
+          "innovation": 9,
+          "usability": 8
+        },
+        "technical_highlights": [
+          "CLI 代理工具，Token 消耗减少 60-90%",
+          "单一 Rust 二进制，零依赖设计",
+          "解决 LLM token 限额问题"
+        ],
+        "tags": ["CLI", "LLM", "Optimization"]
+      }
+    },
+    {
+      "id": "github-015",
+      "title": "bytedance/UI-TARS-desktop",
+      "source_url": "https://github.com/bytedance/UI-TARS-desktop",
+      "source_type": "github_trending",
+      "summary": "UI-TARS-desktop 是字节跳动开源的多模态 AI 代理栈，连接尖端 AI 模型和代理基础设施，值得关注是因为它来自大厂的技术积累。",
+      "published_at": "2026-05-09T12:00:00Z",
+      "collected_at": "2026-05-09T12:00:00Z",
+      "status": "pending",
+      "metadata": {
+        "stars": 30662,
+        "language": "TypeScript",
+        "author": "bytedance"
+      },
+      "analysis": {
+        "score": 7,
+        "scoring_reasons": "30k 星标，字节跳动的多模态 AI 代理栈；来自大厂的技术积累，连接尖端 AI 模型和代理基础设施，具有较高的技术含量和参考价值。",
+        "scoring_dimensions": {
+          "tech_depth": 8,
+          "innovation": 7,
+          "usability": 7
+        },
+        "technical_highlights": [
+          "字节跳动开源的多模态 AI 代理栈",
+          "连接尖端 AI 模型和代理基础设施",
+          "大厂技术积累的体现"
+        ],
+        "tags": ["Multimodal", "AI Agent", "ByteDance"]
+      }
+    },
+    {
+      "id": "github-016",
+      "title": "decolua/9router",
+      "source_url": "https://github.com/decolua/9router",
+      "source_type": "github_trending",
+      "summary": "9Router 通过 40+ 提供商连接多种 AI 编码工具，实现自动回退和 RTK-40% token 节省，值得关注是因为它解决了 AI 编码工具的 token 限额问题。",
+      "published_at": "2026-05-09T12:00:00Z",
+      "collected_at": "2026-05-09T12:00:00Z",
+      "status": "pending",
+      "metadata": {
+        "stars": 5333,
+        "language": "JavaScript",
+        "author": "decolua"
+      },
+      "analysis": {
+        "score": 6,
+        "scoring_reasons": "5k 星标，多 AI 编码工具路由器；连接 40+ 提供商实现自动回退和 token 节省，解决 token 限额问题，但星标相对较低，社区认可度有限。",
+        "scoring_dimensions": {
+          "tech_depth": 6,
+          "innovation": 7,
+          "usability": 7
+        },
+        "technical_highlights": [
+          "连接 40+ 提供商的多 AI 工具",
+          "自动回退机制",
+          "RTK-40% token 节省"
+        ],
+        "tags": ["AI Coding", "Multi-Provider", "Token Optimization"]
+      }
+    },
+    {
+      "id": "hn-001",
+      "title": "Rumors of my death are slightly exaggerated",
+      "source_url": "https://www.facebook.com/story.php?story_fbid=989939243570691&id=100076638743004",
+      "source_type": "hacker_news",
+      "summary": "Cliff Stoll 发现自己的死讯竟由 AI 生成并流传，AI 幻觉已延伸到可以提前宣告某人死亡。Mark Twain 的名言被实际测试，说明 AI 生成的虚假信息正在互联网上扩散。",
+      "published_at": "2026-05-09T06:30:00Z",
+      "collected_at": "2026-05-09T06:30:00Z",
+      "status": "pending",
+      "metadata": {
+        "score": 1598,
+        "comments": 246,
+        "author": "CliffStoll"
+      },
+      "analysis": {
+        "score": 7,
+        "scoring_reasons": "1598 分超高分，AI 幻觉问题的典型案例；揭示了 AI 生成虚假信息的社会危害，具有很高的新闻价值和警示意义，引发了对 AI 可靠性的深度思考。",
+        "scoring_dimensions": {
+          "tech_depth": 6,
+          "innovation": 5,
+          "usability": 8
+        },
+        "technical_highlights": [
+          "AI 生成虚假死亡信息的案例",
+          "AI 幻觉延伸到社会层面",
+          "AI 可靠性问题引发关注"
+        ],
+        "tags": ["AI Hallucination", "Fake News", "Social Impact"]
+      }
+    },
+    {
+      "id": "hn-002",
+      "title": "AI slop is killing online communities",
+      "source_url": "https://rmoff.net/2026/05/06/ai-slop-is-killing-online-communities/",
+      "source_type": "hacker_news",
+      "summary": "AI 生成的低质量内容正在污染在线社区，Stack Overflow 等平台充斥着 AI 生成的错误答案，导致讨论质量下降。内容农场和 SEO 优化内容正在取代真实的用户贡献。",
+      "published_at": "2026-05-09T06:30:00Z",
+      "collected_at": "2026-05-09T06:30:00Z",
+      "status": "pending",
+      "metadata": {
+        "score": 817,
+        "comments": 707,
+        "author": "thm"
+      },
+      "analysis": {
+        "score": 8,
+        "scoring_reasons": "817 分高热度的社会观察文章；揭示 AI 生成内容对在线社区的负面影响，引发技术社区的广泛讨论和共鸣，具有较强的社会影响力。",
+        "scoring_dimensions": {
+          "tech_depth": 7,
+          "innovation": 6,
+          "usability": 9
+        },
+        "technical_highlights": [
+          "AI 低质量内容污染在线社区",
+          "Stack Overflow 等平台质量下降问题",
+          "内容农场取代真实用户贡献"
+        ],
+        "tags": ["AI Content", "Online Communities", "Quality Decline"]
+      }
+    },
+    {
+      "id": "hn-003",
+      "title": "Mojo 1.0 Beta",
+      "source_url": "https://mojolang.org/",
+      "source_type": "hacker_news",
+      "summary": "Mojo 语言发布 1.0 Beta 版本，这是一种专为 AI 和 ML 场景设计的新编程语言，结合了 Python 的易用性和系统级性能，支持 Swift 风格的预处理器宏。",
+      "published_at": "2026-05-09T06:30:00Z",
+      "collected_at": "2026-05-09T06:30:00Z",
+      "status": "pending",
+      "metadata": {
+        "score": 357,
+        "comments": 224,
+        "author": "sbt567"
+      },
+      "analysis": {
+        "score": 9,
+        "scoring_reasons": "357 分，Mojo 1.0 Beta 发布；专为 AI/ML 设计的新编程语言，结合 Python 易用性和系统性能，支持 Swift 风格预处理器宏，代表了编程语言的未来方向。",
+        "scoring_dimensions": {
+          "tech_depth": 9,
+          "innovation": 10,
+          "usability": 8
+        },
+        "technical_highlights": [
+          "专为 AI 和 ML 场景设计的新编程语言",
+          "结合 Python 易用性和系统级性能",
+          "支持 Swift 风格的预处理器宏"
+        ],
+        "tags": ["Mojo", "Programming Language", "AI/ML"]
+      }
+    },
+    {
+      "id": "hn-004",
+      "title": "OpenAI's WebRTC Problem",
+      "source_url": "https://moq.dev/blog/webrtc-is-the-problem/",
+      "source_type": "hacker_news",
+      "summary": "WebRTC 协议设计不适合语音 AI 场景，其主动丢包机制会损害 AI 助手理解用户prompt的质量。作者建议使用 QUIC/WebTransport 替代，简化架构并提高可扩展性。",
+      "published_at": "2026-05-09T06:30:00Z",
+      "collected_at": "2026-05-09T06:30:00Z",
+      "status": "pending",
+      "metadata": {
+        "score": 370,
+        "comments": 94,
+        "author": "atgctg"
+      },
+      "analysis": {
+        "score": 8,
+        "scoring_reasons": "370 分，技术深度分析文章；指出 WebRTC 在语音 AI 场景的架构问题，提出 QUIC/WebTransport 替代方案，技术分析深入，解决方案具有实际价值。",
+        "scoring_dimensions": {
+          "tech_depth": 9,
+          "innovation": 8,
+          "usability": 7
+        },
+        "technical_highlights": [
+          "WebRTC 协议不适合语音 AI 场景",
+          "主动丢包机制影响 AI 理解质量",
+          "建议使用 QUIC/WebTransport 替代方案"
+        ],
+        "tags": ["WebRTC", "Voice AI", "Protocol Optimization"]
+      }
+    },
+    {
+      "id": "hn-005",
+      "title": "AI is breaking two vulnerability cultures",
+      "source_url": "https://www.jefftk.com/p/ai-is-breaking-two-vulnerability-cultures",
+      "source_type": "hacker_news",
+      "summary": "AI 正在加速漏洞发现，传统的 90 天保密期已不再适用。研究人员展示了 AI 如何快速识别 Linux 内核安全补丁，打破传统与开源社区之间的漏洞披露文化冲突。",
+      "published_at": "2026-05-09T06:30:00Z",
+      "collected_at": "2026-05-09T06:30:00Z",
+      "status": "pending",
+      "metadata": {
+        "score": 361,
+        "comments": 142,
+        "author": "speckx"
+      },
+      "analysis": {
+        "score": 8,
+        "scoring_reasons": "361 分，安全领域深度分析；揭示 AI 对传统漏洞披露文化的冲击，90 天保密期机制面临挑战，对安全社区具有重要的参考价值和讨论意义。",
+        "scoring_dimensions": {
+          "tech_depth": 8,
+          "innovation": 8,
+          "usability": 7
+        },
+        "technical_highlights": [
+          "AI 加速漏洞发现",
+          "传统 90 天保密期不再适用",
+          "漏洞披露文化冲突问题"
+        ],
+        "tags": ["AI Security", "Vulnerability Disclosure", "Linux"]
+      }
+    },
+    {
+      "id": "hn-006",
+      "title": "Hardening Firefox with Claude Mythos Preview",
+      "source_url": "https://hacks.mozilla.org/2026/05/behind-the-scenes-hardening-firefox/",
+      "source_type": "hacker_news",
+      "summary": "Mozilla 使用 Claude Mythos Preview AI 工具在 Firefox 150 版本中发现并修复了 271 个安全漏洞，其中 180 个为高危。AI 驱动的代码审计显著提升了安全修复效率。",
+      "published_at": "2026-05-09T06:30:00Z",
+      "collected_at": "2026-05-09T06:30:00Z",
+      "status": "pending",
+      "metadata": {
+        "score": 356,
+        "comments": 159,
+        "author": "HieronymusBosch"
+      },
+      "analysis": {
+        "score": 8,
+        "scoring_reasons": "356 分，AI 安全审计的实际案例；Mozilla 使用 Claude 发现 271 个安全漏洞，其中 180 个高危，展示了 AI 在代码安全审计方面的巨大潜力和实用价值。",
+        "scoring_dimensions": {
+          "tech_depth": 8,
+          "innovation": 7,
+          "usability": 9
+        },
+        "technical_highlights": [
+          "Claude Mythos Preview 发现 271 个漏洞",
+          "Firefox 150 版本中 180 个高危",
+          "AI 驱动代码审计提升安全效率"
+        ],
+        "tags": ["Claude", "Firefox", "Security Audit"]
+      }
+    },
+    {
+      "id": "hn-007",
+      "title": "GPT-5.5 Price Increase: What It Costs",
+      "source_url": "https://openrouter.ai/announcements/gpt55-cost-analysis",
+      "source_type": "hacker_news",
+      "summary": "OpenRouter 分析显示 GPT-5.5 实际成本比 GPT-5.4 上涨 49-92%。虽然长prompt下输出token减少19-34%，但输入成本翻倍导致整体费用大幅上升。",
+      "published_at": "2026-05-09T06:30:00Z",
+      "collected_at": "2026-05-09T06:30:00Z",
+      "status": "pending",
+      "metadata": {
+        "score": 206,
+        "comments": 65,
+        "author": "gmays"
+      },
+      "analysis": {
+        "score": 7,
+        "scoring_reasons": "206 分，LLM 成本分析文章；揭示 GPT-5.5 成本上涨 49-92% 的实际问题，对开发者和用户具有重要的成本参考价值，引发对 AI 服务定价的关注。",
+        "scoring_dimensions": {
+          "tech_depth": 7,
+          "innovation": 6,
+          "usability": 9
+        },
+        "technical_highlights": [
+          "GPT-5.5 成本比 GPT-5.4 上涨 49-92%",
+          "长 prompt 输出 token 减少 19-34%",
+          "输入成本翻倍导致整体费用上升"
+        ],
+        "tags": ["GPT-5.5", "Cost Analysis", "LLM Pricing"]
+      }
+    },
+    {
+      "id": "hn-008",
+      "title": "Teaching Claude Why",
+      "source_url": "https://www.anthropic.com/research/teaching-claude-why",
+      "source_type": "hacker_news",
+      "summary": "Anthropic 分享了如何通过「困难建议」数据集和宪法文档训练来对齐 Claude。通过教授伦理推理原则而非仅展示正确行为，AI 对齐效果提升 3 倍以上。",
+      "published_at": "2026-05-09T06:30:00Z",
+      "collected_at": "2026-05-09T06:30:00Z",
+      "status": "pending",
+      "metadata": {
+        "score": 202,
+        "comments": 92,
+        "author": "pretext"
+      },
+      "analysis": {
+        "score": 8,
+        "scoring_reasons": "202 分，Anthropic 官方 AI 对齐研究；通过「困难建议」数据集和宪法文档训练教授伦理推理，AI 对齐效果提升 3 倍以上，对 AI 安全研究具有重要参考价值。",
+        "scoring_dimensions": {
+          "tech_depth": 9,
+          "innovation": 9,
+          "usability": 7
+        },
+        "technical_highlights": [
+          "「困难建议」数据集训练方法",
+          "宪法文档用于 AI 对齐",
+          "教授伦理推理而非仅展示正确行为"
+        ],
+        "tags": ["Claude", "AI Alignment", "Anthropic Research"]
+      }
+    },
+    {
+      "id": "hn-009",
+      "title": "All my clients wanted a carousel, now it's an AI chatbot",
+      "source_url": "https://adele.pages.casa/md/blog/all-my-clients-wanted-a-carousel-now-it-s-an-ai-chatbot.md",
+      "source_type": "hacker_news",
+      "summary": "设计师发现客户需求从传统的轮播图设计转变为 AI 聊天机器人界面。这一转变反映了 Web 设计行业对生成式 AI 的快速适应和客户期望的变化。",
+      "published_at": "2026-05-09T06:30:00Z",
+      "collected_at": "2026-05-09T06:30:00Z",
+      "status": "pending",
+      "metadata": {
+        "score": 117,
+        "comments": 53,
+        "author": "edent"
+      },
+      "analysis": {
+        "score": 5,
+        "scoring_reasons": "117 分，行业观察类文章；反映 Web 设计趋势的变化，从轮播图到 AI 聊天机器人的转变，具有一定的行业洞察价值，但技术创新性一般。",
+        "scoring_dimensions": {
+          "tech_depth": 4,
+          "innovation": 5,
+          "usability": 8
+        },
+        "technical_highlights": [
+          "客户需求从轮播图转向 AI 聊天机器人",
+          "Web 设计行业对生成式 AI 的适应",
+          "客户期望的变化趋势"
+        ],
+        "tags": ["Web Design", "AI Chatbot", "Industry Trend"]
+      }
+    },
+    {
+      "id": "hn-010",
+      "title": "Can LLMs model real-world systems in TLA+?",
+      "source_url": "https://www.sigops.org/2026/can-llms-model-real-world-systems-in-tla/",
+      "source_type": "hacker_news",
+      "summary": "研究表明 LLMs 可以写出语法正确的 TLA+ 规范，但在系统行为一致性检验和不变式验证上表现不佳，平均仅 46% 和 41%。LLM 倾向于「复述教材」而非真正建模具体系统。",
+      "published_at": "2026-05-09T06:30:00Z",
+      "collected_at": "2026-05-09T06:30:00Z",
+      "status": "pending",
+      "metadata": {
+        "score": 99,
+        "comments": 26,
+        "author": "mad"
+      },
+      "analysis": {
+        "score": 7,
+        "scoring_reasons": "99 分，学术研究论文；LLM 在 TLA+ 形式化验证中的表现研究，指出 LLM 在系统行为一致性和不变式验证上的不足，对 LLM 能力边界有重要探索价值。",
+        "scoring_dimensions": {
+          "tech_depth": 9,
+          "innovation": 8,
+          "usability": 6
+        },
+        "technical_highlights": [
+          "LLM 可写语法正确的 TLA+ 规范",
+          "系统行为一致性检验仅 46%",
+          "不变式验证仅 41%"
+        ],
+        "tags": ["LLM", "TLA+", "Formal Verification"]
+      }
+    },
+    {
+      "id": "hn-011",
+      "title": "Boosting multimodal inference performance by >10% with a single Python dict",
+      "source_url": "https://modal.com/blog/boosting-multimodal-inference-performance-by-greater-than-10-with-a-single-python-dictionary",
+      "source_type": "hacker_news",
+      "summary": "Modal 通过添加简单的 Python dict 缓存 CUDA IPC 句柄，将 SGLang 多模态推理吞吐量提升 16%，首 token延迟降低 13%。该优化已合并入 SGLang v0.5.10。",
+      "published_at": "2026-05-09T06:30:00Z",
+      "collected_at": "2026-05-09T06:30:00Z",
+      "status": "pending",
+      "metadata": {
+        "score": 13,
+        "comments": 0,
+        "author": "jxmorris12"
+      },
+      "analysis": {
+        "score": 6,
+        "scoring_reasons": "13 分，技术优化案例；通过简单 Python dict 缓存实现多模态推理 16% 吞吐量提升，技术实用但分数较低，社区关注度有限，已合并入 SGLang 主线。",
+        "scoring_dimensions": {
+          "tech_depth": 7,
+          "innovation": 6,
+          "usability": 8
+        },
+        "technical_highlights": [
+          "Python dict 缓存 CUDA IPC 句柄",
+          "SGLang 多模态推理吞吐量提升 16%",
+          "首 token 延迟降低 13%"
+        ],
+        "tags": ["Multimodal", "Performance Optimization", "SGLang"]
+      }
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "hn-008",
+  "title": "Teaching Claude Why",
+  "source_url": "https://www.anthropic.com/research/teaching-claude-why",
+  "source_type": "hacker_news",
+  "summary": "Anthropic 分享了如何通过「困难建议」数据集和宪法文档训练来对齐 Claude。通过教授伦理推理原则而非仅展示正确行为，AI 对齐效果提升 3 倍以上。",
+  "published_at": "2026-05-09T06:30:00Z",
+  "collected_at": "2026-05-09T06:30:00Z",
+  "status": "analyzed",
+  "metadata": {
+    "score": 202,
+    "comments": 92,
+    "author": "pretext"
+  },
+  "analysis": {
+    "score": 8,
+    "scoring_reasons": "202 分，Anthropic 官方 AI 对齐研究；通过「困难建议」数据集和宪法文档训练教授伦理推理，AI 对齐效果提升 3 倍以上，对 AI 安全研究具有重要参考价值。",
+    "scoring_dimensions": {
+      "tech_depth": 9,
+      "innovation": 9,
+      "usability": 7
+    },
+    "technical_highlights": [
+      "「困难建议」数据集训练方法",
+      "宪法文档用于 AI 对齐",
+      "教授伦理推理而非仅展示正确行为"
+    ],
+    "tags": ["Claude", "AI Alignment", "Anthropic Research"]
+  }
+}

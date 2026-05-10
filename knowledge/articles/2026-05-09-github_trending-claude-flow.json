@@ -1,0 +1,29 @@
+{
+  "id": "github-008",
+  "title": "ruvnet/claude-flow",
+  "source_url": "https://github.com/ruvnet/claude-flow",
+  "source_type": "github_trending",
+  "summary": "Claude Flow 是一个 Claude 领先的代理编排平台，专注多主体群协调和对话式 AI 系统构建，值得关注是因为它在代理框架领域排名第一。",
+  "published_at": "2026-05-09T12:00:00Z",
+  "collected_at": "2026-05-09T12:00:00Z",
+  "status": "analyzed",
+  "metadata": {
+    "stars": 46675,
+    "author": "ruvnet"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "46k 星标，代理编排平台；专注多主体群协调和对话式 AI 系统构建，在代理框架领域排名第一，有一定的社区影响力。",
+    "scoring_dimensions": {
+      "tech_depth": 7,
+      "innovation": 6,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "代理编排平台，专注多主体群协调",
+      "对话式 AI 系统构建",
+      "代理框架领域排名第一"
+    ],
+    "tags": ["Claude", "Agent Orchestration", "Conversational AI"]
+  }
+}

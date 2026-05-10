@@ -1,0 +1,30 @@
+{
+  "id": "hn-010",
+  "title": "Can LLMs model real-world systems in TLA+?",
+  "source_url": "https://www.sigops.org/2026/can-llms-model-real-world-systems-in-tla/",
+  "source_type": "hacker_news",
+  "summary": "研究表明 LLMs 可以写出语法正确的 TLA+ 规范，但在系统行为一致性检验和不变式验证上表现不佳，平均仅 46% 和 41%。LLM 倾向于「复述教材」而非真正建模具体系统。",
+  "published_at": "2026-05-09T06:30:00Z",
+  "collected_at": "2026-05-09T06:30:00Z",
+  "status": "analyzed",
+  "metadata": {
+    "score": 99,
+    "comments": 26,
+    "author": "mad"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "99 分，学术研究论文；LLM 在 TLA+ 形式化验证中的表现研究，指出 LLM 在系统行为一致性和不变式验证上的不足，对 LLM 能力边界有重要探索价值。",
+    "scoring_dimensions": {
+      "tech_depth": 9,
+      "innovation": 8,
+      "usability": 6
+    },
+    "technical_highlights": [
+      "LLM 可写语法正确的 TLA+ 规范",
+      "系统行为一致性检验仅 46%",
+      "不变式验证仅 41%"
+    ],
+    "tags": ["LLM", "TLA+", "Formal Verification"]
+  }
+}
