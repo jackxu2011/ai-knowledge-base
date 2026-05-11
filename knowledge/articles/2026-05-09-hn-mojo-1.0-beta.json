@@ -2,7 +2,7 @@
   "id": "hn-20260509-007",
   "title": "Mojo 1.0 Beta",
   "source_url": "https://mojolang.org/",
-  "source_type": "hacker_news",
+  "source_type": "hn",
   "summary": "Mojo 语言发布 1.0 Beta 版本，这是一种专为 AI 和 ML 场景设计的新编程语言，结合了 Python 的易用性和系统级性能，支持 Swift 风格的预处理器宏。",
   "published_at": "2026-05-09T06:30:00Z",
   "collected_at": "2026-05-09T06:30:00Z",

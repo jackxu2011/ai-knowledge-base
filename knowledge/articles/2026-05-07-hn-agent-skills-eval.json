@@ -2,7 +2,7 @@
   "id": "hn-20260507-001",
   "title": "Show HN: Agent-skills-eval – Test whether Agent Skills improve outputs",
   "source_url": "https://github.com/darkrishabh/agent-skills-eval",
-  "source_type": "hacker_news",
+  "source_type": "hn",
   "summary": "agent-skills-eval 是一个用于测试 AI 代理技能是否真正改善输出质量的评估框架，帮助开发者量化代理技能的有效性，支持对各种代理技能进行系统性评估。",
   "published_at": "2026-05-07T00:00:00Z",
   "collected_at": "2026-05-07T00:00:00Z",

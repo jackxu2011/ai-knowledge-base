@@ -2,7 +2,7 @@
   "id": "hn-20260507-003",
   "title": "Making LLM Training Faster with Unsloth and NVIDIA",
   "source_url": "https://unsloth.ai/blog/nvidia-collab",
-  "source_type": "hacker_news",
+  "source_type": "hn",
   "summary": "Unsloth 与 NVIDIA 合作发布文章，介绍如何使用 Unsloth 优化技术加速大语言模型训练过程，降低计算成本。该合作旨在通过硬件和软件的协同优化，使 LLM 训练更加高效和经济。",
   "published_at": "2026-05-07T00:00:00Z",
   "collected_at": "2026-05-07T00:00:00Z",

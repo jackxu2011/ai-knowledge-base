@@ -2,7 +2,7 @@
   "id": "github-20260507-012",
   "title": "TabPFN",
   "source_url": "https://github.com/PriorLabs/TabPFN",
-  "source_type": "github_trending",
+  "source_type": "github",
   "summary": "TabPFN 是一个面向表格数据的预训练基础模型，能够在少量样本下完成分类任务，无需手动调参即可获得优秀的性能表现，为表格数据分析提供了新的解决方案。",
   "published_at": "2026-05-07T00:00:00Z",
   "collected_at": "2026-05-07T00:00:00Z",

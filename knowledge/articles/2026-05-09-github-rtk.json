@@ -2,7 +2,7 @@
   "id": "github-20260509-012",
   "title": "rtk-ai/rtk",
   "source_url": "https://github.com/rtk-ai/rtk",
-  "source_type": "github_trending",
+  "source_type": "github",
   "summary": "RTK 是一个 CLI 代理工具，可将常用开发命令的 LLM token 消耗减少 60-90%，值得关注的亮点是单一 Rust 二进制零依赖的设计。",
   "published_at": "2026-05-09T12:00:00Z",
   "collected_at": "2026-05-09T12:00:00Z",

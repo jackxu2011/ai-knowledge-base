@@ -2,7 +2,7 @@
   "id": "github-20260507-008",
   "title": "local-deep-research",
   "source_url": "https://github.com/LearningCircuit/local-deep-research",
-  "source_type": "github_trending",
+  "source_type": "github",
   "summary": "local-deep-research 是一个本地深度研究工具，支持多种本地和云端大语言模型，提供 10+ 搜索引擎集成，可在 3090 显卡上达到 SimpleQA 约 95% 准确率，数据全程本地加密处理。",
   "published_at": "2026-05-07T00:00:00Z",
   "collected_at": "2026-05-07T00:00:00Z",

@@ -2,7 +2,7 @@
   "id": "github-20260507-009",
   "title": "ruflo",
   "source_url": "https://github.com/ruvnet/ruflo",
-  "source_type": "github_trending",
+  "source_type": "github",
   "summary": "ruflo 是 Claude 的首选代理编排平台，支持多代理蜂群部署、自主工作流编排和对话式 AI 系统构建，提供企业级架构和 RAG 集成，是多代理系统开发的强大工具。",
   "published_at": "2026-05-07T00:00:00Z",
   "collected_at": "2026-05-07T00:00:00Z",

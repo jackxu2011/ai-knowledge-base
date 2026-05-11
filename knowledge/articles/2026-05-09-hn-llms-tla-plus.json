@@ -2,7 +2,7 @@
   "id": "hn-20260509-006",
   "title": "Can LLMs model real-world systems in TLA+?",
   "source_url": "https://www.sigops.org/2026/can-llms-model-real-world-systems-in-tla/",
-  "source_type": "hacker_news",
+  "source_type": "hn",
   "summary": "研究表明 LLMs 可以写出语法正确的 TLA+ 规范，但在系统行为一致性检验和不变式验证上表现不佳，平均仅 46% 和 41%。LLM 倾向于「复述教材」而非真正建模具体系统。",
   "published_at": "2026-05-09T06:30:00Z",
   "collected_at": "2026-05-09T06:30:00Z",

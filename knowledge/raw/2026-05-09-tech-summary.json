@@ -20,7 +20,7 @@
       "id": "github-001",
       "title": "obra/superpowers",
       "source_url": "https://github.com/obra/superpowers",
-      "source_type": "github_trending",
+      "source_type": "github",
       "summary": "Superpowers 是一个 Claude Code 核心技能库，提供经过实战验证的 AI 编码能力提升方案，帮助开发者充分利用 Claude 的高级功能，值得关注是因为它是当前最受欢迎的 Claude 技能扩展之一。",
       "published_at": "2026-05-09T12:00:00Z",
       "collected_at": "2026-05-09T12:00:00Z",
@@ -43,14 +43,18 @@
           "帮助开发者充分利用 Claude 高级功能",
           "当前最受欢迎的 Claude 技能扩展之一"
         ],
-        "tags": ["Claude", "AI Agent", "Coding Assistant"]
+        "tags": [
+          "Claude",
+          "AI Agent",
+          "Coding Assistant"
+        ]
       }
     },
     {
       "id": "github-002",
       "title": "NousResearch/hermes-agent",
       "source_url": "https://github.com/NousResearch/hermes-agent",
-      "source_type": "github_trending",
+      "source_type": "github",
       "summary": "Hermes Agent 是一个自进化 AI 智能体框架，内置学习循环让 Agent 在使用过程中不断自我优化，值得关注是因为它代表了自主智能体技术的重要突破。",
       "published_at": "2026-05-09T12:00:00Z",
       "collected_at": "2026-05-09T12:00:00Z",
@@ -73,14 +77,18 @@
           "内置学习循环，Agent 自我优化",
           "代表自主智能体技术重要突破"
         ],
-        "tags": ["AI Agent", "Self-Evolving", "LLM"]
+        "tags": [
+          "AI Agent",
+          "Self-Evolving",
+          "LLM"
+        ]
       }
     },
     {
       "id": "github-003",
       "title": "multica-ai/andrej-karpathy-skills",
       "source_url": "https://github.com/multica-ai/andrej-karpathy-skills",
-      "source_type": "github_trending",
+      "source_type": "github",
       "summary": "Andrej Karpathy Skills 是一个 Claude Code 行为改进文档库，源自 Karpathy 对 LLM 编码陷阱的观察，值得关注是因为它集合了顶级 AI 专家的实战经验总结。",
       "published_at": "2026-05-09T12:00:00Z",
       "collected_at": "2026-05-09T12:00:00Z",
@@ -103,14 +111,18 @@
           "源自 Karpathy 对 LLM 编码陷阱的深度观察",
           "顶级 AI 专家实战经验总结"
         ],
-        "tags": ["Claude", "LLM", "Coding Best Practices"]
+        "tags": [
+          "Claude",
+          "LLM",
+          "Coding Best Practices"
+        ]
       }
     },
     {
       "id": "github-004",
       "title": "forrestchang/andrej-karpathy-skills",
       "source_url": "https://github.com/forrestchang/andrej-karpathy-skills",
-      "source_type": "github_trending",
+      "source_type": "github",
       "summary": "Andrej Karpathy Skills 是一个 Claude Code 行为改进文档库，源自 Karpathy 对 LLM 编码陷阱的深度观察，值得关注是因为它能显著提升 AI 编码质量。",
       "published_at": "2026-05-09T12:00:00Z",
       "collected_at": "2026-05-09T12:00:00Z",
@@ -133,14 +145,18 @@
           "聚焦 LLM 编码质量提升",
           "实战经验驱动的优化方案"
         ],
-        "tags": ["Claude", "LLM", "Coding Quality"]
+        "tags": [
+          "Claude",
+          "LLM",
+          "Coding Quality"
+        ]
       }
     },
     {
       "id": "github-005",
       "title": "msitarzewski/agency-agents",
       "source_url": "https://github.com/msitarzewski/agency-agents",
-      "source_type": "github_trending",
+      "source_type": "github",
       "summary": "Agency Agents 是一个完整 AI 机构框架，每个代理都是具有个性、流程和可交付成果的专业专家，值得关注是因为它提供了企业级多代理协作的完整解决方案。",
       "published_at": "2026-05-09T12:00:00Z",
       "collected_at": "2026-05-09T12:00:00Z",
@@ -163,14 +179,18 @@
           "专业代理具有个性、流程和可交付成果",
           "企业级多代理协作解决方案"
         ],
-        "tags": ["AI Agent", "Multi-Agent", "Framework"]
+        "tags": [
+          "AI Agent",
+          "Multi-Agent",
+          "Framework"
+        ]
       }
     },
     {
       "id": "github-006",
       "title": "TauricResearch/TradingAgents",
       "source_url": "https://github.com/TauricResearch/TradingAgents",
-      "source_type": "github_trending",
+      "source_type": "github",
       "summary": "TradingAgents 是一个多代理 LLM 金融交易框架，整合多个 AI 代理进行量化交易决策，值得关注是因为它展示了 AI Agent 在金融领域的实际应用潜力。",
       "published_at": "2026-05-09T12:00:00Z",
       "collected_at": "2026-05-09T12:00:00Z",
@@ -193,14 +213,19 @@
           "整合多个 AI 代理进行量化交易",
           "AI Agent 金融领域应用示范"
         ],
-        "tags": ["LLM", "Trading", "AI Agent", "Finance"]
+        "tags": [
+          "LLM",
+          "Trading",
+          "AI Agent",
+          "Finance"
+        ]
       }
     },
     {
       "id": "github-007",
       "title": "mattpocock/skills",
       "source_url": "https://github.com/mattpocock/skills",
-      "source_type": "github_trending",
+      "source_type": "github",
       "summary": "Mattpocock Skills 是一个个人 Claude 技能目录，直接来自 .claude 目录的实战配置，值得关注是因为它是学习如何构建高效 AI 编码技能的参考范例。",
       "published_at": "2026-05-09T12:00:00Z",
       "collected_at": "2026-05-09T12:00:00Z",
@@ -223,14 +248,18 @@
           "直接来自 .claude 目录实战配置",
           "学习构建高效 AI 编码技能的参考"
         ],
-        "tags": ["Claude", "Skills", "Coding Assistant"]
+        "tags": [
+          "Claude",
+          "Skills",
+          "Coding Assistant"
+        ]
       }
     },
     {
       "id": "github-008",
       "title": "ruvnet/ruflo",
       "source_url": "https://github.com/ruvnet/ruflo",
-      "source_type": "github_trending",
+      "source_type": "github",
       "summary": "Ruflo 是一个 Claude 领先的代理编排平台，支持智能多主体群和自主工作流程协调，值得关注是因为它提供了企业级 RAG 集成和 Claude/Codex 原生支持。",
       "published_at": "2026-05-09T12:00:00Z",
       "collected_at": "2026-05-09T12:00:00Z",
@@ -253,14 +282,18 @@
           "支持智能多主体群协调",
           "企业级 RAG 集成 + Claude/Codex 原生支持"
         ],
-        "tags": ["Claude", "Agent Orchestration", "RAG"]
+        "tags": [
+          "Claude",
+          "Agent Orchestration",
+          "RAG"
+        ]
       }
     },
     {
       "id": "github-009",
       "title": "ruvnet/claude-flow",
       "source_url": "https://github.com/ruvnet/claude-flow",
-      "source_type": "github_trending",
+      "source_type": "github",
       "summary": "Claude Flow 是一个 Claude 领先的代理编排平台，专注多主体群协调和对话式 AI 系统构建，值得关注是因为它在代理框架领域排名第一。",
       "published_at": "2026-05-09T12:00:00Z",
       "collected_at": "2026-05-09T12:00:00Z",
@@ -283,14 +316,18 @@
           "对话式 AI 系统构建",
           "代理框架领域排名第一"
         ],
-        "tags": ["Claude", "Agent Orchestration", "Conversational AI"]
+        "tags": [
+          "Claude",
+          "Agent Orchestration",
+          "Conversational AI"
+        ]
       }
     },
     {
       "id": "github-010",
       "title": "farion1231/cc-switch",
       "source_url": "https://github.com/farion1231/cc-switch",
-      "source_type": "github_trending",
+      "source_type": "github",
       "summary": "CC-Switch 是一个跨平台桌面 AI 助理工具，连接 Claude Code、Codex 和 Gemini CLI，值得关注是因为它提供了多 AI 引擎的统一切换体验。",
       "published_at": "2026-05-09T12:00:00Z",
       "collected_at": "2026-05-09T12:00:00Z",
@@ -313,14 +350,19 @@
           "连接 Claude Code、Codex、Gemini CLI",
           "多 AI 引擎统一切换体验"
         ],
-        "tags": ["Claude", "Cursor", "Copilot", "AI Assistant"]
+        "tags": [
+          "Claude",
+          "Cursor",
+          "Copilot",
+          "AI Assistant"
+        ]
       }
     },
     {
       "id": "github-011",
       "title": "addyosmani/agent-skills",
       "source_url": "https://github.com/addyosmani/agent-skills",
-      "source_type": "github_trending",
+      "source_type": "github",
       "summary": "Agent Skills 是 AI 编码代理的生产级工程技能集合，值得关注是因为它来自 Google 工程师的实战总结，具有极高的工程参考价值。",
       "published_at": "2026-05-09T12:00:00Z",
       "collected_at": "2026-05-09T12:00:00Z",
@@ -343,14 +385,18 @@
           "Google 工程师实战总结",
           "极高的工程参考价值"
         ],
-        "tags": ["AI Agent", "Engineering", "Production"]
+        "tags": [
+          "AI Agent",
+          "Engineering",
+          "Production"
+        ]
       }
     },
     {
       "id": "github-012",
       "title": "Hmbown/DeepSeek-TUI",
       "source_url": "https://github.com/Hmbown/DeepSeek-TUI",
-      "source_type": "github_trending",
+      "source_type": "github",
       "summary": "DeepSeek-TUI 是一个在终端运行的 DeepSeek 编码代理，使用 Rust 开发注重性能，值得关注是因为它提供了轻量化的本地 AI 编码方案。",
       "published_at": "2026-05-09T12:00:00Z",
       "collected_at": "2026-05-09T12:00:00Z",
@@ -373,14 +419,18 @@
           "Rust 语言开发，注重性能",
           "轻量化本地 AI 编码方案"
         ],
-        "tags": ["DeepSeek", "TUI", "Coding Agent"]
+        "tags": [
+          "DeepSeek",
+          "TUI",
+          "Coding Agent"
+        ]
       }
     },
     {
       "id": "github-013",
       "title": "anthropics/financial-services",
       "source_url": "https://github.com/anthropics/financial-services",
-      "source_type": "github_trending",
+      "source_type": "github",
       "summary": "Anthropic Financial Services 是 Anthropic 官方的金融领域 AI 应用示例，值得关注是因为它展示了 Claude 在专业领域应用的可能性。",
       "published_at": "2026-05-09T12:00:00Z",
       "collected_at": "2026-05-09T12:00:00Z",
@@ -403,14 +453,18 @@
           "展示 Claude 专业领域应用可能性",
           "官方示例具有指导参考价值"
         ],
-        "tags": ["Anthropic", "Claude", "Finance"]
+        "tags": [
+          "Anthropic",
+          "Claude",
+          "Finance"
+        ]
       }
     },
     {
       "id": "github-014",
       "title": "rtk-ai/rtk",
       "source_url": "https://github.com/rtk-ai/rtk",
-      "source_type": "github_trending",
+      "source_type": "github",
       "summary": "RTK 是一个 CLI 代理工具，可将常用开发命令的 LLM token 消耗减少 60-90%，值得关注的亮点是单一 Rust 二进制零依赖的设计。",
       "published_at": "2026-05-09T12:00:00Z",
       "collected_at": "2026-05-09T12:00:00Z",
@@ -433,14 +487,18 @@
           "单一 Rust 二进制，零依赖设计",
           "解决 LLM token 限额问题"
         ],
-        "tags": ["CLI", "LLM", "Optimization"]
+        "tags": [
+          "CLI",
+          "LLM",
+          "Optimization"
+        ]
       }
     },
     {
       "id": "github-015",
       "title": "bytedance/UI-TARS-desktop",
       "source_url": "https://github.com/bytedance/UI-TARS-desktop",
-      "source_type": "github_trending",
+      "source_type": "github",
       "summary": "UI-TARS-desktop 是字节跳动开源的多模态 AI 代理栈，连接尖端 AI 模型和代理基础设施，值得关注是因为它来自大厂的技术积累。",
       "published_at": "2026-05-09T12:00:00Z",
       "collected_at": "2026-05-09T12:00:00Z",
@@ -463,14 +521,18 @@
           "连接尖端 AI 模型和代理基础设施",
           "大厂技术积累的体现"
         ],
-        "tags": ["Multimodal", "AI Agent", "ByteDance"]
+        "tags": [
+          "Multimodal",
+          "AI Agent",
+          "ByteDance"
+        ]
       }
     },
     {
       "id": "github-016",
       "title": "decolua/9router",
       "source_url": "https://github.com/decolua/9router",
-      "source_type": "github_trending",
+      "source_type": "github",
       "summary": "9Router 通过 40+ 提供商连接多种 AI 编码工具，实现自动回退和 RTK-40% token 节省，值得关注是因为它解决了 AI 编码工具的 token 限额问题。",
       "published_at": "2026-05-09T12:00:00Z",
       "collected_at": "2026-05-09T12:00:00Z",
@@ -493,14 +555,18 @@
           "自动回退机制",
           "RTK-40% token 节省"
         ],
-        "tags": ["AI Coding", "Multi-Provider", "Token Optimization"]
+        "tags": [
+          "AI Coding",
+          "Multi-Provider",
+          "Token Optimization"
+        ]
       }
     },
     {
       "id": "hn-001",
       "title": "Rumors of my death are slightly exaggerated",
       "source_url": "https://www.facebook.com/story.php?story_fbid=989939243570691&id=100076638743004",
-      "source_type": "hacker_news",
+      "source_type": "hn",
       "summary": "Cliff Stoll 发现自己的死讯竟由 AI 生成并流传，AI 幻觉已延伸到可以提前宣告某人死亡。Mark Twain 的名言被实际测试，说明 AI 生成的虚假信息正在互联网上扩散。",
       "published_at": "2026-05-09T06:30:00Z",
       "collected_at": "2026-05-09T06:30:00Z",
@@ -523,14 +589,18 @@
           "AI 幻觉延伸到社会层面",
           "AI 可靠性问题引发关注"
         ],
-        "tags": ["AI Hallucination", "Fake News", "Social Impact"]
+        "tags": [
+          "AI Hallucination",
+          "Fake News",
+          "Social Impact"
+        ]
       }
     },
     {
       "id": "hn-002",
       "title": "AI slop is killing online communities",
       "source_url": "https://rmoff.net/2026/05/06/ai-slop-is-killing-online-communities/",
-      "source_type": "hacker_news",
+      "source_type": "hn",
       "summary": "AI 生成的低质量内容正在污染在线社区，Stack Overflow 等平台充斥着 AI 生成的错误答案，导致讨论质量下降。内容农场和 SEO 优化内容正在取代真实的用户贡献。",
       "published_at": "2026-05-09T06:30:00Z",
       "collected_at": "2026-05-09T06:30:00Z",
@@ -553,14 +623,18 @@
           "Stack Overflow 等平台质量下降问题",
           "内容农场取代真实用户贡献"
         ],
-        "tags": ["AI Content", "Online Communities", "Quality Decline"]
+        "tags": [
+          "AI Content",
+          "Online Communities",
+          "Quality Decline"
+        ]
       }
     },
     {
       "id": "hn-003",
       "title": "Mojo 1.0 Beta",
       "source_url": "https://mojolang.org/",
-      "source_type": "hacker_news",
+      "source_type": "hn",
       "summary": "Mojo 语言发布 1.0 Beta 版本，这是一种专为 AI 和 ML 场景设计的新编程语言，结合了 Python 的易用性和系统级性能，支持 Swift 风格的预处理器宏。",
       "published_at": "2026-05-09T06:30:00Z",
       "collected_at": "2026-05-09T06:30:00Z",
@@ -583,14 +657,18 @@
           "结合 Python 易用性和系统级性能",
           "支持 Swift 风格的预处理器宏"
         ],
-        "tags": ["Mojo", "Programming Language", "AI/ML"]
+        "tags": [
+          "Mojo",
+          "Programming Language",
+          "AI/ML"
+        ]
       }
     },
     {
       "id": "hn-004",
       "title": "OpenAI's WebRTC Problem",
       "source_url": "https://moq.dev/blog/webrtc-is-the-problem/",
-      "source_type": "hacker_news",
+      "source_type": "hn",
       "summary": "WebRTC 协议设计不适合语音 AI 场景，其主动丢包机制会损害 AI 助手理解用户prompt的质量。作者建议使用 QUIC/WebTransport 替代，简化架构并提高可扩展性。",
       "published_at": "2026-05-09T06:30:00Z",
       "collected_at": "2026-05-09T06:30:00Z",
@@ -613,14 +691,18 @@
           "主动丢包机制影响 AI 理解质量",
           "建议使用 QUIC/WebTransport 替代方案"
         ],
-        "tags": ["WebRTC", "Voice AI", "Protocol Optimization"]
+        "tags": [
+          "WebRTC",
+          "Voice AI",
+          "Protocol Optimization"
+        ]
       }
     },
     {
       "id": "hn-005",
       "title": "AI is breaking two vulnerability cultures",
       "source_url": "https://www.jefftk.com/p/ai-is-breaking-two-vulnerability-cultures",
-      "source_type": "hacker_news",
+      "source_type": "hn",
       "summary": "AI 正在加速漏洞发现，传统的 90 天保密期已不再适用。研究人员展示了 AI 如何快速识别 Linux 内核安全补丁，打破传统与开源社区之间的漏洞披露文化冲突。",
       "published_at": "2026-05-09T06:30:00Z",
       "collected_at": "2026-05-09T06:30:00Z",
@@ -643,14 +725,18 @@
           "传统 90 天保密期不再适用",
           "漏洞披露文化冲突问题"
         ],
-        "tags": ["AI Security", "Vulnerability Disclosure", "Linux"]
+        "tags": [
+          "AI Security",
+          "Vulnerability Disclosure",
+          "Linux"
+        ]
       }
     },
     {
       "id": "hn-006",
       "title": "Hardening Firefox with Claude Mythos Preview",
       "source_url": "https://hacks.mozilla.org/2026/05/behind-the-scenes-hardening-firefox/",
-      "source_type": "hacker_news",
+      "source_type": "hn",
       "summary": "Mozilla 使用 Claude Mythos Preview AI 工具在 Firefox 150 版本中发现并修复了 271 个安全漏洞，其中 180 个为高危。AI 驱动的代码审计显著提升了安全修复效率。",
       "published_at": "2026-05-09T06:30:00Z",
       "collected_at": "2026-05-09T06:30:00Z",
@@ -673,14 +759,18 @@
           "Firefox 150 版本中 180 个高危",
           "AI 驱动代码审计提升安全效率"
         ],
-        "tags": ["Claude", "Firefox", "Security Audit"]
+        "tags": [
+          "Claude",
+          "Firefox",
+          "Security Audit"
+        ]
       }
     },
     {
       "id": "hn-007",
       "title": "GPT-5.5 Price Increase: What It Costs",
       "source_url": "https://openrouter.ai/announcements/gpt55-cost-analysis",
-      "source_type": "hacker_news",
+      "source_type": "hn",
       "summary": "OpenRouter 分析显示 GPT-5.5 实际成本比 GPT-5.4 上涨 49-92%。虽然长prompt下输出token减少19-34%，但输入成本翻倍导致整体费用大幅上升。",
       "published_at": "2026-05-09T06:30:00Z",
       "collected_at": "2026-05-09T06:30:00Z",
@@ -703,14 +793,18 @@
           "长 prompt 输出 token 减少 19-34%",
           "输入成本翻倍导致整体费用上升"
         ],
-        "tags": ["GPT-5.5", "Cost Analysis", "LLM Pricing"]
+        "tags": [
+          "GPT-5.5",
+          "Cost Analysis",
+          "LLM Pricing"
+        ]
       }
     },
     {
       "id": "hn-008",
       "title": "Teaching Claude Why",
       "source_url": "https://www.anthropic.com/research/teaching-claude-why",
-      "source_type": "hacker_news",
+      "source_type": "hn",
       "summary": "Anthropic 分享了如何通过「困难建议」数据集和宪法文档训练来对齐 Claude。通过教授伦理推理原则而非仅展示正确行为，AI 对齐效果提升 3 倍以上。",
       "published_at": "2026-05-09T06:30:00Z",
       "collected_at": "2026-05-09T06:30:00Z",
@@ -733,14 +827,18 @@
           "宪法文档用于 AI 对齐",
           "教授伦理推理而非仅展示正确行为"
         ],
-        "tags": ["Claude", "AI Alignment", "Anthropic Research"]
+        "tags": [
+          "Claude",
+          "AI Alignment",
+          "Anthropic Research"
+        ]
       }
     },
     {
       "id": "hn-009",
       "title": "All my clients wanted a carousel, now it's an AI chatbot",
       "source_url": "https://adele.pages.casa/md/blog/all-my-clients-wanted-a-carousel-now-it-s-an-ai-chatbot.md",
-      "source_type": "hacker_news",
+      "source_type": "hn",
       "summary": "设计师发现客户需求从传统的轮播图设计转变为 AI 聊天机器人界面。这一转变反映了 Web 设计行业对生成式 AI 的快速适应和客户期望的变化。",
       "published_at": "2026-05-09T06:30:00Z",
       "collected_at": "2026-05-09T06:30:00Z",
@@ -763,14 +861,18 @@
           "Web 设计行业对生成式 AI 的适应",
           "客户期望的变化趋势"
         ],
-        "tags": ["Web Design", "AI Chatbot", "Industry Trend"]
+        "tags": [
+          "Web Design",
+          "AI Chatbot",
+          "Industry Trend"
+        ]
       }
     },
     {
       "id": "hn-010",
       "title": "Can LLMs model real-world systems in TLA+?",
       "source_url": "https://www.sigops.org/2026/can-llms-model-real-world-systems-in-tla/",
-      "source_type": "hacker_news",
+      "source_type": "hn",
       "summary": "研究表明 LLMs 可以写出语法正确的 TLA+ 规范，但在系统行为一致性检验和不变式验证上表现不佳，平均仅 46% 和 41%。LLM 倾向于「复述教材」而非真正建模具体系统。",
       "published_at": "2026-05-09T06:30:00Z",
       "collected_at": "2026-05-09T06:30:00Z",
@@ -793,14 +895,18 @@
           "系统行为一致性检验仅 46%",
           "不变式验证仅 41%"
         ],
-        "tags": ["LLM", "TLA+", "Formal Verification"]
+        "tags": [
+          "LLM",
+          "TLA+",
+          "Formal Verification"
+        ]
       }
     },
     {
       "id": "hn-011",
       "title": "Boosting multimodal inference performance by >10% with a single Python dict",
       "source_url": "https://modal.com/blog/boosting-multimodal-inference-performance-by-greater-than-10-with-a-single-python-dictionary",
-      "source_type": "hacker_news",
+      "source_type": "hn",
       "summary": "Modal 通过添加简单的 Python dict 缓存 CUDA IPC 句柄，将 SGLang 多模态推理吞吐量提升 16%，首 token延迟降低 13%。该优化已合并入 SGLang v0.5.10。",
       "published_at": "2026-05-09T06:30:00Z",
       "collected_at": "2026-05-09T06:30:00Z",
@@ -823,7 +929,11 @@
           "SGLang 多模态推理吞吐量提升 16%",
           "首 token 延迟降低 13%"
         ],
-        "tags": ["Multimodal", "Performance Optimization", "SGLang"]
+        "tags": [
+          "Multimodal",
+          "Performance Optimization",
+          "SGLang"
+        ]
       }
     }
   ]

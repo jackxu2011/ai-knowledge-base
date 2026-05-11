@@ -2,7 +2,7 @@
   "id": "github-20260507-002",
   "title": "DeepSeek-TUI",
   "source_url": "https://github.com/Hmbown/DeepSeek-TUI",
-  "source_type": "github_trending",
+  "source_type": "github",
   "summary": "DeepSeek-TUI 是一个终端编码代理工具，支持 DeepSeek 系列模型，允许用户在终端中与 AI 助手进行交互式编程，提供代码补全、调试和项目管理功能，适合命令行爱好者。",
   "published_at": "2026-05-07T00:00:00Z",
   "collected_at": "2026-05-07T00:00:00Z",

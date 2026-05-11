@@ -2,7 +2,7 @@
   "id": "github-20260507-010",
   "title": "Scrapling",
   "source_url": "https://github.com/D4Vinci/Scrapling",
-  "source_type": "github_trending",
+  "source_type": "github",
   "summary": "Scrapling 是一个自适应网页爬取框架，支持从单次请求到大规模爬取的多种场景，具备智能解析和反爬规避能力，为数据采集提供了灵活的解决方案。",
   "published_at": "2026-05-07T00:00:00Z",
   "collected_at": "2026-05-07T00:00:00Z",

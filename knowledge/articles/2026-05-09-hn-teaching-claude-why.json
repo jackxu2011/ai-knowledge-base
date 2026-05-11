@@ -2,7 +2,7 @@
   "id": "hn-20260509-010",
   "title": "Teaching Claude Why",
   "source_url": "https://www.anthropic.com/research/teaching-claude-why",
-  "source_type": "hacker_news",
+  "source_type": "hn",
   "summary": "Anthropic 分享了如何通过「困难建议」数据集和宪法文档训练来对齐 Claude。通过教授伦理推理原则而非仅展示正确行为，AI 对齐效果提升 3 倍以上。",
   "published_at": "2026-05-09T06:30:00Z",
   "collected_at": "2026-05-09T06:30:00Z",

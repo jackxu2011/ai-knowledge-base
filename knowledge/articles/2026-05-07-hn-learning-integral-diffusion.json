@@ -2,7 +2,7 @@
   "id": "hn-20260507-002",
   "title": "Learning the Integral of a Diffusion Model",
   "source_url": "https://sander.ai/2026/05/06/flow-maps.html",
-  "source_type": "hacker_news",
+  "source_type": "hn",
   "summary": "这篇深度文章探讨了扩散模型的积分问题，介绍了 flow maps 技术在理解和改进扩散模型生成过程中的应用，涵盖了扩散模型的数学基础和实践优化方法。",
   "published_at": "2026-05-06T00:00:00Z",
   "collected_at": "2026-05-07T00:00:00Z",

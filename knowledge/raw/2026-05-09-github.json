@@ -1,5 +1,5 @@
 {
-  "source": "github_trending",
+  "source": "github",
   "collected_at": "2026-05-09T12:00:00Z",
   "items": [
     {
@@ -8,7 +8,11 @@
       "summary": "Superpowers 是一个 Claude Code 核心技能库，提供经过实战验证的 AI 编码能力提升方案，帮助开发者充分利用 Claude 的高级功能，值得关注是因为它是当前最受欢迎的 Claude 技能扩展之一。",
       "stars": 183000,
       "language": "Shell",
-      "topics": ["claude", "ai-agent", "coding-assistant"]
+      "topics": [
+        "claude",
+        "ai-agent",
+        "coding-assistant"
+      ]
     },
     {
       "title": "NousResearch/hermes-agent",
@@ -16,7 +20,11 @@
       "summary": "Hermes Agent 是一个自进化 AI 智能体框架，内置学习循环让 Agent 在使用过程中不断自我优化，值得关注是因为它代表了自主智能体技术的重要突破。",
       "stars": 138882,
       "language": "Python",
-      "topics": ["ai-agent", "self-evolving", "llm"]
+      "topics": [
+        "ai-agent",
+        "self-evolving",
+        "llm"
+      ]
     },
     {
       "title": "multica-ai/andrej-karpathy-skills",
@@ -24,7 +32,11 @@
       "summary": "Andrej Karpathy Skills 是一个 Claude Code 行为改进文档库，源自 Karpathy 对 LLM 编码陷阱的观察，值得关注是因为它集合了顶级 AI 专家的实战经验总结。",
       "stars": 120286,
       "language": null,
-      "topics": ["claude", "llm", "coding-best-practices"]
+      "topics": [
+        "claude",
+        "llm",
+        "coding-best-practices"
+      ]
     },
     {
       "title": "forrestchang/andrej-karpathy-skills",
@@ -32,7 +44,11 @@
       "summary": "Andrej Karpathy Skills 是一个 Claude Code 行为改进文档库，源自 Karpathy 对 LLM 编码陷阱的深度观察，值得关注是因为它能显著提升 AI 编码质量。",
       "stars": 120284,
       "language": null,
-      "topics": ["claude", "llm", "coding-best-practices"]
+      "topics": [
+        "claude",
+        "llm",
+        "coding-best-practices"
+      ]
     },
     {
       "title": "msitarzewski/agency-agents",
@@ -40,7 +56,11 @@
       "summary": "Agency Agents 是一个完整 AI 机构框架，每个代理都是具有个性、流程和可交付成果的专业专家，值得关注是因为它提供了企业级多代理协作的完整解决方案。",
       "stars": 93367,
       "language": null,
-      "topics": ["ai-agent", "multi-agent", "framework"]
+      "topics": [
+        "ai-agent",
+        "multi-agent",
+        "framework"
+      ]
     },
     {
       "title": "TauricResearch/TradingAgents",
@@ -48,7 +68,12 @@
       "summary": "TradingAgents 是一个多代理 LLM 金融交易框架，整合多个 AI 代理进行量化交易决策，值得关注是因为它展示了 AI Agent 在金融领域的实际应用潜力。",
       "stars": 71631,
       "language": "Python",
-      "topics": ["llm", "trading", "ai-agent", "finance"]
+      "topics": [
+        "llm",
+        "trading",
+        "ai-agent",
+        "finance"
+      ]
     },
     {
       "title": "mattpocock/skills",
@@ -56,7 +81,11 @@
       "summary": "Mattpocock Skills 是一个个人 Claude 技能目录，直接来自 .claude 目录的实战配置，值得关注是因为它是学习如何构建高效 AI 编码技能的参考范例。",
       "stars": 66250,
       "language": "Shell",
-      "topics": ["claude", "skills", "coding-assistant"]
+      "topics": [
+        "claude",
+        "skills",
+        "coding-assistant"
+      ]
     },
     {
       "title": "ruvnet/ruflo",
@@ -64,7 +93,11 @@
       "summary": "Ruflo 是一个 Claude 领先的代理编排平台，支持智能多主体群和自主工作流程协调，值得关注是因为它提供了企业级 RAG 集成和 Claude/Codex 原生支持。",
       "stars": 46676,
       "language": "TypeScript",
-      "topics": ["claude", "agent-orchestration", "rag"]
+      "topics": [
+        "claude",
+        "agent-orchestration",
+        "rag"
+      ]
     },
     {
       "title": "ruvnet/claude-flow",
@@ -72,7 +105,11 @@
       "summary": "Claude Flow 是一个 Claude 领先的代理编排平台，专注多主体群协调和对话式 AI 系统构建，值得关注是因为它在代理框架领域排名第一。",
       "stars": 46675,
       "language": "JavaScript",
-      "topics": ["claude", "agent-orchestration", "conversational-ai"]
+      "topics": [
+        "claude",
+        "agent-orchestration",
+        "conversational-ai"
+      ]
     },
     {
       "title": "farion1231/cc-switch",
@@ -80,7 +117,12 @@
       "summary": "CC-Switch 是一个跨平台桌面 AI 助理工具，连接 Claude Code、Codex 和 Gemini CLI，值得关注是因为它提供了多 AI 引擎的统一切换体验。",
       "stars": 63550,
       "language": "TypeScript",
-      "topics": ["claude", "cursor", "copilot", "ai-assistant"]
+      "topics": [
+        "claude",
+        "cursor",
+        "copilot",
+        "ai-assistant"
+      ]
     },
     {
       "title": "addyosmani/agent-skills",
@@ -88,7 +130,11 @@
       "summary": "Agent Skills 是 AI 编码代理的生产级工程技能集合，值得关注是因为它来自 Google 工程师的实战总结，具有极高的工程参考价值。",
       "stars": 34618,
       "language": "Shell",
-      "topics": ["ai-agent", "engineering", "production"]
+      "topics": [
+        "ai-agent",
+        "engineering",
+        "production"
+      ]
     },
     {
       "title": "Hmbown/DeepSeek-TUI",
@@ -96,7 +142,11 @@
       "summary": "DeepSeek-TUI 是一个在终端运行的 DeepSeek 编码代理，使用 Rust 开发注重性能，值得关注是因为它提供了轻量化的本地 AI 编码方案。",
       "stars": 21461,
       "language": "Rust",
-      "topics": ["deepseek", "tui", "coding-agent"]
+      "topics": [
+        "deepseek",
+        "tui",
+        "coding-agent"
+      ]
     },
     {
       "title": "anthropics/financial-services",
@@ -104,7 +154,11 @@
       "summary": "Anthropic Financial Services 是 Anthropic 官方的金融领域 AI 应用示例，值得关注是因为它展示了 Claude 在专业领域应用的可能性。",
       "stars": 14182,
       "language": "Python",
-      "topics": ["anthropic", "claude", "finance"]
+      "topics": [
+        "anthropic",
+        "claude",
+        "finance"
+      ]
     },
     {
       "title": "rtk-ai/rtk",
@@ -112,7 +166,11 @@
       "summary": "RTK 是一个 CLI 代理工具，可将常用开发命令的 LLM token 消耗减少 60-90%，值得关注的亮点是单一 Rust 二进制零依赖的设计。",
       "stars": 44611,
       "language": "Rust",
-      "topics": ["cli", "llm", "optimization"]
+      "topics": [
+        "cli",
+        "llm",
+        "optimization"
+      ]
     },
     {
       "title": "bytedance/UI-TARS-desktop",
@@ -120,7 +178,11 @@
       "summary": "UI-TARS-desktop 是字节跳动开源的多模态 AI 代理栈，连接尖端 AI 模型和代理基础设施，值得关注是因为它来自大厂的技术积累。",
       "stars": 30662,
       "language": "TypeScript",
-      "topics": ["multimodal", "ai-agent", "bytedance"]
+      "topics": [
+        "multimodal",
+        "ai-agent",
+        "bytedance"
+      ]
     },
     {
       "title": "decolua/9router",
@@ -128,7 +190,11 @@
       "summary": "9Router 通过 40+ 提供商连接多种 AI 编码工具，实现自动回退和 RTK-40% token 节省，值得关注是因为它解决了 AI 编码工具的 token 限额问题。",
       "stars": 5333,
       "language": "JavaScript",
-      "topics": ["ai-coding", "multi-provider", "token-optimization"]
+      "topics": [
+        "ai-coding",
+        "multi-provider",
+        "token-optimization"
+      ]
     }
   ]
 }
