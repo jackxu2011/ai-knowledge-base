@@ -1,0 +1,35 @@
+{
+  "id": "hn-20260507-005",
+  "title": "Show HN: Tilde.run – Agent sandbox with a transactional, versioned filesystem",
+  "source_url": "https://tilde.run/",
+  "source_type": "hacker_news",
+  "summary": "Tilde.run 是一个专为 AI 代理设计的沙箱环境，提供事务性版本文件系统，支持代理在隔离环境中安全执行代码和操作文件，解决了代理环境隔离和安全执行的核心问题。",
+  "published_at": "2026-05-07T00:00:00Z",
+  "collected_at": "2026-05-07T00:00:00Z",
+  "status": "draft",
+  "metadata": {
+    "stars": 0,
+    "author": "Tilde.run"
+  },
+  "analysis": {
+    "score": 8,
+    "scoring_reasons": "历史数据待补充",
+    "scoring_dimensions": {
+      "tech_depth": 7,
+      "innovation": 8,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "事务性版本文件系统保证操作原子性",
+      "为 AI 代理提供安全的隔离环境",
+      "支持文件操作的版本回溯",
+      "适用于开发和测试 AI 代理场景"
+    ]
+  },
+  "tags": [
+    "AI代理",
+    "沙箱",
+    "文件版本控制",
+    "开发者工具"
+  ]
+}

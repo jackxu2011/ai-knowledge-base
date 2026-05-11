@@ -1,0 +1,33 @@
+{
+  "id": "github-20260509-011",
+  "title": "mattpocock/skills",
+  "source_url": "https://github.com/mattpocock/skills",
+  "source_type": "github_trending",
+  "summary": "Mattpocock Skills 是一个个人 Claude 技能目录，直接来自 .claude 目录的实战配置，值得关注是因为它是学习如何构建高效 AI 编码技能的参考范例。",
+  "published_at": "2026-05-09T12:00:00Z",
+  "collected_at": "2026-05-09T12:00:00Z",
+  "status": "published",
+  "metadata": {
+    "stars": 66250,
+    "author": "mattpocock"
+  },
+  "analysis": {
+    "score": 6,
+    "scoring_reasons": "66k 星标，来自Matt Pocock的实战技能目录；提供真实的 .claude 配置参考，对于学习 Claude 技能构建很有帮助，但创新性相对一般。",
+    "scoring_dimensions": {
+      "tech_depth": 6,
+      "innovation": 5,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "个人 Claude 技能目录",
+      "直接来自 .claude 目录实战配置",
+      "学习构建高效 AI 编码技能的参考"
+    ]
+  },
+  "tags": [
+    "Claude",
+    "Skills",
+    "Coding Assistant"
+  ]
+}

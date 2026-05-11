@@ -24,7 +24,7 @@ allowed-tools:
 4. **去重**：基于 URL 去重，避免重复采集相同内容
 5. **撰写中文摘要**：使用公式「标题 + 核心内容 + 为什么值得关注」生成中文摘要
 6. **排序取 Top 20**：按 score 降序排列，取前 20 个最具价值的条目
-7. **输出 JSON**：将处理结果以 JSON 格式保存到 `knowledge/raw/YYYY-MM-DD-hacker_news.json`
+7. **输出 JSON**：将处理结果以 JSON 格式保存到 `knowledge/raw/YYYY-MM-DD-hn.json`
 
 ## 注意事项
 
@@ -37,7 +37,7 @@ allowed-tools:
 
 ```json
 {
-  "source": "hacker_news",
+  "source": "hn",
   "collected_at": "2026-05-09T12:00:00Z",
   "items": [
     {

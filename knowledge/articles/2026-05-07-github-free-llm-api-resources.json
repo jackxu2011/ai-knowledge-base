@@ -1,0 +1,35 @@
+{
+  "id": "github-20260507-005",
+  "title": "free-llm-api-resources",
+  "source_url": "https://github.com/cheahjs/free-llm-api-resources",
+  "source_type": "github_trending",
+  "summary": "free-llm-api-resources 是一个免费大语言模型 API 资源列表，收录了多种可通过 API 访问的免费 LLM 推理服务，帮助开发者降低 AI 应用开发成本。",
+  "published_at": "2026-05-07T00:00:00Z",
+  "collected_at": "2026-05-07T00:00:00Z",
+  "status": "draft",
+  "metadata": {
+    "stars": 20778,
+    "author": "cheahjs"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "历史数据待补充",
+    "scoring_dimensions": {
+      "tech_depth": 4,
+      "innovation": 6,
+      "usability": 9
+    },
+    "technical_highlights": [
+      "汇总多种免费 LLM API",
+      "帮助开发者节省 API 费用",
+      "持续更新新的免费资源",
+      "推动 AI 应用的普及"
+    ]
+  },
+  "tags": [
+    "LLM",
+    "API资源",
+    "免费",
+    "开发者资源"
+  ]
+}

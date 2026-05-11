@@ -1,0 +1,33 @@
+{
+  "id": "github-20260509-006",
+  "title": "anthropics/financial-services",
+  "source_url": "https://github.com/anthropics/financial-services",
+  "source_type": "github_trending",
+  "summary": "Anthropic Financial Services 是 Anthropic 官方的金融领域 AI 应用示例，值得关注是因为它展示了 Claude 在专业领域应用的可能性。",
+  "published_at": "2026-05-09T12:00:00Z",
+  "collected_at": "2026-05-09T12:00:00Z",
+  "status": "published",
+  "metadata": {
+    "stars": 14182,
+    "author": "anthropics"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "14k 星标，Anthropic 官方金融领域示例；展示 Claude 在专业领域的应用可能，虽然星标不高，但作为官方示例具有指导和参考价值。",
+    "scoring_dimensions": {
+      "tech_depth": 7,
+      "innovation": 7,
+      "usability": 7
+    },
+    "technical_highlights": [
+      "Anthropic 官方金融领域 AI 应用",
+      "展示 Claude 专业领域应用可能性",
+      "官方示例具有指导参考价值"
+    ]
+  },
+  "tags": [
+    "Anthropic",
+    "Claude",
+    "Finance"
+  ]
+}

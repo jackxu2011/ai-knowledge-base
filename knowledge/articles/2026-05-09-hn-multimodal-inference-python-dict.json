@@ -1,0 +1,34 @@
+{
+  "id": "hn-20260509-008",
+  "title": "Boosting multimodal inference performance by >10% with a single Python dict",
+  "source_url": "https://modal.com/blog/boosting-multimodal-inference-performance-by-greater-than-10-with-a-single-python-dictionary",
+  "source_type": "hacker_news",
+  "summary": "Modal 通过添加简单的 Python dict 缓存 CUDA IPC 句柄，将 SGLang 多模态推理吞吐量提升 16%，首 token延迟降低 13%。该优化已合并入 SGLang v0.5.10。",
+  "published_at": "2026-05-09T06:30:00Z",
+  "collected_at": "2026-05-09T06:30:00Z",
+  "status": "published",
+  "metadata": {
+    "score": 13,
+    "comments": 0,
+    "author": "jxmorris12"
+  },
+  "analysis": {
+    "score": 6,
+    "scoring_reasons": "13 分，技术优化案例；通过简单 Python dict 缓存实现多模态推理 16% 吞吐量提升，技术实用但分数较低，社区关注度有限，已合并入 SGLang 主线。",
+    "scoring_dimensions": {
+      "tech_depth": 7,
+      "innovation": 6,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "Python dict 缓存 CUDA IPC 句柄",
+      "SGLang 多模态推理吞吐量提升 16%",
+      "首 token 延迟降低 13%"
+    ]
+  },
+  "tags": [
+    "Multimodal",
+    "Performance Optimization",
+    "SGLang"
+  ]
+}

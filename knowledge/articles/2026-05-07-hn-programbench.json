@@ -1,0 +1,35 @@
+{
+  "id": "hn-20260507-004",
+  "title": "ProgramBench: Can Language Models Rebuild Programs from Scratch?",
+  "source_url": "https://arxiv.org/abs/2605.03546",
+  "source_type": "hacker_news",
+  "summary": "ProgramBench 是一项研究大语言模型是否能够从零重建程序的研究工作，通过系统性测试探讨 LLM 在代码生成、重构和逆向工程方面的能力边界，为理解 LLMs 的代码理解提供基准。",
+  "published_at": "2026-05-07T00:00:00Z",
+  "collected_at": "2026-05-07T00:00:00Z",
+  "status": "draft",
+  "metadata": {
+    "stars": 0,
+    "author": "ArXiv"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "历史数据待补充",
+    "scoring_dimensions": {
+      "tech_depth": 9,
+      "innovation": 7,
+      "usability": 4
+    },
+    "technical_highlights": [
+      "探讨 LLM 从零重建程序的能力",
+      "建立代码生成的学术基准",
+      "测试模型的逆向工程能力",
+      "推动代码生成领域的研究"
+    ]
+  },
+  "tags": [
+    "LLM",
+    "代码生成",
+    "学术研究",
+    "基准测试"
+  ]
+}

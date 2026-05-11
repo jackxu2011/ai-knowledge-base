@@ -1,0 +1,33 @@
+{
+  "id": "github-20260509-003",
+  "title": "bytedance/UI-TARS-desktop",
+  "source_url": "https://github.com/bytedance/UI-TARS-desktop",
+  "source_type": "github_trending",
+  "summary": "UI-TARS-desktop 是字节跳动开源的多模态 AI 代理栈，连接尖端 AI 模型和代理基础设施，值得关注是因为它来自大厂的技术积累。",
+  "published_at": "2026-05-09T12:00:00Z",
+  "collected_at": "2026-05-09T12:00:00Z",
+  "status": "published",
+  "metadata": {
+    "stars": 30662,
+    "author": "bytedance"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "30k 星标，字节跳动的多模态 AI 代理栈；来自大厂的技术积累，连接尖端 AI 模型和代理基础设施，具有较高的技术含量和参考价值。",
+    "scoring_dimensions": {
+      "tech_depth": 8,
+      "innovation": 7,
+      "usability": 7
+    },
+    "technical_highlights": [
+      "字节跳动开源的多模态 AI 代理栈",
+      "连接尖端 AI 模型和代理基础设施",
+      "大厂技术积累的体现"
+    ]
+  },
+  "tags": [
+    "Multimodal",
+    "AI Agent",
+    "ByteDance"
+  ]
+}

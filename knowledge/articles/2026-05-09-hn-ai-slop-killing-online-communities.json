@@ -1,0 +1,34 @@
+{
+  "id": "hn-20260509-002",
+  "title": "AI slop is killing online communities",
+  "source_url": "https://rmoff.net/2026/05/06/ai-slop-is-killing-online-communities/",
+  "source_type": "hacker_news",
+  "summary": "AI 生成的低质量内容正在污染在线社区，Stack Overflow 等平台充斥着 AI 生成的错误答案，导致讨论质量下降。内容农场和 SEO 优化内容正在取代真实的用户贡献。",
+  "published_at": "2026-05-09T06:30:00Z",
+  "collected_at": "2026-05-09T06:30:00Z",
+  "status": "published",
+  "metadata": {
+    "score": 817,
+    "comments": 707,
+    "author": "thm"
+  },
+  "analysis": {
+    "score": 8,
+    "scoring_reasons": "817 分高热度的社会观察文章；揭示 AI 生成内容对在线社区的负面影响，引发技术社区的广泛讨论和共鸣，具有较强的社会影响力。",
+    "scoring_dimensions": {
+      "tech_depth": 7,
+      "innovation": 6,
+      "usability": 9
+    },
+    "technical_highlights": [
+      "AI 低质量内容污染在线社区",
+      "Stack Overflow 等平台质量下降问题",
+      "内容农场取代真实用户贡献"
+    ]
+  },
+  "tags": [
+    "AI Content",
+    "Online Communities",
+    "Quality Decline"
+  ]
+}

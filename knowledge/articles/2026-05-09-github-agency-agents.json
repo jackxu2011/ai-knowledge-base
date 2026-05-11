@@ -1,0 +1,33 @@
+{
+  "id": "github-20260509-004",
+  "title": "msitarzewski/agency-agents",
+  "source_url": "https://github.com/msitarzewski/agency-agents",
+  "source_type": "github_trending",
+  "summary": "Agency Agents 是一个完整 AI 机构框架，每个代理都是具有个性、流程和可交付成果的专业专家，值得关注是因为它提供了企业级多代理协作的完整解决方案。",
+  "published_at": "2026-05-09T12:00:00Z",
+  "collected_at": "2026-05-09T12:00:00Z",
+  "status": "published",
+  "metadata": {
+    "stars": 93367,
+    "author": "msitarzewski"
+  },
+  "analysis": {
+    "score": 8,
+    "scoring_reasons": "93k 星标，企业级多代理协作框架；每个代理都有专业个性和流程设计，提供完整的可交付成果，这种架构设计对企业应用场景非常有价值。",
+    "scoring_dimensions": {
+      "tech_depth": 8,
+      "innovation": 7,
+      "usability": 9
+    },
+    "technical_highlights": [
+      "完整 AI 机构框架",
+      "专业代理具有个性、流程和可交付成果",
+      "企业级多代理协作解决方案"
+    ]
+  },
+  "tags": [
+    "AI Agent",
+    "Multi-Agent",
+    "Framework"
+  ]
+}
