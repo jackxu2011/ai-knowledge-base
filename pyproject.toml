@@ -1,7 +1,30 @@
 [project]
 name = "ai-knowledge-base"
 version = "0.1.0"
-description = "Add your description here"
+description = "AI 知识库助手 — AI-driven technical knowledge base"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "black>=26.3.1",
+    "openai>=2.36.0",
+    "python-dotenv>=1.1.0",
+    "ruff>=0.15.12",
+]
+
+[project.scripts]
+ai-knowledge-base = "main:main"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["constants", "pipeline"]
+py-modules = ["main"]
+package-dir = {"" = "src"}
+
+[[tool.uv.index]]
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+default = true
+
+

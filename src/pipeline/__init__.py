@@ -1,0 +1,1 @@
+"""Pipeline module — LLM client and data processing utilities."""
