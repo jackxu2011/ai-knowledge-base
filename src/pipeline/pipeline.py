@@ -47,6 +47,7 @@ from typing import Any
 import httpx
 
 from constants.analyzers import DEFAULT_MIN_SCORE
+from constants.organizers import STATUS_DRAFT
 
 try:
     # Absolute import — works when the package is installed or
@@ -965,7 +966,7 @@ def _format_article(item: dict[str, Any]) -> dict[str, Any]:
         "summary": item.get("summary", ""),
         "published_at": item.get("collected_date", _today_str()),
         "collected_at": now_iso,
-        "status": "pending",
+        "status": STATUS_DRAFT,
         "metadata": item.get("metadata", {}),
         "analysis": {
             "score": analysis.get("score", 5),
