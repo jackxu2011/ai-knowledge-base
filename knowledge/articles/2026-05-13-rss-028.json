@@ -1,0 +1,34 @@
+{
+  "id": "rss-20260513-028",
+  "title": "Learning on the Shop floor",
+  "source_url": "https://simonwillison.net/2026/May/11/learning-on-the-shop-floor/#atom-everything",
+  "source_type": "rss",
+  "summary": "Shopify CEO Tobias Lütke介绍内部AI编程助手River，其强制在公开Slack频道运行，禁止私聊。这种设计将工作流转化为“教学车间”，实现全员可见的渗透式学习。通过公开交互，员工可围观、协作并从他人经验中学习，类似Midjourney的公共Discord模式。该实践强调透明度与集体智慧，为AI时代的企业知识共享和团队协同提供了创新范式。",
+  "published_at": "2026-05-13",
+  "collected_at": "2026-05-13T09:22:24.819611+00:00",
+  "status": "pending",
+  "metadata": {
+    "feed_name": "Simon Willison",
+    "feed_url": "https://simonwillison.net/atom/everything/"
+  },
+  "analysis": {
+    "score": 8,
+    "scoring_reasons": "该案例展示了AI Agent在企业协作中的创新应用模式，不仅提升了编码效率，更重构了组织学习机制。其‘强制公开’的设计巧妙解决了AI黑盒问题，促进了知识沉淀与传播，具有极高的管理借鉴意义和实用价值，虽非底层技术突破，但对行业工作流变革有直接启发。",
+    "scoring_dimensions": {
+      "tech_depth": 6,
+      "innovation": 9,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "强制公开交互机制：AI Agent仅在公共频道响应，确保所有对话可搜索、可围观，促进知识透明化。",
+      "渗透式学习范式：通过‘教学车间’模式，让员工在观察他人使用AI的过程中自然习得技能，无需专门培训。"
+    ]
+  },
+  "tags": [
+    "AI Agent",
+    "企业协作",
+    "组织学习",
+    "Shopify",
+    "知识管理"
+  ]
+}

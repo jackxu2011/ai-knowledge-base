@@ -1,0 +1,29 @@
+{
+  "id": "rss-20260513-003",
+  "title": "Why senior developers fail to communicate their expertise",
+  "source_url": "https://www.nair.sh/guides-and-opinions/communicating-your-expertise/why-senior-developers-fail-to-communicate-their-expertise",
+  "source_type": "rss",
+  "summary": "该内容仅包含标题及空泛的评论标识，缺乏实质性的技术描述、案例分析或解决方案。虽然“资深开发者沟通障碍”是软件工程中的常见软技能话题，但当前输入未提供任何具体见解、数据支持或方法论，无法构成有效的技术分析或知识分享，信息密度极低，不具备实际参考价值。",
+  "published_at": "2026-05-13",
+  "collected_at": "2026-05-13T09:22:24.819410+00:00",
+  "status": "pending",
+  "metadata": {
+    "feed_name": "Hacker News",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 1,
+    "scoring_reasons": "输入内容几乎为空，仅有标题而无正文，缺乏任何实质性信息。既无技术深度，也无创新点或实用性，属于无效或低质量内容，符合‘可略过’标准。",
+    "scoring_dimensions": {
+      "tech_depth": 0,
+      "innovation": 0,
+      "usability": 0
+    },
+    "technical_highlights": []
+  },
+  "tags": [
+    "软技能",
+    "职场沟通",
+    "内容缺失"
+  ]
+}

@@ -2,3 +2,4 @@
 
 SOURCE_TYPE_GITHUB = "github"
 SOURCE_TYPE_HN = "hn"
+SOURCE_TYPE_RSS = "rss"

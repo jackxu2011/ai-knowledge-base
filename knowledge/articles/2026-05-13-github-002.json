@@ -1,0 +1,48 @@
+{
+  "id": "github-20260513-002",
+  "title": "atlas-2192/AI-Agent-Framework",
+  "source_url": "https://github.com/atlas-2192/AI-Agent-Framework",
+  "source_type": "github",
+  "summary": "该项目是一个基于Python的AI Agent框架。当前信息仅提供了基础名称与分类描述，缺乏架构设计、核心功能、应用场景或性能对比等关键细节。在AI智能体技术快速发展的背景下，此类框架通常旨在简化多步骤任务编排、工具调用与记忆管理，开发者可关注其后续文档与社区更新以评估实际可用性。",
+  "published_at": "2026-05-13",
+  "collected_at": "2026-05-13T08:43:05.522274+00:00",
+  "status": "pending",
+  "metadata": {
+    "stars": 14,
+    "author": "atlas-2192",
+    "topics": [
+      "actor-model",
+      "agent",
+      "ai",
+      "ai-agent",
+      "api",
+      "artificial-intelligence",
+      "autonomous-agent",
+      "framework",
+      "llm",
+      "machine-learning",
+      "python"
+    ],
+    "language": "Python",
+    "fork": false
+  },
+  "analysis": {
+    "score": 5,
+    "scoring_reasons": "提供的信息极为简略，仅包含仓库名称和基础描述，缺乏架构设计、核心特性、性能指标或创新点等关键细节。虽然AI Agent框架是当前热点且Python生态成熟，但基于现有信息无法判断其技术深度与实际价值，故评为值得了解。",
+    "scoring_dimensions": {
+      "tech_depth": 4,
+      "innovation": 5,
+      "usability": 6
+    },
+    "technical_highlights": [
+      "基于Python生态，便于快速集成与二次开发",
+      "聚焦AI Agent范式，支持任务规划、工具调用与状态管理"
+    ]
+  },
+  "tags": [
+    "AI Agent",
+    "Python框架",
+    "智能体开发",
+    "自动化编排"
+  ]
+}

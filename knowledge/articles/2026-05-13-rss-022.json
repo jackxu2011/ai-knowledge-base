@@ -1,0 +1,33 @@
+{
+  "id": "rss-20260513-022",
+  "title": "Quoting Mitchell Hashimoto",
+  "source_url": "https://simonwillison.net/2026/May/12/mitchell-hashimoto/#atom-everything",
+  "source_type": "rss",
+  "summary": "Mitchell Hashimoto 指出，多数技术决策者（TDM）的核心动机是职业安全而非技术创新。他们倾向于追随 Gartner 或 McKinsey 等权威机构定义的世俗趋势（如当前的“AI战略”），以规避风险。这一观点深刻揭示了企业级软件营销的本质：通过迎合主流叙事和分析师建议来建立产品的“防御性”，从而驱动采购决策，而非单纯依靠技术优越性。",
+  "published_at": "2026-05-13",
+  "collected_at": "2026-05-13T09:22:24.819559+00:00",
+  "status": "pending",
+  "metadata": {
+    "feed_name": "Simon Willison",
+    "feed_url": "https://simonwillison.net/atom/everything/"
+  },
+  "analysis": {
+    "score": 8,
+    "scoring_reasons": "该观点虽非具体代码或架构技术，但深刻洞察了AI及软件行业的商业落地逻辑与决策心理。对于理解技术选型背后的非技术因素、制定有效的ToB营销策略具有极高的实用价值和启发性，直接有助于从业者调整预期和策略。",
+    "scoring_dimensions": {
+      "tech_depth": 6,
+      "innovation": 7,
+      "usability": 9
+    },
+    "technical_highlights": [
+      "揭示TDM以“避免被解雇”为核心的保守决策心理",
+      "阐明利用Gartner/McKinsey等权威背书构建产品市场防御性的策略"
+    ]
+  },
+  "tags": [
+    "技术管理",
+    "市场营销",
+    "行业洞察",
+    "AI战略"
+  ]
+}

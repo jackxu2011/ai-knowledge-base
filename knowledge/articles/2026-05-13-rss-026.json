@@ -1,0 +1,33 @@
+{
+  "id": "rss-20260513-026",
+  "title": "Your AI Use Is Breaking My Brain",
+  "source_url": "https://simonwillison.net/2026/May/11/zombie-internet/#atom-everything",
+  "source_type": "rss",
+  "summary": "文章探讨了生成式AI内容泛滥对互联网生态及人类认知的负面影响，提出“僵尸互联网”概念。指出当前网络不仅是机器人互聊，更是人与AI、AI与人之间的复杂混合交互，导致信息过滤疲惫及人类写作风格异化。该现象揭示了AI滥用带来的伦理危机和信息污染问题，强调了区分真实人类内容与AI生成内容的紧迫性。",
+  "published_at": "2026-05-13",
+  "collected_at": "2026-05-13T09:22:24.819594+00:00",
+  "status": "pending",
+  "metadata": {
+    "feed_name": "Simon Willison",
+    "feed_url": "https://simonwillison.net/atom/everything/"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该内容由知名科技记者撰写，提出了具有洞察力的社会学概念（僵尸互联网），深刻揭示了AI技术落地后的负面外部性。虽然不涉及底层技术突破，但对理解AI时代的信息生态、伦理挑战及用户心理极具参考价值，属于高价值的行业观察与伦理反思。",
+    "scoring_dimensions": {
+      "tech_depth": 4,
+      "innovation": 7,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "提出“僵尸互联网”概念，精准定义人机混合交互的新型网络生态",
+      "深入分析AI内容泛滥导致的认知负荷增加及人类表达风格异化现象"
+    ]
+  },
+  "tags": [
+    "AI伦理",
+    "生成式AI",
+    "互联网生态",
+    "社会影响"
+  ]
+}

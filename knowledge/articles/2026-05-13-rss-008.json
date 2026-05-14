@@ -1,0 +1,35 @@
+{
+  "id": "rss-20260513-008",
+  "title": "RankQ: Offline-to-Online Reinforcement Learning via Self-Supervised Action Ranking",
+  "source_url": "https://arxiv.org/abs/2605.11151",
+  "source_type": "rss",
+  "summary": "RankQ提出一种离线到在线强化学习新范式，通过自监督动作排序损失替代传统的悲观主义约束。该方法学习相对动作偏好而非均匀惩罚分布外动作，有效解决值函数高估问题并促进策略优化。在D4RL基准测试中表现优异，且在视觉机器人学习中显著提升VLA模型的微调效果，仿真成功率提升42.7%，实世界任务成功率从43.1%增至84.7%，展现了极强的样本效率和Sim-to-Real迁移能力。",
+  "published_at": "2026-05-13",
+  "collected_at": "2026-05-13T09:22:24.819457+00:00",
+  "status": "pending",
+  "metadata": {
+    "feed_name": "ArXiv",
+    "feed_url": "https://rss.arxiv.org/rss/cs.AI"
+  },
+  "analysis": {
+    "score": 9,
+    "scoring_reasons": "该技术在强化学习与具身智能结合领域具有突破性。它解决了离线RL中悲观约束限制策略提升的核心痛点，并在低数据和高数据场景下均显著超越现有SOTA方法，特别是大幅提升了VLA模型的现实部署成功率，具备引领行业趋势的潜力。",
+    "scoring_dimensions": {
+      "tech_depth": 9,
+      "innovation": 9,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "引入自监督多项排序损失以结构化动作顺序，替代传统OOD惩罚机制",
+      "在低数据 regime 下使VLA模型仿真成功率比次优方法高出42.7%",
+      "实现显著的Sim-to-Real迁移，真实世界立方体堆叠成功率提升至84.7%"
+    ]
+  },
+  "tags": [
+    "强化学习",
+    "离线到在线学习",
+    "具身智能",
+    "VLA模型",
+    "自监督学习"
+  ]
+}

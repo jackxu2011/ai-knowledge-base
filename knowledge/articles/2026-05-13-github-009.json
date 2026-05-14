@@ -1,0 +1,56 @@
+{
+  "id": "github-20260513-009",
+  "title": "BurnyCoder/wikipedia-ai-agent",
+  "source_url": "https://github.com/BurnyCoder/wikipedia-ai-agent",
+  "source_type": "github",
+  "summary": "该项目是一款基于维基百科的AI研究助手，集成LangGraph的ReAct架构、多模型支持与FAISS向量库，实现RAG及GraphRAG。通过语义分块优化检索，提供终端与Streamlit双端界面，为信息调研提供开箱即用的工程化解决方案。",
+  "published_at": "2026-05-13",
+  "collected_at": "2026-05-13T08:43:05.522341+00:00",
+  "status": "pending",
+  "metadata": {
+    "stars": 2,
+    "author": "BurnyCoder",
+    "topics": [
+      "agent",
+      "agents",
+      "ai",
+      "artificial-intelligence",
+      "claude",
+      "deep-learning",
+      "faiss",
+      "gemini",
+      "gpt-4",
+      "langchain",
+      "langgraph",
+      "large-language-model",
+      "large-language-models",
+      "llm",
+      "llms",
+      "machine-learning",
+      "openai",
+      "rag",
+      "retrieval-augmented-generation",
+      "vector-database"
+    ],
+    "language": "Python",
+    "fork": false
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "技术栈组合成熟且工程实现完整，ReAct智能体与GraphRAG的结合有效提升了复杂查询的准确性与推理深度，多LLM适配与双端交互大幅降低使用门槛。但整体属于成熟框架的集成应用，缺乏底层算法或架构层面的原创突破，符合直接提升工作效率的实用型工具定位。",
+    "scoring_dimensions": {
+      "tech_depth": 8,
+      "innovation": 6,
+      "usability": 9
+    },
+    "technical_highlights": [
+      "融合LangGraph ReAct架构与GraphRAG，实现动态任务分解与知识图谱增强检索",
+      "支持OpenAI/Anthropic/Google等多模型切换，并提供终端与Streamlit网页双端交互"
+    ]
+  },
+  "tags": [
+    "AI Agent",
+    "GraphRAG",
+    "LangGraph"
+  ]
+}

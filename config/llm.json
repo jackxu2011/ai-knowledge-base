@@ -1,0 +1,15 @@
+{
+  "qwen": {
+    "extra_body": {
+      "enable_thinking": false
+    }
+  },
+  "deepseek": {
+    "extra_body": {
+      "enable_thinking": false
+    }
+  },
+  "openai": {
+    "extra_body": {}
+  }
+}

@@ -13,11 +13,13 @@ Examples:
 """
 
 import asyncio
+import json
 import logging
 import os
 import random
 from abc import ABC, abstractmethod
 from dataclasses import dataclass, field
+from pathlib import Path
 from typing import Any
 
 import openai
@@ -34,6 +36,40 @@ from constants.llm import (
 )
 
 logger = logging.getLogger(__name__)
+
+# ── LLM config ───────────────────────────────────────────────────────────────
+LLM_CONFIG_PATH = Path("config/llm.json")
+
+
+def load_llm_config() -> dict[str, Any]:
+    """Load per-provider LLM configuration from ``config/llm.json``.
+
+    Returns:
+        Dict keyed by provider name (e.g. ``"qwen"``, ``"deepseek"``),
+        each containing ``extra_body`` and other provider-specific settings.
+        Returns an empty dict if the config file is missing or unreadable.
+    """
+    try:
+        if not LLM_CONFIG_PATH.exists():
+            logger.info(
+                "LLM config not found at %s, using defaults (no extra_body)",
+                LLM_CONFIG_PATH,
+            )
+            return {}
+
+        with open(LLM_CONFIG_PATH) as f:
+            config = json.load(f)
+            if not isinstance(config, dict):
+                logger.warning("LLM config must be a dict, ignoring")
+                return {}
+            return config
+    except (json.JSONDecodeError, OSError) as exc:
+        logger.warning(
+            "Failed to load LLM config from %s: %s. Using defaults.",
+            LLM_CONFIG_PATH,
+            exc,
+        )
+        return {}
 
 _RETRIABLE_EXCEPTIONS = (
     openai.RateLimitError,
@@ -188,6 +224,7 @@ class OpenAICompatibleProvider(LLMProvider):
         model: str,
         provider_name: str = PROVIDER_OPENAI,
         timeout: float = 60.0,
+        extra_body: dict[str, Any] | None = None,
     ):
         """Initialize OpenAI-compatible provider.
 
@@ -197,12 +234,16 @@ class OpenAICompatibleProvider(LLMProvider):
             model: Model name to use.
             provider_name: Provider identifier for pricing.
             timeout: Request timeout in seconds.
+            extra_body: Additional provider-specific parameters merged into
+                each API call (e.g. ``{"thinking": {"type": "off"}}`` for
+                Qwen to disable thinking mode).
         """
         self._client = openai.AsyncOpenAI(
             api_key=api_key, base_url=base_url, timeout=timeout
         )
         self._model = model
         self._provider = provider_name
+        self._extra_body = extra_body or {}
 
     async def chat(self, messages: list[dict[str, str]], **kwargs: Any) -> LLMResponse:
         """Send chat request to LLM.
@@ -216,12 +257,20 @@ class OpenAICompatibleProvider(LLMProvider):
         """
         max_tokens = kwargs.pop("max_tokens", DEFAULT_MAX_OUTPUT_TOKENS)
 
-        response = await self._client.chat.completions.create(
-            model=self._model,
-            messages=messages,
-            max_tokens=max_tokens,
+        # Merge per-call kwargs with provider-level extra_body.
+        call_extra_body = kwargs.pop("extra_body", None) or {}
+        merged_extra_body = {**self._extra_body, **call_extra_body}
+
+        create_kwargs: dict[str, Any] = {
+            "model": self._model,
+            "messages": messages,
+            "max_tokens": max_tokens,
             **kwargs,
-        )
+        }
+        if merged_extra_body:
+            create_kwargs["extra_body"] = merged_extra_body
+
+        response = await self._client.chat.completions.create(**create_kwargs)
 
         usage = Usage()
         if response.usage is not None:
@@ -300,12 +349,27 @@ def create_llm_client(provider: str | None = None) -> LLMProvider:
 
     api_key = _get_api_key(provider)
 
+    llm_config = load_llm_config()
+    provider_config = llm_config.get(provider, {})
+    extra_body = provider_config.get("extra_body")
+
+    # Environment variable override for thinking mode.
+    # ENABLE_THINKING=true  → enable_thinking=true (模型输出思考过程)
+    # ENABLE_THINKING=false → enable_thinking=false (默认，节省 token)
+    # 不设置 → 使用 config/llm.json 中的配置
+    enable_thinking_env = os.environ.get("ENABLE_THINKING")
+    if enable_thinking_env is not None:
+        if extra_body is None:
+            extra_body = {}
+        extra_body["enable_thinking"] = enable_thinking_env.lower() == "true"
+
     client = OpenAICompatibleProvider(
         api_key=api_key,
         base_url=PROVIDER_BASE_URLS[provider],
         model=PROVIDER_MODELS[provider],
         provider_name=provider,
         timeout=60.0,
+        extra_body=extra_body,
     )
     _client_cache[provider] = client
     return client

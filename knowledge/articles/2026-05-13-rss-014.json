@@ -1,0 +1,34 @@
+{
+  "id": "rss-20260513-014",
+  "title": "The Semantic Training Gap: Ontology-Grounded Tool Architectures for Industrial AI Agent Systems",
+  "source_url": "https://arxiv.org/abs/2605.11234",
+  "source_type": "rss",
+  "summary": "该论文针对工业AI Agent存在的“语义训练差距”问题，提出了一种基于本体论的工具架构。通过将制造本体嵌入AI工具层并在运行时强制语义约束，有效解决了模型虽语言精确但操作语义错误的问题。实验显示，该方法将领域标识符的幻觉率从43%降至0%，并通过数字孪生平台验证了其跨域可配置性，显著提升了工业AI系统的可靠性与落地价值。",
+  "published_at": "2026-05-13",
+  "collected_at": "2026-05-13T09:22:24.819514+00:00",
+  "status": "pending",
+  "metadata": {
+    "feed_name": "ArXiv",
+    "feed_url": "https://rss.arxiv.org/rss/cs.AI"
+  },
+  "analysis": {
+    "score": 8,
+    "scoring_reasons": "该研究直击工业AI落地的核心痛点（幻觉与语义错位），提出了具有高度实用价值的架构方案。实验数据极具说服力（幻觉率降为0%），且无需修改应用代码即可实现跨域配置，极大提升了工程效率与系统稳定性，属于直接提升工作质量的突破性实践。",
+    "scoring_dimensions": {
+      "tech_depth": 8,
+      "innovation": 7,
+      "usability": 9
+    },
+    "technical_highlights": [
+      "提出‘语义训练差距’概念并形式化，揭示统计 fluency 与操作语义之间的结构性断裂",
+      "通过本体嵌入工具层及‘resolve-contextualize-annotate’接口契约，实现运行时语义约束，彻底消除工具调用幻觉"
+    ]
+  },
+  "tags": [
+    "工业AI",
+    "知识本体",
+    "Agent架构",
+    "幻觉抑制",
+    "数字孪生"
+  ]
+}

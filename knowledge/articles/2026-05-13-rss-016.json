@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260513-016",
+  "title": "Popular Go library fsnotify raises supply chain alarms after maintainer access changes",
+  "source_url": "https://socket.dev/blog/fsnotify-maintainer-dispute-sparks-supply-chain-concerns",
+  "source_type": "rss",
+  "summary": "Go语言中广泛使用的文件系统监控库fsnotify因维护者权限变更引发供应链安全警报。该事件凸显了开源项目维护权交接过程中的潜在风险，提醒开发者关注依赖库的治理结构与安全审计。虽然未涉及直接代码漏洞，但维护者身份的突变可能影响未来更新的可靠性与安全性，是典型的软件供应链信任危机案例，值得社区警惕并加强对此类基础设施项目的监管与备份机制。",
+  "published_at": "2026-05-13",
+  "collected_at": "2026-05-13T09:22:24.819531+00:00",
+  "status": "pending",
+  "metadata": {
+    "feed_name": "Lobsters",
+    "feed_url": "https://lobste.rs/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该事件属于重要的软件供应链安全警示，直接影响大量Go语言开发者的依赖管理策略。虽非技术突破，但对提升行业安全意识、推动开源治理规范化具有直接且实用的参考价值，符合‘直接有帮助’的评分标准。",
+    "scoring_dimensions": {
+      "tech_depth": 6,
+      "innovation": 4,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "揭示开源库维护者权限变更带来的供应链信任风险",
+      "强调对核心基础设施依赖进行安全审计与治理监控的重要性"
+    ]
+  },
+  "tags": [
+    "供应链安全",
+    "开源治理",
+    "Go语言"
+  ]
+}

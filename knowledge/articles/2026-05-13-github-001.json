@@ -1,0 +1,54 @@
+{
+  "id": "github-20260513-001",
+  "title": "operand/agency",
+  "source_url": "https://github.com/operand/agency",
+  "source_type": "github",
+  "summary": "operand/agency 是一款专注于构建智能体（Agentic）系统的轻量级框架，主打“快速”与“极简”设计理念。相较于市面上功能繁杂的Agent开发库，该框架通过精简核心架构与优化执行链路，显著降低了系统开销，提升了任务调度与推理响应速度。适合追求高效开发、低延迟部署及高度定制化的AI工程师使用，为智能体应用落地提供了更轻量的基础设施选择。",
+  "published_at": "2026-05-13",
+  "collected_at": "2026-05-13T08:43:05.522238+00:00",
+  "status": "pending",
+  "metadata": {
+    "stars": 484,
+    "author": "operand",
+    "topics": [
+      "actor",
+      "actor-model",
+      "agent",
+      "agents",
+      "agi",
+      "ai",
+      "api",
+      "artificial-general-intelligence",
+      "artificial-intelligence",
+      "autonomous-agent",
+      "autonomous-agents",
+      "framework",
+      "llm",
+      "llmops",
+      "llms",
+      "machine-learning",
+      "minimal",
+      "python"
+    ],
+    "language": "Python",
+    "fork": false
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "当前AI智能体框架普遍存在依赖重、学习成本高、运行延迟大等工程痛点。该框架以极简和高速为核心定位，直击开发者实际需求，具有良好的落地实用性。虽未带来底层算法的范式突破，但在优化开发体验、降低部署门槛与提升执行效率方面价值显著，符合直接提升工作效率的标准。",
+    "scoring_dimensions": {
+      "tech_depth": 6,
+      "innovation": 7,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "极简架构设计，去除冗余依赖与过度抽象，显著降低系统资源占用与冷启动延迟",
+      "高效任务调度与执行链路优化，提升多智能体协同与复杂工作流的端到端响应速度"
+    ]
+  },
+  "tags": [
+    "AI智能体",
+    "轻量级框架",
+    "敏捷开发"
+  ]
+}

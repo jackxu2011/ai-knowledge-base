@@ -1,0 +1,202 @@
+{
+  "source": "rss",
+  "collected_at": "2026-05-13T09:18:18.959798+00:00",
+  "items": [
+    {
+      "title": "Show HN: Needle: We Distilled Gemini Tool Calling into a 26M Model",
+      "url": "https://github.com/cactus-compute/needle",
+      "summary": "",
+      "feed_name": "Hacker News",
+      "feed_url": "https://news.ycombinator.com/rss"
+    },
+    {
+      "title": "&quot;Cannot be explained&quot; – New ultra stainless steel stuns researchers",
+      "url": "https://www.sciencedaily.com/releases/2026/05/260510030950.htm",
+      "summary": "",
+      "feed_name": "Hacker News",
+      "feed_url": "https://news.ycombinator.com/rss"
+    },
+    {
+      "title": "Why senior developers fail to communicate their expertise",
+      "url": "https://www.nair.sh/guides-and-opinions/communicating-your-expertise/why-senior-developers-fail-to-communicate-their-expertise",
+      "summary": "",
+      "feed_name": "Hacker News",
+      "feed_url": "https://news.ycombinator.com/rss"
+    },
+    {
+      "title": "Reimagining the mouse pointer for the AI era",
+      "url": "https://deepmind.google/blog/ai-pointer/",
+      "summary": "",
+      "feed_name": "Hacker News",
+      "feed_url": "https://news.ycombinator.com/rss"
+    },
+    {
+      "title": "Show HN: Agentic interface for mainframes and COBOL",
+      "url": "https://www.hypercubic.ai/hopper",
+      "summary": "",
+      "feed_name": "Hacker News",
+      "feed_url": "https://news.ycombinator.com/rss"
+    },
+    {
+      "title": "A Cascaded Generative Approach for e-Commerce Recommendations",
+      "url": "https://arxiv.org/abs/2605.11118",
+      "summary": "",
+      "feed_name": "ArXiv",
+      "feed_url": "https://rss.arxiv.org/rss/cs.AI"
+    },
+    {
+      "title": "EVOCHAMBER: Test-Time Co-evolution of Multi-Agent System at Individual, Team, and Population Scales",
+      "url": "https://arxiv.org/abs/2605.11136",
+      "summary": "",
+      "feed_name": "ArXiv",
+      "feed_url": "https://rss.arxiv.org/rss/cs.AI"
+    },
+    {
+      "title": "RankQ: Offline-to-Online Reinforcement Learning via Self-Supervised Action Ranking",
+      "url": "https://arxiv.org/abs/2605.11151",
+      "summary": "",
+      "feed_name": "ArXiv",
+      "feed_url": "https://rss.arxiv.org/rss/cs.AI"
+    },
+    {
+      "title": "OLIVIA: Online Learning via Inference-time Action Adaptation for Decision Making in LLM ReAct Agents",
+      "url": "https://arxiv.org/abs/2605.11169",
+      "summary": "",
+      "feed_name": "ArXiv",
+      "feed_url": "https://rss.arxiv.org/rss/cs.AI"
+    },
+    {
+      "title": "The Many Faces of On-Policy Distillation: Pitfalls, Mechanisms, and Fixes",
+      "url": "https://arxiv.org/abs/2605.11182",
+      "summary": "",
+      "feed_name": "ArXiv",
+      "feed_url": "https://rss.arxiv.org/rss/cs.AI"
+    },
+    {
+      "title": "Do Vision-Language-Models show human-like logical problem-solving capability in point and click puzzle games?",
+      "url": "https://arxiv.org/abs/2605.11223",
+      "summary": "",
+      "feed_name": "ArXiv",
+      "feed_url": "https://rss.arxiv.org/rss/cs.AI"
+    },
+    {
+      "title": "PIVOT: Bridging Planning and Execution in LLM Agents via Trajectory Refinement",
+      "url": "https://arxiv.org/abs/2605.11225",
+      "summary": "",
+      "feed_name": "ArXiv",
+      "feed_url": "https://rss.arxiv.org/rss/cs.AI"
+    },
+    {
+      "title": "Rethinking LLMOps for Fraud and AML: Building a Compliance-Grade LLM Serving Stack",
+      "url": "https://arxiv.org/abs/2605.11232",
+      "summary": "",
+      "feed_name": "ArXiv",
+      "feed_url": "https://rss.arxiv.org/rss/cs.AI"
+    },
+    {
+      "title": "The Semantic Training Gap: Ontology-Grounded Tool Architectures for Industrial AI Agent Systems",
+      "url": "https://arxiv.org/abs/2605.11234",
+      "summary": "",
+      "feed_name": "ArXiv",
+      "feed_url": "https://rss.arxiv.org/rss/cs.AI"
+    },
+    {
+      "title": "Unlocking LLM Creativity in Science through Analogical Reasoning",
+      "url": "https://arxiv.org/abs/2605.11258",
+      "summary": "",
+      "feed_name": "ArXiv",
+      "feed_url": "https://rss.arxiv.org/rss/cs.AI"
+    },
+    {
+      "title": "Popular Go library fsnotify raises supply chain alarms after maintainer access changes",
+      "url": "https://socket.dev/blog/fsnotify-maintainer-dispute-sparks-supply-chain-concerns",
+      "summary": "",
+      "feed_name": "Lobsters",
+      "feed_url": "https://lobste.rs/rss"
+    },
+    {
+      "title": "A detailed introduction to Kakoune for the aspiring power user",
+      "url": "https://ficd.sh/blog/kakoune-is-a-text-editor/",
+      "summary": "",
+      "feed_name": "Lobsters",
+      "feed_url": "https://lobste.rs/rss"
+    },
+    {
+      "title": "Any app on recent Android versions can leak certain traffic",
+      "url": "https://mullvad.net/en/blog/any-app-on-recent-android-versions-can-leak-certain-traffic",
+      "summary": "",
+      "feed_name": "Lobsters",
+      "feed_url": "https://lobste.rs/rss"
+    },
+    {
+      "title": "CSP Allow-list Experiment",
+      "url": "https://simonwillison.net/2026/May/13/csp-allow/#atom-everything",
+      "summary": "",
+      "feed_name": "Simon Willison",
+      "feed_url": "https://simonwillison.net/atom/everything/"
+    },
+    {
+      "title": "datasette 1.0a29",
+      "url": "https://simonwillison.net/2026/May/12/datasette/#atom-everything",
+      "summary": "",
+      "feed_name": "Simon Willison",
+      "feed_url": "https://simonwillison.net/atom/everything/"
+    },
+    {
+      "title": "Quoting Mo Bitar",
+      "url": "https://simonwillison.net/2026/May/12/mo-bitar/#atom-everything",
+      "summary": "",
+      "feed_name": "Simon Willison",
+      "feed_url": "https://simonwillison.net/atom/everything/"
+    },
+    {
+      "title": "Quoting Mitchell Hashimoto",
+      "url": "https://simonwillison.net/2026/May/12/mitchell-hashimoto/#atom-everything",
+      "summary": "",
+      "feed_name": "Simon Willison",
+      "feed_url": "https://simonwillison.net/atom/everything/"
+    },
+    {
+      "title": "llm 0.32a2",
+      "url": "https://simonwillison.net/2026/May/12/llm/#atom-everything",
+      "summary": "",
+      "feed_name": "Simon Willison",
+      "feed_url": "https://simonwillison.net/atom/everything/"
+    },
+    {
+      "title": "Thoughts on GitLab's workforce reduction\" and \"structural and strategic decisions\"",
+      "url": "https://simonwillison.net/2026/May/11/gitlab-act-2/#atom-everything",
+      "summary": "",
+      "feed_name": "Simon Willison",
+      "feed_url": "https://simonwillison.net/atom/everything/"
+    },
+    {
+      "title": "Quoting James Shore",
+      "url": "https://simonwillison.net/2026/May/11/james-shore/#atom-everything",
+      "summary": "",
+      "feed_name": "Simon Willison",
+      "feed_url": "https://simonwillison.net/atom/everything/"
+    },
+    {
+      "title": "Your AI Use Is Breaking My Brain",
+      "url": "https://simonwillison.net/2026/May/11/zombie-internet/#atom-everything",
+      "summary": "",
+      "feed_name": "Simon Willison",
+      "feed_url": "https://simonwillison.net/atom/everything/"
+    },
+    {
+      "title": "Using LLM in the shebang line of a script",
+      "url": "https://simonwillison.net/2026/May/11/llm-shebang/#atom-everything",
+      "summary": "",
+      "feed_name": "Simon Willison",
+      "feed_url": "https://simonwillison.net/atom/everything/"
+    },
+    {
+      "title": "Learning on the Shop floor",
+      "url": "https://simonwillison.net/2026/May/11/learning-on-the-shop-floor/#atom-everything",
+      "summary": "",
+      "feed_name": "Simon Willison",
+      "feed_url": "https://simonwillison.net/atom/everything/"
+    }
+  ]
+}

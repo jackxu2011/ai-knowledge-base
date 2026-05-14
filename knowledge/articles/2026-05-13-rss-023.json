@@ -1,0 +1,33 @@
+{
+  "id": "rss-20260513-023",
+  "title": "llm 0.32a2",
+  "source_url": "https://simonwillison.net/2026/May/12/llm/#atom-everything",
+  "source_type": "rss",
+  "summary": "llm工具发布0.32a2版本，核心更新是支持OpenAI新的/v1/responses接口。此举使GPT-5等具备推理能力的模型能在工具调用间实现交错推理，并允许用户在终端以不同颜色查看推理过程令牌。该更新提升了开发者对复杂推理模型的调试能力与可观测性，是适配下一代LLM架构的重要步骤。",
+  "published_at": "2026-05-13",
+  "collected_at": "2026-05-13T09:22:24.819568+00:00",
+  "status": "pending",
+  "metadata": {
+    "feed_name": "Simon Willison",
+    "feed_url": "https://simonwillison.net/atom/everything/"
+  },
+  "analysis": {
+    "score": 8,
+    "scoring_reasons": "该更新直接适配了OpenAI最新的API标准，解决了高阶推理模型在工具使用场景下的关键交互问题。对于使用llm CLI的开发者而言，显著提升了工作流效率和模型行为的可解释性，具有极高的实用价值。",
+    "scoring_dimensions": {
+      "tech_depth": 7,
+      "innovation": 7,
+      "usability": 9
+    },
+    "technical_highlights": [
+      "迁移至OpenAI /v1/responses端点以支持交错推理",
+      "提供推理令牌的可视化显示及隐藏选项"
+    ]
+  },
+  "tags": [
+    "LLM工具",
+    "OpenAI API",
+    "推理模型",
+    "开发者工具"
+  ]
+}

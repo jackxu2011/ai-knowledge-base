@@ -1,0 +1,33 @@
+{
+  "id": "rss-20260513-012",
+  "title": "PIVOT: Bridging Planning and Execution in LLM Agents via Trajectory Refinement",
+  "source_url": "https://arxiv.org/abs/2605.11225",
+  "source_type": "rss",
+  "summary": "PIVOT提出一种通过轨迹优化弥合LLM智能体规划与执行差距的自监督框架。它包含计划、检查、演化、验证四阶段，利用环境交互产生的文本梯度迭代修正轨迹，并采用单调接受机制保证解的质量非递减。在DeepPlanning和GAIA基准测试中，PIVOT显著提升了约束满足率（最高提升94%），且相比竞品减少3-5倍Token消耗，证明了基于反馈的轨迹优化是解决智能体执行失败的高效方法。",
+  "published_at": "2026-05-13",
+  "collected_at": "2026-05-13T09:22:24.819497+00:00",
+  "status": "pending",
+  "metadata": {
+    "feed_name": "ArXiv",
+    "feed_url": "https://rss.arxiv.org/rss/cs.AI"
+  },
+  "analysis": {
+    "score": 8,
+    "scoring_reasons": "该技术直接解决了LLM智能体领域核心的‘规划-执行’脱节痛点，具有极高的实用价值。其创新点在于将轨迹视为可优化对象并利用文本梯度进行迭代 refinement，同时实现了性能提升与计算效率（Token节省）的双重优化，对提升智能体落地可靠性有直接帮助。",
+    "scoring_dimensions": {
+      "tech_depth": 8,
+      "innovation": 8,
+      "usability": 9
+    },
+    "technical_highlights": [
+      "引入‘文本梯度’编码计划与执行的差异，实现基于环境反馈的轨迹迭代优化",
+      "在显著提升约束满足率的同时，比现有细化方法节省3-5倍Token，兼具高效性与高性能"
+    ]
+  },
+  "tags": [
+    "LLM Agents",
+    "Plan-Execution Alignment",
+    "Trajectory Optimization",
+    "Self-Supervised Learning"
+  ]
+}

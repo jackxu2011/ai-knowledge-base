@@ -1,0 +1,33 @@
+{
+  "id": "rss-20260513-025",
+  "title": "Quoting James Shore",
+  "source_url": "https://simonwillison.net/2026/May/11/james-shore/#atom-everything",
+  "source_type": "rss",
+  "summary": "James Shore指出，AI编程助手若仅提升编码速度而未能显著降低维护成本，将导致技术债务激增。他强调，只有当维护成本的降低幅度与代码产出的增加幅度成反比时，引入AI才具有经济合理性，否则企业将面临长期负担。这一观点挑战了单纯追求开发效率的行业共识，呼吁关注软件全生命周期的成本控制。",
+  "published_at": "2026-05-13",
+  "collected_at": "2026-05-13T09:22:24.819585+00:00",
+  "status": "pending",
+  "metadata": {
+    "feed_name": "Simon Willison",
+    "feed_url": "https://simonwillison.net/atom/everything/"
+  },
+  "analysis": {
+    "score": 8,
+    "scoring_reasons": "该观点深刻揭示了AI辅助编程背后的隐性成本陷阱，对当前盲目追求代码生成速度的行业趋势具有重要的纠偏意义。虽然未提供具体技术方案，但其提出的经济性数学模型极具启发性，直接指导团队评估AI工具的真实ROI，实用性强。",
+    "scoring_dimensions": {
+      "tech_depth": 7,
+      "innovation": 8,
+      "usability": 9
+    },
+    "technical_highlights": [
+      "提出AI价值评估的新维度：维护成本降低率需与代码产出增长率成反比",
+      "警示'速度换债务'风险，强调软件工程中长期可维护性的重要性"
+    ]
+  },
+  "tags": [
+    "AI工程化",
+    "技术债务",
+    "软件维护",
+    "ROI分析"
+  ]
+}

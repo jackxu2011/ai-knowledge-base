@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260513-017",
+  "title": "A detailed introduction to Kakoune for the aspiring power user",
+  "source_url": "https://ficd.sh/blog/kakoune-is-a-text-editor/",
+  "source_type": "rss",
+  "summary": "本文详细介绍了Kakoune文本编辑器，旨在帮助有抱负的高级用户掌握其核心概念与操作技巧。Kakoune以“动词-对象”的反向模态编辑理念著称，强调组合性与一致性。文章深入解析了其独特的交互模型、配置方法及插件生态，适合追求高效键盘操作和定制化工作流的开发者阅读，有助于提升代码编辑效率。",
+  "published_at": "2026-05-13",
+  "collected_at": "2026-05-13T09:22:24.819540+00:00",
+  "status": "pending",
+  "metadata": {
+    "feed_name": "Lobsters",
+    "feed_url": "https://lobste.rs/rss"
+  },
+  "analysis": {
+    "score": 6,
+    "scoring_reasons": "该内容属于特定工具的使用指南，虽然对目标受众（Vim/Emacs用户或效率追求者）有实用价值，但Kakoune本身并非突破性技术，且受众面相对较窄。它提供了有益的知识，但不具备改变行业格局的影响力，因此评为‘值得了解’。",
+    "scoring_dimensions": {
+      "tech_depth": 6,
+      "innovation": 5,
+      "usability": 7
+    },
+    "technical_highlights": [
+      "深入解析Kakoune独特的‘对象-动词’模态编辑范式",
+      "提供针对高级用户的配置优化与工作流集成建议"
+    ]
+  },
+  "tags": [
+    "Kakoune",
+    "文本编辑器",
+    "开发效率"
+  ]
+}

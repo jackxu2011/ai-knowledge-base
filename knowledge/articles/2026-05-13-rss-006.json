@@ -1,0 +1,33 @@
+{
+  "id": "rss-20260513-006",
+  "title": "A Cascaded Generative Approach for e-Commerce Recommendations",
+  "source_url": "https://arxiv.org/abs/2605.11118",
+  "source_type": "rss",
+  "summary": "该研究提出一种用于电商推荐的级联生成式框架，将 storefront 构建分解为主题生成和约束关键词生成两个任务。通过教师-学生微调解决延迟与成本问题，并结合传统排序模型保留混合架构。在线实验显示，购物车添加率提升2.7%，有效解决了传统范式僵化、缺乏语义连贯性的问题，实现了动态目标下的大规模安全部署。",
+  "published_at": "2026-05-13",
+  "collected_at": "2026-05-13T09:22:24.819440+00:00",
+  "status": "pending",
+  "metadata": {
+    "feed_name": "ArXiv",
+    "feed_url": "https://rss.arxiv.org/rss/cs.AI"
+  },
+  "analysis": {
+    "score": 8,
+    "scoring_reasons": "该技术直接针对电商核心业务场景，提出了切实可行的生成式推荐解决方案。其亮点在于平衡了生成式AI的灵活性与生产环境的延迟/成本约束，并通过在线A/B测试验证了显著的业务增益（+2.7%），具有极高的实用价值和落地参考意义。",
+    "scoring_dimensions": {
+      "tech_depth": 8,
+      "innovation": 7,
+      "usability": 9
+    },
+    "technical_highlights": [
+      "级联生成架构：将页面构建解耦为主题生成与约束关键词生成，增强语义连贯性",
+      "混合部署策略：利用教师-学生微调优化性能，并与传统排序模型融合以保障生产可行性"
+    ]
+  },
+  "tags": [
+    "生成式推荐",
+    "电商技术",
+    "LLM应用",
+    "系统架构"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "rss-20260513-027",
+  "title": "Using LLM in the shebang line of a script",
+  "source_url": "https://simonwillison.net/2026/May/11/llm-shebang/#atom-everything",
+  "source_type": "rss",
+  "summary": "本文介绍了一种利用Unix shebang机制直接调用LLM CLI工具的创新用法。通过在脚本首行指定llm命令及参数，可将自然语言指令、YAML模板或工具函数定义嵌入脚本，实现“文本即代码”。该技术支持动态工具调用（如时间查询、数学计算），极大简化了AI辅助脚本的创建流程，展示了LLM与操作系统底层特性结合的灵活性与潜力。",
+  "published_at": "2026-05-13",
+  "collected_at": "2026-05-13T09:22:24.819602+00:00",
+  "status": "pending",
+  "metadata": {
+    "feed_name": "Simon Willison",
+    "feed_url": "https://simonwillison.net/atom/everything/"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该技术巧妙结合传统Unix机制与现代LLM能力，具有极高的实用性和趣味性，能显著提升原型开发和简单任务自动化的效率。虽然未改变行业底层架构，但为开发者提供了新颖且高效的工作流范式，属于直接提升工作效率的优秀实践。",
+    "scoring_dimensions": {
+      "tech_depth": 6,
+      "innovation": 8,
+      "usability": 9
+    },
+    "technical_highlights": [
+      "利用shebang机制将自然语言或YAML模板直接作为可执行脚本运行",
+      "支持在脚本中定义并调用Python函数等外部工具，实现复杂逻辑处理"
+    ]
+  },
+  "tags": [
+    "LLM应用",
+    "Developer Tools",
+    "Unix技巧",
+    "自动化脚本"
+  ]
+}

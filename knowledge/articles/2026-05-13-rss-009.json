@@ -1,0 +1,34 @@
+{
+  "id": "rss-20260513-009",
+  "title": "OLIVIA: Online Learning via Inference-time Action Adaptation for Decision Making in LLM ReAct Agents",
+  "source_url": "https://arxiv.org/abs/2605.11169",
+  "source_type": "rss",
+  "summary": "OLIVIA提出了一种针对ReAct风格LLM代理的推理时动作适应框架。它将动作选择层建模为上下文线性Bandit，利用冻结隐藏状态作为决策上下文，通过在线反馈直接更新策略并提供不确定性估计。该方法在保持底层推理不变的同时，以极低计算开销实现了高效的动作优化，显著优于传统提示或检索基线，解决了部署中错误累积和延迟问题。",
+  "published_at": "2026-05-13",
+  "collected_at": "2026-05-13T09:22:24.819470+00:00",
+  "status": "pending",
+  "metadata": {
+    "feed_name": "ArXiv",
+    "feed_url": "https://rss.arxiv.org/rss/cs.AI"
+  },
+  "analysis": {
+    "score": 8,
+    "scoring_reasons": "该技术直击LLM Agent部署痛点，创新性地将Bandit算法引入推理时动作层，实现了细粒度、可追踪且低开销的在线适应。相比间接的Prompt工程，它提供了更明确的决策控制和不确定性量化，实用性强且具备较高的技术价值，能直接提升Agent在重复任务中的可靠性和效率。",
+    "scoring_dimensions": {
+      "tech_depth": 8,
+      "innovation": 8,
+      "usability": 9
+    },
+    "technical_highlights": [
+      "将LLM动作选择层建模为上下文线性Bandit，实现显式在线决策更新",
+      "提供动作级不确定性估计与轻量级反馈机制，最小化计算 overhead"
+    ]
+  },
+  "tags": [
+    "LLM Agent",
+    "在线学习",
+    "推理时适应",
+    "线性Bandit",
+    "ReAct"
+  ]
+}

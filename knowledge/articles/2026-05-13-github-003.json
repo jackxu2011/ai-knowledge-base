@@ -1,0 +1,52 @@
+{
+  "id": "github-20260513-003",
+  "title": "banghuazhao/swift-ai-agent-demo",
+  "source_url": "https://github.com/banghuazhao/swift-ai-agent-demo",
+  "source_type": "github",
+  "summary": "该项目为原生iOS平台上的ReAct（推理+行动）AI智能体模式提供了一套基于SwiftUI的完整实现示例。通过集成OpenAI GPT模型，直观展示了AI逐步思考、执行并解决问题的全流程。对于移动端开发者而言，具有较高的工程参考价值与教学意义，是探索原生App与大模型深度结合的优秀实践。",
+  "published_at": "2026-05-13",
+  "collected_at": "2026-05-13T08:43:05.522288+00:00",
+  "status": "pending",
+  "metadata": {
+    "stars": 13,
+    "author": "banghuazhao",
+    "topics": [
+      "agent",
+      "ai",
+      "artificial-intelligence",
+      "automation",
+      "chatgpt",
+      "demo",
+      "gpt",
+      "ios",
+      "llm",
+      "machine-learning",
+      "mobile",
+      "openai",
+      "react-pattern",
+      "reasoning",
+      "swift",
+      "swiftui"
+    ],
+    "language": "Swift",
+    "fork": false
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "提供了ReAct模式在原生iOS/SwiftUI环境下的完整工程实现，具备较强的实战参考价值与直观的教学效果，能直接帮助开发者快速搭建AI智能体应用。但作为技术Demo，核心依赖于成熟模型与既定模式，缺乏底层算法或架构突破，故评为7分。",
+    "scoring_dimensions": {
+      "tech_depth": 7,
+      "innovation": 6,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "基于SwiftUI原生架构实现ReAct智能体逻辑，无缝集成OpenAI API",
+      "提供推理与执行步骤的实时可视化界面，清晰展示AI思考与行动循环"
+    ]
+  },
+  "tags": [
+    "AI智能体",
+    "SwiftUI开发",
+    "ReAct模式"
+  ]
+}

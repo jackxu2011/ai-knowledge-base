@@ -1,0 +1,34 @@
+{
+  "id": "rss-20260513-010",
+  "title": "The Many Faces of On-Policy Distillation: Pitfalls, Mechanisms, and Fixes",
+  "source_url": "https://arxiv.org/abs/2605.11182",
+  "source_type": "rss",
+  "summary": "本文深入分析了大模型后训练中的在线策略蒸馏（OPD）及其自蒸馏变体（OPSD）。研究揭示了两者在数学推理等任务中失效的三大机制：师生分布不匹配、TopK反向KL梯度偏差及实例级特权信息缺失。针对这些问题，论文提出了停止梯度TopK目标、RLVR适配教师及SFT稳定学生等修复方案，为提升蒸馏稳定性提供了实证依据和优化路径。",
+  "published_at": "2026-05-13",
+  "collected_at": "2026-05-13T09:22:24.819480+00:00",
+  "status": "pending",
+  "metadata": {
+    "feed_name": "ArXiv",
+    "feed_url": "https://rss.arxiv.org/rss/cs.AI"
+  },
+  "analysis": {
+    "score": 8,
+    "scoring_reasons": "该研究直接针对当前LLM后训练中的热点技术（在线蒸馏）存在的稳定性痛点，不仅深入剖析了失效的根本原因（如分布偏移和梯度偏差），还给出了具体可行的工程修复方案。对于从事模型对齐、蒸馏优化的研究人员和工程师具有极高的实用参考价值，能直接指导实验调优。",
+    "scoring_dimensions": {
+      "tech_depth": 9,
+      "innovation": 7,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "识别并解释了OPD/OPSD失败的三大核心机制：分布不匹配、 biased TopK reverse-KL gradients、实例级特权信息缺失",
+      "提出具体修复策略：stop-gradient TopK objectives、RLVR-adapted teachers 和 SFT-stabilized students"
+    ]
+  },
+  "tags": [
+    "大语言模型",
+    "知识蒸馏",
+    "模型对齐",
+    "强化学习",
+    "Post-training"
+  ]
+}

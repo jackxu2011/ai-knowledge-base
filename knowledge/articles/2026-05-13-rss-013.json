@@ -1,0 +1,33 @@
+{
+  "id": "rss-20260513-013",
+  "title": "Rethinking LLMOps for Fraud and AML: Building a Compliance-Grade LLM Serving Stack",
+  "source_url": "https://arxiv.org/abs/2605.11232",
+  "source_type": "rss",
+  "summary": "本文提出针对欺诈检测与反洗钱（AML）合规场景的专用LLMOps服务栈。通过结合前缀缓存、PagedAttention、多适配器服务及推测解码等技术，优化高重复指令与结构化输出的处理效率。实验显示，该方案将吞吐量提升近6倍，P99延迟降低80%，GPU利用率从12%增至78%，并引入确定性合规检查作为质量网关，证明了面向工作负载设计的系统优化对 regulated LLM 应用的关键价值。",
+  "published_at": "2026-05-13",
+  "collected_at": "2026-05-13T09:22:24.819506+00:00",
+  "status": "pending",
+  "metadata": {
+    "feed_name": "ArXiv",
+    "feed_url": "https://rss.arxiv.org/rss/cs.AI"
+  },
+  "analysis": {
+    "score": 8,
+    "scoring_reasons": "该技术直接解决了金融合规领域LLM落地的高成本与低效率痛点，具有极强的实用性和明确的性能提升数据（吞吐量与延迟显著优化）。虽然主要属于工程架构优化而非算法范式突破，但其针对特定垂直领域的系统性解决方案对行业有重要参考价值。",
+    "scoring_dimensions": {
+      "tech_depth": 8,
+      "innovation": 7,
+      "usability": 9
+    },
+    "technical_highlights": [
+      "实现吞吐量从~650提升至3600 req/h，P99延迟从~35s降至~7s，GPU利用率提升至78%",
+      "构建包含前缀缓存、多适配器管理及确定性合规质量网关的端到端工作负载感知服务栈"
+    ]
+  },
+  "tags": [
+    "LLMOps",
+    "金融合规",
+    "推理优化",
+    "反洗钱"
+  ]
+}

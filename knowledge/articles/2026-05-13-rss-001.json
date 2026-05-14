@@ -1,0 +1,33 @@
+{
+  "id": "rss-20260513-001",
+  "title": "Show HN: Needle: We Distilled Gemini Tool Calling into a 26M Model",
+  "source_url": "https://github.com/cactus-compute/needle",
+  "source_type": "rss",
+  "summary": "Needle项目成功将Gemini复杂的工具调用能力蒸馏至仅2600万参数的微型模型中。这一成果展示了通过知识蒸馏技术，在极小模型上复现大模型特定功能的可能性，显著降低了推理成本和延迟，为边缘设备部署及高效Agent构建提供了新思路，体现了模型轻量化与专用化的重要趋势。",
+  "published_at": "2026-05-13",
+  "collected_at": "2026-05-13T09:22:24.819360+00:00",
+  "status": "pending",
+  "metadata": {
+    "feed_name": "Hacker News",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 8,
+    "scoring_reasons": "该技术直接解决了大模型推理成本高和延迟大的痛点，具有极高的实用价值。虽然基于已有的蒸馏技术，但在极小参数量下实现复杂工具调用能力属于工程上的显著突破，对开发者提升工作效率有直接帮助。",
+    "scoring_dimensions": {
+      "tech_depth": 7,
+      "innovation": 8,
+      "usability": 9
+    },
+    "technical_highlights": [
+      "极致参数压缩：将工具调用能力浓缩至26M参数模型",
+      "高效推理赋能：大幅降低算力需求，利于边缘侧及高频调用场景部署"
+    ]
+  },
+  "tags": [
+    "模型蒸馏",
+    "轻量级LLM",
+    "工具调用",
+    "AI效率优化"
+  ]
+}

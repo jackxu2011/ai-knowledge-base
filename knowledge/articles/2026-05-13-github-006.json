@@ -1,0 +1,55 @@
+{
+  "id": "github-20260513-006",
+  "title": "alexpota/pg-agent-memory",
+  "source_url": "https://github.com/alexpota/pg-agent-memory",
+  "source_type": "github",
+  "summary": "该项目为基于 PostgreSQL 和 pgvector 的 AI 智能体提供状态化记忆层，采用 TypeScript 优先设计，具备智能上下文管理能力。它有效解决了大模型 Agent 开发中记忆持久化、状态追踪与上下文管理的痛点，通过复用现有数据库基础设施降低系统复杂度，适合快速构建具备长期记忆的生产级 AI 应用。",
+  "published_at": "2026-05-13",
+  "collected_at": "2026-05-13T08:43:05.522317+00:00",
+  "status": "pending",
+  "metadata": {
+    "stars": 4,
+    "author": "alexpota",
+    "topics": [
+      "agent",
+      "ai",
+      "artificial-intelligence",
+      "chatbot",
+      "conversation-memory",
+      "embeddings",
+      "langchain",
+      "llm",
+      "machine-learning",
+      "memory",
+      "multi-model",
+      "pgvector",
+      "postgresql",
+      "rag",
+      "semantic-search",
+      "typescript",
+      "vector-database"
+    ],
+    "language": "TypeScript",
+    "fork": false
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "项目精准切中 AI Agent 开发中的记忆管理痛点，将向量检索与关系型状态存储结合，架构设计务实高效。TypeScript 优先与智能上下文管理显著提升开发者体验。虽属工程集成与中间件创新而非底层算法突破，但实用性极强，能直接提升 AI 应用开发效率，符合“直接有帮助”评级。",
+    "scoring_dimensions": {
+      "tech_depth": 7,
+      "innovation": 7,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "基于 pgvector 实现向量检索与关系型数据统一存储架构",
+      "智能上下文压缩与状态追踪机制优化 Agent 记忆效率",
+      "TypeScript-first 设计提供类型安全与开箱即用的开发体验"
+    ]
+  },
+  "tags": [
+    "AI Agent",
+    "PostgreSQL",
+    "pgvector",
+    "记忆管理"
+  ]
+}

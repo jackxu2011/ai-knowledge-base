@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260513-018",
+  "title": "Any app on recent Android versions can leak certain traffic",
+  "source_url": "https://mullvad.net/en/blog/any-app-on-recent-android-versions-can-leak-certain-traffic",
+  "source_type": "rss",
+  "summary": "近期Android版本存在安全漏洞，允许任意应用泄露特定网络流量。该问题涉及系统层面的隐私保护缺陷，可能导致用户敏感数据在未经明确授权的情况下被恶意应用截获或监控。这一发现揭示了Android系统在权限隔离或网络栈实现上的潜在风险，对开发者和用户均构成严重威胁，需引起高度重视并及时关注官方修复进展。",
+  "published_at": "2026-05-13",
+  "collected_at": "2026-05-13T09:22:24.819548+00:00",
+  "status": "pending",
+  "metadata": {
+    "feed_name": "Lobsters",
+    "feed_url": "https://lobste.rs/rss"
+  },
+  "analysis": {
+    "score": 8,
+    "scoring_reasons": "该安全问题直接影响大量Android用户的隐私和数据安全，属于高危漏洞。虽然并非算法或架构上的突破性创新，但其对行业安全标准和用户防护意识有直接且重大的影响，实用性和警示意义极强，故评为高分。",
+    "scoring_dimensions": {
+      "tech_depth": 7,
+      "innovation": 2,
+      "usability": 9
+    },
+    "technical_highlights": [
+      "Android系统级隐私漏洞",
+      "任意应用可窃听特定网络流量"
+    ]
+  },
+  "tags": [
+    "Android安全",
+    "隐私泄露",
+    "系统漏洞"
+  ]
+}

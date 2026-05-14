@@ -1,0 +1,34 @@
+{
+  "id": "rss-20260513-005",
+  "title": "Show HN: Agentic interface for mainframes and COBOL",
+  "source_url": "https://www.hypercubic.ai/hopper",
+  "source_type": "rss",
+  "summary": "该项目展示了针对大型机（Mainframe）和COBOL遗留系统的智能体（Agentic）交互接口。通过引入AI代理技术，旨在降低传统封闭系统的操作门槛，实现自然语言交互或自动化任务执行。这对于解决企业级遗留系统现代化难题、提升运维效率具有潜在价值，是AI技术向核心金融与工业底层设施渗透的典型应用案例。",
+  "published_at": "2026-05-13",
+  "collected_at": "2026-05-13T09:22:24.819431+00:00",
+  "status": "pending",
+  "metadata": {
+    "feed_name": "Hacker News",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该技术直击企业IT痛点，将前沿的AI Agent模式应用于高壁垒的遗留系统领域，实用性强且具备明确的商业价值。虽非底层范式突破，但显著提升了特定场景的工作效率，属于直接有帮助的创新应用。",
+    "scoring_dimensions": {
+      "tech_depth": 7,
+      "innovation": 8,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "利用AI Agent抽象层屏蔽COBOL/Mainframe复杂指令",
+      "促进遗留系统现代化与自然语言交互集成"
+    ]
+  },
+  "tags": [
+    "AI Agent",
+    "Legacy Modernization",
+    "Mainframe",
+    "COBOL",
+    "Enterprise AI"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "github-20260513-004",
+  "title": "Eigen-DB/eigen-db",
+  "source_url": "https://github.com/Eigen-DB/eigen-db",
+  "source_type": "github",
+  "summary": "Eigen-DB 是一款主打极致性能的内存型向量数据库，专为高并发、低延迟的向量检索场景设计。通过全内存架构与高效索引算法，显著提升了 AI 应用（如 RAG、语义搜索）中的向量检索速度，适合对响应时间要求苛刻的实时计算与缓存场景。",
+  "published_at": "2026-05-13",
+  "collected_at": "2026-05-13T08:43:05.522299+00:00",
+  "status": "pending",
+  "metadata": {
+    "stars": 10,
+    "author": "Eigen-DB",
+    "topics": [
+      "agent",
+      "agentic-ai",
+      "agents",
+      "ai",
+      "ai-agent",
+      "ai-agents",
+      "artificial-intelligence",
+      "data-science",
+      "database",
+      "in-memory",
+      "knn",
+      "llm",
+      "machine-learning",
+      "nearest-neighbor-search",
+      "rag",
+      "semantic-search",
+      "similarity-search",
+      "vector",
+      "vector-database"
+    ],
+    "language": "Go",
+    "fork": false
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "内存架构带来极低延迟，高度契合大模型与 RAG 场景对实时向量检索的需求，实用性强；但向量数据库赛道已相对成熟，该产品主要聚焦性能优化而非底层范式创新，适用场景受限于内存容量。",
+    "scoring_dimensions": {
+      "tech_depth": 7,
+      "innovation": 6,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "全内存架构实现微秒级向量检索延迟",
+      "针对高并发 AI 场景优化的底层数据结构与检索算法",
+      "轻量级部署，无缝集成现有机器学习与 RAG 工作流"
+    ]
+  },
+  "tags": [
+    "向量数据库",
+    "内存计算",
+    "AI基础设施"
+  ]
+}

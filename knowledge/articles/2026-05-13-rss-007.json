@@ -1,0 +1,33 @@
+{
+  "id": "rss-20260513-007",
+  "title": "EVOCHAMBER: Test-Time Co-evolution of Multi-Agent System at Individual, Team, and Population Scales",
+  "source_url": "https://arxiv.org/abs/2605.11136",
+  "source_type": "rss",
+  "summary": "EVOCHAMBER提出了一种无需训练的多智能体测试时协同进化框架，突破单智能体演化局限。其核心CODREAM机制在团队失败时触发协作反思，并通过不对称知识路由保留专业化分工。系统在个体、团队和种群三个层面动态演化，能自发涌现出稳定的 niche 专家。在数学、代码等任务上显著优于基线，证实了跨智能体不对称迁移是提升性能的关键，为多智能体系统提供了新的范式。",
+  "published_at": "2026-05-13",
+  "collected_at": "2026-05-13T09:22:24.819449+00:00",
+  "status": "pending",
+  "metadata": {
+    "feed_name": "ArXiv",
+    "feed_url": "https://rss.arxiv.org/rss/cs.AI"
+  },
+  "analysis": {
+    "score": 9,
+    "scoring_reasons": "该技术提出了多智能体测试时演化的新范式，解决了传统方法中跨 agent 学习与专业化保持的矛盾。通过三层协同进化机制实现自发分工，且在多个复杂任务上取得显著性能提升（相对提升32%），具有极高的创新性和行业引领潜力，属于改变格局的突破性工作。",
+    "scoring_dimensions": {
+      "tech_depth": 9,
+      "innovation": 10,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "提出CODREAM协作梦境协议，通过不对称知识路由在修复知识 gaps 的同时保留智能体专业化",
+      "实现个体、团队、种群三层级的测试时协同进化，无需训练即可自发涌现稳定 niche 专家"
+    ]
+  },
+  "tags": [
+    "多智能体系统",
+    "测试时进化",
+    "协同学习",
+    "LLM Agent"
+  ]
+}

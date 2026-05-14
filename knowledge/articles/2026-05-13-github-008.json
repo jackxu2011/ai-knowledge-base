@@ -1,0 +1,52 @@
+{
+  "id": "github-20260513-008",
+  "title": "BaptisteBlouin/AI-resources",
+  "source_url": "https://github.com/BaptisteBlouin/AI-resources",
+  "source_type": "github",
+  "summary": "该项目是一个综合性AI资源聚合仓库，系统收录了主流AI工具、开源库、前沿论文及学习指南。虽非底层技术突破，但为开发者与研究者提供了高效的一站式资料检索路径，具有较好的信息导航与知识普及价值。",
+  "published_at": "2026-05-13",
+  "collected_at": "2026-05-13T08:43:05.522333+00:00",
+  "status": "pending",
+  "metadata": {
+    "stars": 3,
+    "author": "BaptisteBlouin",
+    "topics": [
+      "agent",
+      "ai",
+      "artificial-intelligence",
+      "collection",
+      "deep-learning",
+      "development",
+      "documentation",
+      "lists",
+      "llm",
+      "machine-learning",
+      "papers",
+      "programming",
+      "resources",
+      "web"
+    ],
+    "language": "Python",
+    "fork": false
+  },
+  "analysis": {
+    "score": 6,
+    "scoring_reasons": "属于典型的资源导航与清单类项目，未涉及算法创新或工程架构突破，技术深度与原创性有限；但整理规范、覆盖面广，能显著降低从业者查找资料和入门学习的成本，实用性较强，符合“值得了解”定位。",
+    "scoring_dimensions": {
+      "tech_depth": 3,
+      "innovation": 2,
+      "usability": 7
+    },
+    "technical_highlights": [
+      "多维度聚合AI工具链、核心开源库、学术论文与系统化学习路线",
+      "提供结构化分类与持续更新机制，有效降低信息筛选与知识获取门槛"
+    ]
+  },
+  "tags": [
+    "AI资源库",
+    "开源导航",
+    "学习指南",
+    "工具聚合",
+    "知识管理"
+  ]
+}
