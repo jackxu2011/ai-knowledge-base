@@ -78,9 +78,9 @@ jobs:
         id: count
         run: |
           DATE=$(date +%Y-%m-%d)
-          COUNT=$(git status --porcelain knowledge/articles/ | grep -c "^?? .*-$DATE-" || echo "0")
-          echo "count=$COUNT" >> "$GITHUB_OUTPUT"
-          echo "date=$DATE" >> "$GITHUB_OUTPUT"
+          COUNT=$(git status --porcelain knowledge/articles/ | grep "^?? .*${DATE}-" | wc -l | tr -d ' ')
+          echo "date=${DATE}" >> "$GITHUB_OUTPUT"
+          echo "count=${COUNT}" >> "$GITHUB_OUTPUT"
 
       - name: Commit & push
         if: steps.has_changes.outputs.has_changes == 'true'
