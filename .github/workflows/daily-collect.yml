@@ -1,0 +1,89 @@
+name: Daily AI Knowledge Collection
+
+on:
+  schedule:
+    - cron: "0 0 * * *"   # UTC 00:00 = Beijing 08:00
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "Max items per source (default 20)"
+        required: false
+        default: "20"
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  collect:
+    name: python
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b  # v8.1.0
+        with:
+          enable-cache: true
+
+      - name: Set up Python
+        run: uv python install
+
+      - name: Install the project
+        run: uv sync --locked
+
+      - name: Run pipeline
+        env:
+          LLM_PROVIDER: qwen
+          QWEN_MODEL: deepseek-v4-flash
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          QWEN_API_KEY: ${{ secrets.QWEN_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          LIMIT="${{ inputs.limit || '20' }}"
+          uv run ai-knowledge-base \
+            --sources github,rss \
+            --limit "$LIMIT" \
+            --verbose
+
+      - name: Validate JSON
+        run: uv run python hooks/validate_json.py knowledge/articles/*.json
+
+      - name: Check quality
+        run: uv run python hooks/check_quality.py knowledge/articles/*.json
+
+      - name: Configure git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Check for changes
+        id: has_changes
+        run: |
+          if git status --porcelain knowledge/ | grep -q .; then
+            echo "has_changes=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "has_changes=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Count new articles
+        if: steps.has_changes.outputs.has_changes == 'true'
+        id: count
+        run: |
+          DATE=$(date +%Y-%m-%d)
+          COUNT=$(git status --porcelain knowledge/articles/ | grep -c "^?? .*-$DATE-" || echo "0")
+          echo "count=$COUNT" >> "$GITHUB_OUTPUT"
+          echo "date=$DATE" >> "$GITHUB_OUTPUT"
+
+      - name: Commit & push
+        if: steps.has_changes.outputs.has_changes == 'true'
+        env:
+          ARTICLE_COUNT: ${{ steps.count.outputs.count }}
+          COMMIT_DATE: ${{ steps.count.outputs.date }}
+        run: |
+          git add knowledge/
+          git commit -m "chore: collect $ARTICLE_COUNT articles on $COMMIT_DATE"
+          git push
