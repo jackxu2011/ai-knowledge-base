@@ -6,7 +6,7 @@
   "summary": "文章探讨了生成式AI内容泛滥对互联网生态及人类认知的负面影响，提出“僵尸互联网”概念。指出当前网络不仅是机器人互聊，更是人与AI、AI与人之间的复杂混合交互，导致信息过滤疲惫及人类写作风格异化。该现象揭示了AI滥用带来的伦理危机和信息污染问题，强调了区分真实人类内容与AI生成内容的紧迫性。",
   "published_at": "2026-05-13",
   "collected_at": "2026-05-13T09:22:24.819594+00:00",
-  "status": "pending",
+  "status": "draft",
   "metadata": {
     "feed_name": "Simon Willison",
     "feed_url": "https://simonwillison.net/atom/everything/"

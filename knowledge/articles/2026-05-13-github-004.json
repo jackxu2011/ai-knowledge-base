@@ -6,7 +6,7 @@
   "summary": "Eigen-DB 是一款主打极致性能的内存型向量数据库，专为高并发、低延迟的向量检索场景设计。通过全内存架构与高效索引算法，显著提升了 AI 应用（如 RAG、语义搜索）中的向量检索速度，适合对响应时间要求苛刻的实时计算与缓存场景。",
   "published_at": "2026-05-13",
   "collected_at": "2026-05-13T08:43:05.522299+00:00",
-  "status": "pending",
+  "status": "draft",
   "metadata": {
     "stars": 10,
     "author": "Eigen-DB",

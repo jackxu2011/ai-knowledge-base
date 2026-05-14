@@ -6,7 +6,7 @@
   "summary": "本文深入分析了大模型后训练中的在线策略蒸馏（OPD）及其自蒸馏变体（OPSD）。研究揭示了两者在数学推理等任务中失效的三大机制：师生分布不匹配、TopK反向KL梯度偏差及实例级特权信息缺失。针对这些问题，论文提出了停止梯度TopK目标、RLVR适配教师及SFT稳定学生等修复方案，为提升蒸馏稳定性提供了实证依据和优化路径。",
   "published_at": "2026-05-13",
   "collected_at": "2026-05-13T09:22:24.819480+00:00",
-  "status": "pending",
+  "status": "draft",
   "metadata": {
     "feed_name": "ArXiv",
     "feed_url": "https://rss.arxiv.org/rss/cs.AI"

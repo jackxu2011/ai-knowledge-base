@@ -6,7 +6,7 @@
   "summary": "Simon Willison 开发了名为 'Big Words' 的轻量级 Web 工具，旨在解决其 macOS 演示文稿工具仅支持 URL 输入的限制。该工具通过查询字符串参数动态生成包含自定义文本、渐变背景及字体样式的幻灯片页面，并支持双击唤起设置面板实时调整与保存 URL。这体现了 'Vibe Coding' 理念下，利用 AI 辅助快速构建特定场景微工具的实践，虽技术简单但极具极客实用性。",
   "published_at": "2026-05-14",
   "collected_at": "2026-05-14T03:40:41.964569+00:00",
-  "status": "pending",
+  "status": "draft",
   "metadata": {
     "feed_name": "Simon Willison",
     "feed_url": "https://simonwillison.net/atom/everything/"

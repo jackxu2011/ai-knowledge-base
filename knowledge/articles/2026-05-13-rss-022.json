@@ -6,7 +6,7 @@
   "summary": "Mitchell Hashimoto 指出，多数技术决策者（TDM）的核心动机是职业安全而非技术创新。他们倾向于追随 Gartner 或 McKinsey 等权威机构定义的世俗趋势（如当前的“AI战略”），以规避风险。这一观点深刻揭示了企业级软件营销的本质：通过迎合主流叙事和分析师建议来建立产品的“防御性”，从而驱动采购决策，而非单纯依靠技术优越性。",
   "published_at": "2026-05-13",
   "collected_at": "2026-05-13T09:22:24.819559+00:00",
-  "status": "pending",
+  "status": "draft",
   "metadata": {
     "feed_name": "Simon Willison",
     "feed_url": "https://simonwillison.net/atom/everything/"

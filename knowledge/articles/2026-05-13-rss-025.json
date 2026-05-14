@@ -6,7 +6,7 @@
   "summary": "James Shore指出，AI编程助手若仅提升编码速度而未能显著降低维护成本，将导致技术债务激增。他强调，只有当维护成本的降低幅度与代码产出的增加幅度成反比时，引入AI才具有经济合理性，否则企业将面临长期负担。这一观点挑战了单纯追求开发效率的行业共识，呼吁关注软件全生命周期的成本控制。",
   "published_at": "2026-05-13",
   "collected_at": "2026-05-13T09:22:24.819585+00:00",
-  "status": "pending",
+  "status": "draft",
   "metadata": {
     "feed_name": "Simon Willison",
     "feed_url": "https://simonwillison.net/atom/everything/"

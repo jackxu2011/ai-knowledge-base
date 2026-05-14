@@ -6,7 +6,7 @@
   "summary": "文章探讨了在LLM输出中采用HTML替代Markdown的趋势。Anthropic工程师指出，HTML能嵌入SVG、交互组件及样式，显著提升信息呈现效果。作者通过解析Linux安全漏洞的实例，验证了生成富交互式HTML解释的可行性。尽管Markdown在Token效率上占优，但HTML在复杂内容可视化与用户体验上的优势，使其成为提升AI输出质量的新优选策略。",
   "published_at": "2026-05-14",
   "collected_at": "2026-05-14T03:40:41.964554+00:00",
-  "status": "pending",
+  "status": "draft",
   "metadata": {
     "feed_name": "Simon Willison",
     "feed_url": "https://simonwillison.net/atom/everything/"

@@ -6,7 +6,7 @@
   "summary": "OLIVIA提出了一种针对ReAct风格LLM代理的推理时动作适应框架。它将动作选择层建模为上下文线性Bandit，利用冻结隐藏状态作为决策上下文，通过在线反馈直接更新策略并提供不确定性估计。该方法在保持底层推理不变的同时，以极低计算开销实现了高效的动作优化，显著优于传统提示或检索基线，解决了部署中错误累积和延迟问题。",
   "published_at": "2026-05-13",
   "collected_at": "2026-05-13T09:22:24.819470+00:00",
-  "status": "pending",
+  "status": "draft",
   "metadata": {
     "feed_name": "ArXiv",
     "feed_url": "https://rss.arxiv.org/rss/cs.AI"

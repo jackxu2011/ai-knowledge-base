@@ -6,7 +6,7 @@
   "summary": "本文介绍了一种利用Unix shebang机制直接调用LLM CLI工具的创新用法。通过在脚本首行指定llm命令及参数，可将自然语言指令、YAML模板或工具函数定义嵌入脚本，实现“文本即代码”。该技术支持动态工具调用（如时间查询、数学计算），极大简化了AI辅助脚本的创建流程，展示了LLM与操作系统底层特性结合的灵活性与潜力。",
   "published_at": "2026-05-13",
   "collected_at": "2026-05-13T09:22:24.819602+00:00",
-  "status": "pending",
+  "status": "draft",
   "metadata": {
     "feed_name": "Simon Willison",
     "feed_url": "https://simonwillison.net/atom/everything/"

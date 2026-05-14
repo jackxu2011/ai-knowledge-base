@@ -6,7 +6,7 @@
   "summary": "CVEvolve是一种面向非结构化科学数据处理的自主算法发现框架。它通过零代码接口，结合多轮搜索、代码执行及谱系感知采样策略，自动为领域科学家生成和优化图像处理算法。在X射线荧光显微镜配准等任务中，其生成的算法性能优于基线方法，并有效避免过拟合。该技术降低了AI应用门槛，加速科学发现进程。",
   "published_at": "2026-05-14",
   "collected_at": "2026-05-14T03:40:41.964435+00:00",
-  "status": "pending",
+  "status": "draft",
   "metadata": {
     "feed_name": "ArXiv",
     "feed_url": "https://rss.arxiv.org/rss/cs.AI"

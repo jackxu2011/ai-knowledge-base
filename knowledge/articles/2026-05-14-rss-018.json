@@ -6,7 +6,7 @@
   "summary": "LatentRouter提出了一种针对多模态大模型（MLLM）的智能路由机制，旨在根据输入图像和问题的具体需求匹配最佳模型。该方法将路由建模为反事实多模态效用预测，通过提取路由胶囊与模型能力令牌进行潜在通信，预估各候选模型的表现。实验表明，其在MMR-Bench等基准上优于现有基线，特别是在视觉敏感和推理任务中表现显著，支持性能与成本平衡的动态路由，有效解决了异构模型选择难题。",
   "published_at": "2026-05-14",
   "collected_at": "2026-05-14T03:40:41.964381+00:00",
-  "status": "pending",
+  "status": "draft",
   "metadata": {
     "feed_name": "ArXiv",
     "feed_url": "https://rss.arxiv.org/rss/cs.AI"

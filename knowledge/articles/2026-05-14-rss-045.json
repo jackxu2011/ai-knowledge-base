@@ -6,7 +6,7 @@
   "summary": "Andrew Quinn提出“适度重复造轮子”的学习理念，认为开发者应通过亲手实现核心工具（如4-5个）来深入理解技术边界，而非仅依赖现有库或纯理论研读。该观点源自其将3GB SQLite数据库优化为7MB FST二进制的实践，强调动手重构对突破认知前沿的价值，为工程师成长提供了兼具哲学深度与实践指导的方法论。",
   "published_at": "2026-05-14",
   "collected_at": "2026-05-14T03:40:41.964539+00:00",
-  "status": "pending",
+  "status": "draft",
   "metadata": {
     "feed_name": "Simon Willison",
     "feed_url": "https://simonwillison.net/atom/everything/"

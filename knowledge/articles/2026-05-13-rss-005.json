@@ -6,7 +6,7 @@
   "summary": "该项目展示了针对大型机（Mainframe）和COBOL遗留系统的智能体（Agentic）交互接口。通过引入AI代理技术，旨在降低传统封闭系统的操作门槛，实现自然语言交互或自动化任务执行。这对于解决企业级遗留系统现代化难题、提升运维效率具有潜在价值，是AI技术向核心金融与工业底层设施渗透的典型应用案例。",
   "published_at": "2026-05-13",
   "collected_at": "2026-05-13T09:22:24.819431+00:00",
-  "status": "pending",
+  "status": "draft",
   "metadata": {
     "feed_name": "Hacker News",
     "feed_url": "https://news.ycombinator.com/rss"

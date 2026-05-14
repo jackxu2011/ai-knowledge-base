@@ -6,7 +6,7 @@
   "summary": "该研究针对低数据环境下的模型训练，提出约束数据价值最大化（CDVM）方法以优化数据剪枝。传统基于Shapley值的方法在保留极少数据时效果不佳，CDVM通过约束优化框架，在最大化总影响力的同时惩罚对单个测试样本的过度贡献，从而提升鲁棒性。在OpenDataVal基准测试中，CDVM展现了优异的性能和具有竞争力的运行效率，为小样本学习中的数据筛选提供了新思路。",
   "published_at": "2026-05-14",
   "collected_at": "2026-05-14T03:40:41.964390+00:00",
-  "status": "pending",
+  "status": "draft",
   "metadata": {
     "feed_name": "ArXiv",
     "feed_url": "https://rss.arxiv.org/rss/cs.AI"

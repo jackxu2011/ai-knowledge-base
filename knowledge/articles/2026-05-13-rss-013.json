@@ -6,7 +6,7 @@
   "summary": "本文提出针对欺诈检测与反洗钱（AML）合规场景的专用LLMOps服务栈。通过结合前缀缓存、PagedAttention、多适配器服务及推测解码等技术，优化高重复指令与结构化输出的处理效率。实验显示，该方案将吞吐量提升近6倍，P99延迟降低80%，GPU利用率从12%增至78%，并引入确定性合规检查作为质量网关，证明了面向工作负载设计的系统优化对 regulated LLM 应用的关键价值。",
   "published_at": "2026-05-13",
   "collected_at": "2026-05-13T09:22:24.819506+00:00",
-  "status": "pending",
+  "status": "draft",
   "metadata": {
     "feed_name": "ArXiv",
     "feed_url": "https://rss.arxiv.org/rss/cs.AI"

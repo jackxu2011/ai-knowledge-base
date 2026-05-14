@@ -50,10 +50,14 @@ jobs:
             --verbose
 
       - name: Validate JSON
-        run: uv run python hooks/validate_json.py knowledge/articles/*.json
+        run: |
+          DATE=$(date +%Y-%m-%d)
+          uv run python hooks/validate_json.py "knowledge/articles/$DATE-*.json"
 
       - name: Check quality
-        run: uv run python hooks/check_quality.py knowledge/articles/*.json
+        run: |
+          DATE=$(date +%Y-%m-%d)
+          uv run python hooks/check_quality.py "knowledge/articles/$DATE-*.json"
 
       - name: Configure git
         run: |

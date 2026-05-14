@@ -6,7 +6,7 @@
   "summary": "RankQ提出一种离线到在线强化学习新范式，通过自监督动作排序损失替代传统的悲观主义约束。该方法学习相对动作偏好而非均匀惩罚分布外动作，有效解决值函数高估问题并促进策略优化。在D4RL基准测试中表现优异，且在视觉机器人学习中显著提升VLA模型的微调效果，仿真成功率提升42.7%，实世界任务成功率从43.1%增至84.7%，展现了极强的样本效率和Sim-to-Real迁移能力。",
   "published_at": "2026-05-13",
   "collected_at": "2026-05-13T09:22:24.819457+00:00",
-  "status": "pending",
+  "status": "draft",
   "metadata": {
     "feed_name": "ArXiv",
     "feed_url": "https://rss.arxiv.org/rss/cs.AI"

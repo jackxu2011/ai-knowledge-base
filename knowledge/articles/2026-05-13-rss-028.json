@@ -6,7 +6,7 @@
   "summary": "Shopify CEO Tobias Lütke介绍内部AI编程助手River，其强制在公开Slack频道运行，禁止私聊。这种设计将工作流转化为“教学车间”，实现全员可见的渗透式学习。通过公开交互，员工可围观、协作并从他人经验中学习，类似Midjourney的公共Discord模式。该实践强调透明度与集体智慧，为AI时代的企业知识共享和团队协同提供了创新范式。",
   "published_at": "2026-05-13",
   "collected_at": "2026-05-13T09:22:24.819611+00:00",
-  "status": "pending",
+  "status": "draft",
   "metadata": {
     "feed_name": "Simon Willison",
     "feed_url": "https://simonwillison.net/atom/everything/"

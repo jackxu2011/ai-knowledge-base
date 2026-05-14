@@ -6,7 +6,7 @@
   "summary": "llm工具发布0.32a2版本，核心更新是支持OpenAI新的/v1/responses接口。此举使GPT-5等具备推理能力的模型能在工具调用间实现交错推理，并允许用户在终端以不同颜色查看推理过程令牌。该更新提升了开发者对复杂推理模型的调试能力与可观测性，是适配下一代LLM架构的重要步骤。",
   "published_at": "2026-05-13",
   "collected_at": "2026-05-13T09:22:24.819568+00:00",
-  "status": "pending",
+  "status": "draft",
   "metadata": {
     "feed_name": "Simon Willison",
     "feed_url": "https://simonwillison.net/atom/everything/"

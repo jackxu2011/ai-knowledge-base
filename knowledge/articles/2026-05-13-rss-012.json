@@ -6,7 +6,7 @@
   "summary": "PIVOT提出一种通过轨迹优化弥合LLM智能体规划与执行差距的自监督框架。它包含计划、检查、演化、验证四阶段，利用环境交互产生的文本梯度迭代修正轨迹，并采用单调接受机制保证解的质量非递减。在DeepPlanning和GAIA基准测试中，PIVOT显著提升了约束满足率（最高提升94%），且相比竞品减少3-5倍Token消耗，证明了基于反馈的轨迹优化是解决智能体执行失败的高效方法。",
   "published_at": "2026-05-13",
   "collected_at": "2026-05-13T09:22:24.819497+00:00",
-  "status": "pending",
+  "status": "draft",
   "metadata": {
     "feed_name": "ArXiv",
     "feed_url": "https://rss.arxiv.org/rss/cs.AI"

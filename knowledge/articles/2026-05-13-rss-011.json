@@ -6,7 +6,7 @@
   "summary": "该论文提出VLATIM基准，基于经典物理谜题游戏《不可思议的机器2》，评估视觉语言模型（VLM）在点击式谜题中的人类级逻辑解题能力。研究揭示了VLM在高层规划与底层精确执行间的显著差距：尽管专有模型具备较强的规划能力，但在精确视觉定位和连续动作控制上表现不足，目前尚未展现出真正类人的问题解决能力。",
   "published_at": "2026-05-13",
   "collected_at": "2026-05-13T09:22:24.819489+00:00",
-  "status": "pending",
+  "status": "draft",
   "metadata": {
     "feed_name": "ArXiv",
     "feed_url": "https://rss.arxiv.org/rss/cs.AI"

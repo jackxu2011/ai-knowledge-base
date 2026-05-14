@@ -6,7 +6,7 @@
   "summary": "EVOCHAMBER提出了一种无需训练的多智能体测试时协同进化框架，突破单智能体演化局限。其核心CODREAM机制在团队失败时触发协作反思，并通过不对称知识路由保留专业化分工。系统在个体、团队和种群三个层面动态演化，能自发涌现出稳定的 niche 专家。在数学、代码等任务上显著优于基线，证实了跨智能体不对称迁移是提升性能的关键，为多智能体系统提供了新的范式。",
   "published_at": "2026-05-13",
   "collected_at": "2026-05-13T09:22:24.819449+00:00",
-  "status": "pending",
+  "status": "draft",
   "metadata": {
     "feed_name": "ArXiv",
     "feed_url": "https://rss.arxiv.org/rss/cs.AI"

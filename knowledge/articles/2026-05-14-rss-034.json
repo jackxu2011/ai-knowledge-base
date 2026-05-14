@@ -6,7 +6,7 @@
   "summary": "该实验展示了一种在严格CSP沙箱iframe中动态管理允许列表的创新机制。通过自定义fetch拦截CSP错误并上报至父窗口，触发用户授权弹窗以添加域名白名单并刷新页面。此方案在保持高安全性的同时提升了灵活性，由GPT-5.5辅助开发，为前端安全策略的动态调整提供了极具参考价值的原型思路。",
   "published_at": "2026-05-14",
   "collected_at": "2026-05-14T03:40:41.964511+00:00",
-  "status": "pending",
+  "status": "draft",
   "metadata": {
     "feed_name": "Simon Willison",
     "feed_url": "https://simonwillison.net/atom/everything/"

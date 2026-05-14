@@ -6,7 +6,7 @@
   "summary": "该项目为基于 PostgreSQL 和 pgvector 的 AI 智能体提供状态化记忆层，采用 TypeScript 优先设计，具备智能上下文管理能力。它有效解决了大模型 Agent 开发中记忆持久化、状态追踪与上下文管理的痛点，通过复用现有数据库基础设施降低系统复杂度，适合快速构建具备长期记忆的生产级 AI 应用。",
   "published_at": "2026-05-13",
   "collected_at": "2026-05-13T08:43:05.522317+00:00",
-  "status": "pending",
+  "status": "draft",
   "metadata": {
     "stars": 4,
     "author": "alexpota",

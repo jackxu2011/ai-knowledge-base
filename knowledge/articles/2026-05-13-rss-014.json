@@ -6,7 +6,7 @@
   "summary": "该论文针对工业AI Agent存在的“语义训练差距”问题，提出了一种基于本体论的工具架构。通过将制造本体嵌入AI工具层并在运行时强制语义约束，有效解决了模型虽语言精确但操作语义错误的问题。实验显示，该方法将领域标识符的幻觉率从43%降至0%，并通过数字孪生平台验证了其跨域可配置性，显著提升了工业AI系统的可靠性与落地价值。",
   "published_at": "2026-05-13",
   "collected_at": "2026-05-13T09:22:24.819514+00:00",
-  "status": "pending",
+  "status": "draft",
   "metadata": {
     "feed_name": "ArXiv",
     "feed_url": "https://rss.arxiv.org/rss/cs.AI"

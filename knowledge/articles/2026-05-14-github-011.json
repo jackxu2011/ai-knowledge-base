@@ -6,7 +6,7 @@
   "summary": "AMP（Agent Memory Protocol）旨在为AI智能体提供标准化的记忆与成长机制，解决当前大模型缺乏长期上下文和持续学习能力的痛点。通过建立统一的记忆协议，使AI能够记录交互历史、积累经验并实现能力迭代，从而提升智能体的连贯性、个性化及复杂任务处理能力，是构建自主智能体基础设施的重要探索。",
   "published_at": "2026-05-14",
   "collected_at": "2026-05-14T05:17:23.582236+00:00",
-  "status": "pending",
+  "status": "draft",
   "metadata": {
     "stars": 0,
     "author": "pangxianggang",

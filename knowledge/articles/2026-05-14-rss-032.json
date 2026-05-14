@@ -6,7 +6,7 @@
   "summary": "Datasette 项目正式推出官方博客，并披露该博客由 OpenAI Codex 桌面版辅助构建。作者 Simon Willison 分享了完整的 AI 编程会话记录，展示了利用 AI 工具快速生成网站代码及导出 Markdown 转录的新工作流。此举不仅标志着 Datasette 社区沟通渠道的完善，更提供了 AI 辅助编程在实际工程落地的具体案例，体现了开发者利用大模型提升效率的创新实践。",
   "published_at": "2026-05-14",
   "collected_at": "2026-05-14T03:40:41.964493+00:00",
-  "status": "pending",
+  "status": "draft",
   "metadata": {
     "feed_name": "Simon Willison",
     "feed_url": "https://simonwillison.net/atom/everything/"

@@ -6,7 +6,7 @@
   "summary": "该项目是一个基于Python的AI Agent开发框架，旨在为开发者提供构建智能代理的基础工具与编排能力。当前公开信息较为精简，仅明确其Python技术栈定位。在LLM应用快速落地的背景下，此类框架有助于简化工作流管理、工具集成与状态维护，但具体架构设计、文档完整度及生态支持尚待进一步披露。",
   "published_at": "2026-05-13",
   "collected_at": "2026-05-13T08:43:05.522308+00:00",
-  "status": "pending",
+  "status": "draft",
   "metadata": {
     "stars": 5,
     "author": "Kcrypto126",

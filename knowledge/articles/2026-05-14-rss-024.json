@@ -6,7 +6,7 @@
   "summary": "该研究提出了一种因果算法追索（Recourse）新框架，解决了现有方法忽视个体潜在条件变化及重复决策的问题。通过引入事后稳定性条件和基于Copula的算法，仅利用观测数据即可推断追索效果；针对配对数据，提供了参数推断及无分布学习方案。该方法提升了AI决策系统的可信度与解释性，为公平AI提供了重要的理论支撑和实用工具。",
   "published_at": "2026-05-14",
   "collected_at": "2026-05-14T03:40:41.964450+00:00",
-  "status": "pending",
+  "status": "draft",
   "metadata": {
     "feed_name": "ArXiv",
     "feed_url": "https://rss.arxiv.org/rss/cs.AI"

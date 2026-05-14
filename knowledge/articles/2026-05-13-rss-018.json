@@ -6,7 +6,7 @@
   "summary": "近期Android版本存在安全漏洞，允许任意应用泄露特定网络流量。该问题涉及系统层面的隐私保护缺陷，可能导致用户敏感数据在未经明确授权的情况下被恶意应用截获或监控。这一发现揭示了Android系统在权限隔离或网络栈实现上的潜在风险，对开发者和用户均构成严重威胁，需引起高度重视并及时关注官方修复进展。",
   "published_at": "2026-05-13",
   "collected_at": "2026-05-13T09:22:24.819548+00:00",
-  "status": "pending",
+  "status": "draft",
   "metadata": {
     "feed_name": "Lobsters",
     "feed_url": "https://lobste.rs/rss"

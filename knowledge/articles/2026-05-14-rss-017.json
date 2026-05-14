@@ -6,7 +6,7 @@
   "summary": "该论文提出“模板即本体”原则，通过单一Python配置模块统一制造仿真器规范与AI分析工具的数据Schema，解决生产数据隐私及异构问题。该架构生成符合ISA-95标准的因果连贯合成数据，并在六大行业验证中实现参数可控。实验表明，本体约束将LLM工具调用的幻觉率从43%降至0%，为跨域制造AI验证提供了高可靠、可复用的基础设施。",
   "published_at": "2026-05-14",
   "collected_at": "2026-05-14T03:40:41.964373+00:00",
-  "status": "pending",
+  "status": "draft",
   "metadata": {
     "feed_name": "ArXiv",
     "feed_url": "https://rss.arxiv.org/rss/cs.AI"

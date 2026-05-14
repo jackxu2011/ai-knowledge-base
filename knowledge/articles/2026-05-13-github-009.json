@@ -6,7 +6,7 @@
   "summary": "该项目是一款基于维基百科的AI研究助手，集成LangGraph的ReAct架构、多模型支持与FAISS向量库，实现RAG及GraphRAG。通过语义分块优化检索，提供终端与Streamlit双端界面，为信息调研提供开箱即用的工程化解决方案。",
   "published_at": "2026-05-13",
   "collected_at": "2026-05-13T08:43:05.522341+00:00",
-  "status": "pending",
+  "status": "draft",
   "metadata": {
     "stars": 2,
     "author": "BurnyCoder",

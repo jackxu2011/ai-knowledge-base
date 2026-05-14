@@ -6,7 +6,7 @@
   "summary": "Atomic Blueprint (ab) 是一个专为 AI 应用开发设计的代理记忆内核。它旨在解决当前 AI 代理在长程交互中容易遗忘上下文的问题，通过提供持久化且结构化的记忆机制，增强代理的状态保持能力和连贯性。该项目聚焦于提升 AI 代理在实际应用场景中的可靠性，是构建复杂自主智能体的关键基础设施组件。",
   "published_at": "2026-05-14",
   "collected_at": "2026-05-14T05:17:23.582273+00:00",
-  "status": "pending",
+  "status": "draft",
   "metadata": {
     "stars": 0,
     "author": "hexcreator",

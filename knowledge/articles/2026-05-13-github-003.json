@@ -6,7 +6,7 @@
   "summary": "该项目为原生iOS平台上的ReAct（推理+行动）AI智能体模式提供了一套基于SwiftUI的完整实现示例。通过集成OpenAI GPT模型，直观展示了AI逐步思考、执行并解决问题的全流程。对于移动端开发者而言，具有较高的工程参考价值与教学意义，是探索原生App与大模型深度结合的优秀实践。",
   "published_at": "2026-05-13",
   "collected_at": "2026-05-13T08:43:05.522288+00:00",
-  "status": "pending",
+  "status": "draft",
   "metadata": {
     "stars": 13,
     "author": "banghuazhao",

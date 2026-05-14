@@ -6,7 +6,7 @@
   "summary": "Meta禁止用户在Threads平台上屏蔽其官方AI账号，引发关于用户自主权与平台强制推广策略的争议。此举旨在确保AI助手的曝光率，但牺牲了用户体验和控制权，反映了科技巨头在推进AI普及过程中与用户隐私及偏好之间的潜在冲突，可能影响用户对平台的信任度。",
   "published_at": "2026-05-14",
   "collected_at": "2026-05-14T03:40:41.964332+00:00",
-  "status": "pending",
+  "status": "draft",
   "metadata": {
     "feed_name": "Hacker News",
     "feed_url": "https://news.ycombinator.com/rss"

@@ -6,7 +6,7 @@
   "summary": "Mozilla利用Claude Mythos预览版对Firefox进行深度安全加固，通过优化的AI引导与过滤技术，将月度安全漏洞修复量从平均20-30个激增至423个。该案例证实了先进LLM在挖掘陈年深层漏洞（如20年历史的XSLT bug）方面的巨大潜力，标志着AI辅助代码审计从产生噪音转向提供高价值信号，显著提升了开源软件的安全维护效率。",
   "published_at": "2026-05-14",
   "collected_at": "2026-05-14T03:40:41.964579+00:00",
-  "status": "pending",
+  "status": "draft",
   "metadata": {
     "feed_name": "Simon Willison",
     "feed_url": "https://simonwillison.net/atom/everything/"

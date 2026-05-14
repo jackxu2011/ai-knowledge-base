@@ -6,7 +6,7 @@
   "summary": "Needle项目成功将Gemini复杂的工具调用能力蒸馏至仅2600万参数的微型模型中。这一成果展示了通过知识蒸馏技术，在极小模型上复现大模型特定功能的可能性，显著降低了推理成本和延迟，为边缘设备部署及高效Agent构建提供了新思路，体现了模型轻量化与专用化的重要趋势。",
   "published_at": "2026-05-13",
   "collected_at": "2026-05-13T09:22:24.819360+00:00",
-  "status": "pending",
+  "status": "draft",
   "metadata": {
     "feed_name": "Hacker News",
     "feed_url": "https://news.ycombinator.com/rss"

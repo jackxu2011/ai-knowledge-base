@@ -6,7 +6,7 @@
   "summary": "本文针对脑机接口（BCI）从实验室走向现实应用中的隐私风险，提出了包含保护对象、生命周期阶段和保护强度等级的三维框架。研究超越了原始神经信号泄露，涵盖模型资产及解码输出的重关联风险，强调在保留下游效用的同时解耦任务无关的敏感信息，为BCI隐私保护和神经伦理提供了系统性分级标准。",
   "published_at": "2026-05-14",
   "collected_at": "2026-05-14T03:40:41.964464+00:00",
-  "status": "pending",
+  "status": "draft",
   "metadata": {
     "feed_name": "ArXiv",
     "feed_url": "https://rss.arxiv.org/rss/cs.AI"

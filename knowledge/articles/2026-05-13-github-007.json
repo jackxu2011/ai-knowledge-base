@@ -6,7 +6,7 @@
   "summary": "AgentForge v0.1.0 是一款主打游戏化体验的 AI Agent 开发平台 MVP。通过 RPG 式交互与极简配置，宣称将开发启动时间从传统框架的数小时缩短至 5 分钟。项目处于早期阶段，核心优势在于降低入门门槛与优化开发者体验，但底层技术深度与生产级稳定性尚待验证。",
   "published_at": "2026-05-13",
   "collected_at": "2026-05-13T08:43:05.522326+00:00",
-  "status": "pending",
+  "status": "draft",
   "metadata": {
     "stars": 3,
     "author": "aiqing20230305-bot",

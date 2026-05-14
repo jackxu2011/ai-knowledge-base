@@ -6,7 +6,7 @@
   "summary": "《纽约时报》发布编辑注记，承认在一篇关于加拿大选举的报道中，错误地将AI生成的政治观点摘要当作保守党领袖Pierre Poilievre的直接引语刊登。事后核查发现该言论并非出自其演讲，属AI幻觉导致的失实报道。报社已更正内容并强调记者需核实AI输出。此事件凸显生成式AI在新闻业应用中的真实性风险及伦理挑战，警示行业需建立更严格的AI内容审核机制。",
   "published_at": "2026-05-14",
   "collected_at": "2026-05-14T03:40:41.964532+00:00",
-  "status": "pending",
+  "status": "draft",
   "metadata": {
     "feed_name": "Simon Willison",
     "feed_url": "https://simonwillison.net/atom/everything/"

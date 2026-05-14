@@ -6,7 +6,7 @@
   "summary": "Luke Curley批评WebRTC在弱网下为保低延迟而丢弃音频包，导致LLM语音交互中关键提示词丢失。他指出浏览器内无法重传WebRTC包，这种硬编码的实时性牺牲了准确性，而用户更愿接受轻微延迟以换取完整输入。这揭示了现有实时传输协议在AI语音场景下的局限性，暗示需新的传输机制来平衡延迟与数据完整性。",
   "published_at": "2026-05-14",
   "collected_at": "2026-05-14T03:40:41.964547+00:00",
-  "status": "pending",
+  "status": "draft",
   "metadata": {
     "feed_name": "Simon Willison",
     "feed_url": "https://simonwillison.net/atom/everything/"

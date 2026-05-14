@@ -6,7 +6,7 @@
   "summary": "该研究提出一种用于电商推荐的级联生成式框架，将 storefront 构建分解为主题生成和约束关键词生成两个任务。通过教师-学生微调解决延迟与成本问题，并结合传统排序模型保留混合架构。在线实验显示，购物车添加率提升2.7%，有效解决了传统范式僵化、缺乏语义连贯性的问题，实现了动态目标下的大规模安全部署。",
   "published_at": "2026-05-13",
   "collected_at": "2026-05-13T09:22:24.819440+00:00",
-  "status": "pending",
+  "status": "draft",
   "metadata": {
     "feed_name": "ArXiv",
     "feed_url": "https://rss.arxiv.org/rss/cs.AI"

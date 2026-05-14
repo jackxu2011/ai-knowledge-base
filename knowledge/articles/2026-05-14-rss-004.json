@@ -6,7 +6,7 @@
   "summary": "该条目为Hacker News上的用户反馈，警告开发者避免使用Claude Design工具。用户指出在取消订阅后失去了对项目的所有访问权限，导致数据丢失或无法迁移。这揭示了SaaS产品中常见的供应商锁定风险及数据主权问题，提醒用户在选用AI辅助设计工具时，需重点关注数据导出机制、离线备份能力及订阅终止后的资产归属条款，以防被平台绑定。",
   "published_at": "2026-05-14",
   "collected_at": "2026-05-14T03:40:41.964305+00:00",
-  "status": "pending",
+  "status": "draft",
   "metadata": {
     "feed_name": "Hacker News",
     "feed_url": "https://news.ycombinator.com/rss"
