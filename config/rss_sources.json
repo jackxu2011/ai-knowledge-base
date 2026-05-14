@@ -1,0 +1,85 @@
+{
+  "rss": {
+    "timeout": 30.0,
+    "scan_limit": 50,
+    "feeds": [
+      {
+        "name": "Hacker News Best",
+        "url": "https://news.ycombinator.com/rss",
+        "category": "通用技术",
+        "enabled": true,
+        "ai_keyword_filter": true
+      },
+      {
+        "name": "Lobsters AI/ML",
+        "url": "https://lobste.rs/tag/ai.rss",
+        "category": "AI 行业",
+        "enabled": true,
+        "ai_keyword_filter": false
+      },
+      {
+        "name": "arXiv cs.AI",
+        "url": "https://rss.arxiv.org/rss/cs.AI",
+        "category": "学术研究",
+        "enabled": false,
+        "ai_keyword_filter": false
+      },
+      {
+        "name": "OpenAI Blog",
+        "url": "https://openai.com/feed.xml",
+        "category": "AI 行业",
+        "enabled": true,
+        "ai_keyword_filter": false
+      },
+      {
+        "name": "Anthropic Research",
+        "url": "https://www.anthropic.com/feed.xml",
+        "category": "AI 行业",
+        "enabled": true,
+        "ai_keyword_filter": false
+      },
+      {
+        "name": "Hugging Face Blog",
+        "url": "https://huggingface.co/blog/feed.xml",
+        "category": "AI 行业",
+        "enabled": true,
+        "ai_keyword_filter": false
+      },
+      {
+        "name": "机器之心",
+        "url": "https://jiqizhixin.com/rss",
+        "category": "AI 行业",
+        "enabled": false,
+        "ai_keyword_filter": false
+      },
+      {
+        "name": "量子位",
+        "url": "https://www.qbitai.com/feed/",
+        "category": "AI 行业",
+        "enabled": false,
+        "ai_keyword_filter": false
+      }
+    ],
+    "ai_keywords": [
+      "ai",
+      "llm",
+      "agent",
+      "gpt",
+      "machine learning",
+      "deep learning",
+      "neural",
+      "transformer",
+      "rag",
+      "langchain",
+      "generative",
+      "artificial intelligence",
+      "openai",
+      "claude",
+      "gemini",
+      "llama",
+      "mistral",
+      "qwen",
+      "deepseek"
+    ]
+  }
+}

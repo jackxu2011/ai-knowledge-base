@@ -11,7 +11,7 @@ Steps:
      and batch raw data to ``knowledge/raw/``.
 
 Configuration:
-    ``config/sources.json``  — RSS/Atom feed list, AI keywords, timeout
+    ``config/rss_sources.json``  — RSS/Atom feed list, AI keywords, timeout
                                (fallback to sensible defaults if absent).
 
 Environment variables:
@@ -92,32 +92,73 @@ GITHUB_TOPIC_KEYWORDS = [
 ]
 
 # ── RSS / Atom feeds ──────────────────────────────────────────────────────
-SOURCES_CONFIG_PATH = Path("config/sources.json")
+SOURCES_CONFIG_PATH = Path("config/rss_sources.json")
 
 
 def _default_rss_config() -> dict[str, Any]:
     """Return a sensible default RSS configuration.
 
-    Used as a fallback when ``config/sources.json`` does not exist.
+    Used as a fallback when ``config/rss_sources.json`` does not exist.
     """
     return {
         "timeout": 30.0,
         "scan_limit": 50,
         "feeds": [
             {
-                "name": "Hacker News",
+                "name": "Hacker News Best",
                 "url": "https://news.ycombinator.com/rss",
+                "category": "通用技术",
                 "enabled": True,
+                "ai_keyword_filter": True,
             },
             {
-                "name": "Lobsters",
-                "url": "https://lobste.rs/rss",
+                "name": "Lobsters AI/ML",
+                "url": "https://lobste.rs/tag/ai.rss",
+                "category": "AI 行业",
                 "enabled": True,
+                "ai_keyword_filter": False,
             },
             {
-                "name": "Simon Willison",
-                "url": "https://simonwillison.net/atom/everything/",
+                "name": "arXiv cs.AI",
+                "url": "https://rss.arxiv.org/rss/cs.AI",
+                "category": "学术研究",
+                "enabled": False,
+                "ai_keyword_filter": False,
+            },
+            {
+                "name": "OpenAI Blog",
+                "url": "https://openai.com/feed.xml",
+                "category": "AI 行业",
                 "enabled": True,
+                "ai_keyword_filter": False,
+            },
+            {
+                "name": "Anthropic Research",
+                "url": "https://www.anthropic.com/feed.xml",
+                "category": "AI 行业",
+                "enabled": True,
+                "ai_keyword_filter": False,
+            },
+            {
+                "name": "Hugging Face Blog",
+                "url": "https://huggingface.co/blog/feed.xml",
+                "category": "AI 行业",
+                "enabled": True,
+                "ai_keyword_filter": False,
+            },
+            {
+                "name": "机器之心",
+                "url": "https://jiqizhixin.com/rss",
+                "category": "AI 行业",
+                "enabled": False,
+                "ai_keyword_filter": False,
+            },
+            {
+                "name": "量子位",
+                "url": "https://www.qbitai.com/feed/",
+                "category": "AI 行业",
+                "enabled": False,
+                "ai_keyword_filter": False,
             },
         ],
         "ai_keywords": [
@@ -145,11 +186,11 @@ def _default_rss_config() -> dict[str, Any]:
 
 
 def load_rss_config() -> dict[str, Any]:
-    """Load RSS source configuration from ``config/sources.json``.
+    """Load RSS source configuration from ``config/rss_sources.json``.
 
     Returns:
         RSS configuration dict with keys: ``timeout``, ``scan_limit``,
-        ``feeds`` (list of ``{"name", "url", "enabled"}``), and
+        ``feeds`` (list of ``{"name", "url", "category", "enabled"}``), and
         ``ai_keywords``.
 
     Falls back to :func:`_default_rss_config` if the config file is
@@ -472,10 +513,10 @@ async def collect_rss(limit: int, dry_run: bool = False) -> list[dict[str, Any]]
 
     Each feed is treated as an independent source.  The *limit* parameter
     is the **default per-feed cap**; individual feeds can override it with
-    a ``"limit"`` field in ``config/sources.json``.
+    a ``"limit"`` field in ``config/rss_sources.json``.
 
     Feed list, AI keywords, timeout, and scan limit are loaded from
-    ``config/sources.json`` (falls back to sensible defaults).
+    ``config/rss_sources.json`` (falls back to sensible defaults).
 
     Uses regex-based parsing (no external feedparser library).
 
@@ -529,6 +570,9 @@ async def collect_rss(limit: int, dry_run: bool = False) -> list[dict[str, Any]]
             feed_name = feed["name"]
             feed_url = feed["url"]
             feed_limit = feed.get("limit", limit)  # per-feed override
+            use_keyword_filter = feed.get(
+                "ai_keyword_filter", True
+            )  # per-feed toggle
 
             if feed_limit <= 0:
                 continue
@@ -573,7 +617,7 @@ async def collect_rss(limit: int, dry_run: bool = False) -> list[dict[str, Any]]
                     continue
 
                 combined = f"{title} {description}"
-                if not _is_ai_relevant(combined, keywords):
+                if use_keyword_filter and not _is_ai_relevant(combined, keywords):
                     continue
 
                 items.append(
