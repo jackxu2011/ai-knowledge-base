@@ -1,0 +1,33 @@
+{
+  "id": "rss-20260514-004",
+  "title": "Tell HN: Dont use Claude Design, lost access to my projects after unsubscribing",
+  "source_url": "https://news.ycombinator.com/item?id=48128003",
+  "source_type": "rss",
+  "summary": "该条目为Hacker News上的用户反馈，警告开发者避免使用Claude Design工具。用户指出在取消订阅后失去了对项目的所有访问权限，导致数据丢失或无法迁移。这揭示了SaaS产品中常见的供应商锁定风险及数据主权问题，提醒用户在选用AI辅助设计工具时，需重点关注数据导出机制、离线备份能力及订阅终止后的资产归属条款，以防被平台绑定。",
+  "published_at": "2026-05-14",
+  "collected_at": "2026-05-14T03:40:41.964305+00:00",
+  "status": "pending",
+  "metadata": {
+    "feed_name": "Hacker News",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 6,
+    "scoring_reasons": "该内容属于具体的用户负面体验反馈，而非新技术发布或深度技术分析。虽然对选择工具有警示作用，具备一定实用价值，但缺乏技术深度和创新性，主要反映产品策略而非技术突破，因此评为‘值得了解’。",
+    "scoring_dimensions": {
+      "tech_depth": 2,
+      "innovation": 1,
+      "usability": 7
+    },
+    "technical_highlights": [
+      "揭示AI SaaS工具的供应商锁定与数据访问风险",
+      "强调订阅制软件中数据主权与退出机制的重要性"
+    ]
+  },
+  "tags": [
+    "用户体验",
+    "数据主权",
+    "SaaS风险",
+    "Claude"
+  ]
+}

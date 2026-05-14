@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260514-028",
+  "title": "Fragnesia: New Linux Privilege Escalation Exploit",
+  "source_url": "https://github.com/v12-security/pocs/tree/main/fragnesia",
+  "source_type": "rss",
+  "summary": "Fragnesia 是一种新发现的 Linux 权限提升漏洞利用工具。该安全威胁允许攻击者在特定条件下从普通用户权限提升至 root 权限，对 Linux 系统安全构成严重风险。系统管理员需立即关注相关补丁和安全公告，检查系统是否受影响，并及时更新内核或应用缓解措施，以防止潜在的攻击和数据泄露。",
+  "published_at": "2026-05-14",
+  "collected_at": "2026-05-14T03:40:41.964472+00:00",
+  "status": "pending",
+  "metadata": {
+    "feed_name": "Lobsters",
+    "feed_url": "https://lobste.rs/rss"
+  },
+  "analysis": {
+    "score": 8,
+    "scoring_reasons": "作为新的 Linux 提权漏洞，其直接影响系统核心安全，对所有 Linux 服务器和桌面用户具有极高的实用警示意义，属于必须立即响应的高危安全事件。",
+    "scoring_dimensions": {
+      "tech_depth": 7,
+      "innovation": 6,
+      "usability": 9
+    },
+    "technical_highlights": [
+      "新型 Linux 内核权限提升漏洞",
+      "高危安全风险，需紧急补丁管理"
+    ]
+  },
+  "tags": [
+    "网络安全",
+    "Linux",
+    "漏洞利用"
+  ]
+}

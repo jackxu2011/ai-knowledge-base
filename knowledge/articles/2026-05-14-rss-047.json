@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260514-047",
+  "title": "Using Claude Code: The Unreasonable Effectiveness of HTML",
+  "source_url": "https://simonwillison.net/2026/May/8/unreasonable-effectiveness-of-html/#atom-everything",
+  "source_type": "rss",
+  "summary": "文章探讨了在LLM输出中采用HTML替代Markdown的趋势。Anthropic工程师指出，HTML能嵌入SVG、交互组件及样式，显著提升信息呈现效果。作者通过解析Linux安全漏洞的实例，验证了生成富交互式HTML解释的可行性。尽管Markdown在Token效率上占优，但HTML在复杂内容可视化与用户体验上的优势，使其成为提升AI输出质量的新优选策略。",
+  "published_at": "2026-05-14",
+  "collected_at": "2026-05-14T03:40:41.964554+00:00",
+  "status": "pending",
+  "metadata": {
+    "feed_name": "Simon Willison",
+    "feed_url": "https://simonwillison.net/atom/everything/"
+  },
+  "analysis": {
+    "score": 8,
+    "scoring_reasons": "该观点直接提升了AI交互输出的实用性和可读性，属于最佳实践层面的重要更新。它改变了开发者对LLM输出格式的固有认知，具有极高的即时应用价值，虽非底层技术突破，但对工作效率有显著帮助。",
+    "scoring_dimensions": {
+      "tech_depth": 6,
+      "innovation": 7,
+      "usability": 9
+    },
+    "technical_highlights": [
+      "利用HTML原生支持SVG、CSS和JS的特性，实现LLM输出的交互式与可视化增强",
+      "通过具体案例（如代码审计、漏洞解析）展示了富文本HTML相比纯文本Markdown的信息传达优势"
+    ]
+  },
+  "tags": [
+    "Prompt Engineering",
+    "HTML",
+    "LLM Output"
+  ]
+}

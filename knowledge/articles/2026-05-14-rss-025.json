@@ -1,0 +1,33 @@
+{
+  "id": "rss-20260514-025",
+  "title": "LLM-X: A Scalable Negotiation-Oriented Exchange for Communication Among Personal LLM Agents",
+  "source_url": "https://arxiv.org/abs/2605.11376",
+  "source_type": "rss",
+  "summary": "LLM-X提出了一种面向个人LLM代理的可扩展协商交换环境，通过消息总线和路由底层实现代理间的直接结构化通信。其核心贡献包括联邦网关架构、支持能力协商的类型化消息协议，以及大规模多代理协商的实证评估。实验验证了在不同负载和策略下系统的稳定性及延迟边界，解决了现有工具中心协议在LLM间协调方面的不足，为个人AI代理生态的互操作性提供了重要基础设施。",
+  "published_at": "2026-05-14",
+  "collected_at": "2026-05-14T03:40:41.964457+00:00",
+  "status": "pending",
+  "metadata": {
+    "feed_name": "ArXiv",
+    "feed_url": "https://rss.arxiv.org/rss/cs.AI"
+  },
+  "analysis": {
+    "score": 8,
+    "scoring_reasons": "该技术针对个人AI代理互联这一关键痛点，提出了具体的架构和协议标准，并进行了大规模实证验证，具有极高的实用价值和前瞻性。虽然尚未达到改变整个行业格局的突破性程度，但直接提升了多代理系统的工作效率和可靠性，属于高价值的实用性创新。",
+    "scoring_dimensions": {
+      "tech_depth": 8,
+      "innovation": 7,
+      "usability": 9
+    },
+    "technical_highlights": [
+      "引入面向LLM-to-LLM协调的消息总线与路由底层，保障Schema有效性和策略执行",
+      "首次大规模实证评估LLM多代理协商性能，验证了系统在持续负载下的稳定性与延迟边界"
+    ]
+  },
+  "tags": [
+    "多智能体系统",
+    "LLM互操作性",
+    "分布式架构",
+    "自动协商"
+  ]
+}

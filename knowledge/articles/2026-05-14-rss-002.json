@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260514-002",
+  "title": "The US is winning the AI race where it matters most: commercialization",
+  "source_url": "https://avkcode.github.io/blog/us-winning-ai-race.html",
+  "source_type": "rss",
+  "summary": "该标题指出美国在人工智能竞赛的关键领域——商业化方面占据领先地位。内容暗示尽管全球AI研发竞争激烈，但美国凭借成熟的市场机制、资本投入及企业生态，能更高效地将AI技术转化为实际商业价值和应用落地。这反映了从单纯的技术研发比拼转向应用变现能力的竞争趋势，强调了商业闭环对AI发展的决定性作用。",
+  "published_at": "2026-05-14",
+  "collected_at": "2026-05-14T03:40:41.964291+00:00",
+  "status": "pending",
+  "metadata": {
+    "feed_name": "Hacker News",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 6,
+    "scoring_reasons": "仅提供标题而无具体正文或数据支撑，信息密度极低。虽然指出了‘商业化’这一重要视角，但缺乏深度分析、案例或独特见解，属于宏观观点陈述，参考价值有限，故评为‘值得了解’档次。",
+    "scoring_dimensions": {
+      "tech_depth": 2,
+      "innovation": 3,
+      "usability": 4
+    },
+    "technical_highlights": [
+      "强调AI竞争核心从技术研发转向商业化落地能力",
+      "指出美国在AI市场转化和企业应用生态方面的优势"
+    ]
+  },
+  "tags": [
+    "AI商业化",
+    "行业趋势",
+    "市场竞争"
+  ]
+}

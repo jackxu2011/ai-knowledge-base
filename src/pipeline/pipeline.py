@@ -46,6 +46,8 @@ from typing import Any
 
 import httpx
 
+from constants.analyzers import DEFAULT_MIN_SCORE
+
 try:
     # Absolute import — works when the package is installed or
     # when run via ``python -m pipeline.pipeline``.
@@ -919,9 +921,15 @@ def organize_items(items: list[dict[str, Any]]) -> list[dict[str, Any]]:
     # 2. Format every item.
     formatted = [_format_article(item) for item in deduped]
 
-    # 3. Validate.
+    # 3. Validate and filter by score.
     valid: list[dict[str, Any]] = []
     for article in formatted:
+        score = article.get("analysis", {}).get("score", 0)
+        if score < DEFAULT_MIN_SCORE:
+            logger.info(
+                "Skipping %s (score=%s < %s)", article["id"], score, DEFAULT_MIN_SCORE
+            )
+            continue
         errors = _validate_article(article)
         if errors:
             logger.warning(

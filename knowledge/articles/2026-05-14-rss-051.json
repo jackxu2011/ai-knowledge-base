@@ -1,0 +1,34 @@
+{
+  "id": "rss-20260514-051",
+  "title": "Notes on the xAI/Anthropic data center deal",
+  "source_url": "https://simonwillison.net/2026/May/7/xai-anthropic/#atom-everything",
+  "source_type": "rss",
+  "summary": "Anthropic与xAI达成协议，租用Colossus 1数据中心全部算力以缓解资源瓶颈，但此举因该设施严重的环保违规记录引发争议。同时，xAI突然停用多个Grok模型且未提供迁移方案，暴露出供应商锁定风险。马斯克保留因“危害人类”收回算力的权利，为Anthropic带来潜在的供应链政治风险。",
+  "published_at": "2026-05-14",
+  "collected_at": "2026-05-14T03:40:41.964587+00:00",
+  "status": "pending",
+  "metadata": {
+    "feed_name": "Simon Willison",
+    "feed_url": "https://simonwillison.net/atom/everything/"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该内容揭示了AI行业关键的基础设施依赖关系、环保伦理冲突及供应链安全风险。虽然非技术突破，但对理解AI产业格局、企业战略风险及行业趋势有直接且重要的参考价值。",
+    "scoring_dimensions": {
+      "tech_depth": 6,
+      "innovation": 5,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "揭示算力短缺背景下，头部AI公司对竞争对手基础设施的依赖及其带来的环保与声誉风险",
+      "指出云服务协议中潜在的政治干预条款（如马斯克保留收回算力权），凸显供应链不稳定性"
+    ]
+  },
+  "tags": [
+    "AI基础设施",
+    "供应链管理",
+    "科技伦理",
+    "xAI",
+    "Anthropic"
+  ]
+}

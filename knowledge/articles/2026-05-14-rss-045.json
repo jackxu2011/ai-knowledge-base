@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260514-045",
+  "title": "Quoting Andrew Quinn",
+  "source_url": "https://simonwillison.net/2026/May/10/andrew-quinn/#atom-everything",
+  "source_type": "rss",
+  "summary": "Andrew Quinn提出“适度重复造轮子”的学习理念，认为开发者应通过亲手实现核心工具（如4-5个）来深入理解技术边界，而非仅依赖现有库或纯理论研读。该观点源自其将3GB SQLite数据库优化为7MB FST二进制的实践，强调动手重构对突破认知前沿的价值，为工程师成长提供了兼具哲学深度与实践指导的方法论。",
+  "published_at": "2026-05-14",
+  "collected_at": "2026-05-14T03:40:41.964539+00:00",
+  "status": "pending",
+  "metadata": {
+    "feed_name": "Simon Willison",
+    "feed_url": "https://simonwillison.net/atom/everything/"
+  },
+  "analysis": {
+    "score": 8,
+    "scoring_reasons": "该内容虽非具体代码库，但提供了极具价值的高阶工程思维与方法论。它纠正了过度依赖开源库或陷入‘发明者综合征’的两个极端，直接有助于提升开发者的技术洞察力和问题解决能力，属于对职业生涯有直接帮助的高质量洞见。",
+    "scoring_dimensions": {
+      "tech_depth": 7,
+      "innovation": 8,
+      "usability": 9
+    },
+    "technical_highlights": [
+      "提出“适度重造轮子”作为抵达技术认知前沿的有效路径",
+      "结合FST替换SQLite的实际案例，验证底层原理掌握对极致优化的重要性"
+    ]
+  },
+  "tags": [
+    "工程哲学",
+    "职业发展",
+    "性能优化"
+  ]
+}

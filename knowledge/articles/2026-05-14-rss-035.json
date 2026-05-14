@@ -1,0 +1,33 @@
+{
+  "id": "rss-20260514-035",
+  "title": "datasette 1.0a29",
+  "source_url": "https://simonwillison.net/2026/May/12/datasette/#atom-everything",
+  "source_type": "rss",
+  "summary": "Datasette发布1.0a29版本，主要修复了测试中因连接关闭竞态条件导致的段错误，并借助AI辅助复现该复杂Bug。功能上增加了Token限制缩写工具方法，优化了空表时的表头显示及Mobile Safari的兼容性。此次更新以稳定性修复和细节体验提升为主，体现了AI在解决底层技术难题中的实际应用价值。",
+  "published_at": "2026-05-14",
+  "collected_at": "2026-05-14T03:40:41.964518+00:00",
+  "status": "pending",
+  "metadata": {
+    "feed_name": "Simon Willison",
+    "feed_url": "https://simonwillison.net/atom/everything/"
+  },
+  "analysis": {
+    "score": 6,
+    "scoring_reasons": "本次更新主要为Alpha版本的常规迭代，包含Bug修复和小功能增强，未涉及核心架构变革或突破性新功能。虽然利用AI解决竞态条件段错误的过程具有技术趣味性，但对普通用户的直接效用有限，属于值得了解的维护性更新。",
+    "scoring_dimensions": {
+      "tech_depth": 7,
+      "innovation": 5,
+      "usability": 6
+    },
+    "technical_highlights": [
+      "利用AI辅助构建最小化Docker环境以复现和修复复杂的竞态条件段错误",
+      "优化空数据表场景下的UI显示逻辑及移动端浏览器兼容性"
+    ]
+  },
+  "tags": [
+    "Datasette",
+    "Bug修复",
+    "AI辅助开发",
+    "开源工具"
+  ]
+}

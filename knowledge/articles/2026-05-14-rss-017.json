@@ -1,0 +1,33 @@
+{
+  "id": "rss-20260514-017",
+  "title": "Template-as-Ontology: Configurable Synthetic Data Infrastructure for Cross-Domain Manufacturing AI Validation",
+  "source_url": "https://arxiv.org/abs/2605.11259",
+  "source_type": "rss",
+  "summary": "该论文提出“模板即本体”原则，通过单一Python配置模块统一制造仿真器规范与AI分析工具的数据Schema，解决生产数据隐私及异构问题。该架构生成符合ISA-95标准的因果连贯合成数据，并在六大行业验证中实现参数可控。实验表明，本体约束将LLM工具调用的幻觉率从43%降至0%，为跨域制造AI验证提供了高可靠、可复用的基础设施。",
+  "published_at": "2026-05-14",
+  "collected_at": "2026-05-14T03:40:41.964373+00:00",
+  "status": "pending",
+  "metadata": {
+    "feed_name": "ArXiv",
+    "feed_url": "https://rss.arxiv.org/rss/cs.AI"
+  },
+  "analysis": {
+    "score": 8,
+    "scoring_reasons": "该技术直击工业AI落地中的数据隐私与验证难题，提出创新的‘单一源’架构解决数据对齐痛点。其实用性极强，不仅支持多行业复用，更通过架构设计从根本上消除了LLM在工具调用中的参数幻觉，显著提升了工业场景下AI系统的可靠性与安全性，具有极高的工程应用价值。",
+    "scoring_dimensions": {
+      "tech_depth": 8,
+      "innovation": 9,
+      "usability": 9
+    },
+    "technical_highlights": [
+      "Template-as-Ontology架构实现仿真与数据分析的Schema由构造保证对齐",
+      "本体约束机制将LLM工具参数幻觉率从43%降低至0%，提供架构级可靠性保障"
+    ]
+  },
+  "tags": [
+    "工业AI",
+    "合成数据",
+    "大模型幻觉抑制",
+    "制造执行系统"
+  ]
+}

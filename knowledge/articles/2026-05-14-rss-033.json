@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260514-033",
+  "title": "Quoting Boris Mann",
+  "source_url": "https://simonwillison.net/2026/May/13/boris-mann/#atom-everything",
+  "source_type": "rss",
+  "summary": "Boris Mann 批评“11个AI智能体”这一表述缺乏实质意义，将其类比为“11个电子表格”或“11个浏览器标签”，指出单纯罗列数量无法体现工具的实际工作能力或价值。该观点旨在纠正行业对AI Agent概念的模糊使用，强调应关注智能体的具体功能、自主性及解决复杂任务的能力，而非营销层面的数量堆砌，呼吁回归对技术实效性的理性评估。",
+  "published_at": "2026-05-14",
+  "collected_at": "2026-05-14T03:40:41.964503+00:00",
+  "status": "pending",
+  "metadata": {
+    "feed_name": "Simon Willison",
+    "feed_url": "https://simonwillison.net/atom/everything/"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该观点虽非新技术发布，但精准指出了当前AI行业营销话术中的逻辑谬误，具有极高的认知纠偏价值。它帮助开发者和用户建立更务实的技术评估标准，避免被空洞的概念误导，直接提升了行业对话的质量和专业性，属于高价值的行业洞察。",
+    "scoring_dimensions": {
+      "tech_depth": 6,
+      "innovation": 5,
+      "usability": 9
+    },
+    "technical_highlights": [
+      "通过类比（电子表格/浏览器标签）解构了‘AI智能体数量’这一指标的无效性",
+      "倡导从关注营销概念转向关注智能体的实际工作流整合能力与自主性"
+    ]
+  },
+  "tags": [
+    "AI Agents",
+    "行业洞察",
+    "概念辨析"
+  ]
+}

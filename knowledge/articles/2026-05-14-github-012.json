@@ -1,0 +1,54 @@
+{
+  "id": "github-20260514-012",
+  "title": "hexcreator/ab",
+  "source_url": "https://github.com/hexcreator/ab",
+  "source_type": "github",
+  "summary": "Atomic Blueprint (ab) 是一个专为 AI 应用开发设计的代理记忆内核。它旨在解决当前 AI 代理在长程交互中容易遗忘上下文的问题，通过提供持久化且结构化的记忆机制，增强代理的状态保持能力和连贯性。该项目聚焦于提升 AI 代理在实际应用场景中的可靠性，是构建复杂自主智能体的关键基础设施组件。",
+  "published_at": "2026-05-14",
+  "collected_at": "2026-05-14T05:17:23.582273+00:00",
+  "status": "pending",
+  "metadata": {
+    "stars": 0,
+    "author": "hexcreator",
+    "topics": [
+      "agent",
+      "agent-memory",
+      "ai",
+      "artificial-intelligence",
+      "assistant",
+      "async",
+      "cursor",
+      "developer-tools",
+      "development",
+      "ide-integration",
+      "llm",
+      "machine-learning",
+      "memory",
+      "postgresql",
+      "python",
+      "recall",
+      "sqlite",
+      "structured-memory"
+    ],
+    "language": "Python",
+    "fork": false
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该项目直击 AI Agent 开发中的核心痛点——记忆管理，具有极高的实用价值。虽然记忆机制并非全新概念，但将其封装为专用的‘内核’并强调‘真正记住’，表明其在工程落地和效果优化上有具体突破，能直接提升开发者构建高质量 Agent 的效率。",
+    "scoring_dimensions": {
+      "tech_depth": 7,
+      "innovation": 6,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "提供专用的 AI Agent 记忆内核，解决上下文丢失问题",
+      "强调记忆的持久性与准确性，提升代理长期交互能力"
+    ]
+  },
+  "tags": [
+    "AI Agent",
+    "Memory Management",
+    "Developer Tools"
+  ]
+}

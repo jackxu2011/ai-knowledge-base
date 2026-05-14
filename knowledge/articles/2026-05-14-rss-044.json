@@ -1,0 +1,34 @@
+{
+  "id": "rss-20260514-044",
+  "title": "Quoting New York Times Editors’ Note",
+  "source_url": "https://simonwillison.net/2026/May/10/new-york-times-editors-note/#atom-everything",
+  "source_type": "rss",
+  "summary": "《纽约时报》发布编辑注记，承认在一篇关于加拿大选举的报道中，错误地将AI生成的政治观点摘要当作保守党领袖Pierre Poilievre的直接引语刊登。事后核查发现该言论并非出自其演讲，属AI幻觉导致的失实报道。报社已更正内容并强调记者需核实AI输出。此事件凸显生成式AI在新闻业应用中的真实性风险及伦理挑战，警示行业需建立更严格的AI内容审核机制。",
+  "published_at": "2026-05-14",
+  "collected_at": "2026-05-14T03:40:41.964532+00:00",
+  "status": "pending",
+  "metadata": {
+    "feed_name": "Simon Willison",
+    "feed_url": "https://simonwillison.net/atom/everything/"
+  },
+  "analysis": {
+    "score": 8,
+    "scoring_reasons": "该事件具有极高的行业警示意义，直接揭示了生成式AI在严肃新闻场景下的致命缺陷（幻觉问题）。虽然技术本身非新突破，但其对媒体公信力、工作流程及AI伦理的影响深远，为从业者和开发者提供了宝贵的反面教材，实用性高。",
+    "scoring_dimensions": {
+      "tech_depth": 6,
+      "innovation": 5,
+      "usability": 9
+    },
+    "technical_highlights": [
+      "揭示LLM在事实性引用场景下的幻觉风险与可靠性瓶颈",
+      "确立新闻行业中人机协作的新规范：AI辅助内容必须经过严格的人工事实核查"
+    ]
+  },
+  "tags": [
+    "AI伦理",
+    "新闻业",
+    "大模型幻觉",
+    "事实核查",
+    "生成式AI"
+  ]
+}
