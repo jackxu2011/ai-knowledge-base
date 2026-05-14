@@ -30,6 +30,8 @@ from constants.llm import (
     PROVIDER_BASE_URLS,
     PROVIDER_DEEPSEEK,
     PROVIDER_ENV_VARS,
+    PROVIDER_MODEL_ENVVARS,
+    PROVIDER_BASE_URL_ENVVARS,
     PROVIDER_MODELS,
     PROVIDER_OPENAI,
     PROVIDERS,
@@ -70,6 +72,7 @@ def load_llm_config() -> dict[str, Any]:
             exc,
         )
         return {}
+
 
 _RETRIABLE_EXCEPTIONS = (
     openai.RateLimitError,
@@ -353,6 +356,16 @@ def create_llm_client(provider: str | None = None) -> LLMProvider:
     provider_config = llm_config.get(provider, {})
     extra_body = provider_config.get("extra_body")
 
+    # Environment variable overrides — model and base_url take precedence
+    # over both the constants table and config/llm.json.
+    model = (
+        os.environ.get(PROVIDER_MODEL_ENVVARS[provider]) or PROVIDER_MODELS[provider]
+    )
+    base_url = (
+        os.environ.get(PROVIDER_BASE_URL_ENVVARS[provider])
+        or PROVIDER_BASE_URLS[provider]
+    )
+
     # Environment variable override for thinking mode.
     # ENABLE_THINKING=true  → enable_thinking=true (模型输出思考过程)
     # ENABLE_THINKING=false → enable_thinking=false (默认，节省 token)
@@ -365,8 +378,8 @@ def create_llm_client(provider: str | None = None) -> LLMProvider:
 
     client = OpenAICompatibleProvider(
         api_key=api_key,
-        base_url=PROVIDER_BASE_URLS[provider],
-        model=PROVIDER_MODELS[provider],
+        base_url=base_url,
+        model=model,
         provider_name=provider,
         timeout=60.0,
         extra_body=extra_body,

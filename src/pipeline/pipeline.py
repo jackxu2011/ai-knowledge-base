@@ -224,6 +224,7 @@ def load_rss_config() -> dict[str, Any]:
         )
         return _default_rss_config()
 
+
 # ── LLM analysis prompt ───────────────────────────────────────────────────
 ANALYSIS_SYSTEM_PROMPT = (
     "你是一个 AI 技术动态分析师。请对以下技术内容进行分析，"
@@ -436,7 +437,9 @@ async def collect_github(limit: int, dry_run: bool = False) -> list[dict[str, An
         )
 
     topics_query = "+".join(f"topic:{kw}" for kw in GITHUB_TOPIC_KEYWORDS)
-    url = f"{GITHUB_SEARCH_REPOS}?q={topics_query}&sort=stars&order=desc&per_page={limit}"
+    url = (
+        f"{GITHUB_SEARCH_REPOS}?q={topics_query}&sort=stars&order=desc&per_page={limit}"
+    )
 
     logger.info("GitHub Search API: q=%s sort=stars per_page=%d", topics_query, limit)
 
@@ -544,9 +547,7 @@ async def collect_rss(limit: int, dry_run: bool = False) -> list[dict[str, Any]]
     items: list[dict[str, Any]] = []
 
     if dry_run:
-        summaries = [
-            f"{f['name']} (limit={f.get('limit', limit)})" for f in feeds
-        ]
+        summaries = [f"{f['name']} (limit={f.get('limit', limit)})" for f in feeds]
         logger.info("[DRY-RUN] Would fetch RSS feeds: %s", summaries)
         return [
             {
@@ -570,9 +571,7 @@ async def collect_rss(limit: int, dry_run: bool = False) -> list[dict[str, Any]]
             feed_name = feed["name"]
             feed_url = feed["url"]
             feed_limit = feed.get("limit", limit)  # per-feed override
-            use_keyword_filter = feed.get(
-                "ai_keyword_filter", True
-            )  # per-feed toggle
+            use_keyword_filter = feed.get("ai_keyword_filter", True)  # per-feed toggle
 
             if feed_limit <= 0:
                 continue
@@ -580,7 +579,9 @@ async def collect_rss(limit: int, dry_run: bool = False) -> list[dict[str, Any]]
             try:
                 logger.info(
                     "Fetching RSS: %s (%s, limit=%d)",
-                    feed_name, feed_url, feed_limit,
+                    feed_name,
+                    feed_url,
+                    feed_limit,
                 )
                 resp = await client.get(feed_url)
                 resp.raise_for_status()
@@ -603,9 +604,7 @@ async def collect_rss(limit: int, dry_run: bool = False) -> list[dict[str, Any]]
 
                 title = _extract_xml_tag(entry_xml, "title") or ""
                 link = (
-                    _extract_link_text(entry_xml)
-                    or _extract_link_href(entry_xml)
-                    or ""
+                    _extract_link_text(entry_xml) or _extract_link_href(entry_xml) or ""
                 )
                 description = (
                     _extract_xml_tag(entry_xml, "description")
@@ -639,9 +638,46 @@ async def collect_rss(limit: int, dry_run: bool = False) -> list[dict[str, Any]]
 
     logger.info(
         "Collected %d RSS items from %d feed(s)",
-        len(items), len(feeds),
+        len(items),
+        len(feeds),
     )
     return items
+
+
+# ---------------------------------------------------------------------------
+# Step 1.5 — Deduplicate (before LLM analysis to save tokens)
+# ---------------------------------------------------------------------------
+
+
+def _dedup_raw_items(
+    items: list[dict[str, Any]], known_urls: set[str]
+) -> list[dict[str, Any]]:
+    """Remove duplicate items by ``source_url`` before LLM analysis.
+
+    Deduplicates against both on-disk articles and other items seen
+    earlier in the same batch.  This runs **before** Analyze so that
+    duplicate URLs do not consume LLM tokens.
+
+    Args:
+        items: List of raw item dicts.
+        known_urls: URLs already persisted on disk.
+
+    Returns:
+        Deduplicated list preserving insertion order.
+    """
+    seen: set[str] = set(known_urls)
+    deduped: list[dict[str, Any]] = []
+
+    for item in items:
+        url = item.get("source_url", "")
+        if url in seen:
+            logger.info("Skipping duplicate URL: %s (%s)", item.get("title"), url)
+            continue
+        if url:
+            seen.add(url)
+        deduped.append(item)
+
+    return deduped
 
 
 # ---------------------------------------------------------------------------
@@ -1135,16 +1171,34 @@ class Pipeline:
             logger.warning("No items collected — aborting pipeline")
             return 0
 
-        # Persist raw data before analysis.
+        # ── Step 1.5: Deduplicate before LLM analysis (save tokens) ────
+        logger.info("=" * 56)
+        logger.info("Step 1.5/4 — Deduplicating %d raw items", len(raw_items))
+        logger.info("=" * 56)
+
+        known_urls = _load_existing_urls()
+        logger.info("Loaded %d existing article URLs for dedup", len(known_urls))
+        unique_items = _dedup_raw_items(raw_items, known_urls)
+        logger.info(
+            "%d items remain after dedup (%d duplicates skipped)",
+            len(unique_items),
+            len(raw_items) - len(unique_items),
+        )
+
+        if not unique_items:
+            logger.warning("No unique items after dedup — aborting pipeline")
+            return 0
+
+        # Persist raw data after dedup (do not persist duplicates).
         if not self.dry_run:
-            save_raw(raw_items)
+            save_raw(unique_items)
 
         # ── Step 2: Analyze ────────────────────────────────────────────
         logger.info("=" * 56)
-        logger.info("Step 2/4 — Analysing %d items via LLM", len(raw_items))
+        logger.info("Step 2/4 — Analysing %d unique items via LLM", len(unique_items))
         logger.info("=" * 56)
 
-        analysed = await analyze_items(raw_items, dry_run=self.dry_run)
+        analysed = await analyze_items(unique_items, dry_run=self.dry_run)
         if not analysed:
             logger.warning("No items analysed — aborting pipeline")
             return 0
