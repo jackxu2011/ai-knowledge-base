@@ -1,33 +1,35 @@
 {
   "id": "rss-20260514-018",
-  "title": "LatentRouter: Can We Choose the Right Multimodal Model Before Seeing Its Answer?",
-  "source_url": "https://arxiv.org/abs/2605.11301",
+  "title": "How to Use Transformers.js in a Chrome Extension",
+  "source_url": "https://huggingface.co/blog/transformersjs-chrome-extension",
   "source_type": "rss",
-  "summary": "LatentRouter提出了一种针对多模态大模型（MLLM）的智能路由机制，旨在根据输入图像和问题的具体需求匹配最佳模型。该方法将路由建模为反事实多模态效用预测，通过提取路由胶囊与模型能力令牌进行潜在通信，预估各候选模型的表现。实验表明，其在MMR-Bench等基准上优于现有基线，特别是在视觉敏感和推理任务中表现显著，支持性能与成本平衡的动态路由，有效解决了异构模型选择难题。",
+  "summary": "该内容介绍了如何在Chrome扩展中使用Transformers.js库，使得开发者能够在浏览器端直接运行机器学习模型（如文本分类、情感分析等），无需后端服务器。通过具体步骤和代码示例，展示了集成过程，强调了离线能力和隐私保护优势。",
   "published_at": "2026-05-14",
-  "collected_at": "2026-05-14T03:40:41.964381+00:00",
+  "collected_at": "2026-05-14T15:02:29.243020+00:00",
   "status": "draft",
   "metadata": {
-    "feed_name": "ArXiv",
-    "feed_url": "https://rss.arxiv.org/rss/cs.AI"
+    "feed_name": "Hugging Face Blog",
+    "feed_url": "https://huggingface.co/blog/feed.xml"
   },
   "analysis": {
-    "score": 8,
-    "scoring_reasons": "该技术直接解决了多模态应用中模型选型难、成本高和延迟大的痛点，具有极强的实用价值。通过反事实预测和潜在通信机制提升了路由准确性，优于传统基于难度估计的方法。虽然未改变底层模型架构，但在系统工程和效率优化层面提供了高效解决方案，显著提升了实际部署的工作效率。",
+    "score": 7,
+    "scoring_reasons": "实用性强，直接提升了Chrome扩展的AI能力，满足边缘计算和隐私需求，但技术本身并非全新突破，属于已有技术的应用集成。",
     "scoring_dimensions": {
-      "tech_depth": 8,
-      "innovation": 7,
-      "usability": 9
+      "tech_depth": 6,
+      "innovation": 5,
+      "usability": 8
     },
     "technical_highlights": [
-      "引入反事实多模态效用预测，通过潜在通信机制精准匹配模型能力与输入需求",
-      "支持动态候选池和性能-成本权衡路由，在视觉敏感及复杂推理任务中显著提升效果"
+      "在浏览器中运行Transformer模型，无需后端",
+      "利用Transformers.js实现离线AI功能",
+      "Chrome扩展中集成机器学习的简化流程"
     ]
   },
   "tags": [
-    "多模态大模型",
-    "智能路由",
-    "模型选择",
-    "效率优化"
+    "Chrome扩展",
+    "Transformers.js",
+    "边缘计算",
+    "机器学习",
+    "离线AI"
   ]
 }

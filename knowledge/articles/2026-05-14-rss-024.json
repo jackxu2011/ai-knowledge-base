@@ -1,33 +1,32 @@
 {
   "id": "rss-20260514-024",
-  "title": "Causal Algorithmic Recourse: Foundations and Methods",
-  "source_url": "https://arxiv.org/abs/2605.11373",
+  "title": "Inside VAKRA: Reasoning, Tool Use, and Failure Modes of Agents",
+  "source_url": "https://huggingface.co/blog/ibm-research/vakra-benchmark-analysis",
   "source_type": "rss",
-  "summary": "该研究提出了一种因果算法追索（Recourse）新框架，解决了现有方法忽视个体潜在条件变化及重复决策的问题。通过引入事后稳定性条件和基于Copula的算法，仅利用观测数据即可推断追索效果；针对配对数据，提供了参数推断及无分布学习方案。该方法提升了AI决策系统的可信度与解释性，为公平AI提供了重要的理论支撑和实用工具。",
+  "summary": "这篇文章深入分析了一种名为VAKRA的AI代理系统，探讨了其推理机制、工具使用能力以及失败模式。主要内容包括代理如何结合逻辑推理与外部工具（如代码解释器、搜索引擎）完成任务，以及在复杂场景中出现的错误类型，如推理链断裂、工具选择不当和生成幻觉。文章提供了技术细节和案例研究，对理解当前代理系统的实际表现有参考价值。",
   "published_at": "2026-05-14",
-  "collected_at": "2026-05-14T03:40:41.964450+00:00",
+  "collected_at": "2026-05-14T15:02:29.243052+00:00",
   "status": "draft",
   "metadata": {
-    "feed_name": "ArXiv",
-    "feed_url": "https://rss.arxiv.org/rss/cs.AI"
+    "feed_name": "Hugging Face Blog",
+    "feed_url": "https://huggingface.co/blog/feed.xml"
   },
   "analysis": {
-    "score": 8,
-    "scoring_reasons": "该技术直接针对可解释AI中的核心痛点——算法追索，提出了更贴合现实场景的因果建模方法。其创新点在于处理潜在变量重采样和利用观测数据进行推断，显著提升了方法的实用性和鲁棒性，对提升AI系统信任度有直接帮助，属于高实用性研究成果。",
+    "score": 6,
+    "scoring_reasons": "该内容聚焦于特定代理系统的内部机制和局限性，对于AI开发者和研究人员有直接帮助，但话题较为专精，非通用性突破，因此评为6分。",
     "scoring_dimensions": {
-      "tech_depth": 9,
-      "innovation": 8,
-      "usability": 7
+      "tech_depth": 7,
+      "innovation": 5,
+      "usability": 6
     },
     "technical_highlights": [
-      "建立考虑潜在变量重采样的因果追索框架，突破固定反事实假设局限",
-      "提出基于Copula的推断算法，支持仅从观测数据中评估追索效果"
+      "详细解析VAKRA代理的推理流程与工具集成策略",
+      "系统分类并分析了多种失败模式，如推理链中断和工具滥用"
     ]
   },
   "tags": [
-    "可解释AI",
-    "因果推断",
-    "算法公平性",
-    "算法追索"
+    "AI代理",
+    "推理系统",
+    "工具使用"
   ]
 }

@@ -1,33 +1,32 @@
 {
   "id": "rss-20260514-026",
-  "title": "Revisiting Privacy Preservation in Brain-Computer Interfaces: Conceptual Boundaries, Risk Pathways, and a Protection-Strength Grading Framework",
-  "source_url": "https://arxiv.org/abs/2605.11386",
+  "title": "Waypoint-1.5: Higher-Fidelity Interactive Worlds for Everyday GPUs",
+  "source_url": "https://huggingface.co/blog/waypoint-1-5",
   "source_type": "rss",
-  "summary": "本文针对脑机接口（BCI）从实验室走向现实应用中的隐私风险，提出了包含保护对象、生命周期阶段和保护强度等级的三维框架。研究超越了原始神经信号泄露，涵盖模型资产及解码输出的重关联风险，强调在保留下游效用的同时解耦任务无关的敏感信息，为BCI隐私保护和神经伦理提供了系统性分级标准。",
+  "summary": "Waypoint-1.5 是一个专注于在消费级 GPU 上实现更高保真度交互世界的技术项目，旨在提升日常 GPU 的渲染质量和交互体验，使开发者能够创建更逼真的虚拟环境。",
   "published_at": "2026-05-14",
-  "collected_at": "2026-05-14T03:40:41.964464+00:00",
+  "collected_at": "2026-05-14T15:02:29.243062+00:00",
   "status": "draft",
   "metadata": {
-    "feed_name": "ArXiv",
-    "feed_url": "https://rss.arxiv.org/rss/cs.AI"
+    "feed_name": "Hugging Face Blog",
+    "feed_url": "https://huggingface.co/blog/feed.xml"
   },
   "analysis": {
-    "score": 8,
-    "scoring_reasons": "该研究直面BCI商业化落地的核心痛点——隐私安全，提出的三维分级框架具有明确的指导意义和实用价值。它不仅梳理了风险路径，还强调了‘效用与隐私平衡’的技术难点，对行业标准化和安全开发有直接帮助，属于高实用性综述。",
+    "score": 7,
+    "scoring_reasons": "该项目针对日常 GPU 优化高保真交互世界，具有实用性和创新性，能显著提升普通用户的沉浸式体验，适合游戏和虚拟现实等应用。",
     "scoring_dimensions": {
-      "tech_depth": 8,
+      "tech_depth": 7,
       "innovation": 7,
-      "usability": 9
+      "usability": 8
     },
     "technical_highlights": [
-      "提出保护对象-生命周期-保护强度的三维分级框架，系统化分类现有隐私保护工作",
-      "强调在去标识化基础上解耦任务无关敏感信息，兼顾数据隐私与模型效用"
+      "针对消费级 GPU 优化高保真渲染",
+      "提升交互世界的真实感和流畅度"
     ]
   },
   "tags": [
-    "脑机接口",
-    "神经数据隐私",
-    "隐私保护框架",
-    "神经伦理"
+    "GPU 优化",
+    "交互世界",
+    "高保真渲染"
   ]
 }

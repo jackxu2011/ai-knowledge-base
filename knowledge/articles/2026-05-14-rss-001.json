@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260514-001",
+  "title": "Claude for Small Business",
+  "source_url": "https://www.anthropic.com/news/claude-for-small-business",
+  "source_type": "rss",
+  "summary": "Claude for Small Business 是 Anthropic 为小型企业推出的 AI 助手服务，旨在通过自然语言处理帮助小企业主处理日常任务，如客户沟通、内容生成和数据分析。该服务利用 Claude 模型的能力，提供定制化支持，降低技术门槛，提升运营效率。",
+  "published_at": "2026-05-14",
+  "collected_at": "2026-05-14T15:02:29.242861+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该服务直接针对小企业痛点，实用性强，能显著提升工作效率，但创新性一般，属于现有技术的应用扩展。",
+    "scoring_dimensions": {
+      "tech_depth": 6,
+      "innovation": 5,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "针对小企业场景的定制化AI助手",
+      "降低AI使用门槛，无需专业编程知识"
+    ]
+  },
+  "tags": [
+    "AI助手",
+    "小企业",
+    "自然语言处理"
+  ]
+}

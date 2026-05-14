@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260514-014",
+  "title": "DeepInfra on Hugging Face Inference Providers 🔥",
+  "source_url": "https://huggingface.co/blog/inference-providers-deepinfra",
+  "source_type": "rss",
+  "summary": "DeepInfra在Hugging Face平台上推出推理服务提供商功能，允许用户通过Hugging Face的API直接调用DeepInfra托管的模型进行推理。这降低了AI模型部署门槛，提升了开发者使用开源模型的便捷性。",
+  "published_at": "2026-05-14",
+  "collected_at": "2026-05-14T15:02:29.243000+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hugging Face Blog",
+    "feed_url": "https://huggingface.co/blog/feed.xml"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该内容直接提升了AI模型的可访问性和实用性，尤其对开发者友好，但属于平台整合性质，创新性中等。",
+    "scoring_dimensions": {
+      "tech_depth": 6,
+      "innovation": 5,
+      "usability": 9
+    },
+    "technical_highlights": [
+      "与Hugging Face平台深度集成，简化推理调用流程",
+      "提供高性能模型推理服务，降低部署成本"
+    ]
+  },
+  "tags": [
+    "AI推理",
+    "平台集成",
+    "开发者工具"
+  ]
+}

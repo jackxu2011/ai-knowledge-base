@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260514-008",
+  "title": "Unlocking asynchronicity in continuous batching",
+  "source_url": "https://huggingface.co/blog/continuous_async",
+  "source_type": "rss",
+  "summary": "本文探讨了在连续批处理中实现异步性的方法，旨在提高深度学习模型推理的效率和吞吐量。通过优化调度和内存管理，该技术允许模型同时处理多个请求，减少等待时间，从而加速服务响应。",
+  "published_at": "2026-05-14",
+  "collected_at": "2026-05-14T15:02:29.242953+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hugging Face Blog",
+    "feed_url": "https://huggingface.co/blog/feed.xml"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该技术直接解决了AI推理中的批处理瓶颈，实用性强，能显著提升GPU利用率和响应速度，适用于机器学习工程实践。",
+    "scoring_dimensions": {
+      "tech_depth": 8,
+      "innovation": 7,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "提出连续批处理异步化方案",
+      "优化资源调度减少空闲等待"
+    ]
+  },
+  "tags": [
+    "连续批处理",
+    "异步推理",
+    "深度学习优化"
+  ]
+}

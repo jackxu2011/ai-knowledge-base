@@ -1,0 +1,34 @@
+{
+  "id": "rss-20260514-006",
+  "title": "Claude AI recovers an 11 yrs old BTC wallet holding 400k USD",
+  "source_url": "https://www.tomshardware.com/tech-industry/cryptocurrency/bitcoin-trader-recovers-usd400-000-using-claude-ai-after-losing-wallet-password-11-years-ago-bot-tried-3-5-trillion-passwords-before-decrypting-an-old-wallet-backup",
+  "source_type": "rss",
+  "summary": "该事件报道了Claude AI成功恢复了一个11年前的比特币钱包，其中包含价值40万美元的加密货币。这可能展示了AI在密码学恢复和数字资产管理方面的潜力，但需谨慎验证细节。",
+  "published_at": "2026-05-14",
+  "collected_at": "2026-05-14T15:02:29.242942+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该事件具有较高的实用性和启发价值，展示了AI在解决实际金融问题上的能力，但需确认技术细节和可复制性，因此评分较高但非颠覆性。",
+    "scoring_dimensions": {
+      "tech_depth": 7,
+      "innovation": 8,
+      "usability": 6
+    },
+    "technical_highlights": [
+      "利用AI进行老式钱包恢复，展示AI对复杂加密和旧格式的理解能力",
+      "揭示了AI在数字资产管理中的潜在应用，尤其是对遗失密钥的恢复"
+    ]
+  },
+  "tags": [
+    "AI应用",
+    "比特币",
+    "密码恢复",
+    "金融科技",
+    "资产安全"
+  ]
+}

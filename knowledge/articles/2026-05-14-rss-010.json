@@ -1,0 +1,35 @@
+{
+  "id": "rss-20260514-010",
+  "title": "EMO: Pretraining mixture of experts for emergent modularity",
+  "source_url": "https://huggingface.co/blog/allenai/emo",
+  "source_type": "rss",
+  "summary": "该论文提出了EMO，一种针对混合专家模型（MoE）的预训练方法，旨在实现网络各模块的自主涌现模块化。通过动态扩展专家数量并优化路由机制，该方法允许模型在预训练过程中根据数据分布自动调整子网络结构，从而提升模型容量与计算效率的平衡。实验表明，EMO训练的模型在自然语言理解和生成任务上表现更佳，且专家模块具有明确的功能分化，易于解释和迁移。",
+  "published_at": "2026-05-14",
+  "collected_at": "2026-05-14T15:02:29.242973+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hugging Face Blog",
+    "feed_url": "https://huggingface.co/blog/feed.xml"
+  },
+  "analysis": {
+    "score": 9,
+    "scoring_reasons": "该技术提出了模块化涌现的新范式，将MoE的专家分配从固定设计转化为动态自组织过程，不仅提升了模型性能与计算效率，还增强了可解释性和模块复用性。此举可能改变大规模预训练模型的设计范式，具有较高的产业影响和科研价值。",
+    "scoring_dimensions": {
+      "tech_depth": 9,
+      "innovation": 10,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "动态专家扩展机制实现模块化自主涌现",
+      "优化路由算法提升稀疏性优势同时避免专家坍塌",
+      "模块化结构支持任务无关的迁移与可解释性分析"
+    ]
+  },
+  "tags": [
+    "混合专家模型",
+    "模块化涌现",
+    "预训练方法",
+    "路由机制",
+    "稀疏计算"
+  ]
+}

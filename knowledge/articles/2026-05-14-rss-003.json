@@ -1,0 +1,34 @@
+{
+  "id": "rss-20260514-003",
+  "title": "Sam Altman&#x27;s Business Dealings Under GOP Scrutiny Ahead of OpenAI&#x27;s IPO",
+  "source_url": "https://www.wsj.com/tech/ai/sam-altmans-business-dealings-under-gop-scrutiny-ahead-of-openais-ipo-52c1cc4d",
+  "source_type": "rss",
+  "summary": "该摘要涉及OpenAI CEO Sam Altman的商业交易在IPO前受到共和党（GOP）审查的事件。内容聚焦于政治和商业交叉点，可能影响公司治理和IPO进程。",
+  "published_at": "2026-05-14",
+  "collected_at": "2026-05-14T15:02:29.242912+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 6,
+    "scoring_reasons": "事件涉及重要公司治理和监管动态，对科技行业有一定参考价值，但非直接技术突破或实用工具，影响面较窄。",
+    "scoring_dimensions": {
+      "tech_depth": 3,
+      "innovation": 2,
+      "usability": 4
+    },
+    "technical_highlights": [
+      "商业交易受政治审查对公司治理的启示",
+      "IPO前透明度与合规性关注"
+    ]
+  },
+  "tags": [
+    "OpenAI",
+    "Sam Altman",
+    "公司治理",
+    "IPO",
+    "政治审查"
+  ]
+}

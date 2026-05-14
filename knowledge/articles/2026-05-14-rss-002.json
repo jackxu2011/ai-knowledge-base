@@ -1,32 +1,34 @@
 {
   "id": "rss-20260514-002",
-  "title": "The US is winning the AI race where it matters most: commercialization",
-  "source_url": "https://avkcode.github.io/blog/us-winning-ai-race.html",
+  "title": "USDA Projects Smallest US Wheat Harvest Since 1972 Due to Plains Drought",
+  "source_url": "https://www.agweb.com/news/usda-projects-smallest-us-wheat-harvest-1972-due-plains-drought",
   "source_type": "rss",
-  "summary": "该标题指出美国在人工智能竞赛的关键领域——商业化方面占据领先地位。内容暗示尽管全球AI研发竞争激烈，但美国凭借成熟的市场机制、资本投入及企业生态，能更高效地将AI技术转化为实际商业价值和应用落地。这反映了从单纯的技术研发比拼转向应用变现能力的竞争趋势，强调了商业闭环对AI发展的决定性作用。",
+  "summary": "美国农业部预测，由于平原地区干旱，2025年美国小麦收成将是1972年以来最小的。这一预测反映了极端气候对农业生产的持续冲击，可能导致全球小麦供应紧张和价格上涨。",
   "published_at": "2026-05-14",
-  "collected_at": "2026-05-14T03:40:41.964291+00:00",
+  "collected_at": "2026-05-14T15:02:29.242895+00:00",
   "status": "draft",
   "metadata": {
-    "feed_name": "Hacker News",
+    "feed_name": "Hacker News Best",
     "feed_url": "https://news.ycombinator.com/rss"
   },
   "analysis": {
-    "score": 6,
-    "scoring_reasons": "仅提供标题而无具体正文或数据支撑，信息密度极低。虽然指出了‘商业化’这一重要视角，但缺乏深度分析、案例或独特见解，属于宏观观点陈述，参考价值有限，故评为‘值得了解’档次。",
+    "score": 7,
+    "scoring_reasons": "该信息具有高度时效性和现实影响力，直接关联到全球粮食安全和市场波动，对农业、贸易和投资者具有直接指导意义。但技术深度有限，属于事件性分析。",
     "scoring_dimensions": {
-      "tech_depth": 2,
-      "innovation": 3,
-      "usability": 4
+      "tech_depth": 3,
+      "innovation": 2,
+      "usability": 8
     },
     "technical_highlights": [
-      "强调AI竞争核心从技术研发转向商业化落地能力",
-      "指出美国在AI市场转化和企业应用生态方面的优势"
+      "干旱导致美国小麦产量降至50年新低",
+      "对全球小麦市场供应和价格产生重大影响"
     ]
   },
   "tags": [
-    "AI商业化",
-    "行业趋势",
-    "市场竞争"
+    "农业",
+    "干旱",
+    "小麦产量",
+    "全球供应链",
+    "粮食安全"
   ]
 }

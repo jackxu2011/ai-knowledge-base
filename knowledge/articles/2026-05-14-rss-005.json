@@ -1,32 +1,32 @@
 {
   "id": "rss-20260514-005",
-  "title": "Meta won&#x27;t let you block its AI account on Threads",
-  "source_url": "https://www.theverge.com/tech/929091/meta-ai-threads-account-block",
+  "title": "A Claude Code and Codex Skill for Deliberate Skill Development",
+  "source_url": "https://github.com/DrCatHicks/learning-opportunities",
   "source_type": "rss",
-  "summary": "Meta禁止用户在Threads平台上屏蔽其官方AI账号，引发关于用户自主权与平台强制推广策略的争议。此举旨在确保AI助手的曝光率，但牺牲了用户体验和控制权，反映了科技巨头在推进AI普及过程中与用户隐私及偏好之间的潜在冲突，可能影响用户对平台的信任度。",
+  "summary": "本文介绍了一项针对Claude Code和Codex的技能开发技巧，旨在通过刻意练习提升AI编码能力。该方法可能涉及结构化代码反馈或逐步构建技能，以增强代码质量和开发者效率。",
   "published_at": "2026-05-14",
-  "collected_at": "2026-05-14T03:40:41.964332+00:00",
+  "collected_at": "2026-05-14T15:02:29.242932+00:00",
   "status": "draft",
   "metadata": {
-    "feed_name": "Hacker News",
+    "feed_name": "Hacker News Best",
     "feed_url": "https://news.ycombinator.com/rss"
   },
   "analysis": {
     "score": 6,
-    "scoring_reasons": "该新闻主要涉及产品策略和用户权益争议，而非底层技术突破。虽然对社交媒体行业趋势有参考意义，但对技术开发或直接工作效率提升无直接帮助，属于值得了解的行业动态。",
+    "scoring_reasons": "该技巧聚焦于AI辅助编码中的技能提升，对开发者有实用价值，但内容较为具体，创新性和普适性有限，适合关注AI工具深度使用的用户。",
     "scoring_dimensions": {
-      "tech_depth": 2,
+      "tech_depth": 5,
       "innovation": 4,
-      "usability": 3
+      "usability": 7
     },
     "technical_highlights": [
-      "平台强制保留AI入口，限制用户屏蔽权限",
-      "反映AI产品推广与用户自主权之间的博弈"
+      "引入刻意练习概念到AI编码工具使用中",
+      "提升Claude Code和Codex的实用效率"
     ]
   },
   "tags": [
-    "Meta",
-    "Threads",
-    "AI伦理"
+    "AI编码",
+    "技能开发",
+    "Claude Code"
   ]
 }

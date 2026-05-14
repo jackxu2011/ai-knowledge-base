@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260514-013",
+  "title": "Granite 4.1 LLMs: How They’re Built",
+  "source_url": "https://huggingface.co/blog/ibm-granite/granite-4-1",
+  "source_type": "rss",
+  "summary": "本文介绍了Granite 4.1大语言模型的构建方法，包括模型架构、训练数据、训练过程以及性能优化策略。该模型旨在提供高效、可靠的AI解决方案，适用于多种自然语言处理任务。",
+  "published_at": "2026-05-14",
+  "collected_at": "2026-05-14T15:02:29.242995+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hugging Face Blog",
+    "feed_url": "https://huggingface.co/blog/feed.xml"
+  },
+  "analysis": {
+    "score": 6,
+    "scoring_reasons": "Granite 4.1作为新发布的LLM版本，在技术实现上进行了优化，但缺乏突破性创新，对专业用户有一定参考价值，但非行业范式转变。",
+    "scoring_dimensions": {
+      "tech_depth": 7,
+      "innovation": 5,
+      "usability": 6
+    },
+    "technical_highlights": [
+      "详细描述了模型构建的步骤与数据策略",
+      "强调了性能和效率的优化方法"
+    ]
+  },
+  "tags": [
+    "大语言模型",
+    "模型构建",
+    "Granite 4.1"
+  ]
+}

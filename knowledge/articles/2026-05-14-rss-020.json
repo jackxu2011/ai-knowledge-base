@@ -1,33 +1,33 @@
 {
   "id": "rss-20260514-020",
-  "title": "Rethinking Evaluation for LLM Hallucination Detection: A Desiderata, A New RAG-based Benchmark, New Insights",
-  "source_url": "https://arxiv.org/abs/2605.11330",
+  "title": "AI and the Future of Cybersecurity: Why Openness Matters",
+  "source_url": "https://huggingface.co/blog/cybersecurity-openness",
   "source_type": "rss",
-  "summary": "该研究针对大模型幻觉检测评估的不足，提出了理想基准应具备的属性，并开源了新型RAG基准TRIVIA+。该基准填补了长上下文和真实标签噪声模拟的空白，包含文献中最长上下文样本及多种噪声标签方案。实验揭示现有检测器在RAG场景下仍有巨大提升空间，LLM-as-a-Judge基线表现强劲，且标签噪声显著影响检测性能，为后续研究提供了重要参考。",
+  "summary": "本文探讨了人工智能在网络安全领域的应用前景，强调开放合作对于应对日益复杂的网络威胁至关重要。文章指出，封闭的专有系统可能限制创新和响应速度，而开放的方法能促进技术共享、透明度提升和集体防御能力增强。通过分析当前AI驱动的安全工具和潜在风险，作者呼吁行业、政府和学术界共同构建开放的网络安全生态，以更有效地保护数字基础设施。",
   "published_at": "2026-05-14",
-  "collected_at": "2026-05-14T03:40:41.964414+00:00",
+  "collected_at": "2026-05-14T15:02:29.243031+00:00",
   "status": "draft",
   "metadata": {
-    "feed_name": "ArXiv",
-    "feed_url": "https://rss.arxiv.org/rss/cs.AI"
+    "feed_name": "Hugging Face Blog",
+    "feed_url": "https://huggingface.co/blog/feed.xml"
   },
   "analysis": {
-    "score": 8,
-    "scoring_reasons": "该工作直接解决了当前LLM幻觉检测评估中的关键痛点（长上下文缺失、噪声模拟不足），提供的TRIVIA+基准具有极高的实用价值，能直接帮助研究人员更准确地评估和优化检测算法。虽然属于基准构建而非底层算法突破，但对提升行业评估标准有直接帮助。",
+    "score": 7,
+    "scoring_reasons": "文章提出了一个具有前瞻性的观点，即开放性是提升AI网络安全效能的关键，这直接关系到实际防御能力的提升和行业协作。虽然并非突破性技术，但实用性强，对安全从业者和政策制定者有直接指导意义。",
     "scoring_dimensions": {
-      "tech_depth": 7,
-      "innovation": 8,
-      "usability": 9
+      "tech_depth": 6,
+      "innovation": 7,
+      "usability": 8
     },
     "technical_highlights": [
-      "构建包含极长上下文的RAG基准TRIVIA+，填补现有数据集空白",
-      "引入四种不同机制的真实标签噪声方案，支持对检测器进行压力测试"
+      "强调开放合作对抗AI驱动的网络攻击",
+      "指出封闭系统可能阻碍安全创新"
     ]
   },
   "tags": [
-    "LLM幻觉检测",
-    "RAG基准",
-    "评估体系",
-    "数据标注"
+    "AI安全",
+    "开放合作",
+    "网络安全",
+    "行业趋势"
   ]
 }

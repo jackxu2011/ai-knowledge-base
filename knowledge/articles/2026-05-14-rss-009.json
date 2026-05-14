@@ -1,0 +1,34 @@
+{
+  "id": "rss-20260514-009",
+  "title": "Building Blocks for Foundation Model Training and Inference on AWS",
+  "source_url": "https://huggingface.co/blog/amazon/foundation-model-building-blocks",
+  "source_type": "rss",
+  "summary": "AWS为训练和推理大模型提供了基础组件，如SageMaker、Trainium和Inferentia芯片及高性能计算实例，支持从原型到生产工作负载。",
+  "published_at": "2026-05-14",
+  "collected_at": "2026-05-14T15:02:29.242963+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hugging Face Blog",
+    "feed_url": "https://huggingface.co/blog/feed.xml"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "实用性强，直接帮助开发者在AWS上高效训练和部署大模型，但未突破现有范式，属于成熟方案的整合优化。",
+    "scoring_dimensions": {
+      "tech_depth": 7,
+      "innovation": 4,
+      "usability": 9
+    },
+    "technical_highlights": [
+      "专用芯片Trainium/Inferentia降低大模型成本",
+      "SageMaker提供端到端训练和推理管道"
+    ]
+  },
+  "tags": [
+    "AWS",
+    "大模型训练",
+    "推理优化",
+    "芯片",
+    "SageMaker"
+  ]
+}

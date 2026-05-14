@@ -1,34 +1,32 @@
 {
   "id": "rss-20260514-021",
-  "title": "CPEMH: An Agentic Framework for Prompt-Driven Behavior Evaluation and Assurance in Foundation-Model Systems for Mental Health Screening",
-  "source_url": "https://arxiv.org/abs/2605.11341",
+  "title": "Ecom-RLVE: Adaptive Verifiable Environments for E-Commerce Conversational Agents",
+  "source_url": "https://huggingface.co/blog/ecom-rlve",
   "source_type": "rss",
-  "summary": "CPEMH是一个针对心理健康筛查场景的基础模型行为评估与保障框架。它采用多智能体架构，自动化设计、评估和选择提示策略，以控制系统行为的变异性。通过在抑郁筛查案例中的应用，该框架展示了在临床敏感领域稳定模型行为、确保可追溯性和鲁棒性的能力，强调将稳定性、偏差控制和F1分数作为核心验收标准，为高风险领域的LLM工程化提供了重要参考。",
+  "summary": "Ecom-RLVE 提出了一种自适应可验证环境，用于提升电商对话代理的可靠性。通过强化学习与可验证环境结合，该框架能动态调整对话策略，确保在复杂电商场景中生成准确、合规的响应，减少幻觉与错误。实验表明，该方法在用户满意度与任务成功率上显著优于基线模型。",
   "published_at": "2026-05-14",
-  "collected_at": "2026-05-14T03:40:41.964426+00:00",
+  "collected_at": "2026-05-14T15:02:29.243037+00:00",
   "status": "draft",
   "metadata": {
-    "feed_name": "ArXiv",
-    "feed_url": "https://rss.arxiv.org/rss/cs.AI"
+    "feed_name": "Hugging Face Blog",
+    "feed_url": "https://huggingface.co/blog/feed.xml"
   },
   "analysis": {
-    "score": 8,
-    "scoring_reasons": "该技术直接解决了大模型在医疗等高风险领域应用时的核心痛点——行为不可控和缺乏审计机制。其提出的模块化智能体架构具有极强的实用价值，能显著提升开发者的工作效率和系统安全性，符合‘直接有帮助’的评分标准。虽未改变底层范式，但在工程落地层面意义重大。",
+    "score": 7,
+    "scoring_reasons": "该技术直接针对电商对话代理的可靠性痛点，通过自适应可验证环境提升实用性与准确性，具有较强应用价值，但创新性相对有限，属于对现有强化学习与验证机制的优化组合。",
     "scoring_dimensions": {
-      "tech_depth": 8,
-      "innovation": 7,
-      "usability": 9
+      "tech_depth": 7,
+      "innovation": 6,
+      "usability": 8
     },
     "technical_highlights": [
-      "引入编排器、推理和评估智能体的模块化架构，实现提示策略的自动化设计与选择",
-      "在临床敏感领域建立可追溯、可复现的行为保障机制，将偏差和鲁棒性纳入核心验收标准"
+      "自适应可验证环境动态调整对话策略",
+      "结合强化学习减少电商场景中的幻觉与错误"
     ]
   },
   "tags": [
-    "AI安全",
-    "智能体框架",
-    "数字健康",
-    "提示工程",
-    "行为评估"
+    "电商对话代理",
+    "强化学习",
+    "可验证环境"
   ]
 }
