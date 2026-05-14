@@ -23,8 +23,5 @@ packages = ["constants", "pipeline"]
 py-modules = ["main"]
 package-dir = {"" = "src"}
 
-[[tool.uv.index]]
-url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-default = true
 
 
