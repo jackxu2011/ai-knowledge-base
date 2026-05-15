@@ -1,14 +1,15 @@
 """Pipeline orchestrator — 4-step knowledge base automation.
 
-Collect → Analyze → Organize → Save
+ Collect → Save → Load → Deduplicate → Analyze → Organize → Save articles
 
 Steps:
   1. **Collect** — fetch AI/LLM/Agent repos from GitHub Search API
      and AI-related items from RSS/Atom feeds.
-  2. **Analyze** — invoke LLM to summarise, score, tag each item.
-  3. **Organize** — deduplicate by URL, standardise format, validate schema.
-  4. **Save** — persist individual JSON articles to ``knowledge/articles/``
-     and batch raw data to ``knowledge/raw/``.
+  2. **Save** — persist raw collected data to ``knowledge/raw/``.
+  3. **Load / Deduplicate / Analyze** — load raw data from disk,
+     remove duplicates by URL, invoke LLM to summarise, score, tag each item.
+  4. **Organize** — standardise format, validate schema.
+  5. **Save articles** — persist individual JSON articles to ``knowledge/articles/``.
 
 Configuration:
     ``config/rss_sources.json``  — RSS/Atom feed list, AI keywords, timeout
@@ -982,7 +983,11 @@ def _format_article(item: dict[str, Any]) -> dict[str, Any]:
 
 
 def organize_items(items: list[dict[str, Any]]) -> list[dict[str, Any]]:
-    """Organise analysed items: deduplication, standardisation, validation.
+    """Organise analysed items: standardisation, validation.
+
+    Note:
+        Deduplication is performed in Step 1.5 (before LLM analysis)
+        to avoid consuming tokens on duplicate URLs.
 
     Args:
         items: List of analysed item dicts.
@@ -993,16 +998,10 @@ def organize_items(items: list[dict[str, Any]]) -> list[dict[str, Any]]:
     if not items:
         return []
 
-    # 1. Deduplicate against existing articles.
-    known = _load_existing_urls()
-    logger.info("Loaded %d existing article URLs for dedup", len(known))
-    deduped = _dedup_items(items, known)
-    logger.info("%d items remain after dedup", len(deduped))
+    # 1. Format every item.
+    formatted = [_format_article(item) for item in items]
 
-    # 2. Format every item.
-    formatted = [_format_article(item) for item in deduped]
-
-    # 3. Validate and filter by score.
+    # 2. Validate and filter by score.
     valid: list[dict[str, Any]] = []
     for article in formatted:
         score = article.get("analysis", {}).get("score", 0)
@@ -1036,14 +1035,23 @@ def save_raw(items: list[dict[str, Any]]) -> None:
     Args:
         items: List of raw item dicts (internal pipeline format).
     """
-    if not items:
-        return
-
     RAW_DIR.mkdir(parents=True, exist_ok=True)
     date_str = _today_str()
     now_iso = _now_iso()
 
-    # Group by source.
+    if not items:
+        filename = f"{date_str}-empty.json"
+        filepath = RAW_DIR / filename
+        data = {
+            "source": "mixed",
+            "collected_at": now_iso,
+            "items": [],
+        }
+        with open(filepath, "w", encoding="utf-8") as f:
+            json.dump(data, f, ensure_ascii=False, indent=2)
+        logger.info("Saved empty raw record to %s", filepath)
+        return
+
     by_source: dict[str, list[dict[str, Any]]] = {}
     for item in items:
         src = item.get("source", "unknown")
@@ -1068,6 +1076,50 @@ def save_raw(items: list[dict[str, Any]]) -> None:
         with open(filepath, "w", encoding="utf-8") as f:
             json.dump(data, f, ensure_ascii=False, indent=2)
         logger.info("Saved %d raw items to %s", len(src_items), filepath)
+
+
+def load_raw_items() -> list[dict[str, Any]]:
+    """Load raw items from today's raw JSON files.
+
+    Returns:
+        List of raw item dicts in internal pipeline format.
+    """
+    if not RAW_DIR.exists():
+        return []
+
+    date_str = _today_str()
+    items: list[dict[str, Any]] = []
+
+    for filepath in RAW_DIR.glob(f"{date_str}-*.json"):
+        if filepath.name == f"{date_str}-empty.json":
+            continue
+        try:
+            with open(filepath, encoding="utf-8") as f:
+                data: dict[str, Any] = json.load(f)
+            for it in data.get("items", []):
+                items.append(
+                    {
+                        "id": _generate_id(
+                            data.get("source", "unknown"), len(items) + 1
+                        ),
+                        "title": it.get("title", ""),
+                        "source_url": it.get("url", ""),
+                        "source": data.get("source", "unknown"),
+                        "collected_date": date_str,
+                        "description": it.get("summary", ""),
+                        "summary": "",
+                        "metadata": {
+                            k: v
+                            for k, v in it.items()
+                            if k not in ("title", "url", "summary")
+                        },
+                    }
+                )
+        except (json.JSONDecodeError, OSError) as exc:
+            logger.warning("Failed to load raw file %s: %s", filepath.name, exc)
+
+    logger.info("Loaded %d items from raw data", len(items))
+    return items
 
 
 def save_article(article: dict[str, Any]) -> None:
@@ -1153,7 +1205,7 @@ class Pipeline:
         Returns:
             Number of articles persisted to disk (0 on failure or dry-run).
         """
-        # ── Step 1: Collect ────────────────────────────────────────────
+        # ── Step 1: Collect → Save to raw/ ─────────────────────────────
         logger.info("=" * 56)
         logger.info("Step 1/4 — Collecting data from %s", ", ".join(self.sources))
         logger.info("=" * 56)
@@ -1169,35 +1221,36 @@ class Pipeline:
             raw_items.extend(items)
 
         if not raw_items:
-            logger.warning("No items collected — aborting pipeline")
+            logger.info("No items collected — saving empty record")
+            if not self.dry_run:
+                save_raw([])
             return 0
 
-        # ── Step 1.5: Deduplicate before LLM analysis (save tokens) ────
+        if not self.dry_run:
+            save_raw(raw_items)
+
+        # ── Step 2: Load raw → Deduplicate → Analyze ───────────────────
         logger.info("=" * 56)
-        logger.info("Step 1.5/4 — Deduplicating %d raw items", len(raw_items))
+        logger.info("Step 2/4 — Loading raw data for analysis")
         logger.info("=" * 56)
+
+        loaded_items = load_raw_items()
+        if not loaded_items:
+            logger.warning("No items in raw data — aborting pipeline")
+            return 0
 
         known_urls = _load_existing_urls()
         logger.info("Loaded %d existing article URLs for dedup", len(known_urls))
-        unique_items = _dedup_raw_items(raw_items, known_urls)
+        unique_items = _dedup_raw_items(loaded_items, known_urls)
         logger.info(
             "%d items remain after dedup (%d duplicates skipped)",
             len(unique_items),
-            len(raw_items) - len(unique_items),
+            len(loaded_items) - len(unique_items),
         )
 
         if not unique_items:
             logger.warning("No unique items after dedup — aborting pipeline")
             return 0
-
-        # Persist raw data after dedup (do not persist duplicates).
-        if not self.dry_run:
-            save_raw(unique_items)
-
-        # ── Step 2: Analyze ────────────────────────────────────────────
-        logger.info("=" * 56)
-        logger.info("Step 2/4 — Analysing %d unique items via LLM", len(unique_items))
-        logger.info("=" * 56)
 
         analysed = await analyze_items(unique_items, dry_run=self.dry_run)
         if not analysed:
