@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260515-002",
+  "title": "Access to frontier AI will soon be limited by economic and security constraints",
+  "source_url": "https://writing.antonleicht.me/p/cut-off",
+  "source_type": "rss",
+  "summary": "文章指出前沿AI模型的获取将日益受到经济成本与安全合规的双重制约。高昂的训练与推理费用提高了行业门槛，而各国监管政策及企业风控措施则限制了模型开放程度。这一趋势意味着AI资源将向头部机构集中，中小企业及个人开发者需应对更严格的访问限制，行业格局正从开源共享转向受控封闭。",
+  "published_at": "2026-05-15",
+  "collected_at": "2026-05-15T05:20:49.331453+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该话题直击当前AI行业发展的核心痛点，对从业者制定技术选型、合规策略及商业规划具有直接的指导意义。虽然属于宏观趋势分析而非具体技术突破，但其现实影响深远，有助于读者预判行业风向，因此评为直接有帮助。",
+    "scoring_dimensions": {
+      "tech_depth": 6,
+      "innovation": 5,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "揭示算力经济与规模效应导致的前沿AI访问壁垒",
+      "分析地缘政治与企业安全策略对模型开源的抑制作用"
+    ]
+  },
+  "tags": [
+    "AI治理",
+    "行业趋势",
+    "安全合规"
+  ]
+}

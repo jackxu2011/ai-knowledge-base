@@ -12,6 +12,8 @@ Examples:
     >>> print(response.content)
 """
 
+from __future__ import annotations
+
 import asyncio
 import json
 import logging
@@ -38,6 +40,107 @@ from constants.llm import (
 )
 
 logger = logging.getLogger(__name__)
+
+if not logging.getLogger().handlers:
+    logging.basicConfig(
+        level=logging.INFO,
+        format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+    )
+
+
+class CostTracker:
+    """Tracks LLM token consumption and costs per provider."""
+
+    def __init__(self) -> None:
+        """Initialize the cost tracker with empty statistics."""
+        self._stats: dict[str, dict[str, int | float]] = {
+            provider: {
+                "prompt_tokens": 0,
+                "completion_tokens": 0,
+                "total_tokens": 0,
+                "calls": 0,
+                "cost_cny": 0.0,
+            }
+            for provider in PROVIDERS
+        }
+
+    def record(self, usage: Usage, provider: str) -> None:
+        """Record an API call's token usage.
+
+        Args:
+            usage: Usage object containing prompt_tokens, completion_tokens, total_tokens.
+            provider: Provider name (e.g. "deepseek", "qwen", "openai").
+        """
+        if provider not in self._stats:
+            self._stats[provider] = {
+                "prompt_tokens": 0,
+                "completion_tokens": 0,
+                "total_tokens": 0,
+                "calls": 0,
+                "cost_cny": 0.0,
+            }
+
+        stats = self._stats[provider]
+        stats["prompt_tokens"] += usage.prompt_tokens
+        stats["completion_tokens"] += usage.completion_tokens
+        stats["total_tokens"] += usage.total_tokens
+        stats["calls"] += 1
+
+        if (
+            usage.total_tokens > 0
+            and usage.total_tokens == usage.prompt_tokens + usage.completion_tokens
+        ):
+            cost = usage.total_cost_cny(
+                PROVIDER_MODELS.get(provider, list(MODEL_TOKEN_PRICES.keys())[0])
+            )
+            stats["cost_cny"] += cost
+
+    def estimated_cost(self, provider: str) -> float:
+        """Return estimated total cost for a provider in CNY.
+
+        Args:
+            provider: Provider name.
+
+        Returns:
+            Total estimated cost in CNY, or 0.0 if provider not tracked.
+        """
+        if provider not in self._stats:
+            return 0.0
+        return self._stats[provider]["cost_cny"]
+
+    def report(self, provider: str | None = None) -> None:
+        """Print a cost report to stdout.
+
+        Args:
+            provider: Provider name. If None, prints all providers.
+        """
+        if provider is not None:
+            self._print_provider_report(provider)
+        else:
+            for p in PROVIDERS:
+                self._print_provider_report(p)
+
+    def _print_provider_report(self, provider: str) -> None:
+        """Print cost report for a single provider."""
+        stats = self._stats.get(provider)
+        if stats is None:
+            return
+
+        logger.info(
+            "[CostTracker] Provider: %s | Calls: %d | "
+            "PromptTokens: %d | CompletionTokens: %d | "
+            "TotalTokens: %d | Cost: ¥%.6f",
+            provider,
+            stats["calls"],
+            stats["prompt_tokens"],
+            stats["completion_tokens"],
+            stats["total_tokens"],
+            stats["cost_cny"],
+        )
+
+
+# Global cost tracker instance
+tracker = CostTracker()
 
 # ── LLM config ───────────────────────────────────────────────────────────────
 LLM_CONFIG_PATH = Path("config/llm.json")
@@ -296,6 +399,8 @@ class OpenAICompatibleProvider(LLMProvider):
                 economical_limit,
                 self._model,
             )
+
+        tracker.record(usage, self._provider)
 
         return LLMResponse(
             content=content,

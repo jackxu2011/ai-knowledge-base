@@ -58,6 +58,7 @@ try:
         LLMResponse,
         Usage,
         create_llm_client,
+        tracker,
     )
 except (ImportError, ModuleNotFoundError):
     # Relative fallback — works when the file is run directly
@@ -67,6 +68,7 @@ except (ImportError, ModuleNotFoundError):
         LLMResponse,
         Usage,
         create_llm_client,
+        tracker,
     )
 
 # ---------------------------------------------------------------------------
@@ -1293,6 +1295,7 @@ class Pipeline:
             return len(organised)
 
         saved = save_articles(organised)
+        tracker.report()
         return saved
 
 
