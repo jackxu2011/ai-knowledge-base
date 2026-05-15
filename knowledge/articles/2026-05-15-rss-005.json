@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260515-005",
+  "title": "Ontario auditors find doctors&#x27; AI note takers routinely blow basic facts",
+  "source_url": "https://www.theregister.com/ai-ml/2026/05/14/ontario-auditors-find-doctors-ai-note-takers-routinely-blow-basic-facts/5240771",
+  "source_type": "rss",
+  "summary": "安大略省审计发现，医生使用的AI笔记工具频繁出现基本事实错误，如混淆患者性别、误报药物剂量等，影响医疗记录准确性。审计报告强调需加强AI工具的监管和验证机制。",
+  "published_at": "2026-05-15",
+  "collected_at": "2026-05-15T02:45:29.382849+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 6,
+    "scoring_reasons": "该技术问题揭示了AI在医疗领域的应用风险，对行业有警示意义，但属已知问题范畴，创新性不足，主要价值在于强调验证监管需求。",
+    "scoring_dimensions": {
+      "tech_depth": 5,
+      "innovation": 3,
+      "usability": 4
+    },
+    "technical_highlights": [
+      "AI笔记工具在医疗记录中频繁出现性别、剂量等基本事实错误",
+      "审计结果凸显AI工具在关键领域需更严格的验证和监管"
+    ]
+  },
+  "tags": [
+    "AI医疗",
+    "审计发现",
+    "事实错误"
+  ]
+}
