@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260516-013",
+  "title": "I believe there are entire companies right now under AI psychosis",
+  "source_url": "https://twitter.com/mitchellh/status/2055380239711457578",
+  "source_type": "rss",
+  "summary": "该内容指出当前AI领域存在一种“AI精神病”现象，即许多公司盲目追逐AI概念，忽视实际业务价值，导致资源浪费和战略偏差。作者认为这种狂热可能使企业陷入非理性决策，建议回归理性评估AI的适用性。",
+  "published_at": "2026-05-16",
+  "collected_at": "2026-05-16T03:48:02.271768+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "观点具有批判性和现实意义，直接点出AI热潮中的潜在风险，对企业和从业者有警示价值，但缺乏具体数据或案例支撑，属于观点性分析而非技术突破。",
+    "scoring_dimensions": {
+      "tech_depth": 3,
+      "innovation": 6,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "揭示AI行业非理性繁荣现象",
+      "强调回归业务本质的理性思考"
+    ]
+  },
+  "tags": [
+    "AI行业观察",
+    "商业策略",
+    "批判性分析"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "rss-20260516-017",
+  "title": "Granite Embedding Multilingual R2: Open Apache 2.0 Multilingual Embeddings with 32K Context — Best Sub-100M Retrieval Quality",
+  "source_url": "https://huggingface.co/blog/ibm-granite/granite-embedding-multilingual-r2",
+  "source_type": "rss",
+  "summary": "IBM发布Granite Embedding Multilingual R2模型，这是一款开源（Apache 2.0）的多语言嵌入模型，支持32K上下文窗口，在子1亿参数规模模型中达到最佳检索质量。该模型专为多语言检索和语义理解设计，兼顾性能与开放性。",
+  "published_at": "2026-05-16",
+  "collected_at": "2026-05-16T03:48:02.271833+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hugging Face Blog",
+    "feed_url": "https://huggingface.co/blog/feed.xml"
+  },
+  "analysis": {
+    "score": 8,
+    "scoring_reasons": "该模型在子1亿参数规模中实现最佳检索质量，且支持32K长上下文和多语言，开源Apache 2.0许可降低了使用门槛，对检索增强生成（RAG）和多语言NLP任务有直接实用价值，但并非突破性范式转变。",
+    "scoring_dimensions": {
+      "tech_depth": 7,
+      "innovation": 6,
+      "usability": 9
+    },
+    "technical_highlights": [
+      "32K上下文窗口支持长文本检索",
+      "多语言嵌入能力覆盖广泛语言",
+      "子1亿参数规模中达到最佳检索质量",
+      "Apache 2.0开源许可便于商用和集成"
+    ]
+  },
+  "tags": [
+    "多语言嵌入",
+    "开源模型",
+    "检索增强生成",
+    "长上下文",
+    "Apache 2.0"
+  ]
+}
