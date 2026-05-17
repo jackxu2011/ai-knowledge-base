@@ -1,0 +1,35 @@
+{
+  "id": "rss-20260517-003",
+  "title": "Moving away from Tailwind, and learning to structure my CSS",
+  "source_url": "https://jvns.ca/blog/2026/05/15/moving-away-from-tailwind--and-learning-to-structure-my-css-/",
+  "source_type": "rss",
+  "summary": "探讨从Tailwind转向结构化CSS的实践总结，强调在项目中重新采用传统CSS方法论（如BEM、SMACSS）的过程与学习收获。作者分享了在大型项目中Tailwind的维护挑战，以及结构化CSS带来的可读性、复用性和团队协作优势。反映了UI开发中工具选择的思考趋势，以及对基础CSS原则的回归。",
+  "published_at": "2026-05-17",
+  "collected_at": "2026-05-17T04:05:38.932778+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 6,
+    "scoring_reasons": "内容针对前端开发者，尤其适合在Tailwind热潮中反思的技术人群，提供了实用对比和经验教训。但并非突破性技术，而是常见工程实践的讨论，对非开发者或已熟悉结构化CSS者价值有限。",
+    "scoring_dimensions": {
+      "tech_depth": 6,
+      "innovation": 4,
+      "usability": 7
+    },
+    "technical_highlights": [
+      "对比Tailwind与结构化CSS在大型项目中的维护成本差异",
+      "重新强调BEM等命名规范提升CSS可预测性和团队协作效率",
+      "通过实际重构案例展示结构化CSS对代码复用和重构的积极影响"
+    ]
+  },
+  "tags": [
+    "CSS方法论",
+    "Tailwind迁移",
+    "前端工程化",
+    "BEM",
+    "代码维护"
+  ]
+}

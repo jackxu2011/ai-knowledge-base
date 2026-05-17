@@ -1,0 +1,34 @@
+{
+  "id": "rss-20260517-002",
+  "title": "OpenAI and Government of Malta partner to roll out ChatGPT Plus to all citizens",
+  "source_url": "https://openai.com/index/malta-chatgpt-plus-partnership/",
+  "source_type": "rss",
+  "summary": "OpenAI与马耳他政府合作，向所有公民推广ChatGPT Plus服务。此举旨在通过AI技术提升公共服务效率与公民生活质量，可能成为国家层面AI普及的示范案例。",
+  "published_at": "2026-05-17",
+  "collected_at": "2026-05-17T04:05:38.932769+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该合作具有直接实用价值，通过政府推广AI工具可提升公民工作效率与生活便利性，但技术本身非突破性创新，属于应用层面的推广。",
+    "scoring_dimensions": {
+      "tech_depth": 3,
+      "innovation": 4,
+      "usability": 9
+    },
+    "technical_highlights": [
+      "国家层面大规模AI服务推广",
+      "政府与科技公司合作模式创新"
+    ]
+  },
+  "tags": [
+    "OpenAI",
+    "ChatGPT Plus",
+    "政府合作",
+    "AI普及",
+    "马耳他"
+  ]
+}

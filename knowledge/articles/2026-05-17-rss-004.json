@@ -1,0 +1,33 @@
+{
+  "id": "rss-20260517-004",
+  "title": "Frontier AI has broken the open CTF format",
+  "source_url": "https://kabir.au/blog/the-ctf-scene-is-dead",
+  "source_type": "rss",
+  "summary": "前沿AI技术已打破了传统开放CTF（Capture The Flag）安全竞赛格式的局限。AI模型能够自动发现漏洞、生成利用代码，甚至通过分析训练数据中的模式来击败传统CTF挑战，这迫使安全社区重新评估竞技场的游戏规则和研究方向。",
+  "published_at": "2026-05-17",
+  "collected_at": "2026-05-17T04:05:38.932785+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 8,
+    "scoring_reasons": "该议题触动了网络安全竞赛领域的范式转变，凸显AI在自动化漏洞利用上的突破性能力，对安全教育和实战有直接指导意义；但尚未达到彻底颠覆产业格局的程度。",
+    "scoring_dimensions": {
+      "tech_depth": 9,
+      "innovation": 9,
+      "usability": 6
+    },
+    "technical_highlights": [
+      "AI能够自主完成从漏洞发现到利用的全流程，超越传统手工CTF解法",
+      "暴露了现有CTF格式在对抗AI时代下的缺陷，推动竞赛设计革新"
+    ]
+  },
+  "tags": [
+    "AI安全",
+    "CTF竞赛",
+    "自动化漏洞利用",
+    "范式转变"
+  ]
+}
