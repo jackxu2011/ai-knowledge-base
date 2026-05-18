@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260518-017",
+  "title": "I don&#x27;t think AI will make your processes go faster",
+  "source_url": "https://frederickvanbrabant.com/blog/2026-05-15-i-dont-think-ai-will-make-your-processes-go-faster/",
+  "source_type": "rss",
+  "summary": "该内容质疑AI在业务流程中的加速作用，认为AI并非万能解决方案，可能增加复杂性而非效率。",
+  "published_at": "2026-05-18",
+  "collected_at": "2026-05-18T04:18:48.180654+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 6,
+    "scoring_reasons": "观点具有反思性，挑战主流乐观预期，但缺乏具体数据和实证支撑，属于理论探讨层面。",
+    "scoring_dimensions": {
+      "tech_depth": 4,
+      "innovation": 6,
+      "usability": 5
+    },
+    "technical_highlights": [
+      "对AI效率神话的批判性分析",
+      "强调流程优化比技术工具更重要"
+    ]
+  },
+  "tags": [
+    "AI反思",
+    "效率",
+    "流程优化"
+  ]
+}

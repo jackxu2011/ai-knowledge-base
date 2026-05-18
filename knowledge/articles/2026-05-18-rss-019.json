@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260518-019",
+  "title": "The History of ThinkPad: From IBM’s Bento Box to Lenovo’s AI Workstations",
+  "source_url": "https://www.jdhodges.com/blog/thinkpad-history/",
+  "source_type": "rss",
+  "summary": "该文章回顾了ThinkPad从IBM时代到联想旗下的发展历程，从经典的“便当盒”设计演进为AI工作站，重点分析了其在技术革新、设计理念和品牌传承方面的演变，突显其在不同时期的行业影响力与战略调整。",
+  "published_at": "2026-05-18",
+  "collected_at": "2026-05-18T04:18:48.180677+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 6,
+    "scoring_reasons": "内容丰富，对ThinkPad的历史与AI转型进行了系统梳理，虽非突破性技术分析，但作为行业回顾具有参考价值，尤其对理解品牌技术演进有帮助。",
+    "scoring_dimensions": {
+      "tech_depth": 6,
+      "innovation": 5,
+      "usability": 7
+    },
+    "technical_highlights": [
+      "从IBM经典设计到联想AI工作站的完整技术路径",
+      "展现了传统品牌如何融合AI技术的转型策略"
+    ]
+  },
+  "tags": [
+    "ThinkPad",
+    "技术历史",
+    "AI工作站"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260518-016",
+  "title": "Most Americans don&#x27;t trust AI – or the people in charge of it (2025)",
+  "source_url": "https://www.theverge.com/ai-artificial-intelligence/644853/pew-gallup-data-americans-dont-trust-ai",
+  "source_type": "rss",
+  "summary": "一项2025年的调查显示，大多数美国人不信任AI技术及其管理者。公众对AI的怀疑态度反映了对隐私、伦理和潜在风险的普遍担忧，这可能会影响AI的接受度和政策制定。",
+  "published_at": "2026-05-18",
+  "collected_at": "2026-05-18T04:18:48.180641+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 6,
+    "scoring_reasons": "内容反映了重要的社会态度，对理解AI推广和监管有参考价值，但未提出技术突破或直接改变格局。",
+    "scoring_dimensions": {
+      "tech_depth": 3,
+      "innovation": 5,
+      "usability": 7
+    },
+    "technical_highlights": [
+      "揭示了公众对AI信任度的关键数据",
+      "强调了治理和伦理问题的重要性"
+    ]
+  },
+  "tags": [
+    "AI信任度",
+    "公众态度",
+    "2025年调查"
+  ]
+}

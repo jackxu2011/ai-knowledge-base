@@ -1,0 +1,33 @@
+{
+  "id": "rss-20260518-018",
+  "title": "Prolog Basics Explained with Pokémon",
+  "source_url": "https://unplannedobsolescence.com/blog/prolog-basics-pokemon/",
+  "source_type": "rss",
+  "summary": "本文通过宝可梦（Pokémon）实例讲解Prolog基础，涵盖事实、规则、查询和递归等核心概念。这种教学方式降低了逻辑编程的学习门槛，将抽象的逻辑推理与广受欢迎的游戏元素结合，使初学者能直观理解Prolog的声明式编程范式。内容清晰且具有创新性，但主要面向编程入门者。",
+  "published_at": "2026-05-18",
+  "collected_at": "2026-05-18T04:18:48.180667+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该内容通过流行文化载体有效降低了Prolog的学习难度，实用性强且具有创新性，适合教育和启发编程初学者。但涉及的技术深度有限，未深入高级特性，因此评为7分。",
+    "scoring_dimensions": {
+      "tech_depth": 4,
+      "innovation": 7,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "用宝可梦实例生动解释Prolog的事实和规则",
+      "通过查询和递归演示逻辑编程的思维模式"
+    ]
+  },
+  "tags": [
+    "Prolog",
+    "逻辑编程",
+    "编程教育",
+    "宝可梦"
+  ]
+}

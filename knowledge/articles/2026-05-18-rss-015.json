@@ -1,0 +1,35 @@
+{
+  "id": "rss-20260518-015",
+  "title": "WriteUp: 16 Bytes of x86 that turn Matrix rain into sound",
+  "source_url": "https://hellmood.111mb.de//wake_up_16b_writeup.html",
+  "source_type": "rss",
+  "summary": "本文介绍了一个仅用16字节x86代码实现的创意项目，将经典的《黑客帝国》数字雨视觉效果转化为音频输出。作者通过极简的汇编指令直接操作硬件，生成类似雨声的随机噪声，展示了在极端资源限制下的编程技巧和逆向思维。该成果不仅有趣，还体现了对底层系统交互的深刻理解。",
+  "published_at": "2026-05-18",
+  "collected_at": "2026-05-18T04:18:48.180629+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该项目极具创意，以极简代码实现有趣功能，展示了底层编程的深度和技巧，可直接用于演示或创意应用，但受众面较窄，实用性有限。",
+    "scoring_dimensions": {
+      "tech_depth": 8,
+      "innovation": 9,
+      "usability": 5
+    },
+    "technical_highlights": [
+      "仅用16字节x86代码实现复杂效果",
+      "将视觉特效转化为实时音频输出",
+      "直接操作硬件端口，展示底层编程能力"
+    ]
+  },
+  "tags": [
+    "x86汇编",
+    "极简编程",
+    "硬件操作",
+    "创意编码",
+    "音频生成"
+  ]
+}
