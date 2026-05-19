@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260519-019",
+  "title": "The American Rebellion Against AI Is Gaining Steam",
+  "source_url": "https://www.wsj.com/tech/ai/the-american-rebellion-against-ai-is-gaining-steam-94b72529",
+  "source_type": "rss",
+  "summary": "文章探讨了美国对人工智能的抵制情绪日益高涨的现象。随着AI技术在就业、隐私和伦理等方面带来的冲击，公众、立法者和行业内部的反对声音逐渐增强。这种反抗正在形成一股社会力量，可能影响AI的研发方向、监管政策及其在社会的应用方式。",
+  "published_at": "2026-05-19",
+  "collected_at": "2026-05-19T04:14:09.461478+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该内容反映了AI发展中重要的社会动态和伦理关切，对于理解技术落地的政治与社会阻力具有直接帮助。虽非技术突破，但涉及AI应用的关键外部因素，实用性强。",
+    "scoring_dimensions": {
+      "tech_depth": 3,
+      "innovation": 4,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "揭示了AI发展中的社会伦理阻力",
+      "强调了政策与公众意见对AI应用的实际影响"
+    ]
+  },
+  "tags": [
+    "AI伦理",
+    "社会影响",
+    "政策监管"
+  ]
+}

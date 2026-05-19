@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260519-021",
+  "title": "Alignment pretraining: AI discourse creates self-fulfilling (mis)alignment",
+  "source_url": "https://arxiv.org/abs/2601.10160",
+  "source_type": "rss",
+  "summary": "本文探讨了AI预训练阶段的对齐策略如何通过自我实现的预言导致错位问题。研究指出，在模型训练中注入特定对齐目标时，训练数据中的话语（discourse）会强化预设的假设，从而产生与真实价值相悖的结果。这揭示了对齐过程需谨慎以避免循环论证和偏见固化，对AI伦理和可靠部署具有警示意义。",
+  "published_at": "2026-05-19",
+  "collected_at": "2026-05-19T04:14:09.461488+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 8,
+    "scoring_reasons": "该工作直击AI对齐的核心悖论，挑战了现有预训练范式，具有高度的概念创新性。虽然技术实现细节可能尚未完全展开，但其对AI安全领域的潜在影响显著，提示了实际部署中需警惕的机制性风险，评分高因其实质推动了关键问题的讨论。",
+    "scoring_dimensions": {
+      "tech_depth": 8,
+      "innovation": 9,
+      "usability": 7
+    },
+    "technical_highlights": [
+      "揭示对齐预训练中的自我实现预言机制导致错位",
+      "挑战现有对齐方法的假设，提出新视角"
+    ]
+  },
+  "tags": [
+    "AI对齐",
+    "预训练",
+    "自我实现预言"
+  ]
+}

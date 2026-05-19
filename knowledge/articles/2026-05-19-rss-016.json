@@ -1,0 +1,34 @@
+{
+  "id": "rss-20260519-016",
+  "title": "We let AIs run radio stations",
+  "source_url": "https://andonlabs.com/blog/andon-fm",
+  "source_type": "rss",
+  "summary": "该项目探索了AI完全自主运营广播电台的能力，从音乐选择到节目编排均由AI完成。实验展示了AI在内容生成与实时决策方面的潜力，但缺乏人类主持的情感互动与突发应变能力。技术实现上依赖自然语言处理与推荐算法，体现了AI在媒体领域的应用边界。",
+  "published_at": "2026-05-19",
+  "collected_at": "2026-05-19T04:14:09.461447+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 6,
+    "scoring_reasons": "该实验具有创新性，展示了AI在内容生成与实时决策方面的潜力，但实用性与深度有限，缺乏对人类情感互动与突发应变的替代能力。",
+    "scoring_dimensions": {
+      "tech_depth": 6,
+      "innovation": 7,
+      "usability": 5
+    },
+    "technical_highlights": [
+      "AI自主完成音乐选择与节目编排",
+      "自然语言处理与推荐算法的综合应用"
+    ]
+  },
+  "tags": [
+    "AI",
+    "广播",
+    "内容生成",
+    "媒体",
+    "自动化"
+  ]
+}

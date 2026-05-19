@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260519-023",
+  "title": "Fine-Tuning NVIDIA Cosmos Predict 2.5 with LoRA/DoRA for Robot Video Generation",
+  "source_url": "https://huggingface.co/blog/nvidia/cosmos-fine-tuning-for-robot-video-generation",
+  "source_type": "rss",
+  "summary": "本文介绍了如何使用LoRA/DoRA微调NVIDIA Cosmos Predict 2.5模型，以实现机器人视频生成。该方法通过轻量化微调技术，大幅降低计算资源需求，使模型能高效生成符合机器人任务特征的视频序列，提升了视频预测的准确性和实用性，为机器人环境模拟与训练提供了新的低成本解决方案。",
+  "published_at": "2026-05-19",
+  "collected_at": "2026-05-19T04:14:09.461508+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hugging Face Blog",
+    "feed_url": "https://huggingface.co/blog/feed.xml"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该技术结合了前沿的模型微调方法（LoRA/DoRA）与NVIDIA先进的视频生成模型，直接服务于机器人领域的视频生成需求，实用性强且可降低计算门槛，但属于优化现有模型的方法，创新性中等。",
+    "scoring_dimensions": {
+      "tech_depth": 7,
+      "innovation": 6,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "结合LoRA/DoRA轻量化微调技术，显著降低机器人视频生成模型的训练成本",
+      "针对NVIDIA Cosmos Predict 2.5模型进行微调，提升特定任务（机器人）视频预测的准确性与实用性"
+    ]
+  },
+  "tags": [
+    "LoRA/DoRA",
+    "机器人视频生成",
+    "NVIDIA Cosmos"
+  ]
+}

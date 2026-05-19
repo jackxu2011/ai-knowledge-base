@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260519-025",
+  "title": "The Open Agent Leaderboard",
+  "source_url": "https://huggingface.co/blog/ibm-research/open-agent-leaderboard",
+  "source_type": "rss",
+  "summary": "Open Agent Leaderboard是一个旨在评估和比较AI智能体性能的公开排行榜。它通过标准化测试集和指标，为开发者提供客观的参考，促进智能体技术的透明度和进步。该排行榜覆盖多个领域和任务，帮助识别各智能体的优势与不足。",
+  "published_at": "2026-05-19",
+  "collected_at": "2026-05-19T04:14:09.461527+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hugging Face Blog",
+    "feed_url": "https://huggingface.co/blog/feed.xml"
+  },
+  "analysis": {
+    "score": 6,
+    "scoring_reasons": "该项目有实用价值，提供标准化评估框架，但创新性一般，主要作为工具而非突破性技术。",
+    "scoring_dimensions": {
+      "tech_depth": 5,
+      "innovation": 4,
+      "usability": 7
+    },
+    "technical_highlights": [
+      "公开透明的智能体性能基准测试",
+      "多任务和多领域覆盖的评估体系"
+    ]
+  },
+  "tags": [
+    "AI智能体",
+    "排行榜",
+    "基准测试"
+  ]
+}

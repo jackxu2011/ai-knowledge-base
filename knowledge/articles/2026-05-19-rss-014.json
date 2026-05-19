@@ -1,0 +1,34 @@
+{
+  "id": "rss-20260519-014",
+  "title": "Anthropic acquires Stainless",
+  "source_url": "https://www.anthropic.com/news/anthropic-acquires-stainless",
+  "source_type": "rss",
+  "summary": "Anthropic收购了API文档与SDK生成平台Stainless，旨在增强其AI产品生态的技术基础与开发者体验。Stainless专注于简化API集成，这次收购将帮助Anthropic更高效地为开发者提供工具支持，加速AI应用的部署。",
+  "published_at": "2026-05-19",
+  "collected_at": "2026-05-19T04:14:09.461421+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 6,
+    "scoring_reasons": "收购具有行业战略意义，增强了Anthropic的技术生态，但本身并非突破性技术创新，对普通用户影响有限。",
+    "scoring_dimensions": {
+      "tech_depth": 4,
+      "innovation": 4,
+      "usability": 6
+    },
+    "technical_highlights": [
+      "收购API文档与SDK生成平台，强化开发者工具链",
+      "提升AI模型部署的集成效率与用户体验"
+    ]
+  },
+  "tags": [
+    "Anthropic",
+    "收购",
+    "API工具",
+    "开发者体验",
+    "AI生态"
+  ]
+}

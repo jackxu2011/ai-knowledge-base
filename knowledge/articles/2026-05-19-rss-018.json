@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260519-018",
+  "title": "Agora-1: The Multi-Agent World Model",
+  "source_url": "https://odyssey.ml/introducing-agora-1",
+  "source_type": "rss",
+  "summary": "Agora-1是一种多智能体世界模型，旨在通过协同智能体模拟复杂环境，提升决策和规划能力。它可能结合了深度学习与群体智能，在机器人、自动驾驶或游戏领域有潜在应用，但具体细节有限。",
+  "published_at": "2026-05-19",
+  "collected_at": "2026-05-19T04:14:09.461469+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 6,
+    "scoring_reasons": "该技术概念新颖，结合多智能体与世界模型，有潜在实用价值，但描述简短，缺乏具体成果和验证，创新性和实用性尚待确认。",
+    "scoring_dimensions": {
+      "tech_depth": 5,
+      "innovation": 7,
+      "usability": 5
+    },
+    "technical_highlights": [
+      "多智能体协作构建世界模型",
+      "可应用于复杂环境模拟与决策"
+    ]
+  },
+  "tags": [
+    "多智能体",
+    "世界模型",
+    "模拟"
+  ]
+}

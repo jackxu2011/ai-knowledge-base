@@ -1,0 +1,34 @@
+{
+  "id": "rss-20260519-024",
+  "title": "PaddleOCR 3.5: Running OCR and Document Parsing Tasks with a Transformers Backend",
+  "source_url": "https://huggingface.co/blog/PaddlePaddle/paddleocr-transformers",
+  "source_type": "rss",
+  "summary": "PaddleOCR 3.5版本引入Transformers后端支持，将OCR和文档解析任务与前沿的Transformer架构结合，提升了模型对复杂布局和多样化文本的识别能力。该更新延续了PaddleOCR的高效性和易用性，并进一步增强了在文档数字化、票据识别等场景的实用性。",
+  "published_at": "2026-05-19",
+  "collected_at": "2026-05-19T04:14:09.461518+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hugging Face Blog",
+    "feed_url": "https://huggingface.co/blog/feed.xml"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该技术直接提高了OCR和文档解析任务的准确性和适用性，对于需要处理非标准文本和复杂文档的应用有实质帮助。虽然Transformers在OCR中的应用并非全新，但集成到成熟框架中降低了使用门槛，具备较强的实用性。",
+    "scoring_dimensions": {
+      "tech_depth": 8,
+      "innovation": 6,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "集成Transformers后端到OCR和文档解析流程",
+      "提升复杂布局和多样化文字的识别率",
+      "保持PaddleOCR的高易用性和可扩展性"
+    ]
+  },
+  "tags": [
+    "OCR",
+    "文档解析",
+    "PaddleOCR",
+    "Transformers"
+  ]
+}

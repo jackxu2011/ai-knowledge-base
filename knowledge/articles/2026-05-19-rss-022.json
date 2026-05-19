@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260519-022",
+  "title": "Iran starts Bitcoin-backed ship insurance for Hormuz strait",
+  "source_url": "https://www.bloomberg.com/news/articles/2026-05-18/iran-starts-bitcoin-backed-shipping-insurance-for-hormuz-strait",
+  "source_type": "rss",
+  "summary": "伊朗启动基于比特币的霍尔木兹海峡船舶保险计划，旨在应对制裁和地缘政治风险，利用加密货币绕过传统金融限制，为航运业提供创新保障。",
+  "published_at": "2026-05-19",
+  "collected_at": "2026-05-19T04:14:09.461499+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该技术应用具有实际创新性，解决特定地缘政治和金融痛点，但受限于应用场景和加密货币波动性，整体实用性高但非普适。",
+    "scoring_dimensions": {
+      "tech_depth": 6,
+      "innovation": 8,
+      "usability": 7
+    },
+    "technical_highlights": [
+      "利用比特币作为支付和储备手段，规避传统银行制裁",
+      "针对霍尔木兹海峡高风险航运提供保险新方案"
+    ]
+  },
+  "tags": [
+    "加密货币",
+    "保险创新",
+    "地缘金融"
+  ]
+}
