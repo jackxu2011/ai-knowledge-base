@@ -1,0 +1,34 @@
+{
+  "id": "rss-20260520-013",
+  "title": "Railway Blocked by Google Cloud",
+  "source_url": "https://status.railway.com/?date=20260519",
+  "source_type": "rss",
+  "summary": "Google Cloud 封锁铁路网络事件，因云服务安全策略错误导致铁路系统临时瘫痪，暴露了关键基础设施对云服务的过度依赖及安全配置不足的问题。",
+  "published_at": "2026-05-20",
+  "collected_at": "2026-05-20T04:14:58.351450+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "直接影响了关键基础设施的可用性，凸显云服务安全配置的重要性，对行业有警示和实用改进价值。",
+    "scoring_dimensions": {
+      "tech_depth": 6,
+      "innovation": 4,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "云安全策略误操作导致铁路系统中断",
+      "关键基础设施对云服务依赖性的暴露"
+    ]
+  },
+  "tags": [
+    "云安全",
+    "关键基础设施",
+    "Google Cloud",
+    "安全配置错误",
+    "事件分析"
+  ]
+}

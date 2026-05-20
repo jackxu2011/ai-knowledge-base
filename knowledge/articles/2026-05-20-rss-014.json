@@ -1,0 +1,33 @@
+{
+  "id": "rss-20260520-014",
+  "title": "Gemini 3.5 Flash",
+  "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/",
+  "source_type": "rss",
+  "summary": "谷歌发布Gemini 3.5 Flash模型，作为更轻量、更快速的AI模型版本，旨在平衡性能与效率。该模型在保持高推理能力的同时，优化了响应速度和成本，适合实时应用和开发者使用。它代表了大型语言模型向更实用、更经济方向发展的趋势。",
+  "published_at": "2026-05-20",
+  "collected_at": "2026-05-20T04:14:58.351492+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该模型直接提升了AI应用的响应效率和可用性，对开发者有实用价值，但并非突破性技术变革，因此评为7分。",
+    "scoring_dimensions": {
+      "tech_depth": 6,
+      "innovation": 5,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "更快的推理速度，降低延迟",
+      "优化成本，适合大规模部署",
+      "保持较高性能，平衡效率与质量"
+    ]
+  },
+  "tags": [
+    "Gemini",
+    "轻量模型",
+    "实时AI"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "rss-20260520-021",
+  "title": "Tool mapping 90 companies in the photonics and CPO supply chain",
+  "source_url": "https://leonardo-boquillon.com/photonic-cop-supply-chain",
+  "source_type": "rss",
+  "summary": "该文章对光子学与共封装光学（CPO）供应链中的90家公司进行了系统性梳理和映射，为行业参与者提供了产业链全景视图，有助于理解技术生态和商业布局。",
+  "published_at": "2026-05-20",
+  "collected_at": "2026-05-20T04:14:58.351583+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该内容提供了架构清晰的行业图谱，对于从业者和投资者具有直接参考价值，但缺乏深度技术分析或突破性见解。",
+    "scoring_dimensions": {
+      "tech_depth": 4,
+      "innovation": 3,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "系统性梳理90家光子和CPO供应链公司",
+      "形成产业全景图，便于生态认知"
+    ]
+  },
+  "tags": [
+    "光子学",
+    "共封装光学",
+    "供应链",
+    "行业分析",
+    "图谱"
+  ]
+}

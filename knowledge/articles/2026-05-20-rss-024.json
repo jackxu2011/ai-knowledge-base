@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260520-024",
+  "title": "OlmoEarth v1.1: A more efficient family of models",
+  "source_url": "https://huggingface.co/blog/allenai/olmoearth-v1-1",
+  "source_type": "rss",
+  "summary": "OlmoEarth v1.1 是 OlmoEarth 模型系列的更新版本，专注于提升效率。该版本可能在架构、训练方法或推理速度上进行了优化，旨在以更低的计算成本实现同等的性能表现。其发布表明 AI 模型正向更高效、更实用的方向发展。",
+  "published_at": "2026-05-20",
+  "collected_at": "2026-05-20T04:14:58.351617+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hugging Face Blog",
+    "feed_url": "https://huggingface.co/blog/feed.xml"
+  },
+  "analysis": {
+    "score": 6,
+    "scoring_reasons": "该更新属于迭代优化，虽实用但缺乏突破性创新。效率提升对工业界有直接帮助，但未改变整体格局。因此评为6分。",
+    "scoring_dimensions": {
+      "tech_depth": 6,
+      "innovation": 5,
+      "usability": 7
+    },
+    "technical_highlights": [
+      "模型效率提升，可能降低推理成本",
+      "保持性能的同时优化计算资源"
+    ]
+  },
+  "tags": [
+    "模型优化",
+    "效率提升",
+    "AI基础模型"
+  ]
+}

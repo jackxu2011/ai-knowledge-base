@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260520-022",
+  "title": "Copy Fail, Dirty Frag, and Fragnesia kernel vulnerabilities",
+  "source_url": "https://www.gentoo.org/news/2026/05/19/copy-fail-fragnesia-vulnerabilities.html",
+  "source_type": "rss",
+  "summary": "介绍了三种内核漏洞：Copy Fail（复制失败）、Dirty Frag（脏碎片）和Fragnesia（碎片遗忘症）。这些漏洞可能影响系统稳定性和安全性，但具体细节和影响范围需要进一步分析。",
+  "published_at": "2026-05-20",
+  "collected_at": "2026-05-20T04:14:58.351594+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 6,
+    "scoring_reasons": "该内容涉及内核安全漏洞，具有技术深度和潜在影响，但缺乏具体利用场景和修复方案，仅值得了解而非立即行动。",
+    "scoring_dimensions": {
+      "tech_depth": 7,
+      "innovation": 5,
+      "usability": 4
+    },
+    "technical_highlights": [
+      "三种不同的内核漏洞类型",
+      "可能导致系统安全风险"
+    ]
+  },
+  "tags": [
+    "内核漏洞",
+    "安全",
+    "系统稳定性"
+  ]
+}

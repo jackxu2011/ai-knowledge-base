@@ -1,0 +1,33 @@
+{
+  "id": "rss-20260520-020",
+  "title": "Growing Neural Cellular Automata",
+  "source_url": "https://distill.pub/2020/growing-ca/",
+  "source_type": "rss",
+  "summary": "Growing Neural Cellular Automata是一种将神经网络与元胞自动机结合的技术，通过局部规则和全局监督实现复杂结构的自组织生长。该方法能生成2D或3D图像、纹理和虚拟生物，具有鲁棒性高、可恢复性强和生成灵活的特点，为人工智能生成内容提供新思路。",
+  "published_at": "2026-05-20",
+  "collected_at": "2026-05-20T04:14:58.351570+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 8,
+    "scoring_reasons": "该技术将神经网络与元胞自动机结合，实现了从简单规则到复杂结构的自组织生长，具有很强的实用性和创新性，在生成内容、自适应系统和生物模拟等场景有直接应用价值。",
+    "scoring_dimensions": {
+      "tech_depth": 8,
+      "innovation": 9,
+      "usability": 7
+    },
+    "technical_highlights": [
+      "局部规则驱动全局复杂结构自组织生长",
+      "鲁棒性强，能自我修复和恢复形态",
+      "生成内容灵活，支持2D/3D、纹理和虚拟生物"
+    ]
+  },
+  "tags": [
+    "神经元胞自动机",
+    "自组织生成",
+    "人工智能内容生成"
+  ]
+}

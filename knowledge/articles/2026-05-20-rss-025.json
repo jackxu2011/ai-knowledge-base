@@ -1,0 +1,33 @@
+{
+  "id": "rss-20260520-025",
+  "title": "Introducing the Ettin Reranker Family",
+  "source_url": "https://huggingface.co/blog/ettin-reranker",
+  "source_type": "rss",
+  "summary": "Ettin Reranker系列模型是新一代排序器，旨在改进信息检索系统的重排序阶段。该系列通过优化模型架构和训练策略，在多个基准数据集上提升了排序精度，尤其擅长处理长文本和复杂查询。其核心创新在于平衡了效率与准确性，为搜索、问答等NLP任务提供了一种实用的重排序解决方案。",
+  "published_at": "2026-05-20",
+  "collected_at": "2026-05-20T04:14:58.351628+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hugging Face Blog",
+    "feed_url": "https://huggingface.co/blog/feed.xml"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该技术直接提升了搜索和信息检索的核心环节——重排序的精度，具有明确的实用价值。在多个基准上表现优异，且针对长文本进行了优化，适用于实际场景。虽非颠覆性创新，但作为对现有排序模型的改进，其效果好、实用性高，值得关注。",
+    "scoring_dimensions": {
+      "tech_depth": 8,
+      "innovation": 6,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "在多个基准数据集上获得最先进的排序性能",
+      "针对长文本和复杂查询进行了专门优化",
+      "平衡了重排序阶段的效率与准确性"
+    ]
+  },
+  "tags": [
+    "排序器",
+    "信息检索",
+    "NLP"
+  ]
+}

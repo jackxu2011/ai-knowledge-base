@@ -1,0 +1,35 @@
+{
+  "id": "rss-20260520-023",
+  "title": "Intro to TLA+ for the LLM Era: Prompt Your Way to Victory",
+  "source_url": "https://emptysqua.re/blog/intro-to-tla-plus-for-the-llm-era/",
+  "source_type": "rss",
+  "summary": "本文介绍了在LLM时代如何使用TLA+（一种形式化规范语言）来提升提示工程的质量和可靠性。作者展示了如何通过TLA+来建模、验证和优化与LLM交互的流程，从而减少幻觉、提高一致性，并实现更稳健的提示设计。",
+  "published_at": "2026-05-20",
+  "collected_at": "2026-05-20T04:14:58.351606+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 8,
+    "scoring_reasons": "该方法将形式化验证引入提示工程，填补了当前LLM应用开发中缺乏系统化可靠性测试的空白，具有较高实用价值和创新性，但实施门槛较高，且尚未广泛验证。",
+    "scoring_dimensions": {
+      "tech_depth": 8,
+      "innovation": 8,
+      "usability": 7
+    },
+    "technical_highlights": [
+      "将TLA+形式化规范方法应用于LLM提示设计",
+      "通过模型检验确保提示行为的一致性和正确性",
+      "提供系统化减少LLM输出幻觉的工程化途径"
+    ]
+  },
+  "tags": [
+    "TLA+",
+    "形式化验证",
+    "提示工程",
+    "LLM可靠性",
+    "模型检验"
+  ]
+}
