@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260521-013",
+  "title": "An OpenAI model has disproved a central conjecture in discrete geometry",
+  "source_url": "https://openai.com/index/model-disproves-discrete-geometry-conjecture/",
+  "source_type": "rss",
+  "summary": "OpenAI的一个模型推翻了一个离散几何领域的核心猜想，展示了AI在数学证明中的应用潜力。该突破性发现表明，AI不仅能够处理复杂数学问题，还能挑战已有的理论框架，推动数学研究的新方向。",
+  "published_at": "2026-05-21",
+  "collected_at": "2026-05-21T04:22:55.874003+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 8,
+    "scoring_reasons": "该内容具有直接帮助性，不仅展示了AI在数学领域的强大能力，还推翻了长期存在的假设，对数学研究和AI应用都有重要启示，但尚未达到改变整体格局的突破性程度。",
+    "scoring_dimensions": {
+      "tech_depth": 8,
+      "innovation": 9,
+      "usability": 7
+    },
+    "technical_highlights": [
+      "利用AI模型发现并证明离散几何核心猜想的反例",
+      "展示了AI在数学推理中的深度应用能力"
+    ]
+  },
+  "tags": [
+    "AI数学证明",
+    "离散几何",
+    "OpenAI"
+  ]
+}

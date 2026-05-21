@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260521-014",
+  "title": "OpenAI to confidentially file for IPO as soon as Friday",
+  "source_url": "https://www.cnbc.com/2026/05/20/openai-ipo-filing.html",
+  "source_type": "rss",
+  "summary": "OpenAI计划最早于2025年3月21日（周五）秘密提交IPO申请，此举标志其从非营利组织向商业化转型的关键一步。报道提及估值将超过1000亿美元，若成功上市将重塑AI行业格局，但需关注其盈利模式持续亏损与监管审查风险。",
+  "published_at": "2026-05-21",
+  "collected_at": "2026-05-21T04:22:55.874032+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 9,
+    "scoring_reasons": "该事件为AI领域的标志性资本动作，直接涉及行业头部企业的治理与市场估值变化，对AI研发投入、竞争格局和创业生态产生全局性影响，属于改变行业格局的层级变动。",
+    "scoring_dimensions": {
+      "tech_depth": 8,
+      "innovation": 6,
+      "usability": 7
+    },
+    "technical_highlights": [
+      "OpenAI最早于本周秘密提交IPO申请，估值超千亿美元",
+      "从非营利组织向商业实体转型的里程碑事件"
+    ]
+  },
+  "tags": [
+    "OpenAI",
+    "IPO",
+    "AI行业资本化"
+  ]
+}

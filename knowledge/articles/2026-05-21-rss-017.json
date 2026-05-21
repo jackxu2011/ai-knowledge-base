@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260521-017",
+  "title": "Google&#x27;s AI is being manipulated. The search giant is quietly fighting back",
+  "source_url": "https://www.bbc.com/future/article/20260519-google-tackles-attempts-to-hack-its-ai-results",
+  "source_type": "rss",
+  "summary": "谷歌发现其AI系统正遭受操纵，包括生成式AI的诱导输出和搜索结果的人为操控。为应对这一威胁，谷歌正在暗中对抗，通过改进算法、加强检测和用户反馈机制来保护AI的完整性，确保搜索结果和AI回答的可靠性。",
+  "published_at": "2026-05-21",
+  "collected_at": "2026-05-21T04:22:55.874056+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 8,
+    "scoring_reasons": "该内容揭示了AI安全领域的关键问题与谷歌的应对策略，具有高度的实用性和前瞻性，对理解AI治理趋势有直接帮助。",
+    "scoring_dimensions": {
+      "tech_depth": 7,
+      "innovation": 8,
+      "usability": 9
+    },
+    "technical_highlights": [
+      "AI系统被操纵的案例分析与谷歌的隐蔽反制措施",
+      "改进算法与检测机制以防御诱导行为"
+    ]
+  },
+  "tags": [
+    "AI安全",
+    "谷歌",
+    "对抗性攻击"
+  ]
+}

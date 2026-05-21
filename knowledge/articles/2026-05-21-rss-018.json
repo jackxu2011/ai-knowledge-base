@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260521-018",
+  "title": "PopuLoRA: Co-Evolving LLM Populations for Reasoning Self- Play",
+  "source_url": "https://vmax.ai/team/populora-co-evolving-llm-populations-for-reasoning-self-play",
+  "source_type": "rss",
+  "summary": "PopuLoRA提出了一种新颖的LLM群体协同进化框架，通过LoRA模块动态生成多样化的推理路径，并利用自对弈机制进行观点对比与择优迭代，显著提升了模型在复杂推理任务上的性能与鲁棒性，为自监督推理优化提供了新思路。",
+  "published_at": "2026-05-21",
+  "collected_at": "2026-05-21T04:22:55.874062+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 8,
+    "scoring_reasons": "该研究提出LLM群体进化与自对弈结合的新范式，实用性强且可扩展，直接提升推理能力，但尚未达到彻底行业变革的层次。",
+    "scoring_dimensions": {
+      "tech_depth": 8,
+      "innovation": 9,
+      "usability": 7
+    },
+    "technical_highlights": [
+      "利用LoRA构建多样化LLM个体群体，避免单一模型局限",
+      "自对弈机制使群体在推理中互相博弈、择优进化，提升推理质量"
+    ]
+  },
+  "tags": [
+    "LLM",
+    "推理",
+    "自对弈"
+  ]
+}

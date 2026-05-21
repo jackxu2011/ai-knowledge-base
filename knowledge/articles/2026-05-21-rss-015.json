@@ -1,0 +1,34 @@
+{
+  "id": "rss-20260521-015",
+  "title": "Intuit to lay off over 3k employees to refocus on AI",
+  "source_url": "https://techcrunch.com/2026/05/20/intuit-to-lay-off-over-3000-employees-to-refocus-on-ai/",
+  "source_type": "rss",
+  "summary": "Intuit宣布裁减超过3000名员工，以重新聚焦于人工智能技术。此举旨在优化资源配置并加速AI驱动的创新，反映了传统企业向AI转型的趋势。裁员主要影响非核心业务岗位，公司计划将资源投入AI产品开发和自动化。",
+  "published_at": "2026-05-21",
+  "collected_at": "2026-05-21T04:22:55.874041+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该事件反映了大型企业通过裁员向AI转型的典型战略，对行业有启示意义，但属于企业运营调整而非技术突破，实用性较高但创新性一般。",
+    "scoring_dimensions": {
+      "tech_depth": 5,
+      "innovation": 4,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "企业通过裁员加速AI战略转型",
+      "资源向AI产品开发和自动化倾斜"
+    ]
+  },
+  "tags": [
+    "人工智能",
+    "企业转型",
+    "裁员",
+    "Intuit",
+    "自动化"
+  ]
+}
