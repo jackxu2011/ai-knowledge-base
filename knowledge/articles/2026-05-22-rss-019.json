@@ -1,0 +1,34 @@
+{
+  "id": "rss-20260522-019",
+  "title": "Show HN: Agent.email – sign up via curl, claim with a human OTP",
+  "source_url": "https://news.ycombinator.com/item?id=48225596",
+  "source_type": "rss",
+  "summary": "Agent.email 是一个通过命令行工具 curl 即可注册的电子邮件服务，用户通过一次性密码（OTP）完成人工验证。该项目创新地结合了终端操作和人类验证，旨在为开发者提供一种快速、安全的临时邮箱解决方案。",
+  "published_at": "2026-05-22",
+  "collected_at": "2026-05-22T04:18:02.144650+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 6,
+    "scoring_reasons": "该工具解决了临时邮箱注册的便捷性与安全性平衡问题，通过 curl 操作降低了使用门槛，但功能相对单一，且 OTP 验证并非全新机制。",
+    "scoring_dimensions": {
+      "tech_depth": 4,
+      "innovation": 6,
+      "usability": 7
+    },
+    "technical_highlights": [
+      "通过 curl 命令实现免登录注册",
+      "结合人类 OTP 验证确保唯一身份",
+      "命令行界面友好，适合开发者场景"
+    ]
+  },
+  "tags": [
+    "临时邮箱",
+    "命令行工具",
+    "OTP验证",
+    "开发者工具"
+  ]
+}

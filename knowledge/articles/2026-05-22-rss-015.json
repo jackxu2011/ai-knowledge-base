@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260522-015",
+  "title": "Launch HN: Runtime (YC P26) – Sandboxed coding agents for everyone on a team",
+  "source_url": "https://www.runtm.com/",
+  "source_type": "rss",
+  "summary": "Runtime（YC P26）推出了一项新服务，为团队提供沙盒化的编码智能体。该工具允许团队成员在隔离的安全环境中运行代码片段或AI代理，旨在提升协作效率并减少开发风险，适用于需要安全测试或自动化的团队场景。",
+  "published_at": "2026-05-22",
+  "collected_at": "2026-05-22T04:18:02.144597+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "实用性强，直接提升团队协作和开发安全；结合了沙盒与AI编码代理，创新性中等但应用价值高；评分维度显示在可用性和创新性上表现突出，但技术深度略低。",
+    "scoring_dimensions": {
+      "tech_depth": 6,
+      "innovation": 7,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "沙盒化的安全环境，降低了代码运行风险",
+      "支持团队多人共享AI编码代理，提升协作效率"
+    ]
+  },
+  "tags": [
+    "AI代理",
+    "沙盒",
+    "团队协作"
+  ]
+}

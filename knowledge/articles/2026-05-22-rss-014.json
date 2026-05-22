@@ -1,0 +1,34 @@
+{
+  "id": "rss-20260522-014",
+  "title": "Samsung chip workers will get an average $340k bonus as AI profits soar",
+  "source_url": "https://qz.com/samsung-chip-workers-bonus-ai-profits-052126",
+  "source_type": "rss",
+  "summary": "三星芯片员工因AI业务利润飙升将获得平均34万美元奖金，此举凸显了AI技术对半导体行业的巨大推动力，以及人才激励对保持竞争力的重要性。",
+  "published_at": "2026-05-22",
+  "collected_at": "2026-05-22T04:18:02.144579+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该新闻直接反映了AI热潮对半导体行业的实际经济效益，具有明确的市场信号和行业趋势价值，但未涉及具体技术突破，评分较高但非最高。",
+    "scoring_dimensions": {
+      "tech_depth": 6,
+      "innovation": 5,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "AI业务利润飙升推动芯片行业高额奖金",
+      "三星作为全球半导体巨头对芯片人才的重视"
+    ]
+  },
+  "tags": [
+    "三星",
+    "AI利润",
+    "芯片奖金",
+    "半导体行业",
+    "人才激励"
+  ]
+}

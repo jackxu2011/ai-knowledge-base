@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260522-016",
+  "title": "Multi-Stream LLMs: new paper on parallelizing&#x2F;separating prompts, thinking, I&#x2F;O",
+  "source_url": "https://arxiv.org/abs/2605.12460",
+  "source_type": "rss",
+  "summary": "该论文提出了一种名为多流大型语言模型（Multi-Stream LLMs）的新架构，将提示处理、思考过程与输入输出操作并行化或分离，旨在提升LLMs的效率与响应速度。通过解耦不同任务流，模型可以同时处理多个计算阶段，减少延迟并优化资源利用，为实时应用和多任务场景提供创新解决方案。",
+  "published_at": "2026-05-22",
+  "collected_at": "2026-05-22T04:18:02.144612+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该研究针对LLMs效率瓶颈提出并行化思路，具有实用性和创新性，直接改善响应延迟；但具体实施细节和实际效果需进一步验证，暂未达到突破性范式转变级别。",
+    "scoring_dimensions": {
+      "tech_depth": 8,
+      "innovation": 7,
+      "usability": 7
+    },
+    "technical_highlights": [
+      "将提示处理、推理思考与I/O操作并行化分离",
+      "减少LLMs推理延迟，提升实时响应能力"
+    ]
+  },
+  "tags": [
+    "大型语言模型",
+    "并行化架构",
+    "推理优化"
+  ]
+}
