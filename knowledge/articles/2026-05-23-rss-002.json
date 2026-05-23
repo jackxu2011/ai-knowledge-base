@@ -1,0 +1,33 @@
+{
+  "id": "rss-20260523-002",
+  "title": "Neutron scattering explains why gluten-free pasta falls apart (2025)",
+  "source_url": "https://phys.org/news/2025-09-science-spaghetti-neutron-gluten-free.html",
+  "source_type": "rss",
+  "summary": "2025年的一项中子散射研究揭示了无麸质面条易散裂的结构原因。该研究通过分析淀粉和蛋白质在烹煮过程中的微观变化，发现缺乏麸质导致面筋网络缺失，水分渗透不均匀，从而引发断裂。这项发现为改进无麸质食品的质地和口感提供了科学依据。",
+  "published_at": "2026-05-23",
+  "collected_at": "2026-05-23T03:56:40.637019+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 8,
+    "scoring_reasons": "该研究直接解决了无麸质食品行业的关键痛点，提供了明确的物理机制解释，实用性强，有助于提升无麸质面条的产品质量，对相关领域有显著帮助。",
+    "scoring_dimensions": {
+      "tech_depth": 8,
+      "innovation": 7,
+      "usability": 9
+    },
+    "technical_highlights": [
+      "利用中子散射技术揭示了无麸质面条的微观结构缺陷",
+      "明确了水分分布不均匀是导致面条散裂的关键因素"
+    ]
+  },
+  "tags": [
+    "中子散射",
+    "无麸质食品",
+    "食品科学",
+    "2025研究"
+  ]
+}

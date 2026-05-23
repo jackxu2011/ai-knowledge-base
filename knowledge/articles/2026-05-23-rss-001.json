@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260523-001",
+  "title": "Is AI Profitable Yet?",
+  "source_url": "https://isaiprofitable.com/",
+  "source_type": "rss",
+  "summary": "文章探讨了当前人工智能技术的商业化盈利能力，分析了AI在多个行业中投入与产出的现状，指出尽管AI技术发展迅速，但许多企业尚未实现显著盈利，面临成本高、变现难等挑战，并提出了对AI投资回报率的谨慎评估。",
+  "published_at": "2026-05-23",
+  "collected_at": "2026-05-23T03:56:40.636987+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 6,
+    "scoring_reasons": "该内容触及AI商业化的关键议题，具有现实参考价值，但分析较为初步，未提供突破性见解或量化数据，适合对AI盈利性感兴趣的从业者了解，但整体深度和创新性有限。",
+    "scoring_dimensions": {
+      "tech_depth": 4,
+      "innovation": 5,
+      "usability": 7
+    },
+    "technical_highlights": [
+      "聚焦AI盈利性这一现实痛点",
+      "提供行业现状的概览性分析"
+    ]
+  },
+  "tags": [
+    "AI商业化",
+    "盈利分析",
+    "行业趋势"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260523-011",
+  "title": "Towards Speed-of-Light Text Generation with Nemotron-Labs Diffusion Language Models",
+  "source_url": "https://huggingface.co/blog/nvidia/nemotron-labs-diffusion",
+  "source_type": "rss",
+  "summary": "NVIDIA 发布了 Nemotron-Labs 扩散语言模型，通过将扩散模型应用于文本生成，实现了接近光速的推理速度。该模型在保持高质量输出的同时，大幅降低了生成延迟，为实时应用提供了更高效的替代方案。技术核心在于将连续扩散过程的逆向步骤优化用于离散文本序列，避免了自回归模型的逐词生成瓶颈。",
+  "published_at": "2026-05-23",
+  "collected_at": "2026-05-23T03:56:40.637097+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hugging Face Blog",
+    "feed_url": "https://huggingface.co/blog/feed.xml"
+  },
+  "analysis": {
+    "score": 8,
+    "scoring_reasons": "该技术将扩散模型成功应用于文本生成，显著提升了推理速度，对实时交互场景（如聊天机器人、语音助手）有直接帮助；但扩散模型在文本领域的应用并非全新概念，且实际效果和普及度尚待验证，因此略低于突破性评分。",
+    "scoring_dimensions": {
+      "tech_depth": 8,
+      "innovation": 7,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "通过扩散模型实现非自回归文本生成，打破传统从左到右的生成顺序，显著降低延迟",
+      "在保持生成质量的前提下，推理速度接近光速，适用于高吞吐量、低延迟的实时应用"
+    ]
+  },
+  "tags": [
+    "扩散模型",
+    "文本生成",
+    "高速推理"
+  ]
+}

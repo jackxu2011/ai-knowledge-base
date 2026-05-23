@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260523-010",
+  "title": "Models.dev: open-source database of AI model specs, pricing, and capabilities",
+  "source_url": "https://github.com/anomalyco/models.dev",
+  "source_type": "rss",
+  "summary": "Models.dev 是一个开源数据库，收录了AI模型的规格、定价和能力信息，旨在为开发者提供便捷的模型比较和选择参考。它类似于AI领域的Pricewatch，通过结构化数据帮助用户快速了解不同模型的性能与成本，但整体创新性有限，更多是信息聚合工具。",
+  "published_at": "2026-05-23",
+  "collected_at": "2026-05-23T03:56:40.637087+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 6,
+    "scoring_reasons": "该工具实用性强，可直接帮助开发者进行模型选型，节省调研时间，但技术上并未突破，属于现有数据的整合与展示，缺乏深度创新。评为6分，是因为它值得了解和使用，但非颠覆性。",
+    "scoring_dimensions": {
+      "tech_depth": 4,
+      "innovation": 3,
+      "usability": 9
+    },
+    "technical_highlights": [
+      "提供开源且结构化的AI模型规格与定价数据库",
+      "便于开发者快速对比模型性能与成本"
+    ]
+  },
+  "tags": [
+    "开源工具",
+    "模型比较",
+    "AI基础设施"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "rss-20260523-004",
+  "title": "CISA tries to contain data leak",
+  "source_url": "https://krebsonsecurity.com/2026/05/lawmakers-demand-answers-as-cisa-tries-to-contain-data-leak/",
+  "source_type": "rss",
+  "summary": "美国网络安全和基础设施安全局（CISA）正在处理一起数据泄露事件，试图控制泄露范围并减少影响。事件涉及敏感信息，具体细节尚未完全公开，但CISA已启动应急响应措施。此事件凸显了政府机构面临的持续网络安全挑战，以及加强数据保护措施的紧迫性。",
+  "published_at": "2026-05-23",
+  "collected_at": "2026-05-23T03:56:40.637037+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该事件直接关系到国家网络安全机构的运营和公众信任，反映了实际安全挑战的紧迫性，对理解当前网络威胁态势有直接帮助，但具体技术细节有限，影响范围尚不明确。",
+    "scoring_dimensions": {
+      "tech_depth": 5,
+      "innovation": 3,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "CISA启动应急响应程序",
+      "事件凸显政府网络安全防护挑战"
+    ]
+  },
+  "tags": [
+    "网络安全",
+    "数据泄露",
+    "CISA",
+    "政府机构"
+  ]
+}

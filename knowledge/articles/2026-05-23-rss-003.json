@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260523-003",
+  "title": "Open source Kanban desktop app that runs parallel agents on every card",
+  "source_url": "https://www.kanbots.dev/",
+  "source_type": "rss",
+  "summary": "这是一个开源的看板桌面应用，其核心特色是每个卡片都能并行运行AI代理。该工具通过在看板界面中直接集成代理执行功能，使得项目管理与自动化任务处理相结合，提升了任务协作和执行的效率。",
+  "published_at": "2026-05-23",
+  "collected_at": "2026-05-23T03:56:40.637029+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该应用将看板管理与并行AI代理结合，提供了实用的自动化工作流能力，直接增强了项目管理效率，创新性中等，实用性高。",
+    "scoring_dimensions": {
+      "tech_depth": 6,
+      "innovation": 5,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "卡片级别的并行代理执行",
+      "开源可定制"
+    ]
+  },
+  "tags": [
+    "看板管理",
+    "AI代理",
+    "项目管理"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "rss-20260523-012",
+  "title": "Specialization Beats Scale: A Strategic Variable Most AI Procurement Decisions Overlook",
+  "source_url": "https://huggingface.co/blog/Dharma-AI/specialization-beats-scale",
+  "source_type": "rss",
+  "summary": "本文探讨了AI采购决策中的一个关键策略变量：专业化（Specialization）比规模（Scale）更重要。作者认为，企业在选择AI能力时，过度关注模型规模（如参数数量）而忽视专业化定制，可能导致效率低下和成本高昂。专业化模型在特定领域（如医疗、法律）通过更精准的知识和优化，能显著提升性能并降低资源消耗，建议组织优先考虑垂直领域的专业化解决方案而非通用大模型。",
+  "published_at": "2026-05-23",
+  "collected_at": "2026-05-23T03:56:40.637105+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hugging Face Blog",
+    "feed_url": "https://huggingface.co/blog/feed.xml"
+  },
+  "analysis": {
+    "score": 8,
+    "scoring_reasons": "提出有实践意义的战略视角，挑战主流规模优先观念，为AI采购提供具体决策框架，实用性强且具前瞻性",
+    "scoring_dimensions": {
+      "tech_depth": 7,
+      "innovation": 8,
+      "usability": 9
+    },
+    "technical_highlights": [
+      "精准指出专业化在特定领域优于通用大模型",
+      "质疑规模优先假设，提供可操作的战略方向",
+      "强调成本效率与业务匹配性"
+    ]
+  },
+  "tags": [
+    "AI战略",
+    "专业化",
+    "采购优化",
+    "垂直领域",
+    "成本效率"
+  ]
+}

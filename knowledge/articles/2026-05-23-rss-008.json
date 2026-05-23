@@ -1,0 +1,34 @@
+{
+  "id": "rss-20260523-008",
+  "title": "Launch HN: Superset (YC P26) – IDE for the agents era",
+  "source_url": "https://github.com/superset-sh/superset",
+  "source_type": "rss",
+  "summary": "Superset是一个针对AI代理时代的集成开发环境（IDE），由YC P26支持。它旨在简化代理的开发、调试和部署流程，提供可视化工具和集成框架，以提升开发者构建智能代理的效率。",
+  "published_at": "2026-05-23",
+  "collected_at": "2026-05-23T03:56:40.637064+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该项目直接切中AI代理开发中的痛点，提供实用的IDE工具，提升开发效率，具有较强实用性，但尚未达到突破性技术的改变格局级别。",
+    "scoring_dimensions": {
+      "tech_depth": 7,
+      "innovation": 6,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "为AI代理开发提供专用IDE，整合调试与部署",
+      "降低代理开发门槛，提升开发者体验"
+    ]
+  },
+  "tags": [
+    "AI代理",
+    "IDE",
+    "开发者工具",
+    "YC",
+    "代理开发"
+  ]
+}
