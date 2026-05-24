@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260524-002",
+  "title": "Making deep learning go brrrr from first principles (2022)",
+  "source_url": "https://horace.io/brrr_intro.html",
+  "source_type": "rss",
+  "summary": "这篇文章从第一性原理出发，探讨如何让深度学习训练更快速、高效。作者深入分析了计算瓶颈、并行化策略和硬件优化等核心问题，提出通过数据流、梯度累积和模型并行等手段加速训练。内容兼顾理论与实战，适合对深度学习底层原理感兴趣的读者。",
+  "published_at": "2026-05-24",
+  "collected_at": "2026-05-24T04:19:31.389441+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "实用性强，直接从基本原理入手提供优化思路；但创新性一般，多为经典技术的系统化总结，适合进阶学习者。",
+    "scoring_dimensions": {
+      "tech_depth": 8,
+      "innovation": 6,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "从计算和内存访问角度剖析深度学习流程，提供定量分析",
+      "系统总结并行化、梯度压缩和硬件自适应的具体方法"
+    ]
+  },
+  "tags": [
+    "深度学习优化",
+    "并行计算",
+    "硬件加速"
+  ]
+}

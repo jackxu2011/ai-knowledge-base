@@ -1,0 +1,33 @@
+{
+  "id": "rss-20260524-001",
+  "title": "Air France and Airbus found guilty of manslaughter over 2009 plane crash",
+  "source_url": "https://www.bbc.com/news/articles/czd2qmdvmq6o",
+  "source_type": "rss",
+  "summary": "法国航空和空客因2009年里约热内卢至巴黎航班坠毁事件被判过失杀人罪，该事件导致228人遇难。判决确认了两家公司在安全程序和维护方面的疏忽责任。",
+  "published_at": "2026-05-24",
+  "collected_at": "2026-05-24T04:19:31.389398+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "此事件虽非技术突破，但涉及航空安全与责任认定，对行业规范和法律影响显著，具有较高实用性和启示价值。",
+    "scoring_dimensions": {
+      "tech_depth": 5,
+      "innovation": 2,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "法院认定监管及维护缺陷导致事故",
+      "强化了航空安全与法律责任的关联性"
+    ]
+  },
+  "tags": [
+    "航空安全",
+    "法律责任",
+    "事故分析",
+    "行业规范"
+  ]
+}
