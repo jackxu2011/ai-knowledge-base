@@ -1,0 +1,34 @@
+{
+  "id": "rss-20260525-001",
+  "title": "DeepSeek reasonix, DeepSeek native coding agent with high caching and low cost",
+  "source_url": "https://esengine.github.io/DeepSeek-Reasonix/",
+  "source_type": "rss",
+  "summary": "DeepSeek发布了一款名为'DeepSeek reasonix'的原生编码代理，强调其高缓存效率和低成本特性。该产品旨在提升开发者的编码效率，通过智能缓存机制减少重复计算，从而降低使用成本。作为一款专用编码代理，它可能集成推理能力，以优化代码生成和调试流程，适应云计算和边缘计算场景中的实际开发需求。",
+  "published_at": "2026-05-25",
+  "collected_at": "2026-05-25T04:27:37.097517+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该产品直接面向开发者，通过高缓存和低成本解决实际痛点，实用性强，能显著提升编码工作效率。尽管未提及突破性范式转变，但其针对编码场景的优化具有直接帮助，符合7-8分区间。",
+    "scoring_dimensions": {
+      "tech_depth": 6,
+      "innovation": 5,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "高缓存机制降低重复计算开销",
+      "成本优化适合大规模部署"
+    ]
+  },
+  "tags": [
+    "DeepSeek",
+    "编码代理",
+    "低成本AI",
+    "缓存优化",
+    "开发者工具"
+  ]
+}
