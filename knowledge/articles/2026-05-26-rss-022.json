@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260526-022",
+  "title": "Harness, Scaffold, and the AI Agent Terms Worth Getting Right",
+  "source_url": "https://huggingface.co/blog/agent-glossary",
+  "source_type": "rss",
+  "summary": "该文讨论了AI代理领域的关键术语，如Harness、Scaffold等，旨在澄清概念混淆。强调正确理解这些术语对于AI系统设计、部署和协作的重要性，为开发者提供术语框架以提升技术交流效率。",
+  "published_at": "2026-05-26",
+  "collected_at": "2026-05-26T04:13:57.807828+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hugging Face Blog",
+    "feed_url": "https://huggingface.co/blog/feed.xml"
+  },
+  "analysis": {
+    "score": 6,
+    "scoring_reasons": "文章澄清了AI代理常用术语，对技术交流和系统设计有一定帮助，但内容偏概念辨析，未涉及突破性技术或深度实现，实用价值中等。",
+    "scoring_dimensions": {
+      "tech_depth": 5,
+      "innovation": 4,
+      "usability": 6
+    },
+    "technical_highlights": [
+      "提供AI代理术语的标准化框架",
+      "区分Harness、Scaffold等关键概念"
+    ]
+  },
+  "tags": [
+    "AI代理",
+    "术语规范",
+    "系统设计"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "github-20260526-006",
+  "title": "turntducky/wade-ai",
+  "source_url": "https://github.com/turntducky/wade-ai",
+  "source_type": "github",
+  "summary": "Wade-AI 是一个基于 Node.js 的人工智能开发工具，旨在简化开发者构建和部署 AI 应用的过程。该工具提供了预训练模型集成、自动化工作流和易于使用的 API，降低了 AI 开发的门槛。适合快速原型开发和小型项目。",
+  "published_at": "2026-05-26",
+  "collected_at": "2026-05-26T04:13:57.807664+00:00",
+  "status": "draft",
+  "metadata": {
+    "stars": 3,
+    "author": "turntducky",
+    "topics": [
+      "agent",
+      "ai",
+      "artificial-intelligence",
+      "autonomous-agent",
+      "daemon",
+      "fastapi",
+      "home-automation",
+      "llm",
+      "local-ai",
+      "local-llm",
+      "machine-learning",
+      "ollama",
+      "open-source",
+      "privacy",
+      "privacy-first",
+      "python",
+      "rag",
+      "self-hosted",
+      "voice-assistant",
+      "whatsapp"
+    ],
+    "language": "Python",
+    "fork": false
+  },
+  "analysis": {
+    "score": 6,
+    "scoring_reasons": "虽然 Wade-AI 提供了实用的集成和自动化功能，但缺乏独特的创新点，且与现有工具（如 Hugging Face 或 TensorFlow.js）相比差异化不足。评分适中，因其对小型项目和原型开发有直接帮助。",
+    "scoring_dimensions": {
+      "tech_depth": 5,
+      "innovation": 4,
+      "usability": 7
+    },
+    "technical_highlights": [
+      "基于 Node.js 的轻量级设计",
+      "内置预训练模型集成和自动化工作流",
+      "提供简易 API 降低 AI 开发门槛"
+    ]
+  },
+  "tags": [
+    "AI 开发工具",
+    "Node.js",
+    "自动化工作流"
+  ]
+}

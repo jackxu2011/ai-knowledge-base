@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260526-014",
+  "title": "Using AI to write better code more slowly",
+  "source_url": "https://nolanlawson.com/2026/05/25/using-ai-to-write-better-code-more-slowly/",
+  "source_type": "rss",
+  "summary": "本文探讨了一种看似矛盾的方法：通过放慢编码速度并借助AI辅助，提高代码质量和可维护性。作者主张在编码前多花时间构思、设计架构，并利用AI生成更合理的代码片段，而非追求快速产出。",
+  "published_at": "2026-05-26",
+  "collected_at": "2026-05-26T04:13:57.807708+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "提出了一个反直觉但实用的软件开发理念，强调质量而非速度，对提升代码可靠性和长期维护效率有直接帮助。观点具有启发性，但理念并非全新，且需要开发者具备一定经验才能有效实践。",
+    "scoring_dimensions": {
+      "tech_depth": 7,
+      "innovation": 6,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "强调慢速编码与AI结合，提升代码质量",
+      "通过前期设计减少后期返工，优化开发流程"
+    ]
+  },
+  "tags": [
+    "AI辅助开发",
+    "代码质量",
+    "软件开发实践"
+  ]
+}

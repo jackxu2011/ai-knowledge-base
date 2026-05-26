@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260526-015",
+  "title": "Norway&#x27;s 2 petabytes of Huawei flash storage and LLM training",
+  "source_url": "https://www.blocksandfiles.com/flash/2026/05/22/norways-2-petabytes-of-huawei-flash-storage-and-llm-training/5244910",
+  "source_type": "rss",
+  "summary": "挪威政府宣布将采用华为提供的2 PB全闪存存储系统，用于大语言模型（LLM）训练基础设施。此举表明华为在高端企业级存储领域的竞争力，同时反映了北欧国家在AI基础设施投资上的战略布局。项目规模较大，但技术细节有限，整体价值在于存储容量及对AI训练支撑的潜力。",
+  "published_at": "2026-05-26",
+  "collected_at": "2026-05-26T04:13:57.807729+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 6,
+    "scoring_reasons": "该新闻具有行业参考价值，展示了华为在企业级AI存储市场的突破，但缺乏技术创新细节或性能对比数据，对普通用户和开发者实用性有限。评分为6，属于值得了解的范围。",
+    "scoring_dimensions": {
+      "tech_depth": 5,
+      "innovation": 4,
+      "usability": 7
+    },
+    "technical_highlights": [
+      "2 PB全闪存存储用于LLM训练，体现大规模AI数据管理需求",
+      "挪威政府选择华为方案，反映地缘政治下技术合作的复杂性"
+    ]
+  },
+  "tags": [
+    "华为",
+    "全闪存存储",
+    "大语言模型训练"
+  ]
+}

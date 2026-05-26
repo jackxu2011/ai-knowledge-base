@@ -1,0 +1,34 @@
+{
+  "id": "rss-20260526-016",
+  "title": "Designing for and against the manufactured normalcy field (2012)",
+  "source_url": "https://www.urbanhonking.com/ideasfordozens/2012/06/24/designing-for-and-against-the-manufactured-normalcy-field/index.html",
+  "source_type": "rss",
+  "summary": "该论文(2012)探讨了在设计领域中如何应对和利用“制造的正态场”概念，即通过设计来塑造或挑战社会对“正常”的默认认知。研究分析了设计在强化或解构这些预设规则中的双重角色，为可持续与包容性设计提供了批判性视角。",
+  "published_at": "2026-05-26",
+  "collected_at": "2026-05-26T04:13:57.807745+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 6,
+    "scoring_reasons": "核心思想具有前瞻性，为设计与社会规范的交叉研究提供了理论框架，但年代较早（2012年），且整体偏理论探讨，直接应用边界较窄。",
+    "scoring_dimensions": {
+      "tech_depth": 6,
+      "innovation": 7,
+      "usability": 5
+    },
+    "technical_highlights": [
+      "提出“制造的正态场”概念，链接设计与社会规范建构",
+      "双向分析设计对常态的强化与抵抗机制"
+    ]
+  },
+  "tags": [
+    "设计理论",
+    "社会规范",
+    "包容性设计",
+    "批判设计",
+    "2012"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260526-021",
+  "title": "A successful Japanese trial of a ramjet engine designed for Mach‑5 aircraft",
+  "source_url": "https://www.bgr.com/2178211/japan-hypersonic-engine-ramjet-2-hour-flights-to-us/",
+  "source_type": "rss",
+  "summary": "日本成功测试了一款专为马赫5飞机设计的冲压发动机，标志着高超声速推进技术的重大进展。该试验验证了发动机在极端速度下的稳定性和效率，为未来高速飞行器的实用化奠定了基础。",
+  "published_at": "2026-05-26",
+  "collected_at": "2026-05-26T04:13:57.807813+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 8,
+    "scoring_reasons": "该技术突破直接推动了高超声速飞行器的研发进程，具有显著的战略和技术价值，虽未达到改变格局的程度，但实用性极强且创新性高。",
+    "scoring_dimensions": {
+      "tech_depth": 9,
+      "innovation": 8,
+      "usability": 7
+    },
+    "technical_highlights": [
+      "成功验证马赫5级冲压发动机的稳定运行",
+      "为高超声速航空器提供实用推进方案"
+    ]
+  },
+  "tags": [
+    "高超声速",
+    "冲压发动机",
+    "航空航天"
+  ]
+}
