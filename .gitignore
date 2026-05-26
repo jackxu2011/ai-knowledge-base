@@ -12,3 +12,4 @@ src/*.egg-info/
 
 # Environment variables
 .env
+.DS_Store
