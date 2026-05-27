@@ -1,0 +1,174 @@
+{
+  "source": "rss",
+  "collected_at": "2026-05-27T04:26:36.770845+00:00",
+  "items": [
+    {
+      "title": "Spain blocks prediction markets Polymarket, Kalshi over lack of gambling licence",
+      "url": "https://www.reuters.com/business/spain-blocks-prediction-markets-polymarket-kalshi-over-lack-gambling-licences-2026-05-26/",
+      "summary": "",
+      "feed_name": "Hacker News Best",
+      "feed_url": "https://news.ycombinator.com/rss"
+    },
+    {
+      "title": "Use boring languages with LLMs",
+      "url": "https://jry.io/writing/use-boring-languages-with-llms/",
+      "summary": "",
+      "feed_name": "Hacker News Best",
+      "feed_url": "https://news.ycombinator.com/rss"
+    },
+    {
+      "title": "Liverpool and Manchester Railway",
+      "url": "https://en.wikipedia.org/wiki/Liverpool_and_Manchester_Railway",
+      "summary": "",
+      "feed_name": "Hacker News Best",
+      "feed_url": "https://news.ycombinator.com/rss"
+    },
+    {
+      "title": "Outsourcing plus local AI will soon become more economical vs. frontier labs",
+      "url": "https://www.signalbloom.ai/posts/outsourcing-plus-localai-will-soon-become-more-economical-vs-frontier-labs/",
+      "summary": "",
+      "feed_name": "Hacker News Best",
+      "feed_url": "https://news.ycombinator.com/rss"
+    },
+    {
+      "title": "Harness, Scaffold, and the AI Agent Terms Worth Getting Right",
+      "url": "https://huggingface.co/blog/agent-glossary",
+      "summary": "",
+      "feed_name": "Hugging Face Blog",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "title": "Towards Speed-of-Light Text Generation with Nemotron-Labs Diffusion Language Models",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-labs-diffusion",
+      "summary": "",
+      "feed_name": "Hugging Face Blog",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "title": "Specialization Beats Scale: A Strategic Variable Most AI Procurement Decisions Overlook",
+      "url": "https://huggingface.co/blog/Dharma-AI/specialization-beats-scale",
+      "summary": "",
+      "feed_name": "Hugging Face Blog",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "title": "OlmoEarth v1.1: A more efficient family of Earth observation models",
+      "url": "https://huggingface.co/blog/allenai/olmoearth-v1-1",
+      "summary": "",
+      "feed_name": "Hugging Face Blog",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "title": "Introducing the Ettin Reranker Family",
+      "url": "https://huggingface.co/blog/ettin-reranker",
+      "summary": "",
+      "feed_name": "Hugging Face Blog",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "title": "PaddleOCR 3.5: Running OCR and Document Parsing Tasks with a Transformers Backend",
+      "url": "https://huggingface.co/blog/PaddlePaddle/paddleocr-transformers",
+      "summary": "",
+      "feed_name": "Hugging Face Blog",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "title": "The Open Agent Leaderboard",
+      "url": "https://huggingface.co/blog/ibm-research/open-agent-leaderboard",
+      "summary": "",
+      "feed_name": "Hugging Face Blog",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "title": "Granite Embedding Multilingual R2: Open Apache 2.0 Multilingual Embeddings with 32K Context — Best Sub-100M Retrieval Quality",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-embedding-multilingual-r2",
+      "summary": "",
+      "feed_name": "Hugging Face Blog",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "title": "Unlocking asynchronicity in continuous batching",
+      "url": "https://huggingface.co/blog/continuous_async",
+      "summary": "",
+      "feed_name": "Hugging Face Blog",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "title": "Building Blocks for Foundation Model Training and Inference on AWS",
+      "url": "https://huggingface.co/blog/amazon/foundation-model-building-blocks",
+      "summary": "",
+      "feed_name": "Hugging Face Blog",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "title": "vLLM V0 to V1: Correctness Before Corrections in RL",
+      "url": "https://huggingface.co/blog/ServiceNow-AI/correctness-before-corrections",
+      "summary": "",
+      "feed_name": "Hugging Face Blog",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "title": "Adding Benchmaxxer Repellant to the Open ASR Leaderboard",
+      "url": "https://huggingface.co/blog/open-asr-leaderboard-private-data",
+      "summary": "",
+      "feed_name": "Hugging Face Blog",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "title": "Granite 4.1 LLMs: How They’re Built",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-4-1",
+      "summary": "",
+      "feed_name": "Hugging Face Blog",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "title": "DeepInfra on Hugging Face Inference Providers 🔥",
+      "url": "https://huggingface.co/blog/inference-providers-deepinfra",
+      "summary": "",
+      "feed_name": "Hugging Face Blog",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "title": "Introducing NVIDIA Nemotron 3 Nano Omni: Long-Context Multimodal Intelligence for Documents, Audio and Video Agents",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-3-nano-omni-multimodal-intelligence",
+      "summary": "",
+      "feed_name": "Hugging Face Blog",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "title": "How to build scalable web apps with OpenAI&apos;s Privacy Filter",
+      "url": "https://huggingface.co/blog/openai-privacy-filter-web-apps",
+      "summary": "",
+      "feed_name": "Hugging Face Blog",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "title": "DeepSeek-V4: a million-token context that agents can actually use",
+      "url": "https://huggingface.co/blog/deepseekv4",
+      "summary": "",
+      "feed_name": "Hugging Face Blog",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "title": "How to Use Transformers.js in a Chrome Extension",
+      "url": "https://huggingface.co/blog/transformersjs-chrome-extension",
+      "summary": "",
+      "feed_name": "Hugging Face Blog",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "title": "QIMMA قِمّة ⛰: A Quality-First Arabic LLM Leaderboard",
+      "url": "https://huggingface.co/blog/tiiuae/qimma-arabic-leaderboard",
+      "summary": "",
+      "feed_name": "Hugging Face Blog",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "title": "AI and the Future of Cybersecurity: Why Openness Matters",
+      "url": "https://huggingface.co/blog/cybersecurity-openness",
+      "summary": "",
+      "feed_name": "Hugging Face Blog",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    }
+  ]
+}

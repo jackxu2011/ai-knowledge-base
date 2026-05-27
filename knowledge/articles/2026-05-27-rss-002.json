@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260527-002",
+  "title": "Use boring languages with LLMs",
+  "source_url": "https://jry.io/writing/use-boring-languages-with-llms/",
+  "source_type": "rss",
+  "summary": "该内容探讨了在大型语言模型（LLMs）应用中使用传统或简单编程语言（如Python、JavaScript等）的价值，强调稳定、易维护、广泛社区支持的“无聊”语言在LLM集成中更可靠，避免技术债务和过度复杂化。",
+  "published_at": "2026-05-27",
+  "collected_at": "2026-05-27T04:26:52.016121+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 6,
+    "scoring_reasons": "观点实用且具启发性，纠正了追求新技术而忽视基础工具的倾向，但内容相对简单，未提供深度技术细节或工具链。",
+    "scoring_dimensions": {
+      "tech_depth": 5,
+      "innovation": 6,
+      "usability": 7
+    },
+    "technical_highlights": [
+      "强调使用成熟语言减少LLM集成风险",
+      "反对过度工程化，提倡简单可靠方案"
+    ]
+  },
+  "tags": [
+    "LLM",
+    "编程语言",
+    "技术哲学"
+  ]
+}
