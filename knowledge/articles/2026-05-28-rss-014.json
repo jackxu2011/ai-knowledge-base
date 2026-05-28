@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260528-014",
+  "title": "YouTube to automatically label AI-generated videos",
+  "source_url": "https://blog.youtube/news-and-events/improving-ai-labels-viewers-creators/",
+  "source_type": "rss",
+  "summary": "YouTube宣布将自动标记由AI生成或修改的视频内容，要求创作者在明显涉及AI操作（如换脸、合成语音、虚构场景）时主动标注，平台将添加标签提醒观众。此举旨在应对深度伪造和虚假信息，提升内容透明度，但执行标准和惩罚措施尚不明确。该政策可能改变内容生态，影响创作者与观众的信任关系。",
+  "published_at": "2026-05-28",
+  "collected_at": "2026-05-28T04:17:12.357532+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 8,
+    "scoring_reasons": "该政策针对AI生成内容泛滥的关键问题，提出系统性应对方案，直接提升用户信息鉴别能力，具有较强实用性和行业引领作用。但执行细节未完全明确，存在部分不确定性，因此评分为8分。",
+    "scoring_dimensions": {
+      "tech_depth": 6,
+      "innovation": 8,
+      "usability": 9
+    },
+    "technical_highlights": [
+      "自动检测与标记AI生成内容",
+      "强制要求创作者主动披露AI使用情况"
+    ]
+  },
+  "tags": [
+    "AI标签",
+    "内容审核",
+    "平台政策"
+  ]
+}

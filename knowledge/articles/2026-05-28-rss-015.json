@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260528-015",
+  "title": "I think Anthropic and OpenAI have found product-market fit",
+  "source_url": "https://simonwillison.net/2026/May/27/product-market-fit/",
+  "source_type": "rss",
+  "summary": "文章分析了Anthropic和OpenAI在AI产品市场中的定位成功，指出两者分别通过注重安全性和实用性实现了产品与市场的契合。作者认为这标志着AI行业从技术驱动转向用户需求驱动的关键转折点。",
+  "published_at": "2026-05-28",
+  "collected_at": "2026-05-28T04:17:12.357574+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "文章提出了有价值的行业洞察，但缺乏具体数据和深度技术分析。对从业者有参考意义，但非突破性创新。",
+    "scoring_dimensions": {
+      "tech_depth": 5,
+      "innovation": 6,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "指出Anthropic以安全和大规模实用性取胜",
+      "对比OpenAI的广泛产品覆盖与Anthropic的专注策略"
+    ]
+  },
+  "tags": [
+    "产品市场契合",
+    "AI行业趋势",
+    "战略分析"
+  ]
+}

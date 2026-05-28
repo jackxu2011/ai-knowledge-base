@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260528-024",
+  "title": "Shipping a Trillion Parameters With a Hub Bucket: Delta Weight Sync in TRL",
+  "source_url": "https://huggingface.co/blog/delta-weight-sync",
+  "source_type": "rss",
+  "summary": "该技术报告讨论了在TRL（Transformer Reinforcement Learning）中通过Hub Bucket同步Delta权重的方法，以高效部署万亿参数模型。Delta权重同步通过仅传输模型更新的差异部分，而非完整参数，显著降低存储和带宽需求，同时保持模型性能。该方法适用于大规模分布式训练和模型部署，提升了数据传输效率。",
+  "published_at": "2026-05-28",
+  "collected_at": "2026-05-28T04:17:12.357668+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hugging Face Blog",
+    "feed_url": "https://huggingface.co/blog/feed.xml"
+  },
+  "analysis": {
+    "score": 8,
+    "scoring_reasons": "该方法直接解决了万亿参数模型部署中的关键瓶颈——数据传输效率，具有高度实用性和创新性，能显著提升大规模分布式训练和部署的效率，对AI行业有直接帮助。",
+    "scoring_dimensions": {
+      "tech_depth": 9,
+      "innovation": 8,
+      "usability": 7
+    },
+    "technical_highlights": [
+      "通过Hub Bucket实现Delta权重同步，减少传输数据量",
+      "适用于万亿参数级别模型的高效部署"
+    ]
+  },
+  "tags": [
+    "TRL",
+    "Delta权重",
+    "模型部署"
+  ]
+}

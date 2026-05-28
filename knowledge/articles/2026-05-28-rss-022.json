@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260528-022",
+  "title": "ITBench-AA: Frontier Models Score Below 50% on the First Benchmark for Agentic Enterprise IT Tasks — by Artificial Analysis and IBM",
+  "source_url": "https://huggingface.co/blog/ibm-research/itbench-aa",
+  "source_type": "rss",
+  "summary": "IBM与Artificial Analysis联合推出首个针对企业IT任务的代理型AI基准测试ITBench-AA，测试结果显示前沿模型在自动化IT任务上得分均低于50%。该基准旨在评估AI代理在真实企业环境中的表现，涵盖故障排除、安全响应等场景，暴露出当前AI在复杂企业IT工作中的显著能力差距。",
+  "published_at": "2026-05-28",
+  "collected_at": "2026-05-28T04:17:12.357653+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hugging Face Blog",
+    "feed_url": "https://huggingface.co/blog/feed.xml"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该基准测试直接量化了AI在关键企业IT任务中的实际表现，填补了评估空白，对理解AI局限性、推动技术改进有直接价值，但尚未突破技术本身，属于实用评测工具。",
+    "scoring_dimensions": {
+      "tech_depth": 7,
+      "innovation": 8,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "首个专注于企业IT任务的代理型AI基准测试",
+      "前沿模型（如GPT-4、Claude等）在复杂IT任务上均低于50%成功率"
+    ]
+  },
+  "tags": [
+    "AI基准测试",
+    "企业IT自动化",
+    "代理模型评估"
+  ]
+}
