@@ -1,0 +1,33 @@
+{
+  "id": "rss-20260529-020",
+  "title": "Show HN: Ktx – Open-source executable context layer for data agents",
+  "source_url": "https://github.com/Kaelio/ktx",
+  "source_type": "rss",
+  "summary": "Ktx是一个开源的执行上下文层，专为数据代理设计。它提供了可扩展的架构，帮助数据代理在复杂环境中管理上下文和决策流程。该项目旨在通过模块化设计提升数据代理的灵活性和效率，适用于自动化数据处理和分析场景。",
+  "published_at": "2026-05-29",
+  "collected_at": "2026-05-29T04:19:09.396612+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "Ktx填补了数据代理在上下文管理方面的空白，具有较高的实用性和创新性。它能直接提升数据代理系统的开发效率和可靠性，但尚未展示跨领域应用或颠覆性技术突破。",
+    "scoring_dimensions": {
+      "tech_depth": 7,
+      "innovation": 6,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "提供开源的模块化上下文管理框架",
+      "专门针对数据代理的执行环境优化",
+      "支持可扩展架构以适配不同场景"
+    ]
+  },
+  "tags": [
+    "开源",
+    "数据代理",
+    "上下文层"
+  ]
+}

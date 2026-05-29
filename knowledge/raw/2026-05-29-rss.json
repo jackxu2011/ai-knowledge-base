@@ -1,0 +1,195 @@
+{
+  "source": "rss",
+  "collected_at": "2026-05-29T04:18:44.905469+00:00",
+  "items": [
+    {
+      "title": "Claude Opus 4.8",
+      "url": "https://www.anthropic.com/news/claude-opus-4-8",
+      "summary": "",
+      "feed_name": "Hacker News Best",
+      "feed_url": "https://news.ycombinator.com/rss"
+    },
+    {
+      "title": "The mysterious Hy3 LLM is topping OpenRouter Model Rankings by a large margin",
+      "url": "https://minimaxir.com/2026/05/openrouter-hy3/",
+      "summary": "",
+      "feed_name": "Hacker News Best",
+      "feed_url": "https://news.ycombinator.com/rss"
+    },
+    {
+      "title": "Show HN: Continue? Y&#x2F;N: A 60-second game about AI agent permission fatigue",
+      "url": "https://llmgame.scalex.dev",
+      "summary": "",
+      "feed_name": "Hacker News Best",
+      "feed_url": "https://news.ycombinator.com/rss"
+    },
+    {
+      "title": "SF startup is testing robots in Airbnbs, and trashing them, lawsuit claims",
+      "url": "https://sfstandard.com/2026/05/28/sf-startup-secretly-testing-robots-airbnbs-trashing-lawsuit-claims/",
+      "summary": "",
+      "feed_name": "Hacker News Best",
+      "feed_url": "https://news.ycombinator.com/rss"
+    },
+    {
+      "title": "Various LLM Smells",
+      "url": "https://shvbsle.in/various-llm-smells/",
+      "summary": "",
+      "feed_name": "Hacker News Best",
+      "feed_url": "https://news.ycombinator.com/rss"
+    },
+    {
+      "title": "Anthropic raises $65B in Series H funding at $965B post-money valuation",
+      "url": "https://www.anthropic.com/news/series-h",
+      "summary": "",
+      "feed_name": "Hacker News Best",
+      "feed_url": "https://news.ycombinator.com/rss"
+    },
+    {
+      "title": "Show HN: Ktx – Open-source executable context layer for data agents",
+      "url": "https://github.com/Kaelio/ktx",
+      "summary": "",
+      "feed_name": "Hacker News Best",
+      "feed_url": "https://news.ycombinator.com/rss"
+    },
+    {
+      "title": "ITBench-AA: Frontier Models Score Below 50% on the First Benchmark for Agentic Enterprise IT Tasks — by Artificial Analysis and IBM",
+      "url": "https://huggingface.co/blog/ibm-research/itbench-aa",
+      "summary": "",
+      "feed_name": "Hugging Face Blog",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "title": "Reachy Mini goes fully local",
+      "url": "https://huggingface.co/blog/local-reachy-mini-conversation",
+      "summary": "",
+      "feed_name": "Hugging Face Blog",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "title": "Shipping a Trillion Parameters With a Hub Bucket: Delta Weight Sync in TRL",
+      "url": "https://huggingface.co/blog/delta-weight-sync",
+      "summary": "",
+      "feed_name": "Hugging Face Blog",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "title": "Harness, Scaffold, and the AI Agent Terms Worth Getting Right",
+      "url": "https://huggingface.co/blog/agent-glossary",
+      "summary": "",
+      "feed_name": "Hugging Face Blog",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "title": "Towards Speed-of-Light Text Generation with Nemotron-Labs Diffusion Language Models",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-labs-diffusion",
+      "summary": "",
+      "feed_name": "Hugging Face Blog",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "title": "Specialization Beats Scale: A Strategic Variable Most AI Procurement Decisions Overlook",
+      "url": "https://huggingface.co/blog/Dharma-AI/specialization-beats-scale",
+      "summary": "",
+      "feed_name": "Hugging Face Blog",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "title": "OlmoEarth v1.1: A more efficient family of Earth observation models",
+      "url": "https://huggingface.co/blog/allenai/olmoearth-v1-1",
+      "summary": "",
+      "feed_name": "Hugging Face Blog",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "title": "Introducing the Ettin Reranker Family",
+      "url": "https://huggingface.co/blog/ettin-reranker",
+      "summary": "",
+      "feed_name": "Hugging Face Blog",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "title": "PaddleOCR 3.5: Running OCR and Document Parsing Tasks with a Transformers Backend",
+      "url": "https://huggingface.co/blog/PaddlePaddle/paddleocr-transformers",
+      "summary": "",
+      "feed_name": "Hugging Face Blog",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "title": "Granite Embedding Multilingual R2: Open Apache 2.0 Multilingual Embeddings with 32K Context — Best Sub-100M Retrieval Quality",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-embedding-multilingual-r2",
+      "summary": "",
+      "feed_name": "Hugging Face Blog",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "title": "Unlocking asynchronicity in continuous batching",
+      "url": "https://huggingface.co/blog/continuous_async",
+      "summary": "",
+      "feed_name": "Hugging Face Blog",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "title": "Building Blocks for Foundation Model Training and Inference on AWS",
+      "url": "https://huggingface.co/blog/amazon/foundation-model-building-blocks",
+      "summary": "",
+      "feed_name": "Hugging Face Blog",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "title": "vLLM V0 to V1: Correctness Before Corrections in RL",
+      "url": "https://huggingface.co/blog/ServiceNow-AI/correctness-before-corrections",
+      "summary": "",
+      "feed_name": "Hugging Face Blog",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "title": "Adding Benchmaxxer Repellant to the Open ASR Leaderboard",
+      "url": "https://huggingface.co/blog/open-asr-leaderboard-private-data",
+      "summary": "",
+      "feed_name": "Hugging Face Blog",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "title": "Granite 4.1 LLMs: How They’re Built",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-4-1",
+      "summary": "",
+      "feed_name": "Hugging Face Blog",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "title": "DeepInfra on Hugging Face Inference Providers 🔥",
+      "url": "https://huggingface.co/blog/inference-providers-deepinfra",
+      "summary": "",
+      "feed_name": "Hugging Face Blog",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "title": "Introducing NVIDIA Nemotron 3 Nano Omni: Long-Context Multimodal Intelligence for Documents, Audio and Video Agents",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-3-nano-omni-multimodal-intelligence",
+      "summary": "",
+      "feed_name": "Hugging Face Blog",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "title": "How to build scalable web apps with OpenAI&apos;s Privacy Filter",
+      "url": "https://huggingface.co/blog/openai-privacy-filter-web-apps",
+      "summary": "",
+      "feed_name": "Hugging Face Blog",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "title": "DeepSeek-V4: a million-token context that agents can actually use",
+      "url": "https://huggingface.co/blog/deepseekv4",
+      "summary": "",
+      "feed_name": "Hugging Face Blog",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "title": "How to Use Transformers.js in a Chrome Extension",
+      "url": "https://huggingface.co/blog/transformersjs-chrome-extension",
+      "summary": "",
+      "feed_name": "Hugging Face Blog",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    }
+  ]
+}

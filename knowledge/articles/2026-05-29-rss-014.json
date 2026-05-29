@@ -1,0 +1,35 @@
+{
+  "id": "rss-20260529-014",
+  "title": "Claude Opus 4.8",
+  "source_url": "https://www.anthropic.com/news/claude-opus-4-8",
+  "source_type": "rss",
+  "summary": "Claude Opus 4.8 是 Anthropic 发布的最新一代大型语言模型，性能显著提升，尤其在逻辑推理、代码生成和长文本处理方面表现突出。该模型优化了多轮对话的连贯性和安全性，并增强了多模态能力。它代表了当前 AI 语言模型的前沿水平，对开发者和企业用户具有直接价值。",
+  "published_at": "2026-05-29",
+  "collected_at": "2026-05-29T04:19:09.396490+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 8,
+    "scoring_reasons": "该模型在多个基准测试中刷新了纪录，实用性强大，直接提升了复杂任务的处理效率，且具备行业引领潜力。然而，其改进主要是渐进式而非革命性，故未达到9分以上。",
+    "scoring_dimensions": {
+      "tech_depth": 9,
+      "innovation": 7,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "逻辑推理与代码生成性能显著提升",
+      "长文本处理与多轮对话连贯性优化",
+      "增强的多模态能力与安全机制"
+    ]
+  },
+  "tags": [
+    "大语言模型",
+    "Claude",
+    "AI模型更新",
+    "性能提升",
+    "多模态"
+  ]
+}

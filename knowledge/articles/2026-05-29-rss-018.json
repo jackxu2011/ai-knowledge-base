@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260529-018",
+  "title": "Various LLM Smells",
+  "source_url": "https://shvbsle.in/various-llm-smells/",
+  "source_type": "rss",
+  "summary": "该内容探讨了大语言模型（LLM）在使用或开发中可能出现的各种异常或“气味”（smells），如过拟合、偏见、幻觉等常见问题，旨在帮助开发者识别和避免这些陷阱。",
+  "published_at": "2026-05-29",
+  "collected_at": "2026-05-29T04:19:09.396588+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 6,
+    "scoring_reasons": "内容实用，帮助开发者和用户识别LLM中的常见问题，但缺乏具体技术细节和创新性，属于有益但非突破性的知识总结。",
+    "scoring_dimensions": {
+      "tech_depth": 4,
+      "innovation": 3,
+      "usability": 6
+    },
+    "technical_highlights": [
+      "系统性地列举了LLM使用中的典型异常类型",
+      "提供了问题诊断和规避的初步框架"
+    ]
+  },
+  "tags": [
+    "大语言模型",
+    "技术陷阱",
+    "模型诊断"
+  ]
+}

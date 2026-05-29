@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260529-015",
+  "title": "The mysterious Hy3 LLM is topping OpenRouter Model Rankings by a large margin",
+  "source_url": "https://minimaxir.com/2026/05/openrouter-hy3/",
+  "source_type": "rss",
+  "summary": "一个名为Hy3的神秘大型语言模型在OpenRouter模型排行榜上以大幅优势位居榜首。该模型性能卓越，但来源和细节不明，引发业界对其技术背景和潜在影响的广泛关注。",
+  "published_at": "2026-05-29",
+  "collected_at": "2026-05-29T04:19:09.396535+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该事件展示了新型LLM的惊人性能，直接挑战现有模型格局，对AI领域具有实质性和启发性，但模型细节未知限制了直接应用。",
+    "scoring_dimensions": {
+      "tech_depth": 7,
+      "innovation": 8,
+      "usability": 6
+    },
+    "technical_highlights": [
+      "Hy3 LLM在OpenRouter排行榜上以大幅优势领先",
+      "模型神秘且性能突出，引发技术好奇和竞争"
+    ]
+  },
+  "tags": [
+    "LLM",
+    "OpenRouter",
+    "模型排行榜"
+  ]
+}

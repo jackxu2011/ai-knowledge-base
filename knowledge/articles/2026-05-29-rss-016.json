@@ -1,0 +1,34 @@
+{
+  "id": "rss-20260529-016",
+  "title": "Show HN: Continue? Y&#x2F;N: A 60-second game about AI agent permission fatigue",
+  "source_url": "https://llmgame.scalex.dev",
+  "source_type": "rss",
+  "summary": "这是一个关于AI代理权限疲劳的60秒互动游戏，玩家需快速决定是否批准AI的各种请求。游戏通过模拟频繁的权限确认场景，幽默地揭示了AI系统中权限管理的人性化挑战。",
+  "published_at": "2026-05-29",
+  "collected_at": "2026-05-29T04:19:09.396561+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 6,
+    "scoring_reasons": "该作品以游戏形式创新地探索了AI人机交互中的权限疲劳问题，概念有趣且具反思价值，但技术深度有限，实用性偏向娱乐而非直接工具。",
+    "scoring_dimensions": {
+      "tech_depth": 4,
+      "innovation": 8,
+      "usability": 5
+    },
+    "technical_highlights": [
+      "以游戏化方式直观呈现AI权限管理困境",
+      "60秒短时互动体验设计，强调快速决策与疲劳感"
+    ]
+  },
+  "tags": [
+    "AI游戏",
+    "人机交互",
+    "权限管理",
+    "用户体验",
+    "趣味实验"
+  ]
+}
