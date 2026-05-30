@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260530-014",
+  "title": "Notes from the Mistral AI Now Summit",
+  "source_url": "https://koenvangilst.nl/lab/mistral-ai-now-summit",
+  "source_type": "rss",
+  "summary": "文章总结了Mistral AI Now Summit峰会的关键洞察，包括开源模型进展、企业级AI部署趋势、多模态能力提升及模型效率优化。Mistral在强调开放性与隐私保护的同时，展示了其在多领域垂直应用的潜力，并暗示了未来小型化、专业化模型的发展方向。",
+  "published_at": "2026-05-30",
+  "collected_at": "2026-05-30T04:04:02.812462+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 6,
+    "scoring_reasons": "内容聚焦行业生态而非突破性技术，提供了实用的开发部署视角，但未提出范式级创新，适合AI从业者关注但非必需内容。",
+    "scoring_dimensions": {
+      "tech_depth": 7,
+      "innovation": 5,
+      "usability": 6
+    },
+    "technical_highlights": [
+      "开源模型与隐私保护的平衡策略",
+      "多模态能力在企业场景的落地案例"
+    ]
+  },
+  "tags": [
+    "Mistral",
+    "AI峰会",
+    "开源模型"
+  ]
+}

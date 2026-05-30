@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260530-020",
+  "title": "CAPTCHAs can still detect AI agents",
+  "source_url": "https://research.roundtable.ai/captchas-detect-ai/",
+  "source_type": "rss",
+  "summary": "该研究探讨了当前CAPTCHA系统识别AI代理的有效性。通过实验，作者发现尽管AI技术进步，但精心设计的CAPTCHA仍能有效区分人类和AI代理，尤其在动态任务和交互式验证方面。研究揭示了AI在模仿人类行为时的局限性，强调了现有验证机制的实用性，并为未来CAPTCHA设计提供了参考。",
+  "published_at": "2026-05-30",
+  "collected_at": "2026-05-30T04:04:02.812556+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 6,
+    "scoring_reasons": "该内容确认了CAPTCHA的持续有效性，具有实际应用价值，但缺乏突破性创新，属于对现有技术的验证和巩固。",
+    "scoring_dimensions": {
+      "tech_depth": 6,
+      "innovation": 4,
+      "usability": 7
+    },
+    "technical_highlights": [
+      "验证了CAPTCHA在动态任务中的抗AI能力",
+      "揭示了AI在模拟人类行为时的判断瓶颈"
+    ]
+  },
+  "tags": [
+    "CAPTCHA",
+    "AI安全性",
+    "人机验证"
+  ]
+}

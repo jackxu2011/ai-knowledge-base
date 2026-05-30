@@ -1,0 +1,33 @@
+{
+  "id": "rss-20260530-018",
+  "title": "Is AI causing a repeat of frontend’s lost decade?",
+  "source_url": "https://mastrojs.github.io/blog/2026-05-23-is-AI-causing-a-repeat-of-frontends-lost-decade/",
+  "source_type": "rss",
+  "summary": "本文探讨AI是否会导致前端开发再次经历“失去的十年”，即技术停滞或重复造轮子的阶段。作者认为，当前AI工具的快速发展可能带来类似风险，但前端生态的成熟和AI辅助效率的提升可能避免历史重演，关键在于社区如何利用AI创新而非沉溺于重复性工作。",
+  "published_at": "2026-05-30",
+  "collected_at": "2026-05-30T04:04:02.812548+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 6,
+    "scoring_reasons": "文章提出了一个值得关注的行业反思，但内容偏向观点讨论而非技术突破，实用性中等，适合开发者了解趋势。",
+    "scoring_dimensions": {
+      "tech_depth": 5,
+      "innovation": 6,
+      "usability": 5
+    },
+    "technical_highlights": [
+      "AI工具可能引发前端效率革命，但需警惕技术同质化",
+      "对比前端历史上的“框架战争”与AI时代的新问题"
+    ]
+  },
+  "tags": [
+    "前端开发",
+    "AI工具",
+    "技术趋势",
+    "行业反思"
+  ]
+}
