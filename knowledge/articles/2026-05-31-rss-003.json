@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260531-003",
+  "title": "OpenRouter raises $113M Series B",
+  "source_url": "https://openrouter.ai/announcements/series-b",
+  "source_type": "rss",
+  "summary": "OpenRouter完成1.13亿美元B轮融资，用于扩展其AI模型聚合与路由网络，旨在降低企业使用多种大语言模型的成本与复杂性。该平台支持开发者无缝接入多个AI模型，优化推理效率。",
+  "published_at": "2026-05-31",
+  "collected_at": "2026-05-31T04:39:34.622965+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 8,
+    "scoring_reasons": "OpenRouter作为AI基础设施层，解决多模型切换与成本优化痛点，融资规模显著体现行业认可度，虽非突破性技术，但实用性强，直接提升企业AI应用效率。",
+    "scoring_dimensions": {
+      "tech_depth": 7,
+      "innovation": 6,
+      "usability": 9
+    },
+    "technical_highlights": [
+      "多模型聚合路由，降低模型切换成本",
+      "容量1.13亿美元B轮融资，加速市场扩张"
+    ]
+  },
+  "tags": [
+    "AI基础设施",
+    "模型路由",
+    "融资动态"
+  ]
+}

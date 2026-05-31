@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260531-001",
+  "title": "Domain expertise has always been the real moat",
+  "source_url": "https://www.brethorsting.com/blog/2026/05/domain-expertise-has-always-been-the-real-moat/",
+  "source_type": "rss",
+  "summary": "该内容强调在AI领域，领域专业知识（domain expertise）是真正的竞争壁垒（moat），而非通用技术能力。观点认为随着AI工具普及，技术门槛降低，行业知识深度和应用场景理解将成为核心优势。",
+  "published_at": "2026-05-31",
+  "collected_at": "2026-05-31T04:39:34.622902+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "观点具有现实指导意义，呼应了当前AI商业化趋势中行业定制化的重要性，但非颠覆性创新，偏向经验总结，对从业者有直接启发。",
+    "scoring_dimensions": {
+      "tech_depth": 5,
+      "innovation": 6,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "指出领域知识比通用AI技能更具长期壁垒",
+      "暗示技术易复制、行业理解难替代的竞争逻辑"
+    ]
+  },
+  "tags": [
+    "AI战略",
+    "行业知识",
+    "竞争壁垒"
+  ]
+}

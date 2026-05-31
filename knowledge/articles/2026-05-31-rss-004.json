@@ -1,0 +1,34 @@
+{
+  "id": "rss-20260531-004",
+  "title": "Navier-Stokes fluid simulation explained with Godot game engine",
+  "source_url": "https://myzopotamia.dev/navier-stokes-fluid-simulation-explained-with-godot",
+  "source_type": "rss",
+  "summary": "本文展示了如何在Godot游戏引擎中实现基于纳维-斯托克斯方程的流体模拟，通过基本的格子玻尔兹曼方法（LBM）来模拟流体行为，并提供了代码示例和实现步骤。",
+  "published_at": "2026-05-31",
+  "collected_at": "2026-05-31T04:39:34.622978+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 6,
+    "scoring_reasons": "该内容结合了经典物理模拟与游戏引擎实践，具有一定的教育意义和趣味性，但技术实现上并非前沿突破，且应用场景有限。",
+    "scoring_dimensions": {
+      "tech_depth": 6,
+      "innovation": 4,
+      "usability": 6
+    },
+    "technical_highlights": [
+      "在Godot中实现了纳维-斯托克斯方程的流体模拟",
+      "使用格子玻尔兹曼方法简化计算，便于游戏引擎实现"
+    ]
+  },
+  "tags": [
+    "流体模拟",
+    "Godot",
+    "纳维-斯托克斯方程",
+    "游戏开发",
+    "格子玻尔兹曼方法"
+  ]
+}
