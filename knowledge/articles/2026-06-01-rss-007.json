@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260601-007",
+  "title": "Odysseus – self-hosted AI workspace",
+  "source_url": "https://github.com/pewdiepie-archdaemon/odysseus",
+  "source_type": "rss",
+  "summary": "Odysseus 是一个自托管的AI工作空间，旨在为用户提供私有、可控的AI环境。它可能整合多种AI工具，如语言模型、图像生成或自动化任务，强调数据隐私和定制化。适合对数据安全有高要求的个人或团队。",
+  "published_at": "2026-06-01",
+  "collected_at": "2026-06-01T05:01:16.126835+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 6,
+    "scoring_reasons": "该技术提供了自托管AI工作空间的解决方案，符合数据隐私趋势，但非突破性创新，实用性中等。",
+    "scoring_dimensions": {
+      "tech_depth": 6,
+      "innovation": 5,
+      "usability": 7
+    },
+    "technical_highlights": [
+      "自托管私有AI环境",
+      "可能集成多模态AI工具"
+    ]
+  },
+  "tags": [
+    "自托管",
+    "AI工作空间",
+    "数据隐私"
+  ]
+}

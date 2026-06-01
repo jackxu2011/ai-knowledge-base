@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260601-004",
+  "title": "What if remote working, not AI, is to blame for weak junior hiring?",
+  "source_url": "https://www.ft.com/content/2205e2d0-50dc-4e80-9bf7-78d0272276c0",
+  "source_type": "rss",
+  "summary": "本文探讨了远程工作可能比人工智能更可能导致初级员工招聘疲软的观点。作者质疑将招聘问题归咎于AI的普遍观点，提出远程工作环境下培训不足、社交机会缺失等因素对初级人才发展的负面影响更大。文章呼吁重新审视工作模式对人才招聘与培养的结构性影响。",
+  "published_at": "2026-06-01",
+  "collected_at": "2026-06-01T05:01:16.126805+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该分析视角新颖，挑战主流AI恐慌论，聚焦于远程工作这一实际工作模式变化的深层影响，对人力资源和职场趋势研究具有直接启示，引发深度思考。",
+    "scoring_dimensions": {
+      "tech_depth": 5,
+      "innovation": 8,
+      "usability": 7
+    },
+    "technical_highlights": [
+      "质疑AI导致初级招聘疲软的主流叙事",
+      "提出远程工作模式对人才培训与招聘的负面影响"
+    ]
+  },
+  "tags": [
+    "远程工作",
+    "初级人才招聘",
+    "职场趋势"
+  ]
+}

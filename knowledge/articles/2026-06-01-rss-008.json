@@ -1,0 +1,37 @@
+{
+  "id": "rss-20260601-008",
+  "title": "Welcome NVIDIA Cosmos 3: The First Open Omni-model for Physical AI Reasoning and Action",
+  "source_url": "https://huggingface.co/blog/nvidia/cosmos-3-for-physical-ai",
+  "source_type": "rss",
+  "summary": "NVIDIA推出了首个开放的全能物理AI模型Cosmos 3，专为物理世界推理与行动设计。该模型能够处理多模态输入，在机器人、自动驾驶等物理AI领域实现更高级的感知、规划与决策，标志着物理AI从专用模型向通用基础模型的转变。",
+  "published_at": "2026-06-01",
+  "collected_at": "2026-06-01T05:01:16.126844+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hugging Face Blog",
+    "feed_url": "https://huggingface.co/blog/feed.xml"
+  },
+  "analysis": {
+    "score": 10,
+    "scoring_reasons": "这是物理AI领域的里程碑式突破：首个开放的全能模型，直接面向机器人、自动驾驶等核心应用，将改变物理AI研发范式，推动行业从封闭走向开放，从专用走向通用，具有极高的创新性和实用价值。",
+    "scoring_dimensions": {
+      "tech_depth": 9,
+      "innovation": 10,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "首次开放物理AI的全能模型架构",
+      "支持多模态物理推理与行动规划",
+      "为机器人、自动驾驶提供通用基础模型"
+    ]
+  },
+  "tags": [
+    "物理AI",
+    "全能模型",
+    "开放模型",
+    "机器人",
+    "自动驾驶",
+    "NVIDIA",
+    "AI推理与行动"
+  ]
+}

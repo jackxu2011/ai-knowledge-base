@@ -1,0 +1,35 @@
+{
+  "id": "rss-20260601-001",
+  "title": "1-Bit Bonsai Image 4B Image Generation for Local Devices",
+  "source_url": "https://prismml.com/news/bonsai-image-4b",
+  "source_type": "rss",
+  "summary": "该技术提出了一种1-Bit量化图像生成模型，仅用4B参数即可在本地设备上高效运行，大幅降低计算资源需求。通过极简的二进制权重设计，在保持生成质量的同时实现移动端部署，为边缘计算场景提供轻量化解决方案。",
+  "published_at": "2026-06-01",
+  "collected_at": "2026-06-01T05:01:16.126733+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 8,
+    "scoring_reasons": "该技术直接解决了大模型在本地设备部署的痛点，通过1-Bit量化将模型压缩到极致，同时保持较好的图像生成质量，实用性强且创新点明确。",
+    "scoring_dimensions": {
+      "tech_depth": 8,
+      "innovation": 7,
+      "usability": 9
+    },
+    "technical_highlights": [
+      "1-Bit量化实现极低内存占用",
+      "仅4B参数即可生成高质量图像",
+      "支持本地设备实时运行"
+    ]
+  },
+  "tags": [
+    "1-Bit量化",
+    "图像生成",
+    "边缘计算",
+    "模型压缩",
+    "轻量化AI"
+  ]
+}

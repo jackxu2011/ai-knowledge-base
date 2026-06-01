@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260601-003",
+  "title": "ChatGPT for Google Sheets exfiltrates workbooks",
+  "source_url": "https://www.promptarmor.com/resources/gpt-for-google-sheets-data-exfiltration",
+  "source_type": "rss",
+  "summary": "该报告指出ChatGPT用于Google Sheets可能泄露工作簿数据，存在安全隐患。具体表现为AI模型在处理表格数据时可能无意中提取敏感信息，导致企业机密或用户隐私外泄。",
+  "published_at": "2026-06-01",
+  "collected_at": "2026-06-01T05:01:16.126793+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 6,
+    "scoring_reasons": "这一发现揭示了AI工具在实际应用中的潜在风险，对使用ChatGPT进行文档处理的机构具有警示意义，但并非突破性技术，而是安全问题的暴露。",
+    "scoring_dimensions": {
+      "tech_depth": 4,
+      "innovation": 5,
+      "usability": 7
+    },
+    "technical_highlights": [
+      "揭示了AI集成工具的数据泄露风险",
+      "提醒用户在自动化工作流中注意隐私保护"
+    ]
+  },
+  "tags": [
+    "AI安全",
+    "数据泄露",
+    "Google Sheets"
+  ]
+}
