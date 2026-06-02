@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260602-003",
+  "title": "OpenAI frontier models and Codex are now available on AWS",
+  "source_url": "https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws/",
+  "source_type": "rss",
+  "summary": "OpenAI前沿模型与Codex现已集成至AWS平台，开发者可通过Amazon SageMaker等云服务直接调用，实现无缝部署与扩展。此举降低了AI模型的使用门槛，增强了企业级应用的可及性，推动AI工作负载的云端落地。",
+  "published_at": "2026-06-02",
+  "collected_at": "2026-06-02T04:47:41.797952+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 8,
+    "scoring_reasons": "该合作具有直接实用价值，简化了企业获取前沿AI模型流程，提升开发效率，且由两大技术巨头推动，影响广泛。但非突破性技术本身，更多是生态整合，因此评8分。",
+    "scoring_dimensions": {
+      "tech_depth": 6,
+      "innovation": 7,
+      "usability": 9
+    },
+    "technical_highlights": [
+      "OpenAI模型在AWS上的原生支持",
+      "无缝集成到现有云基础设施"
+    ]
+  },
+  "tags": [
+    "模型部署",
+    "云计算",
+    "AI集成"
+  ]
+}

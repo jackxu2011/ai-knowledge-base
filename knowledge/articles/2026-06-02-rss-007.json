@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260602-007",
+  "title": "Florida sues OpenAI and Sam Altman over AI risks",
+  "source_url": "https://www.politico.com/news/2026/06/01/openai-hit-with-florida-lawsuit-00944215",
+  "source_type": "rss",
+  "summary": "佛罗里达州政府对OpenAI及其CEO Sam Altman提起诉讼，指控其人工智能技术存在风险，包括隐私侵犯、误导性内容和潜在危害。此案标志着监管机构对AI行业法律责任的进一步关注，可能影响AI开发者的合规标准。",
+  "published_at": "2026-06-02",
+  "collected_at": "2026-06-02T04:47:41.798005+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该事件涉及AI监管与法律责任的重大进展，直接影响行业规范，但尚未达到改变格局的突破性技术程度。内容实用性强，对政策制定者和开发者有直接启示。",
+    "scoring_dimensions": {
+      "tech_depth": 6,
+      "innovation": 4,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "政府诉讼凸显AI技术部署中的法律与伦理风险",
+      "可能推动AI透明度与安全标准的强制化"
+    ]
+  },
+  "tags": [
+    "法律诉讼",
+    "AI监管",
+    "风险治理"
+  ]
+}

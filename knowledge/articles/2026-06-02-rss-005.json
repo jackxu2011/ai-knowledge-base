@@ -1,0 +1,33 @@
+{
+  "id": "rss-20260602-005",
+  "title": "AI Agent Guidelines for CS336 at Stanford",
+  "source_url": "https://github.com/stanford-cs336/assignment1-basics/blob/main/CLAUDE.md",
+  "source_type": "rss",
+  "summary": "该指南提供了斯坦福大学CS336课程中关于AI代理（Agent）的使用规范，旨在指导学生如何在学术环境中合规、有效地利用AI工具。内容涵盖伦理、引用规则和实际应用案例，确保学术诚信并提升学习效率。",
+  "published_at": "2026-06-02",
+  "collected_at": "2026-06-02T04:47:41.797979+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 6,
+    "scoring_reasons": "内容针对特定课程，实用性强，但适用范围窄，创新性一般，对于非斯坦福或非CS336学员价值有限。",
+    "scoring_dimensions": {
+      "tech_depth": 4,
+      "innovation": 3,
+      "usability": 7
+    },
+    "technical_highlights": [
+      "明确了AI代理在学术中的使用边界",
+      "提供了具体的引用和伦理指导"
+    ]
+  },
+  "tags": [
+    "AI代理",
+    "学术规范",
+    "AI伦理",
+    "教育指南"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "rss-20260602-006",
+  "title": "Alphabet announces $80B equity capital raise to expand AI infra and compute",
+  "source_url": "https://abc.xyz/investor/news/news-details/2026/Alphabet-Announces-Proposed-80-Billion-Equity-Capital-Raise-to-Expand-AI-Infrastructure-and-Compute-2026-b0myAMewCa/default.aspx",
+  "source_type": "rss",
+  "summary": "Alphabet宣布800亿美元股权融资计划，用于扩建AI基础设施和算力。这笔巨额投资表明科技巨头正激烈争夺AI算力制高点，可能重塑云计算和AI服务格局。",
+  "published_at": "2026-06-02",
+  "collected_at": "2026-06-02T04:47:41.797992+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该事件直接反映了行业趋势，对AI基础设施建设有显著推动作用，但属于企业战略层面，对普通用户或开发者没有立即可获得的直接技术好处，因此评为7分。",
+    "scoring_dimensions": {
+      "tech_depth": 6,
+      "innovation": 5,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "800亿美元巨额资本用于AI基础设施扩建",
+      "强化云计算和AI服务能力",
+      "可能加速AI模型训练和部署效率"
+    ]
+  },
+  "tags": [
+    "AI基础设施",
+    "资本投资",
+    "云计算",
+    "Alphabet"
+  ]
+}
