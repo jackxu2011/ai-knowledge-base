@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260603-005",
+  "title": "Open Repair Data Standard – Open Repair Alliance",
+  "source_url": "https://openrepair.org/open-data/open-standard/",
+  "source_type": "rss",
+  "summary": "Open Repair Data Standard（开放维修数据标准）由Open Repair Alliance制定，旨在标准化维修数据格式，促进电子设备修复信息的共享与可操作性。该标准通过统一的数据字段和报告格式，支持维修社区、研究机构和政策制定者收集和分析维修数据，推动可持续发展和循环经济。目前主要应用于电子设备维修领域，提升数据可比性和透明度。",
+  "published_at": "2026-06-03",
+  "collected_at": "2026-06-03T04:57:40.945970+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该标准直接赋能维修行业，通过数据标准化提升了信息共享效率和数据分析能力，对推动可持续发展和消费者权益有实际帮助。但作为行业标准，其影响力依赖于广泛采用，目前应用范围主要聚焦电子设备，创新性中等，但实用性突出。",
+    "scoring_dimensions": {
+      "tech_depth": 6,
+      "innovation": 6,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "统一维修数据字段和报告格式，增强跨平台数据可比性",
+      "支持自动化数据收集与分析，降低修复技术门槛"
+    ]
+  },
+  "tags": [
+    "开放标准",
+    "维修数据",
+    "可持续发展"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "rss-20260603-006",
+  "title": "How we index images for RAG",
+  "source_url": "https://www.kapa.ai/blog/how-we-index-images-for-rag",
+  "source_type": "rss",
+  "summary": "本文探讨了如何为RAG（检索增强生成）系统建立图像索引，包括图像的特征提取、向量化以及存储与检索策略，旨在提升多模态信息检索的效率和准确性。",
+  "published_at": "2026-06-03",
+  "collected_at": "2026-06-03T04:57:40.945981+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该内容直接解决了RAG系统中图像索引的关键问题，对于提升多模态AI应用的实用性有显著帮助，但未展示突破性创新，属于实用改进。",
+    "scoring_dimensions": {
+      "tech_depth": 6,
+      "innovation": 5,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "提出针对RAG场景的图像索引方法",
+      "强化多模态信息检索的实践流程"
+    ]
+  },
+  "tags": [
+    "RAG",
+    "图像索引",
+    "多模态AI",
+    "向量检索"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260603-007",
+  "title": "Trump signs downsized AI order after weeks of reversals",
+  "source_url": "https://www.politico.com/news/2026/06/02/trump-signs-downsized-ai-order-00946389",
+  "source_type": "rss",
+  "summary": "特朗普在数周的反复后签署了一项缩减版的人工智能行政命令。该命令较最初版本规模更小，反映了政策制定过程中的摇摆与妥协，对AI行业监管与发展方向产生影响。",
+  "published_at": "2026-06-03",
+  "collected_at": "2026-06-03T04:57:40.945991+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 6,
+    "scoring_reasons": "该事件具有政策信号意义，但具体执行细节和影响尚待观察，评分适中。",
+    "scoring_dimensions": {
+      "tech_depth": 4,
+      "innovation": 3,
+      "usability": 5
+    },
+    "technical_highlights": [
+      "AI政策在行政层面的动态调整",
+      "缩减版命令体现监管态度变化"
+    ]
+  },
+  "tags": [
+    "AI政策",
+    "行政命令",
+    "行业监管"
+  ]
+}

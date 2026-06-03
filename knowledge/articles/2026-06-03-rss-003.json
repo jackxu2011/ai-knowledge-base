@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260603-003",
+  "title": "Gmail thinks I&#x27;m stupid, so I left",
+  "source_url": "https://moddedbear.com/gmail-thinks-im-stupid-so-i-left",
+  "source_type": "rss",
+  "summary": "用户因Gmail的智能功能（如自动分类、优先级收件箱等）感觉被低估或失去控制，从而选择离开Gmail。这反映了AI辅助工具与用户自主性之间的冲突，以及用户对个性化体验的不同需求。",
+  "published_at": "2026-06-03",
+  "collected_at": "2026-06-03T04:57:40.945948+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 6,
+    "scoring_reasons": "内容揭示了AI应用中的用户体验问题，有一定社会讨论价值，但技术深度有限，并非直接推动技术进步。",
+    "scoring_dimensions": {
+      "tech_depth": 3,
+      "innovation": 4,
+      "usability": 5
+    },
+    "technical_highlights": [
+      "AI过度自动化引发用户反感",
+      "用户对智能功能控制权诉求"
+    ]
+  },
+  "tags": [
+    "AI体验",
+    "用户自主性",
+    "邮件服务"
+  ]
+}

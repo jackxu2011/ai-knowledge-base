@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260603-008",
+  "title": "Holo3.1: Fast &amp; Local Computer Use Agents",
+  "source_url": "https://huggingface.co/blog/Hcompany/holo31",
+  "source_type": "rss",
+  "summary": "Holo3.1 是一款专注于快速本地化运行的计算机使用代理，旨在提升用户在日常操作中的效率和自动化水平。它强调低延迟和隐私保护，通过本地部署实现即时的任务响应，适用于个人办公、系统管理等多种场景。该技术通过优化算法和高效资源利用，在不依赖云端的情况下完成复杂指令，降低了对外部网络的依赖。",
+  "published_at": "2026-06-03",
+  "collected_at": "2026-06-03T04:57:40.946000+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hugging Face Blog",
+    "feed_url": "https://huggingface.co/blog/feed.xml"
+  },
+  "analysis": {
+    "score": 6,
+    "scoring_reasons": "该技术虽未呈现突破性创新，但实用性强，尤其适合注重隐私和响应速度的用户。它解决了代理运行中常见的延迟和依赖问题，但受限于应用场景的广泛性，未能达到行业引领级别。",
+    "scoring_dimensions": {
+      "tech_depth": 6,
+      "innovation": 5,
+      "usability": 7
+    },
+    "technical_highlights": [
+      "本地化运行，降低网络依赖和延迟",
+      "快速响应，适合高频操作场景"
+    ]
+  },
+  "tags": [
+    "本地代理",
+    "计算机自动化",
+    "低延迟技术"
+  ]
+}
