@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260604-007",
+  "title": "Mathematicians issue warning as AI rapidly gains ground",
+  "source_url": "https://www.science.org/content/article/mathematicians-issue-warning-ai-rapidly-gains-ground",
+  "source_type": "rss",
+  "summary": "数学家们发出警告，指出人工智能的快速发展正在迅速抢占数学领域的地盘。这一趋势引发了对AI在数学研究、教学和应用中取代人类角色的担忧。专家呼吁关注AI带来的伦理和安全性问题，并强调保持人类在数学核心领域的控制权。",
+  "published_at": "2026-06-04",
+  "collected_at": "2026-06-04T04:50:37.178356+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 8,
+    "scoring_reasons": "该内容涉及AI对数学这一基础学科的影响，具有重要的社会和技术讨论价值。虽非直接的技术突破，但反映了一个关键趋势，对理解AI的边界和未来合作模式至关重要。被评为8分，因为其话题相关性强，直接影响到AI安全性、伦理以及人类智力劳动的定位，实用性高。",
+    "scoring_dimensions": {
+      "tech_depth": 7,
+      "innovation": 6,
+      "usability": 9
+    },
+    "technical_highlights": [
+      "AI在数学领域能力快速提升，引发人类专家警惕",
+      "提醒关注AI对数学研究、教育和应用的潜在颠覆"
+    ]
+  },
+  "tags": [
+    "AI安全",
+    "数学智能",
+    "人机协作"
+  ]
+}

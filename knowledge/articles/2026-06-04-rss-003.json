@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260604-003",
+  "title": "The ways we contain Claude across products",
+  "source_url": "https://www.anthropic.com/engineering/how-we-contain-claude",
+  "source_type": "rss",
+  "summary": "本文探讨了在跨产品环境中如何有效约束和控制Claude AI模型的行为，确保其安全、可靠且符合伦理标准。内容涉及技术手段、政策框架及实践案例，旨在平衡模型能力与风险管控。",
+  "published_at": "2026-06-04",
+  "collected_at": "2026-06-04T04:50:37.178303+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该内容直接关联AI安全与部署实践，提供可操作的约束策略，对行业有实用指导价值。技术深度足够，但创新性一般，属于对现有方法论的总结与优化。",
+    "scoring_dimensions": {
+      "tech_depth": 7,
+      "innovation": 6,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "提出了跨产品环境下的统一约束框架",
+      "结合了技术手段与政策规范的协同应用"
+    ]
+  },
+  "tags": [
+    "AI安全",
+    "模型约束",
+    "产品部署"
+  ]
+}

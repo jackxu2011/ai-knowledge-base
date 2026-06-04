@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260604-006",
+  "title": "Launch HN: Hyper (YC P26) – Company brain to power agentic development",
+  "source_url": "https://news.ycombinator.com/item?id=48387095",
+  "source_type": "rss",
+  "summary": "Hyper (YC P26) 推出了一款名为“公司大脑”的平台，旨在为智能体（agentic）开发提供动力。该平台通过整合企业知识、数据和流程，使AI代理能够更智能地执行任务，从而加速开发并提升自动化水平。它代表了企业级AI应用的一个新方向，专注于增强开发者的工作效率。",
+  "published_at": "2026-06-04",
+  "collected_at": "2026-06-04T04:50:37.178343+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该产品直接针对当前热门的AI代理开发领域，提供了将企业知识系统化的解决方案，具有实用性和创新性，但尚需观察其实际应用效果和市场接受度。",
+    "scoring_dimensions": {
+      "tech_depth": 7,
+      "innovation": 7,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "整合企业知识、数据和流程以驱动AI代理",
+      "专为加速agentic开发而设计"
+    ]
+  },
+  "tags": [
+    "AI开发平台",
+    "企业知识管理",
+    "代理开发"
+  ]
+}

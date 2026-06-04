@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260604-001",
+  "title": "I built a vulnerable app and spent $1,500 seeing if LLMs could hack it",
+  "source_url": "https://kasra.blog/blog/i-spent-1500-seeing-if-llms-could-hack-my-app/",
+  "source_type": "rss",
+  "summary": "作者构建了一个包含漏洞的Web应用，并花费1500美元测试多种LLM（如GPT-4、Claude）能否自主完成黑客攻击。实验发现LLM在简单漏洞（如SQL注入）上表现良好，但在需要多步骤推理、环境交互或利用复杂漏洞时失败率高，揭示了当前LLM在真实安全场景中的局限性。",
+  "published_at": "2026-06-04",
+  "collected_at": "2026-06-04T04:50:37.178246+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该内容直接关联AI安全与红队实战，实验设计严谨、成本明确，结果对理解LLM在渗透测试中的实际能力有重要参考价值，但尚未达到范式转变级别。",
+    "scoring_dimensions": {
+      "tech_depth": 8,
+      "innovation": 7,
+      "usability": 6
+    },
+    "technical_highlights": [
+      "量化了LLM在真实漏洞利用场景中的成功率与成本",
+      "揭示了LLM在需要多步骤推理和环境交互时的关键短板"
+    ]
+  },
+  "tags": [
+    "LLM安全",
+    "红队测试",
+    "AI漏洞利用"
+  ]
+}

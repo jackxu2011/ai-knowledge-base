@@ -1,0 +1,34 @@
+{
+  "id": "rss-20260604-002",
+  "title": "Failing grades soar with AI usage, dwindling math skills in Berkeley CS classes",
+  "source_url": "https://www.dailycal.org/news/campus/academics/failing-grades-soar-as-professors-see-greater-ai-usage-dwindling-math-skills-in-uc-berkeley/article_16fad0bf-02cb-4b8c-8d88-888ffd9f8608.html",
+  "source_type": "rss",
+  "summary": "伯克利计算机科学课程中，AI使用率上升导致数学成绩下滑和不及格率飙升。研究表明，过度依赖AI损害了学生的基础数学能力，引发了教育界对AI工具如何影响学习成效的担忧。",
+  "published_at": "2026-06-04",
+  "collected_at": "2026-06-04T04:50:37.178285+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该内容揭示了AI在教育领域的负面影响，具有警示意义，能促使教育者反思AI的使用边界，实用性强且直接关联学习效能，但非突破性技术，故评分7。",
+    "scoring_dimensions": {
+      "tech_depth": 6,
+      "innovation": 5,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "AI工具使用与数学能力下降的关联性分析",
+      "对AI在教育中应用的负面效应实证研究"
+    ]
+  },
+  "tags": [
+    "AI教育影响",
+    "数学能力",
+    "学习成效",
+    "教育技术",
+    "AI风险"
+  ]
+}

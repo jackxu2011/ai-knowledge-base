@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260604-004",
+  "title": "Artificial intelligence is not conscious – Ted Chiang",
+  "source_url": "https://www.theatlantic.com/philosophy/2026/06/no-artificial-intelligence-is-not-conscious/687378/",
+  "source_type": "rss",
+  "summary": "Ted Chiang 探讨人工智能与意识的关系，指出当前 AI 系统缺乏自我感知和主观体验，仅是模式识别工具。他认为真正的意识需要生物基础或更复杂的架构，AI 的智能表现不等于意识存在。",
+  "published_at": "2026-06-04",
+  "collected_at": "2026-06-04T04:50:37.178318+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 6,
+    "scoring_reasons": "该内容澄清了 AI 意识的重要概念，虽非新技术突破，但对公众理解 AI 本质有较高认知价值，话题涉及哲学与科技前沿，值得关注。",
+    "scoring_dimensions": {
+      "tech_depth": 5,
+      "innovation": 4,
+      "usability": 7
+    },
+    "technical_highlights": [
+      "清晰区分 AI 智能与意识的概念差异",
+      "基于现有 AI 系统架构的分析论证"
+    ]
+  },
+  "tags": [
+    "AI 意识",
+    "认知科学",
+    "Ted Chiang"
+  ]
+}
