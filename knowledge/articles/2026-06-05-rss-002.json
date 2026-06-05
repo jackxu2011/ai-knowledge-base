@@ -1,0 +1,35 @@
+{
+  "id": "rss-20260605-002",
+  "title": "Do transformers need three projections? Systematic study of QKV variants",
+  "source_url": "https://arxiv.org/abs/2606.04032",
+  "source_type": "rss",
+  "summary": "该论文系统研究了Transformer模型中Query、Key、Value投影矩阵的必要性，探讨了移除或简化这些投影对模型性能的影响。实验结果显示，在特定任务和规模下，可以减少甚至去除部分投影而不显著损失效果，为Transformer架构优化提供了新思路。",
+  "published_at": "2026-06-05",
+  "collected_at": "2026-06-05T04:25:50.022816+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该研究通过系统性实验挑战了Transformer架构中QKV投影的常规设计，提出了简化可能，对模型压缩和高效部署有直接帮助。虽未达到范式转变级别，但实用性强，尤其适合关注模型轻量化和效率提升的研究者。",
+    "scoring_dimensions": {
+      "tech_depth": 8,
+      "innovation": 7,
+      "usability": 6
+    },
+    "technical_highlights": [
+      "系统评估了QKV投影变体对模型性能的影响",
+      "展示了在特定条件下移除投影的可行性",
+      "为Transformer简化提供了实验依据"
+    ]
+  },
+  "tags": [
+    "Transformer",
+    "模型优化",
+    "注意力机制",
+    "QKV投影",
+    "架构简化"
+  ]
+}

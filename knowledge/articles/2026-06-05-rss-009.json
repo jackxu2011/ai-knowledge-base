@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260605-009",
+  "title": "Go Experiments Explained",
+  "source_url": "https://www.alexedwards.net/blog/go-experiments-explained",
+  "source_type": "rss",
+  "summary": "该内容对Go语言的实验性特性进行了系统性解释，涵盖了泛型、错误处理、模糊测试等前沿方向，旨在帮助开发者理解这些实验在语言演进中的定位与潜在影响。",
+  "published_at": "2026-06-05",
+  "collected_at": "2026-06-05T04:25:50.022908+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "直接提升了Go开发者的技术视野与代码优化能力，实用性强，但未达到颠覆性技术变革的程度。",
+    "scoring_dimensions": {
+      "tech_depth": 8,
+      "innovation": 6,
+      "usability": 7
+    },
+    "technical_highlights": [
+      "对泛型与错误处理机制的前瞻性分析",
+      "系统化梳理Go实验特性的演进路径"
+    ]
+  },
+  "tags": [
+    "Go语言",
+    "实验特性",
+    "技术演进"
+  ]
+}

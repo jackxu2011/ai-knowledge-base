@@ -1,0 +1,34 @@
+{
+  "id": "rss-20260605-008",
+  "title": "I made a kernel 2.2x faster. It made my training loop 3x slower",
+  "source_url": "https://kyrieblunders.bearblog.dev/making-dr-grpo-go-brrr/",
+  "source_type": "rss",
+  "summary": "该内容揭示了内核优化与训练循环性能之间的悖论：通过优化使内核速度提升2.2倍，但在实际训练循环中，由于内存访问模式、并发控制或系统瓶颈等因素，整体训练速度反而下降了3倍。这体现了性能优化的复杂性与系统级权衡。",
+  "published_at": "2026-06-05",
+  "collected_at": "2026-06-05T04:25:50.022896+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "内容提供了深刻的性能工程洞察，揭示了局部优化与全局性能的矛盾，对系统开发者具有直接启发性，但适用范围偏向底层优化领域，非通用突破。",
+    "scoring_dimensions": {
+      "tech_depth": 9,
+      "innovation": 6,
+      "usability": 5
+    },
+    "technical_highlights": [
+      "局部优化可能导致全局性能下降的非直觉现象",
+      "揭示了内核与上层应用之间的性能耦合复杂性"
+    ]
+  },
+  "tags": [
+    "性能优化",
+    "系统设计",
+    "训练循环",
+    "内核开发",
+    "工程权衡"
+  ]
+}

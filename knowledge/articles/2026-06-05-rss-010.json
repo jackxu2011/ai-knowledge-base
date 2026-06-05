@@ -1,0 +1,33 @@
+{
+  "id": "rss-20260605-010",
+  "title": "Castor: CERN Advanced STORage Manager",
+  "source_url": "https://castor.web.cern.ch/content/home.html",
+  "source_type": "rss",
+  "summary": "Castor是欧洲核子研究中心（CERN）开发的高级存储管理器，用于管理大规模高能物理实验产生的海量数据。它提供分层存储、数据迁移和访问控制功能，支持磁带和磁盘混合存储架构，旨在高效可靠地管理PB级数据。",
+  "published_at": "2026-06-05",
+  "collected_at": "2026-06-05T04:25:50.022919+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 6,
+    "scoring_reasons": "Castor在HPC和大数据存储领域有特定价值，但主要面向CERN等大规模科学计算机构，对普通应用场景直接帮助有限。技术成熟，但创新性中等。",
+    "scoring_dimensions": {
+      "tech_depth": 7,
+      "innovation": 5,
+      "usability": 4
+    },
+    "technical_highlights": [
+      "支持磁带与磁盘混合存储的分层架构",
+      "针对PB级数据的高效数据迁移与访问控制"
+    ]
+  },
+  "tags": [
+    "数据存储",
+    "分层存储",
+    "HPC",
+    "科学计算"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "rss-20260605-011",
+  "title": "Latent Agents: A Post-Training Procedure for Internalized Multi-Agent Debate",
+  "source_url": "https://arxiv.org/abs/2604.24881",
+  "source_type": "rss",
+  "summary": "该研究提出了一种名为“潜在智能体”的后训练方法，通过内部化多智能体辩论过程来增强大型语言模型的推理能力。核心思想是在模型内部模拟多个智能体之间的辩论，而不需要外部交互或额外计算资源，从而在保持高效的同时提升模型的可信度和准确性。该方法在多个推理任务上显示出性能提升。",
+  "published_at": "2026-06-05",
+  "collected_at": "2026-06-05T04:25:50.022931+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 8,
+    "scoring_reasons": "该方法创新性地将多智能体辩论过程嵌入模型内部，避免了传统多智能体系统的高计算成本，同时提升了推理准确性和可解释性，直接有助于当前大模型在实际应用中的可靠性，实用性强且具有前瞻性。",
+    "scoring_dimensions": {
+      "tech_depth": 9,
+      "innovation": 9,
+      "usability": 7
+    },
+    "technical_highlights": [
+      "提出内部化多智能体辩论的后训练范式，无需外部交互",
+      "通过潜在空间模拟辩论，显著降低计算开销",
+      "在多个基准推理任务中验证了有效性和泛化能力"
+    ]
+  },
+  "tags": [
+    "多智能体系统",
+    "后训练",
+    "推理增强",
+    "大型语言模型",
+    "内部化辩论"
+  ]
+}
