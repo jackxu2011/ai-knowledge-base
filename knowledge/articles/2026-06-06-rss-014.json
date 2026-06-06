@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260606-014",
+  "title": "The intracies of modern camera lens repair (2024)",
+  "source_url": "https://salvagedcircuitry.com/sigma-45mm.html",
+  "source_type": "rss",
+  "summary": "本文探讨了现代相机镜头维修的复杂性，包括光学元件校准、电子接口修复和机械结构调整等技术细节。随着镜头技术向自动对焦、图像稳定等方向发展，维修难度显著增加，需要专业设备和经验。文章强调了自助维修的挑战和寻求专业服务的必要性。",
+  "published_at": "2026-06-06",
+  "collected_at": "2026-06-06T04:08:25.046730+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 6,
+    "scoring_reasons": "内容针对摄影爱好者和维修从业者，具有专业知识和实用价值，但受众面较窄，创新性一般，属于实用型技术科普。",
+    "scoring_dimensions": {
+      "tech_depth": 7,
+      "innovation": 4,
+      "usability": 6
+    },
+    "technical_highlights": [
+      "详细介绍了现代镜头的光学、电子和机械维修难点",
+      "强调了专业设备与经验在维修中的关键作用"
+    ]
+  },
+  "tags": [
+    "相机维修",
+    "镜头技术",
+    "光学校准"
+  ]
+}

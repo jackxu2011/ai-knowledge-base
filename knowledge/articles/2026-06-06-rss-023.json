@@ -1,0 +1,35 @@
+{
+  "id": "rss-20260606-023",
+  "title": "Thousand Token Wood: shipping a multi-agent economy on a 3B model",
+  "source_url": "https://huggingface.co/blog/build-small-hackathon/thousand-token-wood-sim",
+  "source_type": "rss",
+  "summary": "该项目在仅3B参数的轻量级模型上实现了多智能体经济系统，通过高效网络结构设计和资源优化，在千token级别完成复杂交互任务。展示了小模型在智能体协作与经济学模拟领域的巨大潜力，降低了大规模部署的门槛。",
+  "published_at": "2026-06-06",
+  "collected_at": "2026-06-06T04:08:25.046854+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hugging Face Blog",
+    "feed_url": "https://huggingface.co/blog/feed.xml"
+  },
+  "analysis": {
+    "score": 8,
+    "scoring_reasons": "该工作实用性极强，直接在小型模型上复现多智能体经济任务，大幅降低计算成本并提升实时性，对智能体应用和边缘部署场景有直接帮助，属于高质量落地创新。",
+    "scoring_dimensions": {
+      "tech_depth": 8,
+      "innovation": 8,
+      "usability": 9
+    },
+    "technical_highlights": [
+      "在3B参数模型上成功实现多智能体经济系统",
+      "千token级别完成复杂交互与资源分配任务",
+      "显著降低多智能体系统的模型规模与推理开销"
+    ]
+  },
+  "tags": [
+    "多智能体系统",
+    "经济模拟",
+    "轻量模型",
+    "资源优化",
+    "Token效率"
+  ]
+}

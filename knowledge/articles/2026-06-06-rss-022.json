@@ -1,0 +1,34 @@
+{
+  "id": "rss-20260606-022",
+  "title": "Show HN: Formally verified polygon intersection – Opus 4.8 oneshots, prev failed",
+  "source_url": "https://github.com/schildep/verified-polygon-intersection",
+  "source_type": "rss",
+  "summary": "这是一个在Hacker News上展示的正式验证多边形交集算法的项目。该项目使用Opus 4.8进行一次性计算，之前的相关尝试失败了。它专注于通过形式化验证确保多边形交集计算的正确性，对于计算机图形学、地理信息系统等领域具有潜在应用价值。",
+  "published_at": "2026-06-06",
+  "collected_at": "2026-06-06T04:08:25.046844+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该项目解决了计算几何中一个基础但重要的问题，形式化验证提高了可靠性，对特定领域有直接实用价值，但并非突破性创新，且可能依赖特定工具链。",
+    "scoring_dimensions": {
+      "tech_depth": 7,
+      "innovation": 6,
+      "usability": 7
+    },
+    "technical_highlights": [
+      "形式化验证确保多边形交集算法正确性",
+      "利用Opus 4.8进行高效计算"
+    ]
+  },
+  "tags": [
+    "形式化验证",
+    "多边形交集",
+    "计算几何",
+    "Opus",
+    "Hacker News"
+  ]
+}

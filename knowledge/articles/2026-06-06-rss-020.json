@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260606-020",
+  "title": "Conventional Commits encourages focus on the wrong things",
+  "source_url": "https://sumnerevans.com/posts/software-engineering/stop-using-conventional-commits/",
+  "source_type": "rss",
+  "summary": "本文探讨 Conventional Commits（约定式提交）可能鼓励开发者过度关注提交信息的格式而非代码本质，指出其可能导致形式主义，并建议更关注变更的实际影响。",
+  "published_at": "2026-06-06",
+  "collected_at": "2026-06-06T04:08:25.046825+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 6,
+    "scoring_reasons": "观点有价值，引发对工具使用的反思，但适用场景有限，不改变行业格局。",
+    "scoring_dimensions": {
+      "tech_depth": 5,
+      "innovation": 6,
+      "usability": 7
+    },
+    "technical_highlights": [
+      "批判性分析约定式提交的潜在弊端",
+      "强调实际变更价值而非格式规范"
+    ]
+  },
+  "tags": [
+    "约定式提交",
+    "软件开发实践",
+    "代码质量"
+  ]
+}

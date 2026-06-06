@@ -1,0 +1,34 @@
+{
+  "id": "rss-20260606-024",
+  "title": "Nemotron 3.5 Content Safety: Customizable Multimodal Safety for Global Enterprise AI",
+  "source_url": "https://huggingface.co/blog/nvidia/nemotron-3-5-content-safety",
+  "source_type": "rss",
+  "summary": "Nemotron 3.5 Content Safety 是英伟达推出的可定制多模态内容安全模型，专为企业级AI应用设计。它支持图像和文本输入，提供基于LLM的安全分类与护栏，可根据不同地区的法规和伦理标准进行灵活调整。该模型旨在降低部署生成式AI时的有害内容风险，增强企业对AI输出的可控性，同时保持高精度和低延迟。其开源特性和微调能力进一步提升了行业可用性。",
+  "published_at": "2026-06-06",
+  "collected_at": "2026-06-06T04:08:25.046863+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hugging Face Blog",
+    "feed_url": "https://huggingface.co/blog/feed.xml"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该技术针对企业AI部署中的核心痛点——内容安全与合规，提供了可定制、多模态的解决方案。其开源特性和灵活调整能力显著提升了实用性和行业影响力，但作为安全模型本身并非突破性技术，更多是对现有安全框架的优化和工程化实现。",
+    "scoring_dimensions": {
+      "tech_depth": 7,
+      "innovation": 6,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "多模态输入（图像+文本）的安全分类与护栏机制",
+      "基于LLM的动态安全策略，支持区域法规定制和微调"
+    ]
+  },
+  "tags": [
+    "AI安全",
+    "多模态",
+    "企业合规",
+    "英伟达",
+    "生成式AI护栏"
+  ]
+}

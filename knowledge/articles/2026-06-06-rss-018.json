@@ -1,0 +1,33 @@
+{
+  "id": "rss-20260606-018",
+  "title": "Ask HN: What was your &quot;oh shit&quot; moment with GenAI?",
+  "source_url": "https://news.ycombinator.com/item?id=48406174",
+  "source_type": "rss",
+  "summary": "文章探讨用户在使用生成式AI过程中遇到的意外、幽默或令人担忧的困境时刻，如AI产生不当内容、暴露偏见、误判高风险场景等。作者通过匿名分享总结GenAI在现实应用中的不可预测性与潜在隐患，强调需警惕其盲点与失控风险。",
+  "published_at": "2026-06-06",
+  "collected_at": "2026-06-06T04:08:25.046806+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 6,
+    "scoring_reasons": "文章提供真实案例，对理解AI局限性有洞察价值，但内容偏轶事性，缺乏系统性分析或解决方案，适合技术爱好者但非工程实践必读。",
+    "scoring_dimensions": {
+      "tech_depth": 4,
+      "innovation": 5,
+      "usability": 5
+    },
+    "technical_highlights": [
+      "揭示GenAI在未经过滤场景下的随机性输出风险",
+      "强调用户需建立对AI输出的人工审查机制"
+    ]
+  },
+  "tags": [
+    "生成式AI",
+    "案例研究",
+    "AI伦理",
+    "风险警示"
+  ]
+}

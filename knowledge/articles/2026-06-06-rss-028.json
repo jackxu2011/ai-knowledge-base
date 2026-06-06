@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260606-028",
+  "title": "Adding MCP Tools to Reachy Mini",
+  "source_url": "https://huggingface.co/blog/adding-mcp-tools-to-reachy-mini",
+  "source_type": "rss",
+  "summary": "该内容介绍了如何为Reachy Mini机器人添加MCP工具，可能涉及扩展其功能或提升交互能力，属于机器人领域的实用技术分享。",
+  "published_at": "2026-06-06",
+  "collected_at": "2026-06-06T04:08:25.046897+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hugging Face Blog",
+    "feed_url": "https://huggingface.co/blog/feed.xml"
+  },
+  "analysis": {
+    "score": 6,
+    "scoring_reasons": "内容聚焦于特定机器人平台的工具扩展，具有一定实用性和教育意义，但适用范围较窄，创新性和深度一般。",
+    "scoring_dimensions": {
+      "tech_depth": 5,
+      "innovation": 4,
+      "usability": 7
+    },
+    "technical_highlights": [
+      "为Reachy Mini添加MCP工具的具体实现方法",
+      "可能提升了机器人的功能扩展性或交互灵活性"
+    ]
+  },
+  "tags": [
+    "机器人技术",
+    "MCP工具",
+    "Reachy Mini"
+  ]
+}

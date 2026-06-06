@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260606-019",
+  "title": "My Agent Skill for Test-Driven Development",
+  "source_url": "https://www.saturnci.com/my-agent-skill-for-test-driven-development.html",
+  "source_type": "rss",
+  "summary": "该内容介绍了一种基于测试驱动开发（TDD）的智能体技能，通过自动生成和执行测试用例来驱动代码开发，提升开发效率与代码质量。",
+  "published_at": "2026-06-06",
+  "collected_at": "2026-06-06T04:08:25.046814+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "结合AI与TDD方法，直接提升开发效率，实用性强，但技术深度和创新能力中等。",
+    "scoring_dimensions": {
+      "tech_depth": 6,
+      "innovation": 7,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "自动生成测试用例",
+      "集成智能体实现TDD流程"
+    ]
+  },
+  "tags": [
+    "测试驱动开发",
+    "AI代理",
+    "代码质量"
+  ]
+}

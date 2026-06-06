@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260606-015",
+  "title": "How LLMs work",
+  "source_url": "https://www.0xkato.xyz/how-llms-actually-work/",
+  "source_type": "rss",
+  "summary": "本文深入解释大型语言模型的工作原理，涵盖Transformer架构、自注意力机制、token化、训练过程（预训练与微调）以及推理时的token预测机制。重点剖析了模型如何通过大量文本学习统计规律，并生成连贯文本，同时讨论了其局限性与幻觉现象。内容兼具理论基础与工程实践视角。",
+  "published_at": "2026-06-06",
+  "collected_at": "2026-06-06T04:08:25.046771+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该内容系统拆解了LLM核心技术，对理解当前AI主流模型有直接帮助，但未能涵盖新近的热门技术（如MoE、RLHF），且未涉及突破性架构创新，故给予7分。",
+    "scoring_dimensions": {
+      "tech_depth": 8,
+      "innovation": 5,
+      "usability": 7
+    },
+    "technical_highlights": [
+      "清晰阐释了Transformer中的自注意力机制与前馈网络如何协同工作",
+      "从token化到概率生成的完整推理流程拆解，便于上手理解"
+    ]
+  },
+  "tags": [
+    "LLM",
+    "Transformer",
+    "自注意力机制"
+  ]
+}
