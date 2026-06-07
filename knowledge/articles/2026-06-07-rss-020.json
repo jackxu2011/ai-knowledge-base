@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260607-020",
+  "title": "Computex 2026: Are We Heading for the Agentic PC Era Yet?",
+  "source_url": "https://www.eetimes.com/computex-2026-are-we-heading-for-the-agentic-pc-era-yet/",
+  "source_type": "rss",
+  "summary": "本文探讨了在Computex 2026上，PC行业是否将进入“智能体PC”时代。分析了当前AI PC的发展现状、面临的挑战（如功耗、软件生态）以及未来趋势，指出虽然硬件已初步支持，但真正的智能体PC还需更成熟的AI模型和用户场景驱动，预计2026年将是关键过渡期。",
+  "published_at": "2026-06-07",
+  "collected_at": "2026-06-07T04:44:23.964008+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该内容紧扣AI PC热点，预测未来两年行业趋势，对从业者和用户有明确的前瞻性指导价值，实用性较强，但属于趋势分析而非突破性技术披露。",
+    "scoring_dimensions": {
+      "tech_depth": 7,
+      "innovation": 6,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "明确提出了智能体PC（Agentic PC）的概念，并预测其将成为下一代PC核心形态",
+      "分析了AI PC从硬件堆叠到软件生态协同的关键转变节点"
+    ]
+  },
+  "tags": [
+    "Computex 2026",
+    "Agentic PC",
+    "AI PC趋势"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "rss-20260607-022",
+  "title": "Five labs, five minds: building a multi-model finance drama on small models",
+  "source_url": "https://huggingface.co/blog/build-small-hackathon/thousand-token-wood-sim-v2",
+  "source_type": "rss",
+  "summary": "该项目探讨了如何利用五个小型模型协同构建一部金融题材的剧情生成系统。通过不同模型分别负责角色、情节、对话、情感和逻辑等维度，实现了多模型协作的戏剧创作。文章强调了小模型在特定任务中的高效性与可组合性，展示了在资源受限条件下实现复杂叙事生成的可能性。",
+  "published_at": "2026-06-07",
+  "collected_at": "2026-06-07T04:44:23.964026+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hugging Face Blog",
+    "feed_url": "https://huggingface.co/blog/feed.xml"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该内容展示了多模型协作的创新思路，实用性强，可直接应用于互动叙事或金融教育场景。虽非突破性技术，但为小模型的应用提供了新范式。",
+    "scoring_dimensions": {
+      "tech_depth": 7,
+      "innovation": 8,
+      "usability": 7
+    },
+    "technical_highlights": [
+      "多模型分工协作取代单一大型模型",
+      "小模型在特定维度（角色、情感等）的高效表现",
+      "金融题材与AI叙事结合，拓展了垂直应用场景"
+    ]
+  },
+  "tags": [
+    "多模型协作",
+    "金融叙事",
+    "小模型应用"
+  ]
+}

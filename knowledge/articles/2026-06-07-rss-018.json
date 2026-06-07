@@ -1,0 +1,34 @@
+{
+  "id": "rss-20260607-018",
+  "title": "Google to pay SpaceX $920M a month for compute capacity at xAI data centers",
+  "source_url": "https://www.cnbc.com/2026/06/05/google-to-pay-spacex-920-million-a-month-for-xai-compute-capacity.html",
+  "source_type": "rss",
+  "summary": "谷歌计划每月向SpaceX支付9.2亿美元，用于租用xAI数据中心的算力。这一合作显示出科技巨头对尖端计算资源的巨大需求，尤其是在AI领域算力竞争加剧的背景下。",
+  "published_at": "2026-06-07",
+  "collected_at": "2026-06-07T04:44:23.963996+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该消息反映了AI算力市场的重大动向，对理解行业格局有直接帮助，但尚未涉及具体技术突破或范式转变。",
+    "scoring_dimensions": {
+      "tech_depth": 5,
+      "innovation": 3,
+      "usability": 7
+    },
+    "technical_highlights": [
+      "每月9.2亿美元的巨额算力租赁合同",
+      "谷歌与SpaceX/xAI的跨公司算力合作"
+    ]
+  },
+  "tags": [
+    "AI算力",
+    "谷歌",
+    "SpaceX",
+    "xAI",
+    "数据中心"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "rss-20260607-014",
+  "title": "Tokenomics: Quantifying Where Tokens Are Used in Agentic Software Engineering",
+  "source_url": "https://arxiv.org/abs/2601.14470",
+  "source_type": "rss",
+  "summary": "本文探讨了在代理式软件工程（Agentic Software Engineering）中，代币（Token）的经济学（Tokenomics）量化分析，重点关注代币在不同环节（如规划、编码、调试、部署等）的使用分布和成本。通过实证分析，作者揭示了智能体（Agent）在任务执行过程中的代币消耗模式，并提出了优化代币使用效率的策略，以降低运行成本并提高系统可持续性。该研究为去中心化AI和自动化软件开发的资源分配提供了新视角。",
+  "published_at": "2026-06-07",
+  "collected_at": "2026-06-07T04:44:23.963911+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该内容提出了一个新颖的量化框架来分析代币在代理式软件工程中的使用，具有实用性和前瞻性。它直接关系到AI系统的经济可行性和效率优化，对于开发者、平台设计者和代币经济研究者有直接帮助。但该方法论尚处于早期阶段，完整性和普适性有待验证，因此评分7分。",
+    "scoring_dimensions": {
+      "tech_depth": 7,
+      "innovation": 8,
+      "usability": 6
+    },
+    "technical_highlights": [
+      "建立了代币在智能体执行任务各阶段（规划、编码、调试、部署）的消耗量化模型",
+      "提出基于代币经济学的成本优化策略，用于降低代理式软件工程的运行开销",
+      "实证分析揭示了不同任务类型和智能体架构下的代币使用分布模式"
+    ]
+  },
+  "tags": [
+    "Tokenomics",
+    "代理式软件工程",
+    "代币经济",
+    "AI成本优化",
+    "去中心化AI"
+  ]
+}
