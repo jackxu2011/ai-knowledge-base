@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260608-018",
+  "title": "LLMs are eroding my software engineering career and I don&#x27;t know what to do",
+  "source_url": "https://human-in-the-loop.bearblog.dev/llms-are-eroding-my-software-engineering-career-and-i-dont-know-what-to-do/",
+  "source_type": "rss",
+  "summary": "文章探讨大语言模型对软件工程师职业的冲击，作者担忧LLMs降低编程技能价值、加速任务自动化，导致就业市场变化和职业路径不确定，反映了AI技术对传统开发角色的深刻影响。",
+  "published_at": "2026-06-08",
+  "collected_at": "2026-06-08T04:49:30.276620+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "内容直接触及AI对软件工程行业的现实冲击，引起广泛共鸣，具有高实用性和启发性，但并非全新观点，未提供具体解决方案。",
+    "scoring_dimensions": {
+      "tech_depth": 5,
+      "innovation": 4,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "LLMs降低编程入门门槛，加速初级任务自动化",
+      "工程师需转向更高阶设计、系统架构和AI协同能力"
+    ]
+  },
+  "tags": [
+    "LLMs",
+    "软件工程",
+    "职业冲击"
+  ]
+}

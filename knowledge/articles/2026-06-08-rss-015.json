@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260608-015",
+  "title": "DeepSeek V4 Pro beats GPT-5.5 Pro on precision",
+  "source_url": "https://runtimewire.com/article/deepseek-v4-pro-beats-gpt-5-5-pro-on-precision",
+  "source_type": "rss",
+  "summary": "DeepSeek V4 Pro 在精度上超越了 GPT-5.5 Pro，显示出国产大模型在特定指标上的竞争力，可能对行业格局产生影响。",
+  "published_at": "2026-06-08",
+  "collected_at": "2026-06-08T04:49:30.276582+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 8,
+    "scoring_reasons": "该结果直接颠覆了主流认知，展示了非美国模型的突破性进展，对 AI 开发者、企业和研究机构有直接实用价值，可能引发行业重新评估模型选择。",
+    "scoring_dimensions": {
+      "tech_depth": 8,
+      "innovation": 9,
+      "usability": 7
+    },
+    "technical_highlights": [
+      "DeepSeek V4 Pro 在精度指标上超越 GPT-5.5 Pro",
+      "突破性成果表明国产模型已能对标顶级国际模型"
+    ]
+  },
+  "tags": [
+    "大模型",
+    "精度",
+    "技术突破"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260608-017",
+  "title": "Show HN: Lathe – Use LLMs to learn a new domain, not skip past it",
+  "source_url": "https://github.com/devenjarvis/lathe",
+  "source_type": "rss",
+  "summary": "Lathe 是一个利用大型语言模型（LLM）帮助用户主动学习新领域知识的工具，而非简单跳过学习过程。它通过引导式交互，让用户深入理解领域概念，提升学习效果。该工具强调以 AI 辅助学习而非替代思考，适用于知识拓展与技能提升场景。",
+  "published_at": "2026-06-08",
+  "collected_at": "2026-06-08T04:49:30.276610+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该工具创新性地将 LLM 用于主动学习而非信息跳过或替代，实用性强，直接提升学习效率与深度，但技术深度一般，且需依赖用户主动参与。",
+    "scoring_dimensions": {
+      "tech_depth": 6,
+      "innovation": 8,
+      "usability": 7
+    },
+    "technical_highlights": [
+      "利用 LLM 引导领域探索与理解",
+      "强调主动学习而非被动接收信息"
+    ]
+  },
+  "tags": [
+    "LLM",
+    "学习工具",
+    "知识管理"
+  ]
+}

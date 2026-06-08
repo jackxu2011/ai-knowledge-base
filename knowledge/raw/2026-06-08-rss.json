@@ -1,0 +1,188 @@
+{
+  "source": "rss",
+  "collected_at": "2026-06-08T04:49:01.270394+00:00",
+  "items": [
+    {
+      "title": "The Smallest Brain You Can Build: A Perceptron in Python",
+      "url": "https://ranpara.net/posts/perceptron-explained-from-scratch/",
+      "summary": "",
+      "feed_name": "Hacker News Best",
+      "feed_url": "https://news.ycombinator.com/rss"
+    },
+    {
+      "title": "DeepSeek V4 Pro beats GPT-5.5 Pro on precision",
+      "url": "https://runtimewire.com/article/deepseek-v4-pro-beats-gpt-5-5-pro-on-precision",
+      "summary": "",
+      "feed_name": "Hacker News Best",
+      "feed_url": "https://news.ycombinator.com/rss"
+    },
+    {
+      "title": "Texas grid flags risks as data centers, crypto sites fail voltage tests",
+      "url": "https://www.reuters.com/business/energy/texas-grid-flags-risks-data-centers-crypto-sites-fail-voltage-tests-2026-06-05/",
+      "summary": "",
+      "feed_name": "Hacker News Best",
+      "feed_url": "https://news.ycombinator.com/rss"
+    },
+    {
+      "title": "Show HN: Lathe – Use LLMs to learn a new domain, not skip past it",
+      "url": "https://github.com/devenjarvis/lathe",
+      "summary": "",
+      "feed_name": "Hacker News Best",
+      "feed_url": "https://news.ycombinator.com/rss"
+    },
+    {
+      "title": "LLMs are eroding my software engineering career and I don&#x27;t know what to do",
+      "url": "https://human-in-the-loop.bearblog.dev/llms-are-eroding-my-software-engineering-career-and-i-dont-know-what-to-do/",
+      "summary": "",
+      "feed_name": "Hacker News Best",
+      "feed_url": "https://news.ycombinator.com/rss"
+    },
+    {
+      "title": "SDSU Wired Its Dorms with 1,300 AI Cameras Without Telling Students",
+      "url": "https://reclaimthenet.org/sdsu-adds-1300-ai-cameras-330-in-student-dorms",
+      "summary": "",
+      "feed_name": "Hacker News Best",
+      "feed_url": "https://news.ycombinator.com/rss"
+    },
+    {
+      "title": "Amazing Digital Dentures (a failed project)",
+      "url": "https://huggingface.co/blog/build-small-hackathon/amazingdigitaldentures",
+      "summary": "",
+      "feed_name": "Hugging Face Blog",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "title": "Nemotron 3.5 Content Safety: Customizable Multimodal Safety for Global Enterprise AI",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-3-5-content-safety",
+      "summary": "",
+      "feed_name": "Hugging Face Blog",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "title": "EVA-Bench Data 2.0: 3 Domains, 121 Tools, 213 Scenarios",
+      "url": "https://huggingface.co/blog/ServiceNow-AI/eva-bench-data",
+      "summary": "",
+      "feed_name": "Hugging Face Blog",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "title": "Designing the hf CLI as an agent-optimized way to work with the Hub",
+      "url": "https://huggingface.co/blog/hf-cli-for-agents",
+      "summary": "",
+      "feed_name": "Hugging Face Blog",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "title": "Direct Preference Optimization Beyond Chatbots",
+      "url": "https://huggingface.co/blog/Dharma-AI/direct-preference-optimization-beyond-chatbots",
+      "summary": "",
+      "feed_name": "Hugging Face Blog",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "title": "Adding MCP Tools to Reachy Mini",
+      "url": "https://huggingface.co/blog/adding-mcp-tools-to-reachy-mini",
+      "summary": "",
+      "feed_name": "Hugging Face Blog",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "title": "Holo3.1: Fast &amp; Local Computer Use Agents",
+      "url": "https://huggingface.co/blog/Hcompany/holo31",
+      "summary": "",
+      "feed_name": "Hugging Face Blog",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "title": "Introducing Mellum2: A 12B Mixture-of-Experts Model by JetBrains",
+      "url": "https://huggingface.co/blog/JetBrains/mellum2-launch",
+      "summary": "",
+      "feed_name": "Hugging Face Blog",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "title": "Beyond LLMs: Why Scalable Enterprise AI Adoption Depends on Agent Logic",
+      "url": "https://huggingface.co/blog/ibm-research/agent-logic-and-scalable-ai-adoption",
+      "summary": "",
+      "feed_name": "Hugging Face Blog",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "title": "Profiling in PyTorch (Part 1): A Beginner&apos;s Guide to torch.profiler",
+      "url": "https://huggingface.co/blog/torch-profiler",
+      "summary": "",
+      "feed_name": "Hugging Face Blog",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "title": "Reachy Mini goes fully local",
+      "url": "https://huggingface.co/blog/local-reachy-mini-conversation",
+      "summary": "",
+      "feed_name": "Hugging Face Blog",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "title": "Shipping a Trillion Parameters With a Hub Bucket: Delta Weight Sync in TRL",
+      "url": "https://huggingface.co/blog/delta-weight-sync",
+      "summary": "",
+      "feed_name": "Hugging Face Blog",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "title": "Harness, Scaffold, and the AI Agent Terms Worth Getting Right",
+      "url": "https://huggingface.co/blog/agent-glossary",
+      "summary": "",
+      "feed_name": "Hugging Face Blog",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "title": "OlmoEarth v1.1: A more efficient family of Earth observation models",
+      "url": "https://huggingface.co/blog/allenai/olmoearth-v1-1",
+      "summary": "",
+      "feed_name": "Hugging Face Blog",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "title": "Introducing the Ettin Reranker Family",
+      "url": "https://huggingface.co/blog/ettin-reranker",
+      "summary": "",
+      "feed_name": "Hugging Face Blog",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "title": "PaddleOCR 3.5: Running OCR and Document Parsing Tasks with a Transformers Backend",
+      "url": "https://huggingface.co/blog/PaddlePaddle/paddleocr-transformers",
+      "summary": "",
+      "feed_name": "Hugging Face Blog",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "title": "Granite Embedding Multilingual R2: Open Apache 2.0 Multilingual Embeddings with 32K Context — Best Sub-100M Retrieval Quality",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-embedding-multilingual-r2",
+      "summary": "",
+      "feed_name": "Hugging Face Blog",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "title": "Unlocking asynchronicity in continuous batching",
+      "url": "https://huggingface.co/blog/continuous_async",
+      "summary": "",
+      "feed_name": "Hugging Face Blog",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "title": "Building Blocks for Foundation Model Training and Inference on AWS",
+      "url": "https://huggingface.co/blog/amazon/foundation-model-building-blocks",
+      "summary": "",
+      "feed_name": "Hugging Face Blog",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "title": "vLLM V0 to V1: Correctness Before Corrections in RL",
+      "url": "https://huggingface.co/blog/ServiceNow-AI/correctness-before-corrections",
+      "summary": "",
+      "feed_name": "Hugging Face Blog",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    }
+  ]
+}
