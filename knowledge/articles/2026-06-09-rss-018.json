@@ -1,0 +1,35 @@
+{
+  "id": "rss-20260609-018",
+  "title": "Ask HN: What are tools you have made for yourself since the advent of AI?",
+  "source_url": "https://news.ycombinator.com/item?id=48449187",
+  "source_type": "rss",
+  "summary": "该HN帖子探讨了自AI技术兴起以来，个人开发者为自己构建的实用工具，涵盖代码调试、写作辅助、数据整理等场景，反映AI工具在个性化生产环境中的实际应用趋势。",
+  "published_at": "2026-06-09",
+  "collected_at": "2026-06-09T04:11:53.050749+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "内容贴近开发者实际需求，展示了AI工具的定制化潜力，具有较强实用性和启发性，但未涉及根本性技术突破。",
+    "scoring_dimensions": {
+      "tech_depth": 6,
+      "innovation": 7,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "AI赋能个性化工具开发",
+      "社区驱动的实用案例分享",
+      "低门槛定制化AI应用"
+    ]
+  },
+  "tags": [
+    "AI工具",
+    "个人开发",
+    "社区实践",
+    "效率提升",
+    "代码辅助"
+  ]
+}

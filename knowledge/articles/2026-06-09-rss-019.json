@@ -1,0 +1,34 @@
+{
+  "id": "rss-20260609-019",
+  "title": "Apple bets cheaper AI will woo small developers",
+  "source_url": "https://techcrunch.com/2026/06/08/apple-bets-cheaper-ai-will-woo-small-developers/",
+  "source_type": "rss",
+  "summary": "苹果正致力于降低AI技术成本，以吸引小型开发者加入其生态系统。这一策略旨在通过更实惠的模型和工具，让小型开发者能够更容易集成AI功能，从而扩大应用创新与市场覆盖。",
+  "published_at": "2026-06-09",
+  "collected_at": "2026-06-09T04:11:53.050764+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 8,
+    "scoring_reasons": "该策略直接降低AI门槛，提升小型开发者的参与度和实用性，对生态系统有显著正面影响，属于实用性强且能促进行业发展的举措。",
+    "scoring_dimensions": {
+      "tech_depth": 6,
+      "innovation": 7,
+      "usability": 9
+    },
+    "technical_highlights": [
+      "降低AI集成成本",
+      "扩大小型开发者市场"
+    ]
+  },
+  "tags": [
+    "苹果",
+    "AI成本",
+    "开发者生态",
+    "小企业赋能",
+    "技术创新"
+  ]
+}
