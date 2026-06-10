@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260610-008",
+  "title": "CEOs who think AI replaces their employees are just bad CEOs",
+  "source_url": "https://www.techdirt.com/2026/06/09/ceos-who-think-ai-replaces-their-employees-are-just-bad-ceos/",
+  "source_type": "rss",
+  "summary": "文章批评认为AI能完全替代员工的CEO，指出优秀的CEO应利用AI增强员工能力而非替代他们，强调人机协作的重要性，并警告忽视员工价值会导致团队士气下降和人才流失。",
+  "published_at": "2026-06-10",
+  "collected_at": "2026-06-10T04:23:13.730234+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 6,
+    "scoring_reasons": "主题具有管理启示价值，但观点不新颖且分析深度有限，适合企业管理者参考但非突破性内容。",
+    "scoring_dimensions": {
+      "tech_depth": 4,
+      "innovation": 3,
+      "usability": 7
+    },
+    "technical_highlights": [
+      "强调人机协作优于替代",
+      "批评简单替代思维的局限性"
+    ]
+  },
+  "tags": [
+    "AI管理",
+    "人机协作",
+    "领导力"
+  ]
+}

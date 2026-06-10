@@ -1,0 +1,35 @@
+{
+  "id": "rss-20260610-014",
+  "title": "How an Agent Built a 3D Paris Gallery by Chaining Two Hugging Face Spaces",
+  "source_url": "https://huggingface.co/blog/mishig/spaces-agents-md",
+  "source_type": "rss",
+  "summary": "本文介绍了如何通过连接两个Hugging Face Spaces构建一个3D巴黎画廊的AI代理。该方法展示了利用现有AI模型链式组合实现复杂三维场景生成的技术路径。通过结合文本到3D和空间构建模型，代理能够自动生成可交互的虚拟巴黎画廊。这一实践降低了3D内容创建的门槛，为AI驱动的虚拟环境构建提供了可复用的框架。",
+  "published_at": "2026-06-10",
+  "collected_at": "2026-06-10T04:23:13.730285+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hugging Face Blog",
+    "feed_url": "https://huggingface.co/blog/feed.xml"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该方法展示了AI模型链式组合的实用价值，直接降低了3D场景构建的技术门槛，具备较强的可复用性和教育意义，属于对现有技术的有效整合与创新应用，但尚未达到范式转变的突破性水平。",
+    "scoring_dimensions": {
+      "tech_depth": 7,
+      "innovation": 6,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "链式调用多个Hugging Face Spaces实现端到端3D生成",
+      "使用AI代理自动协调文本到3D和场景布局模型",
+      "降低了非专业用户创建交互式虚拟环境的技术壁垒"
+    ]
+  },
+  "tags": [
+    "Hugging Face Spaces",
+    "3D场景生成",
+    "AI代理链",
+    "虚拟现实",
+    "文本到3D"
+  ]
+}

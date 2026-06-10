@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260610-009",
+  "title": "Grit: Rewriting Git in Rust with agents",
+  "source_url": "https://blog.gitbutler.com/true-grit",
+  "source_type": "rss",
+  "summary": "Grit 项目尝试用 Rust 重写 Git，并结合智能代理（agents）来提升版本控制系统的性能和智能化程度。该项目旨在利用 Rust 的高性能和安全性，以及代理的自动化能力，为开发者提供更高效、更强大的工具。",
+  "published_at": "2026-06-10",
+  "collected_at": "2026-06-10T04:23:13.730245+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 8,
+    "scoring_reasons": "直接有帮助：Rust 重写 Git 提升性能和安全性，结合 agents 增加智能化，对开发者有实际价值。",
+    "scoring_dimensions": {
+      "tech_depth": 8,
+      "innovation": 7,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "Rust 语言重写带来内存安全和并发优势",
+      "集成智能代理自动化常见操作"
+    ]
+  },
+  "tags": [
+    "Rust",
+    "Git重写",
+    "智能代理"
+  ]
+}

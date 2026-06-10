@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260610-007",
+  "title": "Lies we tell ourselves about email addresses",
+  "source_url": "https://gitpush--force.com/commits/2026/06/lies-we-tell-ourselves-about-email/",
+  "source_type": "rss",
+  "summary": "该文章探讨了关于电子邮件地址的常见误解，包括其安全性、隐私保护和实际用途。作者指出，许多用户错误地认为电子邮件地址是私密且安全的，但实际上它们容易被泄露、用于跟踪或遭受攻击。文章还讨论了匿名化技巧和最佳实践，以帮助用户更好地保护个人信息。",
+  "published_at": "2026-06-10",
+  "collected_at": "2026-06-10T04:23:13.730225+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 6,
+    "scoring_reasons": "内容具有实用价值，纠正了常见误区，但主题局限在电子邮件领域，创新性一般，适合对隐私保护感兴趣的读者了解。",
+    "scoring_dimensions": {
+      "tech_depth": 5,
+      "innovation": 4,
+      "usability": 7
+    },
+    "technical_highlights": [
+      "揭示电子邮件地址的常见安全误解",
+      "提供实用匿名化建议"
+    ]
+  },
+  "tags": [
+    "网络安全",
+    "电子邮件",
+    "隐私保护"
+  ]
+}

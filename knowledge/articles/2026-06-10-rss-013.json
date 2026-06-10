@@ -1,0 +1,33 @@
+{
+  "id": "rss-20260610-013",
+  "title": "Introducing North Mini Code: Cohere’s First Model For Developers",
+  "source_url": "https://huggingface.co/blog/CohereLabs/introducing-north-mini-code",
+  "source_type": "rss",
+  "summary": "Cohere推出了其首个面向开发者的模型North Mini Code，该模型专为代码生成和软件开发任务优化，提升了开发者在编写、调试和优化代码时的效率。作为一款轻量级模型，它注重易用性和集成性，旨在降低AI辅助编程的门槛，标志着Cohere在代码AI领域迈出关键一步。",
+  "published_at": "2026-06-10",
+  "collected_at": "2026-06-10T04:23:13.730278+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hugging Face Blog",
+    "feed_url": "https://huggingface.co/blog/feed.xml"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该模型直接针对开发者需求，提供专用代码能力，实用性强且能显著提升工作效率，但尚未达到改变行业格局的突破性程度。",
+    "scoring_dimensions": {
+      "tech_depth": 7,
+      "innovation": 6,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "首个面向开发者的专用模型",
+      "轻量级设计便于集成"
+    ]
+  },
+  "tags": [
+    "AI辅助编程",
+    "代码生成",
+    "开发者工具",
+    "轻量模型"
+  ]
+}

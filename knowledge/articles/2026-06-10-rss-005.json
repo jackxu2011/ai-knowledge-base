@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260610-005",
+  "title": "Ultrafast machine learning on FPGAs via Kolmogorov-Arnold Networks",
+  "source_url": "https://aarushgupta.io/posts/kan-fpga/",
+  "source_type": "rss",
+  "summary": "本文探讨了在FPGA上通过Kolmogorov-Arnold网络实现超快速机器学习的方法。KAN网络利用可学习激活函数替代传统固定激活函数，在FPGA上通过并行计算和硬件优化实现了低延迟推理，适用于边缘计算和实时处理场景。研究展示了KAN在FPGA上的加速效果，比传统神经网络快数倍，同时保持了高精度。",
+  "published_at": "2026-06-10",
+  "collected_at": "2026-06-10T04:23:13.730206+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该技术结合了新兴的KAN网络与FPGA硬件加速，在边缘计算和实时AI领域有直接实用性，能显著提升推理速度，但整体创新性中等（KAN概念已有，FPGA加速是优化），且适用范围可能受限于特定场景。",
+    "scoring_dimensions": {
+      "tech_depth": 8,
+      "innovation": 6,
+      "usability": 7
+    },
+    "technical_highlights": [
+      "KAN网络在FPGA上的并行化实现降低了推理延迟",
+      "通过硬件优化显著提升了边缘设备的机器学习效率"
+    ]
+  },
+  "tags": [
+    "FPGA加速",
+    "Kolmogorov-Arnold网络",
+    "边缘计算"
+  ]
+}

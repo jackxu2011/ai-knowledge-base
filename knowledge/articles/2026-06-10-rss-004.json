@@ -1,0 +1,34 @@
+{
+  "id": "rss-20260610-004",
+  "title": "German ruling declares Google liable for false answers in AI Overviews",
+  "source_url": "https://the-decoder.com/landmark-german-ruling-declares-googles-ai-overviews-are-googles-own-words-and-makes-it-liable-for-false-answers/",
+  "source_type": "rss",
+  "summary": "德国法院裁定谷歌对AI Overviews中的错误回答负有责任，这标志着AI生成内容法律责任认定的重要法律先例。该裁决可能影响欧洲及全球AI监管框架，促使科技公司加强对AI输出内容的审核与责任承担。",
+  "published_at": "2026-06-10",
+  "collected_at": "2026-06-10T04:23:13.730195+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 8,
+    "scoring_reasons": "该裁决直接触及AI法律与伦理的核心问题，对AI行业运营规范、用户保护及技术治理具有深远影响，实用价值高且创新性强。",
+    "scoring_dimensions": {
+      "tech_depth": 7,
+      "innovation": 8,
+      "usability": 9
+    },
+    "technical_highlights": [
+      "确立AI生成错误信息的平台法律责任",
+      "推动AI输出质量与审计机制升级"
+    ]
+  },
+  "tags": [
+    "AI法律",
+    "责任认定",
+    "德国裁决",
+    "AI治理",
+    "内容审核"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260610-001",
+  "title": "macOS Container Machines",
+  "source_url": "https://github.com/apple/container/blob/main/docs/container-machine.md",
+  "source_type": "rss",
+  "summary": "macOS Container Machines 项目通过将容器技术与 macOS 虚拟化结合，提供了一种在 macOS 上运行轻量级、隔离的容器化环境的方法。它利用 Apple 的 Virtualization.framework 来实现高效的资源利用和快速启动，旨在简化开发、测试和部署流程。该项目有望改善 macOS 上的容器化体验，但目前仍处于早期阶段。",
+  "published_at": "2026-06-10",
+  "collected_at": "2026-06-10T04:23:13.730128+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该项目实用性强，直接提升了在 macOS 上使用容器技术的便利性和效率，但创新性中等，且目前成熟度有限，可能面临兼容性和生态限制。",
+    "scoring_dimensions": {
+      "tech_depth": 8,
+      "innovation": 6,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "利用 Apple 的 Virtualization.framework 实现原生性能",
+      "提供轻量级、快速启动的容器化解决方案"
+    ]
+  },
+  "tags": [
+    "macOS",
+    "容器化",
+    "虚拟化"
+  ]
+}

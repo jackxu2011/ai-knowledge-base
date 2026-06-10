@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260610-011",
+  "title": "Is Grep All You Need? How Agent Harnesses Reshape Agentic Search",
+  "source_url": "https://arxiv.org/abs/2605.15184",
+  "source_type": "rss",
+  "summary": "本文探讨了Agent在搜索中的应用，质疑是否只需grep即可实现高效搜索，并分析了Agent如何通过工具调用、推理和上下文理解重塑搜索范式，提升搜索结果的相关性和智能性。",
+  "published_at": "2026-06-10",
+  "collected_at": "2026-06-10T04:23:13.730265+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该内容对AI代理如何改进搜索流程提供了实用见解，直接提升了信息检索效率，但并非突破性技术，属于对现有方法的优化。",
+    "scoring_dimensions": {
+      "tech_depth": 7,
+      "innovation": 6,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "提出Agent搜索超越传统grep模式",
+      "强调推理和上下文在搜索中的核心作用"
+    ]
+  },
+  "tags": [
+    "AI代理",
+    "智能搜索",
+    "信息检索"
+  ]
+}

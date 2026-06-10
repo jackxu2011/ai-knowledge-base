@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260610-015",
+  "title": "Migrating Your GitHub CI to Hugging Face Jobs",
+  "source_url": "https://huggingface.co/blog/github-ci-hf-jobs",
+  "source_type": "rss",
+  "summary": "该资源指导用户如何将GitHub CI工作流迁移至Hugging Face Jobs平台，实现模型训练与部署的云端化。通过简化配置步骤，它帮助开发者利用Hugging Face的GPU资源与存储空间，减少对本地环境的依赖。重点包括兼容性调整、环境变量配置及与Hugging Face Hub的集成，适用于已有GitHub CI经验的团队快速切换。",
+  "published_at": "2026-06-10",
+  "collected_at": "2026-06-10T04:23:13.730291+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hugging Face Blog",
+    "feed_url": "https://huggingface.co/blog/feed.xml"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "实用性强，直接解决CI迁移痛点，提供云端算力优化方案；但主题较专，适用范围限于Hugging Face生态用户，创新性中等。",
+    "scoring_dimensions": {
+      "tech_depth": 6,
+      "innovation": 5,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "简化从GitHub CI到Hugging Face Jobs的迁移步骤",
+      "利用云端GPU资源加速模型工作流"
+    ]
+  },
+  "tags": [
+    "CI/CD",
+    "Hugging Face",
+    "模型部署"
+  ]
+}

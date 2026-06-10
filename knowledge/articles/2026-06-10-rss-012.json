@@ -1,0 +1,33 @@
+{
+  "id": "rss-20260610-012",
+  "title": "Can Voice Agents Handle Bilingual Customers? Benchmarking Frontier ASR on Code-Switched Speech",
+  "source_url": "https://huggingface.co/blog/ServiceNow-AI/code-switching",
+  "source_type": "rss",
+  "summary": "该研究基准测试了前沿自动语音识别（ASR）系统在处理双语混码语音（Code-Switched Speech）时的性能，评估其在真实场景中应对双语客户的语音代理能力。研究揭示了当前ASR系统在混合语言环境下的识别准确率偏低、延迟和错误率高等挑战，为提升多语言语音交互系统提供了关键参考。",
+  "published_at": "2026-06-10",
+  "collected_at": "2026-06-10T04:23:13.730272+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hugging Face Blog",
+    "feed_url": "https://huggingface.co/blog/feed.xml"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该研究直接针对语音代理在多模态、多语言实际应用中面临的核心痛点——双语混码语音处理，实用性突出，能有效指导产品优化。但技术深度和突破性有限，属于对现有ASR系统的基准测试与性能评估。",
+    "scoring_dimensions": {
+      "tech_depth": 6,
+      "innovation": 5,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "首次系统基准测试主流ASR在双语混码场景的性能",
+      "揭示了ASR模型在语言切换点及混合语法上的识别缺陷"
+    ]
+  },
+  "tags": [
+    "ASR",
+    "双语混码",
+    "语音代理",
+    "基准测试"
+  ]
+}
