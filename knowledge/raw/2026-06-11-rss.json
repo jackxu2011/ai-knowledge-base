@@ -1,0 +1,216 @@
+{
+  "source": "rss",
+  "collected_at": "2026-06-11T04:44:43.633982+00:00",
+  "items": [
+    {
+      "title": "AI agent runs amok in Fedora and elsewhere",
+      "url": "https://lwn.net/SubscriberLink/1077035/c7e7c14fbd60fae9/",
+      "summary": "",
+      "feed_name": "Hacker News Best",
+      "feed_url": "https://news.ycombinator.com/rss"
+    },
+    {
+      "title": "Cybersecurity researchers aren&#x27;t happy about the guardrails on Anthropic&#x27;s Fable",
+      "url": "https://techcrunch.com/2026/06/10/cybersecurity-researchers-arent-happy-about-the-guardrails-on-anthropics-fable/",
+      "summary": "",
+      "feed_name": "Hacker News Best",
+      "feed_url": "https://news.ycombinator.com/rss"
+    },
+    {
+      "title": "Klondike Solitaire game for curses in 5k of C",
+      "url": "https://nanochess.org/klondike_in_c.html",
+      "summary": "",
+      "feed_name": "Hacker News Best",
+      "feed_url": "https://news.ycombinator.com/rss"
+    },
+    {
+      "title": "L&#x27;Affaire Siloxane",
+      "url": "https://mceglowski.substack.com/p/laffaire-siloxane",
+      "summary": "",
+      "feed_name": "Hacker News Best",
+      "feed_url": "https://news.ycombinator.com/rss"
+    },
+    {
+      "title": "Deficient executive control in transformer attention",
+      "url": "https://academic.oup.com/pnasnexus/article/5/6/pgag149/8698838",
+      "summary": "",
+      "feed_name": "Hacker News Best",
+      "feed_url": "https://news.ycombinator.com/rss"
+    },
+    {
+      "title": "Show HN: HelixDB – A graph database built on object storage",
+      "url": "https://github.com/HelixDB/helix-db/tree/main",
+      "summary": "",
+      "feed_name": "Hacker News Best",
+      "feed_url": "https://news.ycombinator.com/rss"
+    },
+    {
+      "title": "Apache Burr: Build reliable AI agents and applications",
+      "url": "https://burr.apache.org/",
+      "summary": "",
+      "feed_name": "Hacker News Best",
+      "feed_url": "https://news.ycombinator.com/rss"
+    },
+    {
+      "title": "Claude Desktop spawns 1.8 GB Hyper-V VM on every launch, even for chat-only use",
+      "url": "https://github.com/anthropics/claude-code/issues/29045",
+      "summary": "",
+      "feed_name": "Hacker News Best",
+      "feed_url": "https://news.ycombinator.com/rss"
+    },
+    {
+      "title": "All 9,300 Japanese train station, animated by the year it opened (1872–2026)",
+      "url": "https://jivx.com/eki",
+      "summary": "",
+      "feed_name": "Hacker News Best",
+      "feed_url": "https://news.ycombinator.com/rss"
+    },
+    {
+      "title": "Notes on DeepSeek",
+      "url": "https://news.ycombinator.com/item?id=48476474",
+      "summary": "",
+      "feed_name": "Hacker News Best",
+      "feed_url": "https://news.ycombinator.com/rss"
+    },
+    {
+      "title": "Can Voice Agents Handle Bilingual Customers? Benchmarking Frontier ASR on Code-Switched Speech",
+      "url": "https://huggingface.co/blog/ServiceNow-AI/code-switching",
+      "summary": "",
+      "feed_name": "Hugging Face Blog",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "title": "Introducing North Mini Code: Cohere’s First Model For Developers",
+      "url": "https://huggingface.co/blog/CohereLabs/introducing-north-mini-code",
+      "summary": "",
+      "feed_name": "Hugging Face Blog",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "title": "How an Agent Built a 3D Paris Gallery by Chaining Two Hugging Face Spaces",
+      "url": "https://huggingface.co/blog/mishig/spaces-agents-md",
+      "summary": "",
+      "feed_name": "Hugging Face Blog",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "title": "Migrating Your GitHub CI to Hugging Face Jobs",
+      "url": "https://huggingface.co/blog/github-ci-hf-jobs",
+      "summary": "",
+      "feed_name": "Hugging Face Blog",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "title": "The Open Source Community is backing OpenEnv for Agentic RL",
+      "url": "https://huggingface.co/blog/openenv-agentic-rl",
+      "summary": "",
+      "feed_name": "Hugging Face Blog",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "title": "Nemotron 3.5 Content Safety: Customizable Multimodal Safety for Global Enterprise AI",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-3-5-content-safety",
+      "summary": "",
+      "feed_name": "Hugging Face Blog",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "title": "Designing the hf CLI as an agent-optimized way to work with the Hub",
+      "url": "https://huggingface.co/blog/hf-cli-for-agents",
+      "summary": "",
+      "feed_name": "Hugging Face Blog",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "title": "Direct Preference Optimization Beyond Chatbots",
+      "url": "https://huggingface.co/blog/Dharma-AI/direct-preference-optimization-beyond-chatbots",
+      "summary": "",
+      "feed_name": "Hugging Face Blog",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "title": "Adding MCP Tools to Reachy Mini",
+      "url": "https://huggingface.co/blog/adding-mcp-tools-to-reachy-mini",
+      "summary": "",
+      "feed_name": "Hugging Face Blog",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "title": "Holo3.1: Fast &amp; Local Computer Use Agents",
+      "url": "https://huggingface.co/blog/Hcompany/holo31",
+      "summary": "",
+      "feed_name": "Hugging Face Blog",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "title": "Introducing Mellum2: A 12B Mixture-of-Experts Model by JetBrains",
+      "url": "https://huggingface.co/blog/JetBrains/mellum2-launch",
+      "summary": "",
+      "feed_name": "Hugging Face Blog",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "title": "Beyond LLMs: Why Scalable Enterprise AI Adoption Depends on Agent Logic",
+      "url": "https://huggingface.co/blog/ibm-research/agent-logic-and-scalable-ai-adoption",
+      "summary": "",
+      "feed_name": "Hugging Face Blog",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "title": "Profiling in PyTorch (Part 1): A Beginner&apos;s Guide to torch.profiler",
+      "url": "https://huggingface.co/blog/torch-profiler",
+      "summary": "",
+      "feed_name": "Hugging Face Blog",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "title": "Reachy Mini goes fully local",
+      "url": "https://huggingface.co/blog/local-reachy-mini-conversation",
+      "summary": "",
+      "feed_name": "Hugging Face Blog",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "title": "Shipping a Trillion Parameters With a Hub Bucket: Delta Weight Sync in TRL",
+      "url": "https://huggingface.co/blog/delta-weight-sync",
+      "summary": "",
+      "feed_name": "Hugging Face Blog",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "title": "Harness, Scaffold, and the AI Agent Terms Worth Getting Right",
+      "url": "https://huggingface.co/blog/agent-glossary",
+      "summary": "",
+      "feed_name": "Hugging Face Blog",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "title": "OlmoEarth v1.1: A more efficient family of Earth observation models",
+      "url": "https://huggingface.co/blog/allenai/olmoearth-v1-1",
+      "summary": "",
+      "feed_name": "Hugging Face Blog",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "title": "Introducing the Ettin Reranker Family",
+      "url": "https://huggingface.co/blog/ettin-reranker",
+      "summary": "",
+      "feed_name": "Hugging Face Blog",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "title": "PaddleOCR 3.5: Running OCR and Document Parsing Tasks with a Transformers Backend",
+      "url": "https://huggingface.co/blog/PaddlePaddle/paddleocr-transformers",
+      "summary": "",
+      "feed_name": "Hugging Face Blog",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "title": "Granite Embedding Multilingual R2: Open Apache 2.0 Multilingual Embeddings with 32K Context — Best Sub-100M Retrieval Quality",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-embedding-multilingual-r2",
+      "summary": "",
+      "feed_name": "Hugging Face Blog",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    }
+  ]
+}

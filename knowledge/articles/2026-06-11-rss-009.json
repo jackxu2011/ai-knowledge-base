@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260611-009",
+  "title": "All 9,300 Japanese train station, animated by the year it opened (1872–2026)",
+  "source_url": "https://jivx.com/eki",
+  "source_type": "rss",
+  "summary": "该内容通过动画形式展示了日本自1872年至2026年间所有9300个火车站的开业时间演变，视觉化呈现了铁路网络的扩张历史。",
+  "published_at": "2026-06-11",
+  "collected_at": "2026-06-11T04:45:18.717027+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 6,
+    "scoring_reasons": "数据可视化新颖，具有历史和教育价值，但技术深度和创新性一般，实用性有限。",
+    "scoring_dimensions": {
+      "tech_depth": 4,
+      "innovation": 6,
+      "usability": 5
+    },
+    "technical_highlights": [
+      "覆盖日本全部9300个火车站的时间序列动画",
+      "直观展示铁路发展历史与地理分布"
+    ]
+  },
+  "tags": [
+    "数据可视化",
+    "日本铁路",
+    "历史动画"
+  ]
+}

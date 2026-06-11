@@ -1,0 +1,33 @@
+{
+  "id": "rss-20260611-007",
+  "title": "Apache Burr: Build reliable AI agents and applications",
+  "source_url": "https://burr.apache.org/",
+  "source_type": "rss",
+  "summary": "Apache Burr 是一个用于构建可靠 AI 代理和应用程序的开源框架，提供状态管理、自动重试、可观测性等功能，支持 Python 和多种 AI 集成。",
+  "published_at": "2026-06-11",
+  "collected_at": "2026-06-11T04:45:18.717012+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该框架针对 AI 应用开发中的常见痛点（如状态一致性和容错性）提供结构化解决方案，实用性强，但创新性受限于现有模式，且需开发者熟悉其架构。",
+    "scoring_dimensions": {
+      "tech_depth": 8,
+      "innovation": 6,
+      "usability": 7
+    },
+    "technical_highlights": [
+      "明确的代理生命周期和状态管理",
+      "内置自动重试和恢复机制",
+      "可观测性和日志支持便于调试"
+    ]
+  },
+  "tags": [
+    "AI代理",
+    "可靠性框架",
+    "状态管理"
+  ]
+}

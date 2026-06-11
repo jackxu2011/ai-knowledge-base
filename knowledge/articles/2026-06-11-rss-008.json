@@ -1,0 +1,34 @@
+{
+  "id": "rss-20260611-008",
+  "title": "Claude Desktop spawns 1.8 GB Hyper-V VM on every launch, even for chat-only use",
+  "source_url": "https://github.com/anthropics/claude-code/issues/29045",
+  "source_type": "rss",
+  "summary": "用户发现Claude Desktop每次启动都会生成一个1.8GB的Hyper-V虚拟机，即使仅用于聊天。这一设计在隔离性上有利，但对资源占用过大，引发效率与隐私担忧。",
+  "published_at": "2026-06-11",
+  "collected_at": "2026-06-11T04:45:18.717019+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 6,
+    "scoring_reasons": "该发现揭示了AI桌面应用在资源管理的重大优化空间，虽非技术突破，但对用户体验和部署策略有直接启示。",
+    "scoring_dimensions": {
+      "tech_depth": 5,
+      "innovation": 4,
+      "usability": 7
+    },
+    "technical_highlights": [
+      "每次启动强制创建Hyper-V VM，表明强隔离机制",
+      "1.8 GB资源占用远超常规聊天应用"
+    ]
+  },
+  "tags": [
+    "Claude Desktop",
+    "Hyper-V",
+    "资源优化",
+    "隐私隔离",
+    "桌面应用架构"
+  ]
+}

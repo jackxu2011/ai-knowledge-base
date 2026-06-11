@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260611-006",
+  "title": "Show HN: HelixDB – A graph database built on object storage",
+  "source_url": "https://github.com/HelixDB/helix-db/tree/main",
+  "source_type": "rss",
+  "summary": "HelixDB 是一款基于对象存储构建的图数据库，旨在利用云原生存储的高扩展性和低成本优势，优化图数据的存储与查询。该项目在 Hacker News 上发布，展示了其轻量级、高性能设计，特别适合冷热数据分层管理场景，为图数据库领域提供了新的架构思路。",
+  "published_at": "2026-06-11",
+  "collected_at": "2026-06-11T04:45:18.717005+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该产品结合图数据库与对象存储，具有存储成本低、可扩展性强等实用优势，直接提升开发者在云环境中的图数据处理效率。创新性明显，但需验证实际性能与成熟度。",
+    "scoring_dimensions": {
+      "tech_depth": 8,
+      "innovation": 8,
+      "usability": 7
+    },
+    "technical_highlights": [
+      "基于对象存储（如 S3）构建，实现存储与计算分离",
+      "优化图遍历和查询，降低冷数据存储成本"
+    ]
+  },
+  "tags": [
+    "图数据库",
+    "对象存储",
+    "云原生"
+  ]
+}

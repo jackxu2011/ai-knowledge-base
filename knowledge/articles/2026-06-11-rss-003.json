@@ -1,0 +1,35 @@
+{
+  "id": "rss-20260611-003",
+  "title": "Klondike Solitaire game for curses in 5k of C",
+  "source_url": "https://nanochess.org/klondike_in_c.html",
+  "source_type": "rss",
+  "summary": "该项目展示了在5KB的C语言代码中实现一个基于curses界面的Klondike纸牌游戏，体现了极简编程和资源优化的技术挑战，适合对游戏开发或嵌入式系统有兴趣的开发者。",
+  "published_at": "2026-06-11",
+  "collected_at": "2026-06-11T04:45:18.716975+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 6,
+    "scoring_reasons": "项目技术含量高（极简实现），创新性体现在代码压缩和资源限制下的编程技巧，但实用性和影响力有限，主要面向特定技术爱好者。",
+    "scoring_dimensions": {
+      "tech_depth": 7,
+      "innovation": 8,
+      "usability": 4
+    },
+    "technical_highlights": [
+      "使用curses库实现终端交互游戏",
+      "在5KB C代码内完整实现Klondike规则",
+      "极简编码风格与内存优化"
+    ]
+  },
+  "tags": [
+    "极简编程",
+    "C语言",
+    "游戏开发",
+    "curses",
+    "代码挑战"
+  ]
+}
