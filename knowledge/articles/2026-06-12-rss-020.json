@@ -1,0 +1,33 @@
+{
+  "id": "rss-20260612-020",
+  "title": "MTG Bench: Testing how well LLMs can play Magic",
+  "source_url": "https://mtgautodeck.com/articles/mtg-bench/",
+  "source_type": "rss",
+  "summary": "MTG Bench是一个用于评估大型语言模型（LLMs）在《魔法风云会》（Magic: The Gathering）游戏中表现的新基准测试。通过让模型进行实际的游戏对局，测试其策略制定、资源管理和规则理解能力。该工具旨在衡量AI在复杂规则博弈中的推理水平，为研究者提供标准化的评估方式。",
+  "published_at": "2026-06-12",
+  "collected_at": "2026-06-12T04:48:06.622351+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 6,
+    "scoring_reasons": "该基准测试为LLM在特定复杂游戏环境中的能力提供了量化评估方式，具有一定应用价值，但属于细分领域，普遍适用性有限，尚未达到变革性影响。",
+    "scoring_dimensions": {
+      "tech_depth": 7,
+      "innovation": 6,
+      "usability": 5
+    },
+    "technical_highlights": [
+      "首次系统化将卡牌游戏作为LLM推理能力的测试基准",
+      "涵盖复杂规则、长期策略和动态决策场景"
+    ]
+  },
+  "tags": [
+    "LLM评估",
+    "游戏AI",
+    "基准测试",
+    "策略推理"
+  ]
+}

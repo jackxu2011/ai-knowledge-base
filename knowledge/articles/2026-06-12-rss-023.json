@@ -1,0 +1,34 @@
+{
+  "id": "rss-20260612-023",
+  "title": "Profiling in PyTorch (Part 2): From nn.Linear to a Fused MLP",
+  "source_url": "https://huggingface.co/blog/torch-mlp-fusion",
+  "source_type": "rss",
+  "summary": "本文是PyTorch性能分析系列的第二部分，专注于从基础nn.Linear模块到融合MLP（多层感知器）的优化过程。通过详细分析运算瓶颈、内存访问模式和计算图融合技术，展示了如何将单独的全连接层整合为更高效的融合MLP实现。文章提供了具体的性能基准测试结果和代码示例，揭示了融合操作在减少内核启动开销和内存带宽瓶颈方面的优势，适用于需要提升PyTorch模型推理和训练速度的深度学习从业者。",
+  "published_at": "2026-06-12",
+  "collected_at": "2026-06-12T04:48:06.622370+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hugging Face Blog",
+    "feed_url": "https://huggingface.co/blog/feed.xml"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该文章实用性强，直接针对PyTorch用户常见的性能优化需求，提供了从理论分析到代码实现的完整指导。融合MLP技术能显著提升模型效率，尤其适用于生产环境中的加速。但创新性有限，因为融合操作是已存在的优化思路。",
+    "scoring_dimensions": {
+      "tech_depth": 8,
+      "innovation": 5,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "详细分析了nn.Linear的运算瓶颈与内存访问模式",
+      "展示了计算图融合技术如何减少内核启动开销",
+      "提供了融合MLP实现与性能基准测试代码实例"
+    ]
+  },
+  "tags": [
+    "PyTorch",
+    "性能优化",
+    "MLP融合",
+    "深度学习加速"
+  ]
+}

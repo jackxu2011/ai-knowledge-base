@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260612-022",
+  "title": "Open Reproduction of DeepSeek-R1",
+  "source_url": "https://github.com/huggingface/open-r1",
+  "source_type": "rss",
+  "summary": "该项目对DeepSeek-R1模型进行了开源复现，旨在通过透明化步骤和可复现的方法，推动大型语言模型的技术民主化。它提供了从训练到推理的完整实现，帮助研究者和开发者理解并复用该先进模型的架构与策略。",
+  "published_at": "2026-06-12",
+  "collected_at": "2026-06-12T04:48:06.622365+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该复现工作直接提升了开源社区对前沿模型的可及性，实用性强，有助于加速研究和应用落地。虽非突破性原创，但具有高度工程价值与合作意义。",
+    "scoring_dimensions": {
+      "tech_depth": 8,
+      "innovation": 6,
+      "usability": 9
+    },
+    "technical_highlights": [
+      "完整开源复现了DeepSeek-R1的架构与训练流程",
+      "提供了可执行的复现指南与代码，降低技术门槛"
+    ]
+  },
+  "tags": [
+    "开源复现",
+    "DeepSeek-R1",
+    "大型语言模型"
+  ]
+}

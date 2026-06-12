@@ -1,0 +1,33 @@
+{
+  "id": "rss-20260612-019",
+  "title": "How a new DSL may survive in the era of LLMs",
+  "source_url": "https://www.williamcotton.com/articles/how-a-new-dsl-survives-in-the-era-of-llms",
+  "source_type": "rss",
+  "summary": "该文探讨在大型语言模型（LLM）时代，新的领域特定语言（DSL）如何找到生存空间。分析指出DSL需聚焦精准性、高效性和领域深度，与LLM互补而非竞争，强调通过结合AI辅助生成和领域优化来维持价值。",
+  "published_at": "2026-06-12",
+  "collected_at": "2026-06-12T04:48:06.622345+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "观点具有前瞻性，切合LLM与DSL融合趋势，直接为开发者提供思路，实用性强。",
+    "scoring_dimensions": {
+      "tech_depth": 8,
+      "innovation": 7,
+      "usability": 7
+    },
+    "technical_highlights": [
+      "DSL与LLM的互补关系分析",
+      "AI辅助DSL生成的实用策略"
+    ]
+  },
+  "tags": [
+    "DSL",
+    "LLM",
+    "AI辅助编程",
+    "语言设计"
+  ]
+}

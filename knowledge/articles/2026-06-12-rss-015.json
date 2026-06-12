@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260612-015",
+  "title": "Anthropic apologizes for invisible Claude Fable guardrails",
+  "source_url": "https://www.theverge.com/ai-artificial-intelligence/948280/anthropic-claude-fable-invisible-distillation-guardrail",
+  "source_type": "rss",
+  "summary": "Anthropic为其在Claude Fable中使用的隐形护栏设计致歉，该功能旨在限制AI输出内容，但用户批评其不透明且潜在限制创意自由。公司表示将改进透明度与用户控制。",
+  "published_at": "2026-06-12",
+  "collected_at": "2026-06-12T04:48:06.622313+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 6,
+    "scoring_reasons": "事件本身是AI伦理与透明度的典型案例，具有行业讨论价值，但技术含量一般且非突破性创新。",
+    "scoring_dimensions": {
+      "tech_depth": 4,
+      "innovation": 5,
+      "usability": 6
+    },
+    "technical_highlights": [
+      "隐形护栏设计的存在引发用户信任与透明性讨论",
+      "AI公司主动道歉并承诺改进的有责任感姿态"
+    ]
+  },
+  "tags": [
+    "AI伦理",
+    "透明性",
+    "用户控制"
+  ]
+}

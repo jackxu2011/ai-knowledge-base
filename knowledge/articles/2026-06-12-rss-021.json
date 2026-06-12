@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260612-021",
+  "title": "Making a vintage LLM from scratch",
+  "source_url": "https://crlf.link/log/entries/260525-1/",
+  "source_type": "rss",
+  "summary": "本文从零开始构建一个复古风格的LLM，详细介绍了包括数据收集、模型架构选择、训练过程在内的完整流程，旨在复现早期语言模型的设计理念。内容注重教育性和手工艺感，适合对LLM基础知识感兴趣的开发者。",
+  "published_at": "2026-06-12",
+  "collected_at": "2026-06-12T04:48:06.622357+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 6,
+    "scoring_reasons": "项目具有教育意义，展示了从零构建LLM的完整思路，但技术深度有限，更多是教学演示而非前沿创新，实用性一般。",
+    "scoring_dimensions": {
+      "tech_depth": 5,
+      "innovation": 4,
+      "usability": 6
+    },
+    "technical_highlights": [
+      "从零构建复古风格LLM的完整流程",
+      "结合早期LLM设计理念与现代简易实现"
+    ]
+  },
+  "tags": [
+    "LLM",
+    "从零开始",
+    "复古"
+  ]
+}

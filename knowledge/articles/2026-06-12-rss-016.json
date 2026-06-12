@@ -1,0 +1,33 @@
+{
+  "id": "rss-20260612-016",
+  "title": "A jacket that harvests drinking water from the air",
+  "source_url": "https://news.utexas.edu/2026/06/11/this-jacket-pulls-drinking-water-from-thin-air/",
+  "source_type": "rss",
+  "summary": "该技术介绍了一种能从空气中采集饮用水的夹克，利用特殊材料吸收大气中的水分，并通过冷凝或释放机制转化为可饮用水。该设计结合了可穿戴技术与水资源获取，旨在为户外活动或干旱地区提供便携式水源，具有一定实用价值。",
+  "published_at": "2026-06-12",
+  "collected_at": "2026-06-12T04:48:06.622323+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 6,
+    "scoring_reasons": "该技术结合了环保与实用需求，创新地将集水功能集成到服装中，但具体效率、可持续性和量产可行性未明确，属于有趣但非必需的技术。",
+    "scoring_dimensions": {
+      "tech_depth": 5,
+      "innovation": 7,
+      "usability": 6
+    },
+    "technical_highlights": [
+      "从空气中被动收集水分的水源获取夹克",
+      "可穿戴设计集成水资源生成功能",
+      "潜在应用于干旱地区或户外探险"
+    ]
+  },
+  "tags": [
+    "可穿戴技术",
+    "水资源收集",
+    "环保创新"
+  ]
+}
