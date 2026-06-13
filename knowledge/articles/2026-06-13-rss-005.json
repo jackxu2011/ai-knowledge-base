@@ -1,0 +1,33 @@
+{
+  "id": "rss-20260613-005",
+  "title": "Tectonic: A modernized, complete, self-contained TeX&#x2F;LaTeX engine",
+  "source_url": "https://tectonic-typesetting.github.io/en-US/",
+  "source_type": "rss",
+  "summary": "Tectonic是一个现代化的自包含TeX/LaTeX引擎，旨在简化文档编译流程，无需安装完整TeX发行版。通过集成所有依赖项并提供更安全的沙盒环境，Tectonic提升了易用性和可靠性。它支持增量编译、自动依赖管理，并基于Rust语言开发，注重性能和安全性。该项目为学术写作和技术文档生成提供了更流畅的体验。",
+  "published_at": "2026-06-13",
+  "collected_at": "2026-06-13T04:26:44.960205+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该引擎直接解决了TeX/LaTeX环境配置繁琐、依赖管理复杂等痛点，显著提升用户效率。虽然未颠覆LaTeX本身，但其现代化实现和实用特性对特定用户群体（如学者、技术人员）有明确价值。",
+    "scoring_dimensions": {
+      "tech_depth": 7,
+      "innovation": 5,
+      "usability": 9
+    },
+    "technical_highlights": [
+      "自包含架构：无需手动安装庞大的TeX发行版",
+      "基于Rust开发，提供安全性和高性能",
+      "支持增量编译和自动依赖解析，优化工作流"
+    ]
+  },
+  "tags": [
+    "TeX引擎",
+    "文档编译",
+    "LaTeX改进"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260613-001",
+  "title": "Open source AI must win",
+  "source_url": "https://opensourceaimustwin.com/?share=v2",
+  "source_type": "rss",
+  "summary": "本文讨论开源人工智能的必要性与优势，强调其在推动创新、透明度与公平性方面的关键作用。文章指出，开源AI能够打破大公司对技术和数据的垄断，促进全球开发者社区的合作，从而加速AI的发展和部署。同时，开源模式有助于防止AI技术的滥用，增强公众信任，确保AI惠及更广泛的社会群体。作者呼吁支持开源AI运动，以赢得未来的技术竞争。",
+  "published_at": "2026-06-13",
+  "collected_at": "2026-06-13T04:26:44.960129+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "文章观点鲜明，聚焦开源AI的战略价值与现实意义，直接回应了当前AI领域的核心争议，对政策制定者、开发者和行业观察者有较强的启发性和实用性，但缺乏具体技术细节和案例支撑。",
+    "scoring_dimensions": {
+      "tech_depth": 5,
+      "innovation": 7,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "开源AI打破大公司技术垄断",
+      "促进全球开发者协作与创新"
+    ]
+  },
+  "tags": [
+    "开源AI",
+    "技术垄断",
+    "创新协作"
+  ]
+}

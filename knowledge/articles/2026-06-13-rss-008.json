@@ -1,0 +1,33 @@
+{
+  "id": "rss-20260613-008",
+  "title": "&quot;Don&#x27;t You Just Upload It to ChatGPT?&quot;",
+  "source_url": "https://correresmidestino.com/dont-you-just-upload-it-to-chatgpt/",
+  "source_type": "rss",
+  "summary": "文章标题以反问句形式探讨用户对ChatGPT文件上传功能的常见疑问或误解，可能涉及ChatGPT的文件处理能力、操作便捷性及用户使用习惯。内容核心在于解析用户为何会被建议直接上传文件至ChatGPT，以及该功能在实际应用中的价值与限制。",
+  "published_at": "2026-06-13",
+  "collected_at": "2026-06-13T04:26:44.960232+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 6,
+    "scoring_reasons": "该内容聚焦于ChatGPT的功能性讨论，实用性强且能解答用户常见疑惑，但技术深度和原创性有限，属于已知功能的澄清与普及。",
+    "scoring_dimensions": {
+      "tech_depth": 5,
+      "innovation": 4,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "澄清文件上传功能的正确使用场景",
+      "探讨用户对AI交互便捷性的常见误区"
+    ]
+  },
+  "tags": [
+    "ChatGPT",
+    "文件上传",
+    "用户教育",
+    "AI交互"
+  ]
+}
