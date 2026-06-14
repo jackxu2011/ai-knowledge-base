@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260614-016",
+  "title": "RTX 5080 and RTX 3090 Setup: 80 Tok&#x2F;s on Qwen 3.6 27B Q8",
+  "source_url": "https://imil.net/blog/posts/2026/rtx-5080-+-rtx-3090-setup-80+-tok-s-on-qwen-3.6-27b-q8/",
+  "source_type": "rss",
+  "summary": "本文介绍了在RTX 5080与RTX 3090双卡配置下运行Qwen 3.6 27B Q8模型，达到80 Tok/s的推理速度。该设置优化了显存利用和并行计算，展示了通过混合不同代GPU降低高端AI部署成本的可能性。",
+  "published_at": "2026-06-14",
+  "collected_at": "2026-06-14T04:53:41.165680+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该技术方案实用性强，直接提升了AI模型推理效率，且通过异构GPU组合降低了硬件成本，对开发者有实际参考价值，但非突破性创新。",
+    "scoring_dimensions": {
+      "tech_depth": 7,
+      "innovation": 6,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "RTX 5080与3090异构组合实现高效并行推理",
+      "达到80 Tok/s的高推理速度，优于单卡方案"
+    ]
+  },
+  "tags": [
+    "GPU推理",
+    "模型优化",
+    "硬件配置"
+  ]
+}

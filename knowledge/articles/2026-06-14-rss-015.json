@@ -1,0 +1,33 @@
+{
+  "id": "rss-20260614-015",
+  "title": "Ancient genome duplications laid the foundations of complex brains",
+  "source_url": "https://www.ox.ac.uk/news/2026-06-09-ancient-genome-duplications-laid-the-foundations-of-complex-brains",
+  "source_type": "rss",
+  "summary": "一项研究揭示了古代基因组复制事件为复杂大脑的演化奠定了基础。通过分析不同物种的基因组，科学家发现两次关键的基因组加倍事件（2R和脊椎动物特有事件）促成了与神经发育相关的基因家族扩张，从而为脊椎动物复杂神经系统的出现提供了遗传基础。这一发现有助于理解大脑演化的分子机制，并可能对神经疾病研究产生启示。",
+  "published_at": "2026-06-14",
+  "collected_at": "2026-06-14T04:53:41.165660+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 8,
+    "scoring_reasons": "该研究揭示了基因组复制与复杂大脑演化之间的直接关联，提供了进化生物学领域的突破性见解。虽然属于基础科学，但直接影响了神经科学和基因研究的范式，并可能推动相关临床应用。",
+    "scoring_dimensions": {
+      "tech_depth": 9,
+      "innovation": 8,
+      "usability": 6
+    },
+    "technical_highlights": [
+      "明确将两次古代基因组加倍事件与复杂大脑的起源联系起来",
+      "为神经发育相关基因家族的进化扩张提供了遗传机制解释"
+    ]
+  },
+  "tags": [
+    "基因组学",
+    "大脑演化",
+    "基因复制",
+    "神经发育"
+  ]
+}

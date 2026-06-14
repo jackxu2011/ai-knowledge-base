@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260614-014",
+  "title": "Police officer investigated for using AI to &#x27;create evidence&#x27; in multiple cases",
+  "source_url": "https://news.sky.com/story/derbyshire-police-officer-investigated-for-using-ai-to-create-evidence-in-multiple-cases-13553661",
+  "source_type": "rss",
+  "summary": "一名警察因在多起案件中涉嫌使用AI伪造证据而受到调查。这一事件引发了关于AI技术滥用和法律伦理的广泛讨论，强调了监管AI在执法领域应用的重要性。",
+  "published_at": "2026-06-14",
+  "collected_at": "2026-06-14T04:53:41.165611+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该事件直接触及AI伦理与执法的敏感边界，凸显了技术滥用的现实威胁。虽然非突破性技术，但具有强烈的警示和公共政策影响，对行业安全与监管具有直接参考价值。",
+    "scoring_dimensions": {
+      "tech_depth": 6,
+      "innovation": 4,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "揭示了AI在执法证据创建中的潜在滥用风险",
+      "推动了AI法律与伦理规范的紧迫性讨论"
+    ]
+  },
+  "tags": [
+    "AI伦理",
+    "执法监管",
+    "技术滥用"
+  ]
+}

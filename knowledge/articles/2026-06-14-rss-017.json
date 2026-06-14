@@ -1,0 +1,33 @@
+{
+  "id": "rss-20260614-017",
+  "title": "AI coding at home without going broke",
+  "source_url": "https://stephen.bochinski.dev/blog/2026/06/13/ai-coding-at-home-without-going-broke/",
+  "source_type": "rss",
+  "summary": "本文探讨了如何在家庭环境中以较低成本进行AI编程，避免过度开支。通过选择开源工具、使用云服务免费层或本地运行轻量级模型，用户可以在不牺牲体验的前提下控制成本。文章提供了实用建议，帮助开发者平衡效率和预算。",
+  "published_at": "2026-06-14",
+  "collected_at": "2026-06-14T04:53:41.165693+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "直接解决了AI编程中的成本痛点，提供可操作的省钱策略，实用性强且易于实施，但创新性有限，未涉及突破性技术。",
+    "scoring_dimensions": {
+      "tech_depth": 5,
+      "innovation": 4,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "强调开源与免费云资源结合降低成本",
+      "提供本地轻量模型部署的具体方案"
+    ]
+  },
+  "tags": [
+    "AI编程",
+    "成本控制",
+    "开源工具",
+    "云服务免费层"
+  ]
+}
