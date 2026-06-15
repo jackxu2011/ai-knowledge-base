@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260615-003",
+  "title": "The hallucinogenic mushroom that contains no known psychedelic",
+  "source_url": "https://psychedelics.co.uk/news/a-mushroom-genus-that-gets-people-high-but-not-the",
+  "source_type": "rss",
+  "summary": "本文探讨了一种已知不含经典致幻物质（如赛洛西宾或裸盖菇素）却能产生致幻效果的蘑菇。它引起了科学界对其特殊神经活性成分的研究兴趣，可能揭示新的神经递质作用机制。该发现挑战了对致幻蘑菇的传统认知，为神经药理学和精神疾病治疗提供了新思路。",
+  "published_at": "2026-06-15",
+  "collected_at": "2026-06-15T05:10:42.715570+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 6,
+    "scoring_reasons": "该内容涉及生物学和神经药理学的新发现，具有探索价值，但尚未达到突破性技术或实用阶段，值得了解但非必要",
+    "scoring_dimensions": {
+      "tech_depth": 6,
+      "innovation": 8,
+      "usability": 2
+    },
+    "technical_highlights": [
+      "发现不含已知致幻物质却能产生致幻效果的蘑菇",
+      "可能揭示新型神经活性分子或作用机制"
+    ]
+  },
+  "tags": [
+    "神经药理学",
+    "致幻蘑菇",
+    "新机制"
+  ]
+}
