@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260616-018",
+  "title": "My Homelab AI Dev Platform",
+  "source_url": "https://rsgm.dev/post/ai-dev-platform/",
+  "source_type": "rss",
+  "summary": "描述了个人搭建的AI开发平台（Homelab），可能涉及本地硬件配置、软件栈和AI模型部署的实践。内容聚焦于个人技术实验环境搭建，分享架构选择、资源管理和开发流程，适合AI爱好者或开发者参考。",
+  "published_at": "2026-06-16",
+  "collected_at": "2026-06-16T05:13:41.947846+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该内容展示了个性化的AI开发环境构建，对开发者有直接的实用参考价值，尤其是硬件优化和本地部署方面。但属于领域内已有实践的整理，创新性中等。",
+    "scoring_dimensions": {
+      "tech_depth": 7,
+      "innovation": 5,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "本地硬件与AI工作负载的适配策略",
+      "开发平台全栈架构设计与资源管理"
+    ]
+  },
+  "tags": [
+    "Homelab",
+    "AI开发平台",
+    "本地部署"
+  ]
+}

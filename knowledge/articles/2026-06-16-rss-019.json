@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260616-019",
+  "title": "Show HN: Veterinarian turned founder, AI lawn diagnosis",
+  "source_url": "https://grassdx.com/",
+  "source_type": "rss",
+  "summary": "一位前兽医转型创始人，推出了AI草坪诊断工具，利用计算机视觉识别草坪问题，如病虫害或营养缺乏，并提供解决方案。该项目融合了专业背景和技术创新，为园艺爱好者提供了便捷的诊断服务。",
+  "published_at": "2026-06-16",
+  "collected_at": "2026-06-16T05:13:41.947858+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "结合专业背景（兽医对生物系统的理解）与AI技术，解决具体问题（草坪健康），实用性强，直接提升用户体验。但创新性略低于突破性技术，市场专注。",
+    "scoring_dimensions": {
+      "tech_depth": 6,
+      "innovation": 7,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "利用计算机视觉进行草坪问题诊断",
+      "从兽医视角迁移生物专业知识到植物领域"
+    ]
+  },
+  "tags": [
+    "AI诊断",
+    "草坪护理",
+    "计算机视觉"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260616-021",
+  "title": "Show HN: Fata – Spaced repetition to fight skill rot from AI coding",
+  "source_url": "https://fata.dev",
+  "source_type": "rss",
+  "summary": "Fata 是一款基于间隔重复（Spaced Repetition）的工具，旨在帮助开发者对抗因过度依赖 AI 编码而导致的技能退化。通过定期复习关键编程概念、算法和工程实践，Fata 利用科学的记忆曲线来巩固知识，确保用户在享受 AI 辅助效率的同时，保持核心编码能力。该项目已发布于 Hacker News，获得了社区积极反馈，关注 AI 时代下个人技能维护的实用性方案。",
+  "published_at": "2026-06-16",
+  "collected_at": "2026-06-16T05:13:41.947878+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该工具直接回应了当前 AI 辅助编程带来的技能衰退焦虑，实用性强，能有效提升开发者的长期学习效率和知识保持率。虽然非突破性创新，但针对真实痛点提供了有价值的解决方案，评分较高。",
+    "scoring_dimensions": {
+      "tech_depth": 6,
+      "innovation": 5,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "利用间隔重复算法对抗技能衰退，贴合人类记忆规律",
+      "专注编程知识场景，精准解决 AI 时代独特痛点"
+    ]
+  },
+  "tags": [
+    "间隔重复",
+    "AI 编码",
+    "技能维护"
+  ]
+}

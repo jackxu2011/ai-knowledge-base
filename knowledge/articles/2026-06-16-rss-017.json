@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260616-017",
+  "title": "Microsoft turns to AWS as GitHub faces AI capacity crunch",
+  "source_url": "https://runtimewire.com/article/microsoft-github-aws-ai-capacity-crunch",
+  "source_type": "rss",
+  "summary": "GitHub因AI需求激增面临算力瓶颈，微软选择将其部分工作负载迁移至AWS云平台，反映出云计算领域竞争与合作的复杂性。此举可能优化GitHub的AI服务性能，但也凸显了单一云供应商在应对大规模AI计算时的局限性。",
+  "published_at": "2026-06-16",
+  "collected_at": "2026-06-16T05:13:41.947835+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该新闻揭示了云计算与AI基础设施的动态关系，对理解行业竞争格局和资源调配有直接帮助。虽然不是突破性技术，但涉及主要云厂商的战略调整，对技术决策者和行业观察者具有实用价值。",
+    "scoring_dimensions": {
+      "tech_depth": 7,
+      "innovation": 4,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "微软将GitHub工作负载迁移至AWS应对AI算力不足",
+      "跨云合作表明单一云供应商的容量挑战"
+    ]
+  },
+  "tags": [
+    "云计算",
+    "AI基础设施",
+    "跨云协作"
+  ]
+}

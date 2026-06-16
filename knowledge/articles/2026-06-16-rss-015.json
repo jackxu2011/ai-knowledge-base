@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260616-015",
+  "title": "Ask HN: Has anyone replaced Claude&#x2F;GPT with a local model for daily coding?",
+  "source_url": "https://news.ycombinator.com/item?id=48542100",
+  "source_type": "rss",
+  "summary": "Hacker News上关于用本地模型替代Claude/GPT进行日常编程的讨论，反映了开发者对开源或本地运行大语言模型的兴趣与面临的挑战（如性能、易用性差距），但实用性和通用性尚需验证。",
+  "published_at": "2026-06-16",
+  "collected_at": "2026-06-16T05:13:41.947808+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该话题直接触及AI编程工具的实际替代需求，具有明确的实用性；讨论聚焦于本地部署的可行性与权衡，对关注隐私、成本的开发者有直接帮助，但尚未形成成熟解决方案，评分中等偏上。",
+    "scoring_dimensions": {
+      "tech_depth": 6,
+      "innovation": 5,
+      "usability": 7
+    },
+    "technical_highlights": [
+      "本地模型替代云端服务的成本与隐私优势",
+      "开发者社区中涌现的实用替代方案讨论"
+    ]
+  },
+  "tags": [
+    "本地模型",
+    "编程助手",
+    "LLM替代方案"
+  ]
+}
