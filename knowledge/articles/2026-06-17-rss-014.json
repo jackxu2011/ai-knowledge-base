@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260617-014",
+  "title": "Leaked OpenAI financials show $38.5B loss and compute burn",
+  "source_url": "https://runtimewire.com/article/openai-leaked-financials-altman-compute-burn",
+  "source_type": "rss",
+  "summary": "OpenAI财务数据泄露显示其累计亏损达385亿美元，且持续大量消耗计算资源。该信息揭示了前沿AI公司在扩张过程中面临的巨大成本压力，尤其是高昂的算力投入，可能影响行业投资格局和公司战略调整。",
+  "published_at": "2026-06-17",
+  "collected_at": "2026-06-17T04:56:09.277246+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该信息直接揭示了AI领域头部公司的财务困境，对理解行业生态、投资风险和商业模式具有重要参考价值，但具体影响取决于后续应对措施，未能达到颠覆性技术突破的程度。",
+    "scoring_dimensions": {
+      "tech_depth": 6,
+      "innovation": 3,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "公开AI公司巨额亏损及算力成本明细",
+      "揭示前沿技术公司持续投入的财务风险"
+    ]
+  },
+  "tags": [
+    "OpenAI",
+    "财务数据泄露",
+    "AI行业分析"
+  ]
+}

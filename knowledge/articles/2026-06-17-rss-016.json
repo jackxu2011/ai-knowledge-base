@@ -1,0 +1,33 @@
+{
+  "id": "rss-20260617-016",
+  "title": "Wolfram Language and Mathematica Version 15, AI Assistant, Symbolic Music, More",
+  "source_url": "https://writings.stephenwolfram.com/2026/06/launching-version-15-of-wolfram-language-mathematica-built-in-useful-ai-lots-of-new-core-functionality/",
+  "source_type": "rss",
+  "summary": "Wolfram语言和Mathematica 15版本发布，新增AI助手、符号音乐处理等功能，强化计算智能与多模态能力。",
+  "published_at": "2026-06-17",
+  "collected_at": "2026-06-17T04:56:09.277296+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "新增AI助手和符号音乐功能实用性强，但整体为渐进式更新，非突破性变革。",
+    "scoring_dimensions": {
+      "tech_depth": 8,
+      "innovation": 6,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "集成AI助手，提升交互效率",
+      "符号音乐处理，拓展计算领域"
+    ]
+  },
+  "tags": [
+    "Wolfram语言",
+    "Mathematica",
+    "AI助手",
+    "符号音乐"
+  ]
+}
