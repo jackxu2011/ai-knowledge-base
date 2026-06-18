@@ -1,0 +1,34 @@
+{
+  "id": "rss-20260618-015",
+  "title": "US holds off blacklisting DeepSeek, more than 100 firms deemed security risks",
+  "source_url": "https://www.reuters.com/world/china/us-holds-off-blacklisting-chinas-deepseek-more-than-100-firms-deemed-security-2026-06-17/",
+  "source_type": "rss",
+  "summary": "美国政府暂未将深度求索（DeepSeek）列入黑名单，但已认定超过100家企业为安全风险。这一动态显示中美在AI领域的技术竞争与安全审查持续升级，对行业布局与跨境合作具有重要影响。",
+  "published_at": "2026-06-18",
+  "collected_at": "2026-06-18T04:47:23.113195+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该事件直接反映了地缘政治对AI产业格局的干预，虽非技术突破，但对从业者的风控与战略决策有直接指导价值。",
+    "scoring_dimensions": {
+      "tech_depth": 3,
+      "innovation": 2,
+      "usability": 9
+    },
+    "technical_highlights": [
+      "DeepSeek暂未被列入实体清单，但仍面临潜在限制",
+      "美国政府将超100家科技企业定为国家安全风险",
+      "中美AI技术竞争加剧，合规与供应链安全成关键议题"
+    ]
+  },
+  "tags": [
+    "中美科技竞争",
+    "出口管制",
+    "AI安全",
+    "企业风控"
+  ]
+}

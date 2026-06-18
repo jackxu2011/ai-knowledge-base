@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260618-023",
+  "title": "Agentic Resource Discovery: Let agents search",
+  "source_url": "https://huggingface.co/blog/agentic-resource-discovery-launch",
+  "source_type": "rss",
+  "summary": "该技术探讨了让AI智能体自主进行资源发现的方法，旨在提升智能体在复杂环境中搜索与定位资源的效率。通过赋予智能体主动搜索能力，减少人工干预，适用于自动化运维、知识图谱构建等场景。",
+  "published_at": "2026-06-18",
+  "collected_at": "2026-06-18T04:47:23.113283+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hugging Face Blog",
+    "feed_url": "https://huggingface.co/blog/feed.xml"
+  },
+  "analysis": {
+    "score": 6,
+    "scoring_reasons": "具有一定的创新性，将资源发现自动化与智能体结合，有实用潜力，但当前描述缺乏具体实现细节和突破性进展，整体价值中等。",
+    "scoring_dimensions": {
+      "tech_depth": 5,
+      "innovation": 6,
+      "usability": 7
+    },
+    "technical_highlights": [
+      "智能体主动搜索资源，降低人工成本",
+      "适用于动态环境下的自动化资源管理"
+    ]
+  },
+  "tags": [
+    "智能体",
+    "资源发现",
+    "自动化"
+  ]
+}

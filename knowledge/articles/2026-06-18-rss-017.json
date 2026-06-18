@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260618-017",
+  "title": "Launch HN: Adam (YC W25) – Open-Source AI CAD",
+  "source_url": "https://github.com/Adam-CAD/CADAM",
+  "source_type": "rss",
+  "summary": "Adam (YC W25) 是一个开源的AI辅助CAD设计工具，旨在通过AI技术简化3D建模和设计流程。该项目提供开源的CAD引擎，集成AI功能，如自动生成设计、智能修改和优化。它面向设计师和工程师，降低传统CAD软件的使用门槛，提高设计效率。",
+  "published_at": "2026-06-18",
+  "collected_at": "2026-06-18T04:47:23.113223+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该项目将AI与开源CAD结合，有实际应用价值，可直接提升设计效率，但技术和创新性尚未达到颠覆性突破，且开源生态需要时间验证。",
+    "scoring_dimensions": {
+      "tech_depth": 7,
+      "innovation": 6,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "开源AI CAD引擎，降低使用门槛",
+      "集成AI自动生成和优化设计功能"
+    ]
+  },
+  "tags": [
+    "AI CAD",
+    "开源软件",
+    "3D设计"
+  ]
+}

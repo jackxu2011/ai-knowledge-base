@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260618-019",
+  "title": "The founder&#x27;s playbook: Building an AI-native startup",
+  "source_url": "https://claude.com/blog/the-founders-playbook",
+  "source_type": "rss",
+  "summary": "该文档为AI原生创业公司创始人提供了系统化的建设指南，内容涵盖从技术选型、团队组建到市场定位的完整流程，强调将AI作为核心方法论而非附属工具。",
+  "published_at": "2026-06-18",
+  "collected_at": "2026-06-18T04:47:23.113245+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "内容实操性强，为创业者提供结构化指导，但未触及突破性技术或范式转变，属实用型建议。",
+    "scoring_dimensions": {
+      "tech_depth": 5,
+      "innovation": 4,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "强调AI-native设计思维，而非AI+传统模式",
+      "提供团队组建、数据策略等可落地的执行框架"
+    ]
+  },
+  "tags": [
+    "AI创业",
+    "产品策略",
+    "创业指南"
+  ]
+}

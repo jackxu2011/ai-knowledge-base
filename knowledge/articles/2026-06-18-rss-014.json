@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260618-014",
+  "title": "Local Qwen isn&#x27;t a worse Opus, it&#x27;s a different tool",
+  "source_url": "https://blog.alexellis.io/local-ai-is-not-opus/",
+  "source_type": "rss",
+  "summary": "该内容探讨本地部署的Qwen模型与云端Opus模型的差异，强调前者并非性能更弱的版本，而是适用于不同场景的工具。本地模型在隐私、延迟和离线能力上具有优势，适合特定应用需求。",
+  "published_at": "2026-06-18",
+  "collected_at": "2026-06-18T04:47:23.113150+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 6,
+    "scoring_reasons": "该分析澄清了本地模型的价值定位，提供了实用的场景对比，但内容较为基础，创新性有限。",
+    "scoring_dimensions": {
+      "tech_depth": 6,
+      "innovation": 5,
+      "usability": 7
+    },
+    "technical_highlights": [
+      "本地模型在隐私和离线场景的优势",
+      "区分了模型性能与适用场景的关系"
+    ]
+  },
+  "tags": [
+    "Qwen",
+    "本地部署",
+    "模型对比"
+  ]
+}

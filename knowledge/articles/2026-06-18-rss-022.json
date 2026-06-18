@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260618-022",
+  "title": "GLM-5.2: Built for Long-Horizon Tasks",
+  "source_url": "https://huggingface.co/blog/zai-org/glm-52-blog",
+  "source_type": "rss",
+  "summary": "GLM-5.2专注于长周期任务，通过优化模型架构和算法，提升在需要长期推理与规划场景下的性能。该版本在记忆保持、上下文理解及多步决策方面有显著改进，适用于复杂任务执行和持续交互场景。",
+  "published_at": "2026-06-18",
+  "collected_at": "2026-06-18T04:47:23.113275+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hugging Face Blog",
+    "feed_url": "https://huggingface.co/blog/feed.xml"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "GLM-5.2针对长周期任务进行专门优化，直接提升AI在复杂、持续性任务中的表现，具有较强的实用价值，但并非颠覆性突破，故评分7分。",
+    "scoring_dimensions": {
+      "tech_depth": 7,
+      "innovation": 6,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "优化长周期任务的推理与规划能力",
+      "改进记忆保持和上下文理解"
+    ]
+  },
+  "tags": [
+    "GLM-5.2",
+    "长周期任务",
+    "AI推理"
+  ]
+}

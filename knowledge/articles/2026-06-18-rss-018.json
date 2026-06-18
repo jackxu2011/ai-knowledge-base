@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260618-018",
+  "title": "Trellis AI (YC W24) hiring a product lead to build agents for healthcare access",
+  "source_url": "https://www.ycombinator.com/companies/trellis-ai/jobs/Cg94htp-product-lead",
+  "source_type": "rss",
+  "summary": "Trellis AI (YC W24) 正在招聘产品负责人，专注于构建面向医疗保健可及性的智能代理。这表明AI在医疗领域的应用正从通用助手向垂直场景深化，旨在解决医疗资源获取效率问题。该岗位强调产品领导力与行业理解，反映了AI产品从技术驱动向行业问题导向的转变。",
+  "published_at": "2026-06-18",
+  "collected_at": "2026-06-18T04:47:23.113233+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该项目直接针对医疗保健可及性这一高价值、高社会影响力的领域，结合YC背景和明确的应用场景，具有较高的实用性。虽然仍是行业应用层面的创新，但方向明确且有望提升医疗效率，给予7分。",
+    "scoring_dimensions": {
+      "tech_depth": 6,
+      "innovation": 7,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "专注于医疗保健可及性的AI代理构建",
+      "YC孵化背景与垂直领域人才需求"
+    ]
+  },
+  "tags": [
+    "AI Agent",
+    "医疗保健",
+    "招聘动态"
+  ]
+}
