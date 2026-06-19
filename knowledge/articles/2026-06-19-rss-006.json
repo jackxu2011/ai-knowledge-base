@@ -1,0 +1,35 @@
+{
+  "id": "rss-20260619-006",
+  "title": "Agentic Resource Discovery Specification",
+  "source_url": "https://agenticresourcediscovery.org/introduction/",
+  "source_type": "rss",
+  "summary": "该规范定义了代理化资源发现的标准化框架，旨在通过网络中的自主代理实现动态、可扩展的资源定位与交互，支持去中心化环境下的服务发现与协作。",
+  "published_at": "2026-06-19",
+  "collected_at": "2026-06-19T05:07:05.598429+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该技术直接解决了分布式系统中资源发现的痛点，代理化方法提升了自动化与适应性，实用性明显；但概念并非革命性，类似方向已有研究，创新性中等；对物联网、边缘计算等场景有直接帮助，但普及需要生态支持。",
+    "scoring_dimensions": {
+      "tech_depth": 7,
+      "innovation": 6,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "代理驱动的去中心化资源发现",
+      "标准化规范提升互操作性",
+      "支持动态自治与扩展"
+    ]
+  },
+  "tags": [
+    "资源发现",
+    "代理化系统",
+    "分布式计算",
+    "标准化规范",
+    "自治网络"
+  ]
+}

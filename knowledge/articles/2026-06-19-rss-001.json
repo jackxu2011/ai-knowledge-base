@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260619-001",
+  "title": "How Japan&#x27;s railways stayed one while splitting apart",
+  "source_url": "https://arun.is/blog/jr-logo/",
+  "source_type": "rss",
+  "summary": "本文探讨日本铁路系统在保持整体运营效率的同时，如何通过拆分与私有化实现灵活管理。分析了日本铁路公司（JR）在1987年分割为多个区域公司后，依然维持统一时刻表、票务系统和技术标准的成功经验，体现其独特的运营哲学。",
+  "published_at": "2026-06-19",
+  "collected_at": "2026-06-19T05:07:05.598326+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 8,
+    "scoring_reasons": "该内容提供深度分析，揭示日本铁路在拆分后仍保持协同整合的机制，对交通管理、企业架构和工业政策研究有直接参考价值，实用性强且见解独到。",
+    "scoring_dimensions": {
+      "tech_depth": 9,
+      "innovation": 8,
+      "usability": 7
+    },
+    "technical_highlights": [
+      "拆分后仍维持统一时刻表与票务系统",
+      "跨公司技术标准与协作机制"
+    ]
+  },
+  "tags": [
+    "日本铁路",
+    "私有化",
+    "运营效率"
+  ]
+}

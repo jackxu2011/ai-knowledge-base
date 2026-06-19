@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260619-007",
+  "title": "MosaicLeaks: Can your research agent keep a secret?",
+  "source_url": "https://huggingface.co/blog/ServiceNow/mosaicleaks",
+  "source_type": "rss",
+  "summary": "MosaicLeaks 研究揭示了AI研究代理在保密性方面的脆弱性。通过精心设计的提示，攻击者可以从研究代理中提取机密信息，展示了当前AI系统面临的安全风险。该工作强调了在部署AI代理时需要加强安全措施。",
+  "published_at": "2026-06-19",
+  "collected_at": "2026-06-19T05:07:05.598444+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hugging Face Blog",
+    "feed_url": "https://huggingface.co/blog/feed.xml"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "直接揭示AI安全的关键漏洞，具有实际攻击演示和防御启发，但尚未提出全面解决方案，影响范围特定。",
+    "scoring_dimensions": {
+      "tech_depth": 8,
+      "innovation": 7,
+      "usability": 6
+    },
+    "technical_highlights": [
+      "提示注入攻击的新变种",
+      "针对研究代理的保密性测试方法"
+    ]
+  },
+  "tags": [
+    "AI安全",
+    "提示注入攻击",
+    "研究代理"
+  ]
+}

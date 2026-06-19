@@ -1,0 +1,34 @@
+{
+  "id": "rss-20260619-005",
+  "title": "Show HN: Gerrymandle - Daily puzzle game where you redraw electoral districts",
+  "source_url": "https://gerrymandle.cc/",
+  "source_type": "rss",
+  "summary": "Gerrymandle是一款每日解谜游戏，玩家通过重新划分选举区来消除不公正的选区划分，结合策略与教育意义，适合对政治博弈感兴趣的玩家。",
+  "published_at": "2026-06-19",
+  "collected_at": "2026-06-19T05:07:05.598417+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 6,
+    "scoring_reasons": "该游戏新颖地将选区划分概念游戏化，具有教育价值，但受众面窄，实用性有限。",
+    "scoring_dimensions": {
+      "tech_depth": 5,
+      "innovation": 7,
+      "usability": 4
+    },
+    "technical_highlights": [
+      "游戏化呈现选举地理问题",
+      "每日挑战机制增加重复可玩性"
+    ]
+  },
+  "tags": [
+    "游戏",
+    "政治",
+    "解谜",
+    "选举",
+    "教育"
+  ]
+}

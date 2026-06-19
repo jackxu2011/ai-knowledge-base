@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260619-003",
+  "title": "Launch HN: TesterArmy (YC P26) – Agents that test web and mobile apps",
+  "source_url": "https://tester.army",
+  "source_type": "rss",
+  "summary": "TesterArmy（YC P26）推出用于测试网页和移动应用的AI代理，通过自动化测试流程提升软件质量与效率。",
+  "published_at": "2026-06-19",
+  "collected_at": "2026-06-19T05:07:05.598390+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 8,
+    "scoring_reasons": "该技术直接解决软件测试中的重复性耗力问题，实用性强，可显著提升开发效率，且通过YC孵化验证，具有较好市场适应性。",
+    "scoring_dimensions": {
+      "tech_depth": 7,
+      "innovation": 6,
+      "usability": 9
+    },
+    "technical_highlights": [
+      "基于AI代理的自动化测试，覆盖网页和移动端",
+      "通过YC P26背景保证技术落地能力"
+    ]
+  },
+  "tags": [
+    "AI测试",
+    "自动化测试",
+    "软件质量"
+  ]
+}

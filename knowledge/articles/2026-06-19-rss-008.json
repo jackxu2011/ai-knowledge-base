@@ -1,0 +1,34 @@
+{
+  "id": "rss-20260619-008",
+  "title": "Beyond LoRA: Can you beat the most popular fine-tuning technique?",
+  "source_url": "https://huggingface.co/blog/peft-beyond-lora",
+  "source_type": "rss",
+  "summary": "本文探讨了LoRA（低秩适应）微调方法的局限性，并提出了超越LoRA的新技术思路。LoRA通过低秩矩阵分解减少参数量，但可能导致表达能力不足。文章对比了多种替代方案，如自适应方法、基于投影的压缩及动态秩调整，分析了它们在效率与性能间的权衡。作者指出，新方法在特定任务上可超越LoRA，但通用性仍需验证。",
+  "published_at": "2026-06-19",
+  "collected_at": "2026-06-19T05:07:05.598457+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hugging Face Blog",
+    "feed_url": "https://huggingface.co/blog/feed.xml"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该内容直接挑战了当前最热门的微调技术，提出了有潜力的替代方案，但依赖具体任务且缺乏大规模实证，实用性略逊于革命性突破。",
+    "scoring_dimensions": {
+      "tech_depth": 8,
+      "innovation": 7,
+      "usability": 6
+    },
+    "technical_highlights": [
+      "提出超越LoRA的微调新框架，突破固定低秩假设",
+      "分析了多种方法的性能与效率平衡，提供选择依据"
+    ]
+  },
+  "tags": [
+    "LoRA",
+    "微调技术",
+    "低秩适应",
+    "模型压缩",
+    "深度学习"
+  ]
+}
