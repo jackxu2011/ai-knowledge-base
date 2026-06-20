@@ -1,0 +1,35 @@
+{
+  "id": "rss-20260620-004",
+  "title": "Project Valhalla, Explained: How a Decade of Work Arrives in JDK 28",
+  "source_url": "https://www.jvm-weekly.com/p/project-valhalla-explained-how-a",
+  "source_type": "rss",
+  "summary": "Project Valhalla是OpenJDK的一项重要长期项目，旨在为Java引入值类型（Value Types）和基本类型（Primitive Types）的泛型支持。经过近十年的开发，该项目的关键特性——值对象（Value Objects）将在JDK 28中首次正式发布，这将显著提升Java在性能、内存布局和内存效率方面的表现。值类型允许开发者定义不可变的数据载体，避免对象头开销、减少内存碎片和引用间接性，使得Java更接近C++或Rust等语言的数据处理效率。除了值类型，Project Valhalla还包括空性（Null-Restricted）类型等增强，以提升类型系统的表达力和安全性。这些变化将为Java在数据科学、高性能计算和微服务等场景带来重大改进。",
+  "published_at": "2026-06-20",
+  "collected_at": "2026-06-20T04:19:37.602115+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 9,
+    "scoring_reasons": "Project Valhalla是Java语言近十年来最具突破性的演进之一，它从根本上改变了Java对象的内存模型和类型系统，使得Java在处理大量小对象和结构化数据时能够接近原生性能。该特性对于追求高性能、低延迟的Java应用（如大数据、金融交易、游戏服务器）将产生革命性影响，值得Java开发者高度关注。",
+    "scoring_dimensions": {
+      "tech_depth": 10,
+      "innovation": 9,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "引入值类型（Value Types），支持不可变、无对象头的数据载体，提升内存效率",
+      "允许基本类型用于泛型，消除装箱开销和类型擦除限制",
+      "提供空性（Null-Restricted）类型，强化类型安全与编译器优化"
+    ]
+  },
+  "tags": [
+    "Project Valhalla",
+    "JDK 28",
+    "值类型",
+    "Java性能",
+    "基本类型泛型"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260620-002",
+  "title": "Norway imposes near ban on AI in elementary school",
+  "source_url": "https://www.reuters.com/technology/norway-imposes-near-ban-ai-elementary-school-2026-06-19/",
+  "source_type": "rss",
+  "summary": "挪威政府宣布对小学阶段实施近乎全面的人工智能禁令，限制AI工具在教学中的使用，以保护学生隐私和认知发展，引发教育科技领域的关注与讨论。",
+  "published_at": "2026-06-20",
+  "collected_at": "2026-06-20T04:19:37.602080+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该政策具有直接的社会影响力，反映了AI在教育领域应用的伦理与监管关键问题，对全球教育政策制定者有重要参考价值，实用性和创新性较高。",
+    "scoring_dimensions": {
+      "tech_depth": 6,
+      "innovation": 8,
+      "usability": 7
+    },
+    "technical_highlights": [
+      "挪威率先在基础教育阶段全面限制AI应用",
+      "政策聚焦保护学生隐私与认知发展"
+    ]
+  },
+  "tags": [
+    "AI政策",
+    "教育伦理",
+    "隐私保护"
+  ]
+}

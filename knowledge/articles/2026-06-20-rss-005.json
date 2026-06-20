@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260620-005",
+  "title": "Zen and the Art of Machine Learning Research",
+  "source_url": "https://blog.jxmo.io/p/zen-and-the-art-of-machine-learning",
+  "source_type": "rss",
+  "summary": "这篇文章探讨了机器学习研究中“禅”的哲学理念，强调研究者应保持专注、耐心和开放心态，避免被短期成果或技术炫技所迷惑。它倡导一种类似于工匠精神的研究方法，注重过程而非结果，通过深度思考和直觉来发现更本质的规律。文中提出了若干实践建议，如减少噪声干扰、培养直觉、接受不确定性等，旨在提升研究质量与创造力。",
+  "published_at": "2026-06-20",
+  "collected_at": "2026-06-20T04:19:37.602130+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "文章以哲学角度切入，为机器学习研究提供了独特的思维框架，对长期从事研究或追求深度创新的人员有直接启发价值，但内容偏主观，缺乏具体技术细节或可操作步骤，因此评分略低于突破性级别。",
+    "scoring_dimensions": {
+      "tech_depth": 5,
+      "innovation": 8,
+      "usability": 7
+    },
+    "technical_highlights": [
+      "提出将禅宗思想融入机器学习研究，强调直觉与专注",
+      "倡导减少噪声、培养耐心，以应对研究中的不确定性和复杂性"
+    ]
+  },
+  "tags": [
+    "机器学习",
+    "研究哲学",
+    "创新方法论"
+  ]
+}
