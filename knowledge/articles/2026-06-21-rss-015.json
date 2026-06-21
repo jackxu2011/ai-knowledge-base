@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260621-015",
+  "title": "Slow breathing modulates brain function and risk behavior",
+  "source_url": "https://www.cell.com/neuron/fulltext/S0896-6273(26)00339-9",
+  "source_type": "rss",
+  "summary": "该研究探讨了缓慢呼吸对大脑功能与风险行为的影响，揭示了呼吸频率如何通过调节神经活动来改变个体的风险决策。研究采用行为实验与脑成像技术，发现减缓呼吸速率可降低风险偏好，并伴随前额叶皮层活动的变化。这为呼吸调控在心理健康与行为干预中的应用提供了神经科学依据，提示一种非侵入式的认知调节手段。",
+  "published_at": "2026-06-21",
+  "collected_at": "2026-06-21T05:03:15.292419+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该研究将呼吸节律与高级认知功能（风险决策）对接，具有明确的神经机制解释和潜在应用价值，如压力管理、冲动控制训练，实用性较强；但创新性处于逐步积累阶段，未完全颠覆现有认知框架，因此评分7分。",
+    "scoring_dimensions": {
+      "tech_depth": 8,
+      "innovation": 6,
+      "usability": 7
+    },
+    "technical_highlights": [
+      "揭示了缓慢呼吸对风险行为的调控机制",
+      "结合脑成像揭示了前额叶皮层活动的关联"
+    ]
+  },
+  "tags": [
+    "呼吸调控",
+    "风险行为",
+    "神经科学"
+  ]
+}

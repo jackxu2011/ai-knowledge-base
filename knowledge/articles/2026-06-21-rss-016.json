@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260621-016",
+  "title": "When I reject AI code even if it works",
+  "source_url": "https://vinibrasil.com/when-i-reject-ai-code-even-if-it-works/",
+  "source_type": "rss",
+  "summary": "该内容探讨了开发者拒绝使用AI生成的代码的原因，即使这些代码能够正常工作，主要涉及代码的可维护性、可读性、个人学习需求以及对代码结构控制感的追求等维度。",
+  "published_at": "2026-06-21",
+  "collected_at": "2026-06-21T05:03:15.292439+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 6,
+    "scoring_reasons": "主题具有实践价值，反映了AI编程工具应用中的真实痛点与权衡，但讨论较为常见，创新性有限。",
+    "scoring_dimensions": {
+      "tech_depth": 5,
+      "innovation": 4,
+      "usability": 7
+    },
+    "technical_highlights": [
+      "强调代码质量超越功能性",
+      "揭示AI辅助编程中的人机协作边界"
+    ]
+  },
+  "tags": [
+    "AI编程",
+    "代码质量",
+    "开发者体验"
+  ]
+}

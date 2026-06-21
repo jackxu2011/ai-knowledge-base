@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260621-018",
+  "title": "Semiconductor Lifeline Keeps Fighter Jets in the Air",
+  "source_url": "https://spectrum.ieee.org/phoenix-semiconductors-legacychips-oems",
+  "source_type": "rss",
+  "summary": "该技术内容探讨了半导体供应链对战斗机维护的关键作用，强调半导体元件作为现代化战斗机维持作战能力的基础。通过确保关键芯片的稳定供应，可以显著提升战备状态和减少停机时间，这对于航空国防具有战略意义。",
+  "published_at": "2026-06-21",
+  "collected_at": "2026-06-21T05:03:15.292467+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 6,
+    "scoring_reasons": "该内容涉及国防技术领域的实际应用，强调了半导体供应链在高端军事装备中的核心作用，具有明确的实用性和战略价值。但技术深度一般，属于行业应用层面的讨论，而非突破性技术创新。",
+    "scoring_dimensions": {
+      "tech_depth": 5,
+      "innovation": 4,
+      "usability": 7
+    },
+    "technical_highlights": [
+      "半导体供应链对战斗机维修的关键支持",
+      "通过稳定半导体供应提升战备状态"
+    ]
+  },
+  "tags": [
+    "半导体",
+    "国防技术",
+    "供应链管理"
+  ]
+}

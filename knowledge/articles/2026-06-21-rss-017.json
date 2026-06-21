@@ -1,0 +1,35 @@
+{
+  "id": "rss-20260621-017",
+  "title": "Your brain was never designed for this much bad news",
+  "source_url": "https://www.sciencedaily.com/releases/2026/06/260614012006.htm",
+  "source_type": "rss",
+  "summary": "文章探讨了人类大脑并非为应对现代信息环境中的大量负面新闻而设计。从进化心理学角度，大脑倾向于关注威胁以保生存，但媒体传播的持续负面信息导致压力、焦虑和习得性无助。作者指出，人们应主动管理信息摄入，如限制新闻时间、选择可信来源、培养正念，以保护心理健康。",
+  "published_at": "2026-06-21",
+  "collected_at": "2026-06-21T05:03:15.292454+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 8,
+    "scoring_reasons": "观点深刻且直接指导现代人缓解新闻焦虑，结合心理学与认知科学，实用性强，能显著提升生活质量。",
+    "scoring_dimensions": {
+      "tech_depth": 8,
+      "innovation": 7,
+      "usability": 9
+    },
+    "technical_highlights": [
+      "从进化心理学角度揭示认知偏差",
+      "提出具体可操作的信息管理策略",
+      "对数字时代心理健康的实用洞察"
+    ]
+  },
+  "tags": [
+    "认知科学",
+    "心理健康",
+    "信息管理",
+    "负面新闻",
+    "进化心理学"
+  ]
+}
