@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260622-014",
+  "title": "Apertus – Open Foundation Model for Sovereign AI",
+  "source_url": "https://apertvs.ai/",
+  "source_type": "rss",
+  "summary": "Apertus是一个面向主权AI的开源基础模型项目，旨在提供透明、可访问且本地化部署的AI能力，减少对商业闭源模型的依赖。它强调数据隐私、自主可控和社区驱动，适用于政府、企业等对数据安全有高要求的场景。该项目通过开放模型架构和训练流程，推动AI民主化。",
+  "published_at": "2026-06-22",
+  "collected_at": "2026-06-22T05:11:32.063990+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该技术直接回应了当前AI领域对数据主权和隐私的关切，具有明确的实用价值。它通过开源模式降低了AI采用门槛，但创新性上仍基于现有模型架构，未完全突破范式。评分7分体现了它在提升主权AI可用性上的直接帮助，但未达到改变格局的突破程度。",
+    "scoring_dimensions": {
+      "tech_depth": 6,
+      "innovation": 5,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "开源模型架构与训练流程透明化",
+      "支持本地化部署增强数据主权"
+    ]
+  },
+  "tags": [
+    "开源AI",
+    "主权AI",
+    "数据隐私"
+  ]
+}

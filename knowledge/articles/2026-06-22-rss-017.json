@@ -1,0 +1,34 @@
+{
+  "id": "rss-20260622-017",
+  "title": "JSON-LD explained for personal websites",
+  "source_url": "https://hawksley.dev/blog/json-ld-explained-for-personal-websites/",
+  "source_type": "rss",
+  "summary": "本文介绍了JSON-LD作为一种轻量级的语义数据格式，特别适用于个人网站的结构化数据标注。它通过嵌入在网页中的JSON对象，帮助搜索引擎更好地理解内容，提升搜索结果展示（如富片段）。文章强调了其易用性、可扩展性和对SEO的积极影响，是个人网站优化的重要工具。",
+  "published_at": "2026-06-22",
+  "collected_at": "2026-06-22T05:11:32.064055+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该内容对个人网站开发者有直接实用价值，能显著提升SEO效果和搜索可见性，但技术深度适中，创新性一般。",
+    "scoring_dimensions": {
+      "tech_depth": 6,
+      "innovation": 5,
+      "usability": 9
+    },
+    "technical_highlights": [
+      "通过JSON-LD实现结构化数据标注，无需修改HTML结构",
+      "支持多种语义类型（如文章、事件、产品），增强搜索引擎理解"
+    ]
+  },
+  "tags": [
+    "JSON-LD",
+    "结构化数据",
+    "SEO",
+    "个人网站",
+    "语义Web"
+  ]
+}
