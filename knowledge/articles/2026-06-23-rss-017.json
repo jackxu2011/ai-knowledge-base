@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260623-017",
+  "title": "Canada plans &#x27;nuclear renaissance&#x27; with up to 10 reactors built by 2040",
+  "source_url": "https://www.cbc.ca/news/politics/federal-nuclear-strategy-9.7244509",
+  "source_type": "rss",
+  "summary": "加拿大计划到2040年建造多达10座核反应堆，推动核能复兴，以应对能源需求和气候变化目标。此举标志着该国在清洁能源领域的大规模投资，可能重塑其电力结构并带动相关技术产业发展。",
+  "published_at": "2026-06-23",
+  "collected_at": "2026-06-23T04:08:55.279014+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该计划具有明确的能源转型和减碳战略意义，实用性强，直接提升国家能源安全和环保目标，但尚未涉及具体突破性技术细节，影响力中等偏上。",
+    "scoring_dimensions": {
+      "tech_depth": 6,
+      "innovation": 5,
+      "usability": 9
+    },
+    "technical_highlights": [
+      "大规模核反应堆建设计划",
+      "核能复兴作为清洁能源战略核心"
+    ]
+  },
+  "tags": [
+    "核能",
+    "能源转型",
+    "加拿大"
+  ]
+}

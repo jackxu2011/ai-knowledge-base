@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260623-014",
+  "title": "In praise of memcached",
+  "source_url": "https://jchri.st/blog/in-praise-of-memcached/",
+  "source_type": "rss",
+  "summary": "本文赞扬了Memcached的简洁、高效和可靠性，强调了其在分布式缓存领域的经典地位。尽管有Redis等更现代的选择，Memcached在特定场景下仍有不可替代的优势，如极致性能和简单部署。文章反思了过度复杂化的技术趋势。",
+  "published_at": "2026-06-23",
+  "collected_at": "2026-06-23T04:08:55.278948+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 6,
+    "scoring_reasons": "文章提供了有价值的行业观察和技术反思，但内容偏向观点性，缺乏突破性的技术细节或创新。对于了解缓存技术的开发者有一定启发，但不是紧迫的技术更新。",
+    "scoring_dimensions": {
+      "tech_depth": 5,
+      "innovation": 3,
+      "usability": 7
+    },
+    "technical_highlights": [
+      "重申Memcached在简单性上的优势",
+      "对比Redis等复杂缓存方案的适用场景"
+    ]
+  },
+  "tags": [
+    "Memcached",
+    "缓存技术",
+    "技术哲学"
+  ]
+}

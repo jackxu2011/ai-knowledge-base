@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260623-016",
+  "title": "Moebius: 0.2B image inpainting model with 10B-level performance",
+  "source_url": "https://hustvl.github.io/Moebius/",
+  "source_type": "rss",
+  "summary": "Moebius是一款0.2B参数量的图像修复模型，声称在性能上达到10B参数级别，通过高效的架构设计和训练策略，实现了轻量模型与高表现力的结合，适用于资源受限场景下的图像修补任务。",
+  "published_at": "2026-06-23",
+  "collected_at": "2026-06-23T04:08:55.279001+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 8,
+    "scoring_reasons": "该模型在极低参数量（0.2B）下实现与大型模型（10B级）相当的图像修复性能，体现了显著的效率突破和工程优化，对边缘计算和实时应用具有直接帮助，但需验证实际泛化能力。",
+    "scoring_dimensions": {
+      "tech_depth": 9,
+      "innovation": 8,
+      "usability": 7
+    },
+    "technical_highlights": [
+      "0.2B参数量实现10B级性能，参数量效率提升近50倍",
+      "可能采用知识蒸馏、稀疏注意力或混合架构等先进压缩技术"
+    ]
+  },
+  "tags": [
+    "图像修复",
+    "轻量模型",
+    "高效AI"
+  ]
+}

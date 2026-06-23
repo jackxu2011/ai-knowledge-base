@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260623-018",
+  "title": "Show HN: Oak – Git alternative designed for agents",
+  "source_url": "https://oak.space/oak/oak",
+  "source_type": "rss",
+  "summary": "Oak是一个专为AI代理设计的Git替代方案，旨在解决传统Git在代理工作流中的痛点。它提供更简洁的仓库管理、自动化的版本控制集成，以及针对代理操作优化的冲突解决机制，提升开发效率。",
+  "published_at": "2026-06-23",
+  "collected_at": "2026-06-23T04:08:55.279027+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该工具直接针对AI代理开发场景，解决了版本控制中的常见问题，实用性高，但尚未达到改变格局的突破性创新，且市场验证有限。",
+    "scoring_dimensions": {
+      "tech_depth": 8,
+      "innovation": 7,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "专为AI代理工作流优化的版本控制模型",
+      "自动化的仓库管理和冲突解决机制"
+    ]
+  },
+  "tags": [
+    "Git替代",
+    "AI代理",
+    "版本控制"
+  ]
+}

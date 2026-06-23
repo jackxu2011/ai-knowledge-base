@@ -1,0 +1,33 @@
+{
+  "id": "rss-20260623-019",
+  "title": "PP-OCRv6 on Hugging Face: 50-Language OCR from 1.5M to 34.5M Parameters",
+  "source_url": "https://huggingface.co/blog/PaddlePaddle/pp-ocrv6",
+  "source_type": "rss",
+  "summary": "百度飞桨推出PP-OCRv6，在Hugging Face平台上开源支持50种语言的OCR模型，模型参数规模从150万到3450万不等。这一版本在保持高识别精度的同时，提供了灵活部署选项，覆盖更广泛的多语言场景，显著降低OCR应用门槛。",
+  "published_at": "2026-06-23",
+  "collected_at": "2026-06-23T04:08:55.279040+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hugging Face Blog",
+    "feed_url": "https://huggingface.co/blog/feed.xml"
+  },
+  "analysis": {
+    "score": 8,
+    "scoring_reasons": "该技术直接提供了实用、高效的多语言OCR解决方案，参数范围灵活适应不同场景需求，开源在Hugging Face降低了使用门槛，对全球开发者和企业有直接帮助。",
+    "scoring_dimensions": {
+      "tech_depth": 8,
+      "innovation": 7,
+      "usability": 9
+    },
+    "technical_highlights": [
+      "支持50种语言的多语言OCR能力",
+      "模型参数范围1.5M-34.5M覆盖轻量级到高精度",
+      "开源在Hugging Face生态，易于集成和部署"
+    ]
+  },
+  "tags": [
+    "OCR",
+    "多语言",
+    "开源模型"
+  ]
+}

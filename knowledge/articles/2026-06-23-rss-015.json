@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260623-015",
+  "title": "Polymarket has flooded social media with deceptive videos by paid creators",
+  "source_url": "https://www.wsj.com/business/media/polymarket-social-media-bets-prediction-market-441cdeb5?st=HhTZY2",
+  "source_type": "rss",
+  "summary": "Polymarket通过付费创作者在社交媒体上大量投放具有误导性的视频内容，以推广其预测市场平台。这种行为可能存在虚假宣传的风险，影响用户对平台真实情况的判断，并引发对加密预测市场合规性的担忧。",
+  "published_at": "2026-06-23",
+  "collected_at": "2026-06-23T04:08:55.278983+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 6,
+    "scoring_reasons": "该事件揭示了加密预测市场平台在营销策略上的争议性操作，具有一定的行业警示价值，但技术深度和创新性不足，更偏向市场行为分析。",
+    "scoring_dimensions": {
+      "tech_depth": 2,
+      "innovation": 3,
+      "usability": 5
+    },
+    "technical_highlights": [
+      "揭示了预测市场平台利用社交媒体进行误导性营销的手段",
+      "反映了加密行业在合规宣传方面的潜在风险"
+    ]
+  },
+  "tags": [
+    "预测市场",
+    "社交媒体营销",
+    "合规风险"
+  ]
+}
