@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260624-002",
+  "title": "Qwen-AgentWorld: Language World Models for General Agents",
+  "source_url": "https://arxiv.org/abs/2606.24597",
+  "source_type": "rss",
+  "summary": "Qwen-AgentWorld是一个基于语言的世界模型框架，旨在为通用智能体提供语言驱动的环境感知与决策能力。通过将现实世界交互抽象为语言描述，该模型使智能体能够在不依赖传统视觉或物理模拟的情况下进行推理、规划和执行任务。它融合了大规模语言模型的知识与结构化情境建模，强调可解释性和跨域迁移能力，为智能体在复杂动态环境中实现泛化应用提供了新路径。",
+  "published_at": "2026-06-24",
+  "collected_at": "2026-06-24T04:12:12.593342+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 8,
+    "scoring_reasons": "该项目将语言模型与智能体世界模型结合，提出了一种创新的抽象范式，显著提升了智能体在多任务、跨场景下的适应性与可解释性。尽管尚处早期阶段，但其直接针对智能体通用化的痛点，有望在自动化、机器人、游戏AI等领域产生实质影响。",
+    "scoring_dimensions": {
+      "tech_depth": 9,
+      "innovation": 9,
+      "usability": 7
+    },
+    "technical_highlights": [
+      "用语言作为世界模型的表征媒介，绕过了传统物理模拟的复杂度",
+      "结合LLM的推理能力与结构化建模，增强智能体的泛化与迁移能力"
+    ]
+  },
+  "tags": [
+    "语言世界模型",
+    "通用智能体",
+    "可解释AI"
+  ]
+}

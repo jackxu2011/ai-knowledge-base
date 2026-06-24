@@ -1,0 +1,33 @@
+{
+  "id": "rss-20260624-001",
+  "title": "DiffusionBench: Towards Holistic Evaluation of Generative Diffusion Transformers",
+  "source_url": "https://github.com/End2End-Diffusion/diffusion-bench",
+  "source_type": "rss",
+  "summary": "DiffusionBench 是一个针对生成式扩散变换器（DiT）的全面评估基准，旨在系统衡量其在图像生成、视频生成等领域的能力。该基准覆盖多种扩散模型变体及任务，提供标准化测试协议，帮助研究者客观比较不同 DiT 架构的性能与局限性，推动扩散模型技术的规范化发展。",
+  "published_at": "2026-06-24",
+  "collected_at": "2026-06-24T04:12:12.593299+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "提出了一个对扩散变换器进行系统性、标准化评估的基准，填补了当前缺乏统一评测的空白，对研究者和从业者有直接帮助，但属于工具性贡献而非理论基础突破。",
+    "scoring_dimensions": {
+      "tech_depth": 7,
+      "innovation": 6,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "构建了覆盖图像、视频等多模态任务的标准化评估框架",
+      "设计了跨不同扩散变换器架构的横向比较协议"
+    ]
+  },
+  "tags": [
+    "扩散变换器",
+    "模型评估",
+    "基准测试",
+    "生成式AI"
+  ]
+}

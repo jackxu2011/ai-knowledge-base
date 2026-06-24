@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260624-004",
+  "title": "The Low-Tech AI of Elden Ring",
+  "source_url": "https://nega.tv/posts/low-tech-ai-of-elden-ring.html",
+  "source_type": "rss",
+  "summary": "探讨《艾尔登法环》中游戏AI的低技术设计哲学，强调其专注于规则驱动、有限状态机和玩家行为响应，而非高级算法，以提升游戏体验的沉浸感和挑战性。",
+  "published_at": "2026-06-24",
+  "collected_at": "2026-06-24T04:12:12.593371+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该内容揭示了游戏AI设计的实用智慧，虽非技术前沿，但对游戏开发者和AI爱好者有直接启发，能提升对游戏体验的理解。",
+    "scoring_dimensions": {
+      "tech_depth": 5,
+      "innovation": 6,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "通过有限状态机和规则实现高效AI",
+      "低技术设计提升游戏沉浸感和挑战性"
+    ]
+  },
+  "tags": [
+    "游戏AI",
+    "艾尔登法环",
+    "设计哲学"
+  ]
+}

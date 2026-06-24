@@ -1,0 +1,34 @@
+{
+  "id": "rss-20260624-006",
+  "title": "Shipping huggingface_hub every week with AI, open tools, and a human in the loop",
+  "source_url": "https://huggingface.co/blog/huggingface-hub-release-ci",
+  "source_type": "rss",
+  "summary": "本文介绍了如何通过结合AI工具和人工监督，每周持续发布huggingface_hub库的流程。该方法利用自动化工具处理例行任务，同时保留人类决策环节以确保质量，实现了高效且可靠的版本发布。",
+  "published_at": "2026-06-24",
+  "collected_at": "2026-06-24T04:12:12.593395+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hugging Face Blog",
+    "feed_url": "https://huggingface.co/blog/feed.xml"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该内容展示了实用的CI/CD工作流改进，结合AI自动化与人工审核，直接提升项目发布效率和质量，适用于众多开源项目，但非突破性技术。",
+    "scoring_dimensions": {
+      "tech_depth": 6,
+      "innovation": 7,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "每周自动发布流程结合AI与人工审核",
+      "提高发布频率和稳定性"
+    ]
+  },
+  "tags": [
+    "AI工具",
+    "自动化发布",
+    "huggingface",
+    "CI/CD",
+    "开源实践"
+  ]
+}

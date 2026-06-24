@@ -1,0 +1,33 @@
+{
+  "id": "rss-20260624-003",
+  "title": "Show HN: RLM-based local debugger for AI agent traces",
+  "source_url": "https://github.com/context-labs/halo",
+  "source_type": "rss",
+  "summary": "该项目展示了一个基于强化学习记忆（RLM）的本地调试器，专用于AI智能体轨迹的可视化与调试。它允许开发者将智能体的决策过程、行动序列与环境反馈以结构化方式回放，结合RLM机制进行因果追踪，从而提升对复杂代理行为的理解与问题定位效率。",
+  "published_at": "2026-06-24",
+  "collected_at": "2026-06-24T04:12:12.593358+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该工具直接针对AI代理开发中的痛点——轨迹调试，提供了实用的可视化与回放功能，且基于RLM的因果追踪具有创新性，能显著提升调试效率。但属于已有概念的工程化实现，未达范式突破级别。",
+    "scoring_dimensions": {
+      "tech_depth": 7,
+      "innovation": 6,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "基于强化学习记忆实现轨迹因果追踪",
+      "支持AI代理决策过程的本地可视化与回放"
+    ]
+  },
+  "tags": [
+    "AI代理",
+    "调试工具",
+    "强化学习",
+    "轨迹可视化"
+  ]
+}
