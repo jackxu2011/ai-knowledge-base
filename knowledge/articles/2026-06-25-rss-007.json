@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260625-007",
+  "title": "What I&#x27;m Finding About LLM Code Style and Token Costs",
+  "source_url": "https://www.jimmont.com/llm-style-token-costs",
+  "source_type": "rss",
+  "summary": "本文探讨了大型语言模型（LLM）生成的代码风格与令牌成本之间的关系。作者发现，不同的代码风格（如变量命名、注释方式、代码结构）会显著影响令牌消耗，从而影响使用成本。通过实验，文章提出优化代码风格可以在保持可读性的同时降低令牌数量，为开发者节省费用。",
+  "published_at": "2026-06-25",
+  "collected_at": "2026-06-25T04:12:36.177116+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该内容直接关联LLM使用中的实际成本问题，提供了可操作的优化建议，对频繁使用LLM的开发者具有实用价值。但创新性有限，属于现有知识的深化和应用，且适用面主要针对AI辅助编程场景。",
+    "scoring_dimensions": {
+      "tech_depth": 7,
+      "innovation": 5,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "揭示了代码风格对LLM令牌成本的直接影响",
+      "提供了具体优化策略以减少令牌消耗"
+    ]
+  },
+  "tags": [
+    "LLM",
+    "代码风格",
+    "令牌成本"
+  ]
+}

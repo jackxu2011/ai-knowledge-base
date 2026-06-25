@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260625-004",
+  "title": "PR spam today looks like email spam in the early 2000s",
+  "source_url": "https://www.greptile.com/blog/prs-on-openclaw",
+  "source_type": "rss",
+  "summary": "文章探讨了当今PR垃圾邮件与2000年代初电子邮件垃圾邮件的相似性，指出PR行业过度使用自动化工具和模板化沟通，导致收件人信息过载和信任下降。",
+  "published_at": "2026-06-25",
+  "collected_at": "2026-06-25T04:12:36.177074+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 6,
+    "scoring_reasons": "内容具有行业洞察，分析类比生动，但非技术突破，主要适用于市场营销和公关领域，价值中等。",
+    "scoring_dimensions": {
+      "tech_depth": 4,
+      "innovation": 5,
+      "usability": 6
+    },
+    "technical_highlights": [
+      "类比历史垃圾邮件现象以揭示PR自动化弊端",
+      "指出信息过载对行业信任的侵蚀"
+    ]
+  },
+  "tags": [
+    "PR垃圾邮件",
+    "自动化沟通",
+    "行业分析"
+  ]
+}

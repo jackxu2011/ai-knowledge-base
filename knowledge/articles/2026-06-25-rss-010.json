@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260625-010",
+  "title": "Introducing the FFASR Leaderboard: Benchmarking ASR in the Real World",
+  "source_url": "https://huggingface.co/blog/ffasr-leaderboard",
+  "source_type": "rss",
+  "summary": "介绍FFASR（全流程自动语音识别）排行榜，旨在在真实世界场景下对ASR系统进行基准测试，包括噪声、远场、多说话人等复杂条件，提供更贴近实际应用的评估标准。",
+  "published_at": "2026-06-25",
+  "collected_at": "2026-06-25T04:12:36.177162+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hugging Face Blog",
+    "feed_url": "https://huggingface.co/blog/feed.xml"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该Leaderboard解决了现有基准测试与真实应用脱节的问题，提供更全面的评估维度，对ASR研发和产品优化有直接指导作用，实用性强。",
+    "scoring_dimensions": {
+      "tech_depth": 7,
+      "innovation": 6,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "聚焦真实世界场景的ASR基准测试",
+      "涵盖噪声、远场、多说话人等多种实际挑战"
+    ]
+  },
+  "tags": [
+    "ASR",
+    "基准测试",
+    "语音识别"
+  ]
+}

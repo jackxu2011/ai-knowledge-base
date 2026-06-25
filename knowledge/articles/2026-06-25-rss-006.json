@@ -1,0 +1,35 @@
+{
+  "id": "rss-20260625-006",
+  "title": "GLM-5.2 is a step change for open agents",
+  "source_url": "https://www.interconnects.ai/p/glm-52-is-the-step-change-for-open",
+  "source_type": "rss",
+  "summary": "GLM-5.2是智谱AI发布的新一代开源模型，显著提升了智能体的自主能力。它通过改进推理、工具使用和多轮对话协调，使开源智能体性能达到接近闭源模型的水平。这一变化降低了开发门槛，有望推动更多基于智能体的应用诞生，是开源领域的重要进步。",
+  "published_at": "2026-06-25",
+  "collected_at": "2026-06-25T04:12:36.177101+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 8,
+    "scoring_reasons": "GLM-5.2在开源智能体领域实现了实质性突破，推理和工具调用能力大幅度提升，直接降低了高级智能体开发门槛，对行业有直接帮助，但尚未完全颠覆现有格局。",
+    "scoring_dimensions": {
+      "tech_depth": 8,
+      "innovation": 7,
+      "usability": 9
+    },
+    "technical_highlights": [
+      "开源模型智能体能力接近闭源水平",
+      "显著提升工具使用与多轮对话协调",
+      "降低智能体开发门槛，推动应用普及"
+    ]
+  },
+  "tags": [
+    "GLM-5.2",
+    "开源智能体",
+    "大模型",
+    "智谱AI",
+    "工具使用"
+  ]
+}

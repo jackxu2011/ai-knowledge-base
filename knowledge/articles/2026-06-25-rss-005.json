@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260625-005",
+  "title": "Computer use in Gemini 3.5 Flash",
+  "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash/",
+  "source_type": "rss",
+  "summary": "Google DeepMind的Gemini 3.5 Flash模型不仅支持多模态推理，还能在计算机屏幕上进行视觉理解与操作，包括点击、滚动、填写表单等。这标志着AI从纯语言交互向‘类人’计算机使用能力的重大跨越，为自动化办公、QA测试等场景提供了新的可能性。",
+  "published_at": "2026-06-25",
+  "collected_at": "2026-06-25T04:12:36.177088+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 8,
+    "scoring_reasons": "该功能将AI能力从对话扩展到直接操作计算机界面，大幅提升了任务自动化水平，具有实用价值。但技术实现细节和实际稳定性待观察，故未达到颠覆性满分。",
+    "scoring_dimensions": {
+      "tech_depth": 8,
+      "innovation": 9,
+      "usability": 7
+    },
+    "technical_highlights": [
+      "支持在浏览器、桌面应用等GUI环境中进行视觉元素理解和直接交互",
+      "能够基于自然语言指令执行多步骤的计算机操作任务"
+    ]
+  },
+  "tags": [
+    "AI Agent",
+    "Gemini 3.5 Flash",
+    "计算机视觉操作"
+  ]
+}

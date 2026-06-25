@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260625-015",
+  "title": "We got local models to triage the OpenClaw repo for FREE!*",
+  "source_url": "https://huggingface.co/blog/local-models-pr-triage",
+  "source_type": "rss",
+  "summary": "文章介绍了使用本地模型对OpenClaw仓库进行免费分类（triage）的方法，强调无需外部API成本即可实现自动化问题筛选。该方法可能利用开源LLM或轻量级工具，展示了本地化AI在项目管理中的实用价值。",
+  "published_at": "2026-06-25",
+  "collected_at": "2026-06-25T04:12:36.177177+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hugging Face Blog",
+    "feed_url": "https://huggingface.co/blog/feed.xml"
+  },
+  "analysis": {
+    "score": 6,
+    "scoring_reasons": "该技术展示了本地模型在仓库管理中的实际应用，降低了成本并提升了效率，但创新性一般，且依赖OpenClaw特定场景，通用性有限。",
+    "scoring_dimensions": {
+      "tech_depth": 5,
+      "innovation": 5,
+      "usability": 7
+    },
+    "technical_highlights": [
+      "实现了免费的开源仓库问题分类",
+      "利用本地模型避免云端API成本"
+    ]
+  },
+  "tags": [
+    "本地模型",
+    "开源仓库",
+    "自动化分类"
+  ]
+}

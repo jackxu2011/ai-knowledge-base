@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260625-001",
+  "title": "OpenAI unveils its first custom chip, built by Broadcom",
+  "source_url": "https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/",
+  "source_type": "rss",
+  "summary": "OpenAI推出了其首款定制芯片，由博通制造。这标志着OpenAI在硬件领域的重大举措，旨在优化其AI模型的训练和推理效率，减少对第三方芯片的依赖，降低运营成本。该芯片可能显著提升OpenAI的算力自主性，并推动AI基础设施的垂直整合。",
+  "published_at": "2026-06-25",
+  "collected_at": "2026-06-25T04:12:36.176993+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 8,
+    "scoring_reasons": "该事件是OpenAI从软件向硬件战略延伸的关键一步，具有直接实用性（提升效率、降低成本）和行业引领性，但尚未完全证实其突破性影响，所以给8分。",
+    "scoring_dimensions": {
+      "tech_depth": 8,
+      "innovation": 7,
+      "usability": 9
+    },
+    "technical_highlights": [
+      "OpenAI首次自研定制芯片，由博通制造",
+      "旨在优化AI训练与推理效率，减少对第三方依赖"
+    ]
+  },
+  "tags": [
+    "OpenAI",
+    "定制芯片",
+    "博通"
+  ]
+}

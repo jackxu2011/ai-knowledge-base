@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260625-008",
+  "title": "Bible as RAG Database",
+  "source_url": "https://www.crosscanon.com/",
+  "source_type": "rss",
+  "summary": "将圣经数据构建为RAG（检索增强生成）数据库，旨在提升基于圣经内容的AI问答系统的准确性和上下文相关性。通过向量化索引圣经文本，支持语义检索和实时生成，可用于宗教研究、教育或AI伦理对话。",
+  "published_at": "2026-06-25",
+  "collected_at": "2026-06-25T04:12:36.177131+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 6,
+    "scoring_reasons": "应用场景创新，将RAG技术用于宗教文本处理，但技术实现本身未突破现有RAG框架，且受众相对特定，实用价值中等。",
+    "scoring_dimensions": {
+      "tech_depth": 5,
+      "innovation": 6,
+      "usability": 7
+    },
+    "technical_highlights": [
+      "使用RAG技术增强圣经内容检索准确性",
+      "支持语义理解而非关键词匹配，提升回答质量"
+    ]
+  },
+  "tags": [
+    "RAG",
+    "圣经",
+    "知识库"
+  ]
+}
