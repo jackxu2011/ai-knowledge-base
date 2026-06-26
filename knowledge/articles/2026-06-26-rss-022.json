@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260626-022",
+  "title": "Which tokens does a hybrid model predict better?",
+  "source_url": "https://huggingface.co/blog/allenai/hybrid-token-prediction",
+  "source_type": "rss",
+  "summary": "该研究探讨了混合模型（如结合符号推理与神经网络的模型）在预测不同类别token时的表现差异，通过分析模型在多种语言任务中的输出，揭示了混合模型在处理结构化和非结构化数据时的优势与局限。",
+  "published_at": "2026-06-26",
+  "collected_at": "2026-06-26T04:18:59.747068+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hugging Face Blog",
+    "feed_url": "https://huggingface.co/blog/feed.xml"
+  },
+  "analysis": {
+    "score": 6,
+    "scoring_reasons": "研究揭示了混合模型在token预测上的差异化表现，对模型设计和优化有参考价值，但属于特定技术细节分析，非普及性突破。",
+    "scoring_dimensions": {
+      "tech_depth": 7,
+      "innovation": 6,
+      "usability": 5
+    },
+    "technical_highlights": [
+      "分析了混合模型在不同token类型上的预测性能差异",
+      "提出了模型结构对预测精度的影响机制"
+    ]
+  },
+  "tags": [
+    "混合模型",
+    "token预测",
+    "自然语言处理"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "rss-20260626-014",
+  "title": "Apple to skip high-end M6 Mac chips in favor of AI-focused M7 line",
+  "source_url": "https://www.bloomberg.com/news/articles/2026-06-25/apple-to-skip-high-end-m6-mac-chips-to-launch-m7-pro-m7-max-m7-ultra-instead?embedded-checkout=true",
+  "source_type": "rss",
+  "summary": "苹果计划跳过高端M6 Mac芯片，转而开发专注于人工智能的M7系列，这表明苹果将AI能力作为未来Mac产品的核心战略。此决策可能影响Mac产品线的高性能定位，但将推动AI集成与端侧智能发展，有望提升设备在机器学习、自然语言处理等任务中的表现。",
+  "published_at": "2026-06-26",
+  "collected_at": "2026-06-26T04:18:59.746931+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 8,
+    "scoring_reasons": "该决策直接反映苹果对AI硬件趋势的积极回应，跳过一代芯片开发专注AI的M7，具有战略前瞻性和实用价值，可能改变Mac产品在AI应用领域的竞争力，但尚未实现。",
+    "scoring_dimensions": {
+      "tech_depth": 8,
+      "innovation": 9,
+      "usability": 7
+    },
+    "technical_highlights": [
+      "跳过M6以加速M7发布，聚焦AI专用架构",
+      "强化端侧AI能力，提升设备本地智能处理性能"
+    ]
+  },
+  "tags": [
+    "苹果",
+    "AI芯片",
+    "M7",
+    "战略规划",
+    "端侧智能"
+  ]
+}

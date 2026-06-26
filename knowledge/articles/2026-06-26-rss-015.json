@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260626-015",
+  "title": "Overfitted a 900KB Transformer to Compress a 100MB CSV into 7MB",
+  "source_url": "https://news.ycombinator.com/item?id=48644463",
+  "source_type": "rss",
+  "summary": "该技术展示了一个极端案例：将占用100MB的CSV数据通过过拟合一个仅900KB的Transformer模型，压缩到7MB。这突破了传统压缩方法，展示了神经网络在数据压缩中的潜力，但过拟合意味着泛化能力有限。",
+  "published_at": "2026-06-26",
+  "collected_at": "2026-06-26T04:18:59.746993+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该方法直接展示了神经网络压缩数据的可行性，压缩比极高（约14:1），具有实用价值和创新性，但局限于过拟合特定数据集，通用性有待验证。",
+    "scoring_dimensions": {
+      "tech_depth": 8,
+      "innovation": 8,
+      "usability": 6
+    },
+    "technical_highlights": [
+      "用极小的Transformer模型实现高压缩比",
+      "过拟合特定数据集达到极致压缩"
+    ]
+  },
+  "tags": [
+    "神经压缩",
+    "Transformer",
+    "数据压缩"
+  ]
+}

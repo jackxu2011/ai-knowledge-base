@@ -1,0 +1,33 @@
+{
+  "id": "rss-20260626-016",
+  "title": "Show HN: OpenKnowledge – open source AI-first alternative to Obsidian&#x2F;Notion",
+  "source_url": "https://github.com/inkeep/open-knowledge",
+  "source_type": "rss",
+  "summary": "OpenKnowledge 是一个开源、AI优先的知识管理工具，旨在替代 Obsidian 和 Notion。它强调本地优先、隐私保护和智能辅助，通过 AI 能力增强知识组织、检索和创作流程。项目基于现代技术栈构建，支持插件扩展，为用户提供更灵活、可控的知识管理体验。作为开源项目，它值得关注，但成熟度和生态尚需发展。",
+  "published_at": "2026-06-26",
+  "collected_at": "2026-06-26T04:18:59.747009+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 6,
+    "scoring_reasons": "该项目定位明确，聚焦AI增强的知识管理，但未提供具体的创新技术细节或突破性功能，实用性有待验证。开源模式有潜力，但目前影响力有限，属于值得了解的新兴工具。",
+    "scoring_dimensions": {
+      "tech_depth": 5,
+      "innovation": 6,
+      "usability": 4
+    },
+    "technical_highlights": [
+      "AI-first 设计，将智能辅助（如自动分类、智能搜索）作为核心能力",
+      "本地优先，注重隐私和数据控制，适合对数据敏感的用户"
+    ]
+  },
+  "tags": [
+    "开源",
+    "AI优先",
+    "知识管理",
+    "Obsidian替代"
+  ]
+}
