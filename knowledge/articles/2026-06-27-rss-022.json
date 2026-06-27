@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260627-022",
+  "title": "Ask HN: MacBook vs. Dedicated GPU for LLM",
+  "source_url": "https://news.ycombinator.com/item?id=48694802",
+  "source_type": "rss",
+  "summary": "该讨论比较了使用MacBook（统一内存）与配备独立GPU的PC运行大语言模型（LLM）的优劣。核心观点是MacBook的大容量统一内存（如64GB以上）适合运行大型模型，但推理速度较慢；而专用GPU（如NVIDIA RTX系列）在显存足够时推理速度更快，但显存容量有限且成本高昂。讨论指出，对于需要高频推理的生产环境，GPU更优；而对于需要运行超大模型的实验场景，MacBook的统一内存更具性价比。",
+  "published_at": "2026-06-27",
+  "collected_at": "2026-06-27T04:05:46.473999+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 6,
+    "scoring_reasons": "该内容针对特定用户群体（LLM开发者/研究者）提供了实用的硬件选型对比，但讨论较为常见且未涉及突破性技术，对普通用户参考价值有限。",
+    "scoring_dimensions": {
+      "tech_depth": 5,
+      "innovation": 3,
+      "usability": 7
+    },
+    "technical_highlights": [
+      "MacBook统一内存可运行超过GPU显存容量的模型",
+      "专用GPU在相同显存下推理速度显著优于MacBook"
+    ]
+  },
+  "tags": [
+    "LLM",
+    "硬件选型",
+    "MacBook vs GPU"
+  ]
+}

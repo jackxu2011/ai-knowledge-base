@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260627-021",
+  "title": "Show HN: Smart model routing directly in Claude, Codex and Cursor",
+  "source_url": "https://github.com/workweave/router",
+  "source_type": "rss",
+  "summary": "该项目在Claude、Codex和Cursor中实现了智能模型路由功能，可根据任务自动选择最合适的AI模型，提升效率和性能。",
+  "published_at": "2026-06-27",
+  "collected_at": "2026-06-27T04:05:46.473988+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "实用性高，直接优化了多模型使用的体验，但创新性中等，类似功能已有部分实现。",
+    "scoring_dimensions": {
+      "tech_depth": 6,
+      "innovation": 5,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "在主流AI编码工具中集成智能路由",
+      "根据任务自动匹配最优模型"
+    ]
+  },
+  "tags": [
+    "AI模型路由",
+    "工具集成",
+    "效率提升"
+  ]
+}

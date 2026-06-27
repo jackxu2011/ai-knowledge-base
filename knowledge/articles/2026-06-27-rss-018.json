@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260627-018",
+  "title": "U.S. government will decide who gets to use GPT-5.6",
+  "source_url": "https://www.washingtonpost.com/technology/2026/06/26/openai-says-us-government-will-vet-users-its-latest-ai-model/",
+  "source_type": "rss",
+  "summary": "文章讨论了美国政府可能对GPT-5.6的使用进行监管，决定哪些用户或组织有权访问该高级AI模型。这反映了AI治理中安全、伦理与创新之间的平衡问题，可能影响技术发展路径和全球AI竞争格局。",
+  "published_at": "2026-06-27",
+  "collected_at": "2026-06-27T04:05:46.473954+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该内容涉及AI监管这一重要议题，具有现实意义和前瞻性，但具体影响取决于政策细节，目前信息有限，评分适中。",
+    "scoring_dimensions": {
+      "tech_depth": 6,
+      "innovation": 5,
+      "usability": 7
+    },
+    "technical_highlights": [
+      "提出政府直接控制顶级AI模型访问权限的监管模式",
+      "凸显AI安全与创新之间的政策博弈"
+    ]
+  },
+  "tags": [
+    "AI监管",
+    "GPT-5.6",
+    "美国政府政策"
+  ]
+}

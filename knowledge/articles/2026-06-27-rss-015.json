@@ -1,0 +1,34 @@
+{
+  "id": "rss-20260627-015",
+  "title": "U.S. allows Anthropic to release Mythos AI to ‘trusted’ US organizations",
+  "source_url": "https://www.semafor.com/article/06/27/2026/us-releases-powerful-anthropic-model-mythos-to-some-us-companies",
+  "source_type": "rss",
+  "summary": "美国允许Anthropic向“受信任”的美国组织发布Mythos AI，这标志着对先进AI技术访问的管控加强，可能涉及国家安全和合规风险。Mythos AI作为Anthropic的新模型，在安全性和可靠性方面有潜在突破，但披露细节有限。此举可能影响AI行业合作与竞争格局。",
+  "published_at": "2026-06-27",
+  "collected_at": "2026-06-27T04:05:46.473913+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该内容涉及AI技术在国家安全层面的部署管控，对行业政策有直接影响，但具体技术细节不明，创新性待验证。实用性可能局限于受信任组织，评分中等偏上。",
+    "scoring_dimensions": {
+      "tech_depth": 6,
+      "innovation": 7,
+      "usability": 5
+    },
+    "technical_highlights": [
+      "美国政府首次明确授权向特定组织发布AI模型，标志着AI治理新范式",
+      "Anthropic的Mythos AI可能具备更高的安全对齐能力，但未公开技术细节"
+    ]
+  },
+  "tags": [
+    "AI治理",
+    "国家安全",
+    "Anthropic",
+    "Mythos AI",
+    "受信任发布"
+  ]
+}

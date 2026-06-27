@@ -1,0 +1,34 @@
+{
+  "id": "rss-20260627-016",
+  "title": "AI in mathematics is forcing big questions",
+  "source_url": "https://spectrum.ieee.org/ai-in-mathematics",
+  "source_type": "rss",
+  "summary": "人工智能在数学领域的应用正引发对数学本质、证明方法和人类智能角色的深刻反思。AI工具如定理证明器和生成模型不仅能加速计算，还能发现新猜想，迫使数学家重新定义数学创造力的边界。这种融合挑战了传统数学实践，提出了关于合作、验证和解释性的关键问题。",
+  "published_at": "2026-06-27",
+  "collected_at": "2026-06-27T04:05:46.473929+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 8,
+    "scoring_reasons": "该话题触及AI与基础科学交叉的前沿，具有范式转变潜力，直接影响数学研究和教育，且引发了关于AI可信度和合作模式的广泛讨论，实用性和创新性均高。",
+    "scoring_dimensions": {
+      "tech_depth": 9,
+      "innovation": 8,
+      "usability": 7
+    },
+    "technical_highlights": [
+      "AI辅助定理证明和猜想生成能力",
+      "对数学创造力和证明本质的重新定义"
+    ]
+  },
+  "tags": [
+    "AI数学",
+    "定理证明",
+    "范式转变",
+    "科学哲学",
+    "智能协作"
+  ]
+}
