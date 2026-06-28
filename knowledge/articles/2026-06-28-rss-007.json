@@ -1,0 +1,34 @@
+{
+  "id": "rss-20260628-007",
+  "title": "Show HN: Adrafinil – keep a lid-closed Mac awake only while agents work",
+  "source_url": "https://github.com/kageroumado/adrafinil",
+  "source_type": "rss",
+  "summary": "Adrafinil 是一个 macOS 工具，能在特定代理（如 CI/CD、脚本）运行时保持 Mac 唤醒，而在其他情况下允许正常休眠。它解决了传统防休眠工具（如 Caffeine）无法区分系统活动与人为操作的痛点，通过监控进程活动实现精准唤醒控制，提升能效与工作效率。",
+  "published_at": "2026-06-28",
+  "collected_at": "2026-06-28T04:27:56.249704+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该工具实用性强，直接解决了开发者或运维人员在后台任务执行时需要保持系统唤醒，但平时希望节能或避免屏幕常亮的矛盾需求。创新性中等，但操作逻辑清晰，能提升工作效率，评分7分。",
+    "scoring_dimensions": {
+      "tech_depth": 5,
+      "innovation": 6,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "基于进程监控实现条件性唤醒，而非全局阻止睡眠",
+      "支持自定义代理进程列表，灵活适配不同工作流"
+    ]
+  },
+  "tags": [
+    "macOS工具",
+    "系统唤醒",
+    "开发者工具",
+    "进程监控",
+    "节能"
+  ]
+}

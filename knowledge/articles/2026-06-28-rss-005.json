@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260628-005",
+  "title": "Asian AI startups launch Mythos-like models",
+  "source_url": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/",
+  "source_type": "rss",
+  "summary": "亚洲AI初创公司近期推出了类似Mythos的模型，这些模型在性能或架构上具有创新性，可能对开源社区或特定应用场景产生积极影响。",
+  "published_at": "2026-06-28",
+  "collected_at": "2026-06-28T04:27:56.249679+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该动态显示亚洲AI初创公司在模型开发方面取得进展，可能推动技术多样化和降低成本，但缺乏具体性能数据和市场影响评估。",
+    "scoring_dimensions": {
+      "tech_depth": 6,
+      "innovation": 7,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "亚洲初创公司推出类似Mythos的模型",
+      "可能推动AI模型本地化和开源生态"
+    ]
+  },
+  "tags": [
+    "AI模型",
+    "亚洲初创公司",
+    "开发生态"
+  ]
+}

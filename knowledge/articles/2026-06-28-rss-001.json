@@ -1,0 +1,33 @@
+{
+  "id": "rss-20260628-001",
+  "title": "Ford hired AI and sacked humans. It backfired badly",
+  "source_url": "https://www.the-independent.com/tech/ford-ai-automation-human-workers-b3003787.html",
+  "source_type": "rss",
+  "summary": "福特公司因雇佣AI替代人类员工导致严重后果，事件揭示AI在复杂决策场景中的局限性，以及忽视人力资源价值的风险。该案例警示企业需平衡技术与人文因素。",
+  "published_at": "2026-06-28",
+  "collected_at": "2026-06-28T04:27:56.249588+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该案例具有高度实用性和警示意义，直接关联当前AI行业热点，揭示技术应用的潜在陷阱，对企业和个人有直接指导价值。但非突破性技术，更多是教训总结。",
+    "scoring_dimensions": {
+      "tech_depth": 6,
+      "innovation": 4,
+      "usability": 9
+    },
+    "technical_highlights": [
+      "AI替代人类决策导致业务反弹",
+      "案例凸显AI适应性不足与人力资源管理冲突"
+    ]
+  },
+  "tags": [
+    "AI伦理",
+    "企业决策",
+    "人力资源",
+    "风险管理"
+  ]
+}
