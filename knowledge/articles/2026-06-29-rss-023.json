@@ -1,0 +1,34 @@
+{
+  "id": "rss-20260629-023",
+  "title": "Show HN: NanoEuler – GPT-2 scale model in pure C&#x2F;CUDA from scratch",
+  "source_url": "https://github.com/JustVugg/nanoeuler",
+  "source_type": "rss",
+  "summary": "NanoEuler 是一个从头用纯 C/CUDA 编写的 GPT-2 规模模型实现，展示了极简的深度学习框架构建方式，可用于教学或高性能定制场景。",
+  "published_at": "2026-06-29",
+  "collected_at": "2026-06-29T04:47:18.129500+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "提供了完整的 GPT-2 实现，避免了依赖大型框架，适合学习和定制，但缺乏显著创新，实用性主要面向开发者社区。",
+    "scoring_dimensions": {
+      "tech_depth": 8,
+      "innovation": 5,
+      "usability": 7
+    },
+    "technical_highlights": [
+      "纯 C/CUDA 实现避免框架依赖",
+      "从头构建完整 GPT-2 模型"
+    ]
+  },
+  "tags": [
+    "GPT-2",
+    "CUDA",
+    "深度学习",
+    "C语言",
+    "开源项目"
+  ]
+}

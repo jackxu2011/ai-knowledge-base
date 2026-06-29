@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260629-017",
+  "title": "Librepods: AirPods liberated",
+  "source_url": "https://github.com/librepods-org/librepods",
+  "source_type": "rss",
+  "summary": "Librepods项目旨在将AirPods从苹果生态系统的限制中解放出来，使其能够作为独立设备使用，支持多平台连接和自定义功能。该项目通过逆向工程和开源实现，提供了更自由的用户体验。",
+  "published_at": "2026-06-29",
+  "collected_at": "2026-06-29T04:47:18.129444+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 6,
+    "scoring_reasons": "该项目解决了AirPods用户对平台依赖性的痛点，具有实用性和创新性，但受众相对有限，且可能面临法律和技术挑战。",
+    "scoring_dimensions": {
+      "tech_depth": 7,
+      "innovation": 8,
+      "usability": 5
+    },
+    "technical_highlights": [
+      "逆向工程实现跨平台兼容",
+      "开源自定义功能"
+    ]
+  },
+  "tags": [
+    "开源硬件",
+    "蓝牙耳机",
+    "苹果生态"
+  ]
+}

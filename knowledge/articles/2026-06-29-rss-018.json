@@ -1,0 +1,34 @@
+{
+  "id": "rss-20260629-018",
+  "title": "Working around dragons with the Lemote Yeeloong laptop and OpenBSD",
+  "source_url": "http://oldvcr.blogspot.com/2026/06/working-around-dragons-with-lemote.html",
+  "source_type": "rss",
+  "summary": "这篇内容描述了在Lemote Yeeloong笔记本电脑上运行OpenBSD时遇到的各种‘龙’（指兼容性、驱动和硬件限制），并提供了相应的解决方案。文章详细说明了如何通过配置内核、调整电源管理、处理固件问题等手段来使系统稳定运行，涉及了MIPS架构下的驱动适配、中断处理、以及开源设备支持等底层技术挑战。",
+  "published_at": "2026-06-29",
+  "collected_at": "2026-06-29T04:47:18.129454+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该内容提供了在特定罕见硬件（Lemote Yeeloong）上部署OpenBSD的详细实战经验，对开源硬件爱好者和OpenBSD开发者有直接帮助，属于针对特定场景的高实用性内容。虽非通用技术，但技术深度和解决实际问题的价值较高。",
+    "scoring_dimensions": {
+      "tech_depth": 8,
+      "innovation": 6,
+      "usability": 7
+    },
+    "technical_highlights": [
+      "详细描述了MIPS架构下的内核配置与驱动适配技巧",
+      "提供了针对龙芯设备中断和电源管理的特定解决方案"
+    ]
+  },
+  "tags": [
+    "OpenBSD",
+    "Lemote Yeeloong",
+    "龙芯",
+    "硬件兼容性",
+    "开源驱动"
+  ]
+}

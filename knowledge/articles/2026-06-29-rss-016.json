@@ -1,0 +1,34 @@
+{
+  "id": "rss-20260629-016",
+  "title": "Professor denounces mass AI fraud on an exam at Brown",
+  "source_url": "https://english.elpais.com/education/2026-06-28/ai-fraud-at-brown-university-academic-integrity-is-at-risk.html",
+  "source_type": "rss",
+  "summary": "布朗大学教授揭露了一起大规模利用AI作弊的考试事件，引发了对学术诚信与AI技术滥用的讨论。该事件展示了AI在教育领域带来的新挑战，迫使教育机构重新评估监考和评估标准。",
+  "published_at": "2026-06-29",
+  "collected_at": "2026-06-29T04:47:18.129432+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该事件直接揭示了AI技术在教育场景下的实际滥用问题，具有现实紧迫性和广泛关注度，虽未提出技术解决方案，但推动了相关领域标准变革，实用性强。",
+    "scoring_dimensions": {
+      "tech_depth": 5,
+      "innovation": 6,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "揭示了AI作弊的规模化与隐蔽性",
+      "促使教育机构反思AI伦理与监察机制"
+    ]
+  },
+  "tags": [
+    "AI伦理",
+    "学术诚信",
+    "教育科技",
+    "作弊检测",
+    "社会治理"
+  ]
+}

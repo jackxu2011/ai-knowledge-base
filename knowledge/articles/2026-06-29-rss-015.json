@@ -1,0 +1,34 @@
+{
+  "id": "rss-20260629-015",
+  "title": "I used Claude Code to get a second opinion on my MRI",
+  "source_url": "https://antoine.fi/mri-analysis-using-claude-code-opus",
+  "source_type": "rss",
+  "summary": "用户使用Claude Code工具对自身MRI（磁共振成像）结果进行二次分析，展示了AI在医疗影像解读中的辅助应用。这一实践体现了AI技术深度介入专业医疗领域的可能性，但强调其不能替代专业医生诊断。",
+  "published_at": "2026-06-29",
+  "collected_at": "2026-06-29T04:47:18.129418+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "虽非医疗突破，但展现了AI在个人健康管理中的直接实用价值，提升用户对自身健康状况的理解效率，具有一定的创新性和社会意义，评分7分。",
+    "scoring_dimensions": {
+      "tech_depth": 6,
+      "innovation": 8,
+      "usability": 9
+    },
+    "technical_highlights": [
+      "将通用AI助手应用于专业医疗影像分析场景",
+      "展示了非专业人士借助AI工具增强医疗决策信息的能力"
+    ]
+  },
+  "tags": [
+    "AI医疗",
+    "影像分析",
+    "辅助诊断",
+    "Claude Code",
+    "个人健康管理"
+  ]
+}

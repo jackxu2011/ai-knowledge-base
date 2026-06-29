@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260629-022",
+  "title": "Model Training as Code",
+  "source_url": "https://aleph-alpha.com/en/blog/model-training-as-code/",
+  "source_type": "rss",
+  "summary": "Model Training as Code（MTaC）是一种将模型训练过程系统化、代码化的方法，使训练流程可重复、可版本控制、易协作。它通过抽象训练逻辑、配置和基础设施，大幅提升机器学习开发效率和团队协同能力，类似于基础设施即代码（IaC）对DevOps的革新。",
+  "published_at": "2026-06-29",
+  "collected_at": "2026-06-29T04:47:18.129491+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该技术直接解决了机器学习训练流程中常见的可重复性差、配置管理混乱、协作低效的问题，实用性强，能显著提升开发团队的工作效率，但并非突破性范式转变。",
+    "scoring_dimensions": {
+      "tech_depth": 7,
+      "innovation": 6,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "将训练流程抽象为可版本控制的代码文件，提升可重复性和可审计性",
+      "支持声明式配置管理，降低基础设施和超参数调整的复杂度"
+    ]
+  },
+  "tags": [
+    "机器学习工程",
+    "MLOps",
+    "DevOps"
+  ]
+}
