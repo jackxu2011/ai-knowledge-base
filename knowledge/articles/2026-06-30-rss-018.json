@@ -1,0 +1,33 @@
+{
+  "id": "rss-20260630-018",
+  "title": "Open Memory Protocol – One Memory Store for Claude, ChatGPT, Curso",
+  "source_url": "https://github.com/SMJAI/open-memory-protocol",
+  "source_type": "rss",
+  "summary": "Open Memory Protocol 提出了一种统一的内存存储方案，旨在让 Claude、ChatGPT 等不同 AI 助手共享和访问同一记忆数据库，避免信息孤岛，提升跨平台对话连续性。该协议通过标准化接口实现记忆的读写与同步，有望简化用户与多个 AI 系统的交互体验。",
+  "published_at": "2026-06-30",
+  "collected_at": "2026-06-30T04:13:28.914887+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该协议直接解决了多AI系统间记忆不共享的痛点，实用性强且技术架构清晰，具备提升工作效率的潜力；但需依赖生态采纳和隐私问题解决，尚未达到范式转变级别。",
+    "scoring_dimensions": {
+      "tech_depth": 6,
+      "innovation": 7,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "标准化API实现跨平台记忆共享",
+      "支持主流AI助手（Claude、ChatGPT等）的实时同步",
+      "设计简洁，易于集成至现有系统"
+    ]
+  },
+  "tags": [
+    "AI互操作性",
+    "记忆管理",
+    "开源协议"
+  ]
+}

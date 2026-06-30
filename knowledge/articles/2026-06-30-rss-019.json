@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260630-019",
+  "title": "Working With AI: A concrete example",
+  "source_url": "https://htmx.org/essays/working-with-ai/",
+  "source_type": "rss",
+  "summary": "这篇文章通过一个具体示例展示了如何与人工智能协同工作，强调了AI作为辅助工具的实际应用价值。它可能涉及使用AI完成任务、解决问题或提升效率的步骤和结果，旨在为读者提供可操作的指导。",
+  "published_at": "2026-06-30",
+  "collected_at": "2026-06-30T04:13:28.914901+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 6,
+    "scoring_reasons": "内容提供了具体的AI应用案例，有助于理解人机协作，但创新性和技术深度有限，适合作为入门参考。",
+    "scoring_dimensions": {
+      "tech_depth": 4,
+      "innovation": 5,
+      "usability": 7
+    },
+    "technical_highlights": [
+      "提供了具体的人工智能协作示例",
+      "展示了AI在实用场景中的角色"
+    ]
+  },
+  "tags": [
+    "AI协作",
+    "应用示例",
+    "效率提升"
+  ]
+}

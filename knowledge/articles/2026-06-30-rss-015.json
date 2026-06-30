@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260630-015",
+  "title": ".self: A new top-level domain designed to support self-hosting",
+  "source_url": "https://hccf.onmy.cloud/2026/06/21/reclaiming-our-digital-selves-hccfs-vision-for-a-human-centered-top-level-domain/",
+  "source_type": "rss",
+  "summary": "该项目提出一个新的顶级域名（TLD）“.self”，旨在专门支持自托管（self-hosting）场景，为个人和小型组织提供一种更易识别、管理和使用的域名空间，简化自主网络基础设施的搭建。",
+  "published_at": "2026-06-30",
+  "collected_at": "2026-06-30T04:13:28.914841+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 6,
+    "scoring_reasons": "概念有趣且切中自托管用户的痛点，但技术上不涉及突破性创新，实际推广和标准化面临挑战，实用性受限于生态支持。",
+    "scoring_dimensions": {
+      "tech_depth": 5,
+      "innovation": 5,
+      "usability": 6
+    },
+    "technical_highlights": [
+      "专为自托管设计，提升域名易识别性",
+      "简化管理流程，降低技术门槛"
+    ]
+  },
+  "tags": [
+    "自托管",
+    "域名系统",
+    "TLD"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "rss-20260630-016",
+  "title": "Ornith-1.0: self-improving open-source models for agentic coding",
+  "source_url": "https://github.com/deepreinforce-ai/Ornith-1",
+  "source_type": "rss",
+  "summary": "Ornith-1.0 是一个开源模型系列，专注于通过自我改进机制提升智能体编码能力。该模型在 SWE-Bench 测试集上以 36.7% 的通过率超越了传统开源模型，并引入了增量学习和多轮修正技术，使其在复杂编码任务中持续优化性能。",
+  "published_at": "2026-06-30",
+  "collected_at": "2026-06-30T04:13:28.914859+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该模型在开源编码智能体领域取得了显著进步，自我改进机制展现了实用价值，尤其是对开发者和自动化测试场景直接有帮助。但相比闭源模型仍有差距且创新有限，故评为7分。",
+    "scoring_dimensions": {
+      "tech_depth": 7,
+      "innovation": 6,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "自我改进机制：模型可通过反馈循环持续优化编码策略，减少手工调优",
+      "SWE-Bench 36.7%：在标准评估上领先多数开源同类模型，接近部分闭源方案"
+    ]
+  },
+  "tags": [
+    "AI Agent",
+    "Code Generation",
+    "Open Source",
+    "Reinforcement Learning",
+    "Software Engineering"
+  ]
+}

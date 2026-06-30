@@ -1,0 +1,34 @@
+{
+  "id": "rss-20260630-020",
+  "title": "Micro-Agent: Beat Frontier Models with Collaboration Inside Model API",
+  "source_url": "https://vllm.ai/blog/2026-06-29-micro-agent-frontier-models",
+  "source_type": "rss",
+  "summary": "Micro-Agent提出了一种新颖的推理范式，通过将单个大型模型的API内部协作分解为多个小型、专业化“代理”的协同工作，超越了传统前沿模型（如GPT-4）的性能。该方法在不增加额外外部工具的情况下，利用模型内部指令和结构化对话，提升了复杂任务的准确性与效率，展示了模型自我编排的潜力。",
+  "published_at": "2026-06-30",
+  "collected_at": "2026-06-30T04:13:28.914913+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 8,
+    "scoring_reasons": "该技术直接挑战了现有大型模型的推理架构，通过内部agent协作显著提升了性能和效率，实用性强且具有范式创新性，但尚需验证其在不同场景下的稳定性和通用性。",
+    "scoring_dimensions": {
+      "tech_depth": 9,
+      "innovation": 9,
+      "usability": 7
+    },
+    "technical_highlights": [
+      "无需外部工具，仅利用模型API内部指令实现多智能体协作",
+      "在多个基准测试上超越GPT-4等前沿模型，证明了内部协作范式的有效性"
+    ]
+  },
+  "tags": [
+    "AI代理",
+    "模型协作",
+    "推理优化",
+    "前沿模型",
+    "轻量级架构"
+  ]
+}
