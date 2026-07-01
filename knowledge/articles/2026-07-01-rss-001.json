@@ -1,0 +1,33 @@
+{
+  "id": "rss-20260701-001",
+  "title": "Claude Sonnet 5",
+  "source_url": "https://www.anthropic.com/news/claude-sonnet-5",
+  "source_type": "rss",
+  "summary": "Claude Sonnet 5是Anthropic推出的AI模型，作为Sonnet系列最新版本，在性能、可控性和安全性上均有提升。它可能优化了推理能力、生成质量及长文本处理，旨在为开发者和企业提供更可靠的智能助手。",
+  "published_at": "2026-07-01",
+  "collected_at": "2026-07-01T04:42:06.153363+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "作为知名AI模型迭代，具备实用性，能直接提升工作效率，但缺乏突破性创新细节。",
+    "scoring_dimensions": {
+      "tech_depth": 7,
+      "innovation": 6,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "性能优化",
+      "安全性增强",
+      "推理能力提升"
+    ]
+  },
+  "tags": [
+    "AI模型",
+    "Claude",
+    "自然语言处理"
+  ]
+}

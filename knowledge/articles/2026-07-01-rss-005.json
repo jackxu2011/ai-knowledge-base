@@ -1,0 +1,34 @@
+{
+  "id": "rss-20260701-005",
+  "title": "From brain waves to words: a new path to communication without surgery",
+  "source_url": "https://ai.meta.com/blog/brain2qwerty-brain-ai-human-communication/?_fb_noscript=1",
+  "source_type": "rss",
+  "summary": "该文章介绍了一种非侵入式脑机接口技术，通过读取脑电波并将其转化为语言，为无法言语的患者提供了一种无需手术的交流新途径。这项技术利用人工智能算法解码大脑信号，实现了从脑波到文字的转化，有望改善运动障碍患者的生活质量。",
+  "published_at": "2026-07-01",
+  "collected_at": "2026-07-01T04:42:06.153442+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该技术具有显著的实用性和创新性，非侵入式设计降低了风险，直接帮助患者恢复交流能力，但离广泛应用仍需克服准确率和实时性挑战。",
+    "scoring_dimensions": {
+      "tech_depth": 7,
+      "innovation": 8,
+      "usability": 6
+    },
+    "technical_highlights": [
+      "非侵入式脑机接口实现脑波到文字转化",
+      "结合AI算法解码脑电信号"
+    ]
+  },
+  "tags": [
+    "脑机接口",
+    "脑电波",
+    "人工智能",
+    "非侵入式",
+    "交流辅助"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260701-004",
+  "title": "Claude Science",
+  "source_url": "https://claude.com/product/claude-science",
+  "source_type": "rss",
+  "summary": "Claude Science 是 Anthropic 为其 AI 助手 Claude 推出的科学相关功能或模式，旨在增强其在科研、数据分析、论文阅读等科学领域的应用能力。该功能可能整合了更专业的科学知识库、推理能力或工具调用，以支持研究人员、学生和科学工作者的工作流程。具体细节尚待官方发布更多信息。",
+  "published_at": "2026-07-01",
+  "collected_at": "2026-07-01T04:42:06.153432+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该功能直接针对科学领域的专业需求，有望提升研究人员的工作效率，但尚未完全公开细节，需进一步观察实际效果和覆盖范围，暂时处于较高实用价值但非革命性变革的区间。",
+    "scoring_dimensions": {
+      "tech_depth": 7,
+      "innovation": 6,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "针对科学领域优化，可能包含专业术语理解与推理能力",
+      "可能集成数据可视化、文献检索或代码执行等工具"
+    ]
+  },
+  "tags": [
+    "AI for Science",
+    "Claude",
+    "科研助手"
+  ]
+}

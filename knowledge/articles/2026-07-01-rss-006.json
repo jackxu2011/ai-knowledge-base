@@ -1,0 +1,35 @@
+{
+  "id": "rss-20260701-006",
+  "title": "ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration",
+  "source_url": "https://huggingface.co/blog/ibm-research/scarfbench",
+  "source_type": "rss",
+  "summary": "ScarfBench是一个针对企业Java框架迁移任务的AI智能体性能基准测试集。该基准设计用于评估AI代理在将传统Java企业应用迁移到现代框架（如Spring Boot）时的准确性、效率与可靠性。ScarfBench包含了多个真实世界代码库的迁移任务，并定义了结构化评估指标，旨在系统性衡量AI在复杂企业级重构中的能力。",
+  "published_at": "2026-07-01",
+  "collected_at": "2026-07-01T04:42:06.153453+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hugging Face Blog",
+    "feed_url": "https://huggingface.co/blog/feed.xml"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该基准直接针对企业级AI应用中的高价值场景框架迁移，填补了现有AI代码能力评估在复杂企业项目迁移上的空白。虽然非范式级突破，但实用性强，可显著提升企业IT现代化效率。",
+    "scoring_dimensions": {
+      "tech_depth": 8,
+      "innovation": 7,
+      "usability": 7
+    },
+    "technical_highlights": [
+      "针对企业Java框架迁移这一特定且复杂场景设计基准",
+      "包含真实世界代码库与结构化评估指标",
+      "系统衡量AI在大型代码重构中的综合能力"
+    ]
+  },
+  "tags": [
+    "AI智能体",
+    "Java框架迁移",
+    "基准测试",
+    "企业级应用",
+    "软件现代化"
+  ]
+}

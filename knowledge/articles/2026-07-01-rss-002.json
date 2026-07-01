@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260701-002",
+  "title": "Claude Code is steganographically marking requests",
+  "source_url": "https://thereallo.dev/blog/claude-code-prompt-steganography",
+  "source_type": "rss",
+  "summary": "Claude Code在请求中添加隐写术标记，用于追踪和验证请求来源。这一技术通过在数据中嵌入不可见信息，在不影响用户体验的情况下增强了安全性和可追溯性。",
+  "published_at": "2026-07-01",
+  "collected_at": "2026-07-01T04:42:06.153405+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该技术具有创新性和实用性，直接提升了AI请求的安全性和可追溯性，但并非颠覆性突破，主要针对企业级安全需求。",
+    "scoring_dimensions": {
+      "tech_depth": 8,
+      "innovation": 7,
+      "usability": 7
+    },
+    "technical_highlights": [
+      "在请求中嵌入隐写术标记，实现无痕追踪",
+      "增强请求的安全性和可追溯性，防止滥用"
+    ]
+  },
+  "tags": [
+    "隐写术",
+    "AI安全",
+    "请求追踪"
+  ]
+}

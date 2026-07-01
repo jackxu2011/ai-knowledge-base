@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260701-003",
+  "title": "Department of Commerce has lifted export controls on Claude Fable 5 and Mythos 5",
+  "source_url": "https://twitter.com/AnthropicAI/status/2072106151890809341",
+  "source_type": "rss",
+  "summary": "美国商务部解除了对Claude Fable 5和Mythos 5的出口管制，允许其自由出口。此举可能涉及AI模型或技术产品的开放，影响国际技术交流与供应链。",
+  "published_at": "2026-07-01",
+  "collected_at": "2026-07-01T04:42:06.153419+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 9,
+    "scoring_reasons": "该变化直接涉及AI模型或技术的国际流通政策，具有显著的行业影响力，可能改变技术竞争格局，创新性和应用范围广泛，评分高。",
+    "scoring_dimensions": {
+      "tech_depth": 8,
+      "innovation": 9,
+      "usability": 10
+    },
+    "technical_highlights": [
+      "出口管制解除促进技术全球化",
+      "可能推动AI技术在国际市场的应用与竞争"
+    ]
+  },
+  "tags": [
+    "AI技术出口",
+    "产业政策",
+    "国际技术交流"
+  ]
+}

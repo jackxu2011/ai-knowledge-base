@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260701-008",
+  "title": "Featuring Every Eval Ever Results on Hugging Face Model Pages",
+  "source_url": "https://huggingface.co/blog/eee-community-evals",
+  "source_type": "rss",
+  "summary": "文章介绍了Hugging Face模型页面新增的特性：显示模型在所有评估基准（Eval）上的结果。该功能整合了公开的评估数据，使用户可以直观比较模型性能，无需单独查找不同评测结果。",
+  "published_at": "2026-07-01",
+  "collected_at": "2026-07-01T04:42:06.153471+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hugging Face Blog",
+    "feed_url": "https://huggingface.co/blog/feed.xml"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该功能直接提升了模型对比和选择的便利性，避免了用户在不同评估平台间切换的繁琐，属于能显著提升工作效率的实用改进。",
+    "scoring_dimensions": {
+      "tech_depth": 5,
+      "innovation": 6,
+      "usability": 9
+    },
+    "technical_highlights": [
+      "统一模型评估结果视图",
+      "简化模型性能对比流程"
+    ]
+  },
+  "tags": [
+    "Hugging Face",
+    "模型评估",
+    "实用工具"
+  ]
+}

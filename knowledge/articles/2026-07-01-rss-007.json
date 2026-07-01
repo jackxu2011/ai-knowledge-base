@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260701-007",
+  "title": "Why Specialization Is Inevitable",
+  "source_url": "https://huggingface.co/blog/Dharma-AI/why-specialization-is-inevitable",
+  "source_type": "rss",
+  "summary": "本文探讨了技术发展中专业化不可避免的趋势，分析了随着技术复杂度提升，分工细化成为必然，并讨论了专业化对创新和效率的影响。",
+  "published_at": "2026-07-01",
+  "collected_at": "2026-07-01T04:42:06.153463+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hugging Face Blog",
+    "feed_url": "https://huggingface.co/blog/feed.xml"
+  },
+  "analysis": {
+    "score": 6,
+    "scoring_reasons": "主题具有理论价值，但缺乏具体案例和量化分析，实用性一般。",
+    "scoring_dimensions": {
+      "tech_depth": 5,
+      "innovation": 4,
+      "usability": 5
+    },
+    "technical_highlights": [
+      "提出专业化是技术演进的必然结果",
+      "关联了分工与效率的经典理论"
+    ]
+  },
+  "tags": [
+    "专业化",
+    "技术趋势",
+    "分工理论"
+  ]
+}
