@@ -1,0 +1,36 @@
+{
+  "id": "rss-20260702-016",
+  "title": "Hugging Face and Cerebras bring Gemma 4 to real-time voice AI",
+  "source_url": "https://huggingface.co/blog/cerebras-gemma4-voice-ai",
+  "source_type": "rss",
+  "summary": "Hugging Face与Cerebras合作，将Google的Gemma 4模型部署到实时语音AI中，通过Cerebras的高性能计算加速推理，实现低延迟的语音交互。该合作旨在推动开源AI在语音助手、实时翻译等场景的应用。",
+  "published_at": "2026-07-02",
+  "collected_at": "2026-07-02T04:08:42.091152+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hugging Face Blog",
+    "feed_url": "https://huggingface.co/blog/feed.xml"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该内容展示了开源模型与专用硬件的结合，显著提升了实时语音AI的可用性和性能，实用性强，但技术突破性有限，属于整合创新。",
+    "scoring_dimensions": {
+      "tech_depth": 7,
+      "innovation": 6,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "利用Cerebras的晶圆级芯片加速Gemma 4推理，降低延迟",
+      "Hugging Face平台集成，简化实时语音AI部署"
+    ]
+  },
+  "tags": [
+    "实时语音AI",
+    "Gemma 4",
+    "Cerebras",
+    "Hugging Face",
+    "开源AI",
+    "低延迟推理",
+    "语音助手"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "rss-20260702-015",
+  "title": "Show HN: Meow – The 4th and final JavaScript runtime and toolchain",
+  "source_url": "https://meow.style",
+  "source_type": "rss",
+  "summary": "Meow 定位为第四个也是最后一个 JavaScript 运行时和工具链，暗示其旨在终结运行时碎片化，提供一体化解决方案。当前描述仅有标题，缺乏具体技术细节，但概念上具有颠覆性潜力。可能整合 Node.js、Deno 和 Bun 的优点，并引入创新特性，但需更多信息验证其实际价值。",
+  "published_at": "2026-07-02",
+  "collected_at": "2026-07-02T04:08:42.091136+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "概念具有范式转变潜力，针对 JavaScript 运行时割裂痛点，但缺乏实现细节和实际验证，评分保留在直接有帮助的区间上限。",
+    "scoring_dimensions": {
+      "tech_depth": 2,
+      "innovation": 8,
+      "usability": 6
+    },
+    "technical_highlights": [
+      "宣称是最终运行时，暗示统一标准",
+      "集成工具链解决多工具碎片化"
+    ]
+  },
+  "tags": [
+    "JavaScript",
+    "runtime",
+    "toolchain",
+    "创新"
+  ]
+}
