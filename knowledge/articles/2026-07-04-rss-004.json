@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260704-004",
+  "title": "New serious vulnerabilities spiked around release of Claude Mythos Preview",
+  "source_url": "https://epoch.ai/data-insights/cve-severity-spike",
+  "source_type": "rss",
+  "summary": "报告指出Anthropic在发布Claude Mythos Preview版本前后，发现了一系列严重安全漏洞的激增。这些漏洞可能涉及模型的安全防护机制或架构缺陷，影响用户数据隐私和系统稳定性。分析认为版本迭代中的新功能引入可能扩大了攻击面，建议使用方密切关注更新日志并测试安全补丁。",
+  "published_at": "2026-07-04",
+  "collected_at": "2026-07-04T03:48:45.358681+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 8,
+    "scoring_reasons": "该发现直接关联到AI模型安全这一关键领域，漏洞激增具有警示意义，对使用Claude的企业和开发者有直接实用价值。虽未披露具体漏洞细节，但及时披露趋势有助于风险防范，综合评分较高。",
+    "scoring_dimensions": {
+      "tech_depth": 8,
+      "innovation": 5,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "揭示了版本更新周期中安全风险的集中爆发模式",
+      "强调了AI系统安全监控和及时更新的重要性"
+    ]
+  },
+  "tags": [
+    "AI安全",
+    "Claude漏洞",
+    "版本风险"
+  ]
+}

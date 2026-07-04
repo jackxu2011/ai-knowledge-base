@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260704-003",
+  "title": "Jamesob&#x27;s guide to running SOTA LLMs locally",
+  "source_url": "https://github.com/jamesob/local-llm",
+  "source_type": "rss",
+  "summary": "本文介绍了如何本地运行最先进的LLM，涵盖模型选择、硬件要求和配置步骤，适合有技术背景的用户。",
+  "published_at": "2026-07-04",
+  "collected_at": "2026-07-04T03:48:45.358669+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 6,
+    "scoring_reasons": "实用性强，直接帮助用户部署大模型，但内容较常见，创新性一般。",
+    "scoring_dimensions": {
+      "tech_depth": 6,
+      "innovation": 4,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "提供本地运行SOTA LLM的详细步骤",
+      "涵盖模型选择和硬件优化建议"
+    ]
+  },
+  "tags": [
+    "LLM",
+    "本地部署",
+    "技术指南"
+  ]
+}

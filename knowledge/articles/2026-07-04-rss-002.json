@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260704-002",
+  "title": "The circuit that lets your brain think and see",
+  "source_url": "https://www.engineering.columbia.edu/about/news/circuit-lets-your-brain-think-and-see",
+  "source_type": "rss",
+  "summary": "该技术内容描述了一种让大脑同时进行思考和视觉处理的电路设计，可能涉及神经形态计算或脑机接口领域，通过模拟大脑的并行处理能力来提升智能系统的效率。",
+  "published_at": "2026-07-04",
+  "collected_at": "2026-07-04T03:48:45.358653+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 6,
+    "scoring_reasons": "该电路设计结合了神经科学和电子工程，展示了模仿大脑功能的可能性，但缺乏具体实现细节和应用验证，实用性尚不明确。",
+    "scoring_dimensions": {
+      "tech_depth": 6,
+      "innovation": 7,
+      "usability": 4
+    },
+    "technical_highlights": [
+      "模拟大脑并行处理的能力",
+      "整合思考与视觉功能的电路设计"
+    ]
+  },
+  "tags": [
+    "神经形态计算",
+    "脑机接口",
+    "人工智能硬件"
+  ]
+}

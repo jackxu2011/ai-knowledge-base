@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260704-005",
+  "title": "Espionage Against the European Parliament",
+  "source_url": "https://citizenlab.ca/research/member-of-committee-investigating-spyware-hacked-with-pegasus/",
+  "source_type": "rss",
+  "summary": "该内容涉及针对欧洲议会的间谍活动，可能包括网络攻击或情报窃取，影响欧盟政治安全。技术层面可能涉及高级持续性威胁（APT）或社会工程学手段。",
+  "published_at": "2026-07-04",
+  "collected_at": "2026-07-04T03:48:45.358691+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 6,
+    "scoring_reasons": "事件具有政治重要性，但技术深度和直接实用性有限，主要作为安全威胁案例参考。",
+    "scoring_dimensions": {
+      "tech_depth": 5,
+      "innovation": 4,
+      "usability": 3
+    },
+    "technical_highlights": [
+      "涉及APT攻击手段",
+      "可能关联国家支持的黑客组织"
+    ]
+  },
+  "tags": [
+    "网络安全",
+    "间谍活动",
+    "政治风险"
+  ]
+}
