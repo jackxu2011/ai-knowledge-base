@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260705-016",
+  "title": "Protocol Prying: Vulnerability Research in AirDrop and Quick Share",
+  "source_url": "https://arxiv.org/abs/2606.26967",
+  "source_type": "rss",
+  "summary": "该内容探讨了对苹果AirDrop和安卓Quick Share（原Nearby Share）协议的安全漏洞研究，揭示了文件传输过程中的加密与身份验证弱点，可能被用于中间人攻击或设备跟踪。研究通过协议逆向工程发现潜在风险，并提出了缓解措施。",
+  "published_at": "2026-07-05",
+  "collected_at": "2026-07-05T04:07:10.674838+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "直接揭示了主流设备间传输协议的安全漏洞，具有较高实用性和即时警示价值，但研究方法和结论未涉及根本性范式转变",
+    "scoring_dimensions": {
+      "tech_depth": 8,
+      "innovation": 7,
+      "usability": 7
+    },
+    "technical_highlights": [
+      "对AirDrop和Quick Share协议进行了深入的逆向工程分析",
+      "发现了加密握手阶段的身份验证漏洞，可能导致中间人攻击"
+    ]
+  },
+  "tags": [
+    "漏洞研究",
+    "网络安全",
+    "协议分析"
+  ]
+}
