@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260706-020",
+  "title": "Al Vigier: Canada&#x27;s AI strategy shouldn&#x27;t include secret Palantir bills",
+  "source_url": "https://www.readtheline.ca/p/al-vigier-canadas-ai-strategy-shouldnt",
+  "source_type": "rss",
+  "summary": "加拿大AI战略不应包含与Palantir的私下交易，该文章指出政府应优先考虑透明度和公共利益，而非秘密的监控合同，强调AI治理需公开问责。",
+  "published_at": "2026-07-06",
+  "collected_at": "2026-07-06T04:14:05.072961+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "直接触及AI治理与公共政策的敏感议题，对政策制定者有实际参考价值，但非技术突破。",
+    "scoring_dimensions": {
+      "tech_depth": 3,
+      "innovation": 5,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "强调AI政策透明性",
+      "反对秘密监控合同"
+    ]
+  },
+  "tags": [
+    "AI治理",
+    "公共政策",
+    "隐私"
+  ]
+}

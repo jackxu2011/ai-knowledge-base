@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260706-015",
+  "title": "Does Code Cleanliness Affect Coding Agents?",
+  "source_url": "https://arxiv.org/abs/2605.20049",
+  "source_type": "rss",
+  "summary": "该内容探讨代码整洁度对编码代理（coding agents）性能的影响。通过实验分析，发现整洁代码能提升代理的代码理解与生成效率，但并非决定性因素；代理对代码质量的敏感度因任务类型而异。研究强调了代码可读性在自动化编程中的实际价值。",
+  "published_at": "2026-07-06",
+  "collected_at": "2026-07-06T04:14:05.072900+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "内容直接关联AI开发实践中代码质量与代理性能的关系，具有实用指导意义，但结论并非颠覆性，且适用范围限于特定场景。",
+    "scoring_dimensions": {
+      "tech_depth": 8,
+      "innovation": 6,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "量化分析代码整洁度与代理任务成功率的相关性",
+      "区分不同任务类型对代码质量的敏感度差异"
+    ]
+  },
+  "tags": [
+    "代码整洁度",
+    "编码代理",
+    "AI性能优化"
+  ]
+}

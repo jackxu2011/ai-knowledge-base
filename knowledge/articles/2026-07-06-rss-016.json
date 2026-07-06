@@ -1,0 +1,34 @@
+{
+  "id": "rss-20260706-016",
+  "title": "New AI tutor achieves 0.71-1.30 SD effect size in Dartmouth course [pdf]",
+  "source_url": "https://intextbooks.science.uu.nl/workshop2026/files/itb26_s1s2.pdf",
+  "source_type": "rss",
+  "summary": "一篇论文报告了在达特茅斯学院课程中测试的新型AI导师系统，其效果大小（效应量）达到0.71-1.30标准差，显著优于传统教学。该结果显示了AI在教育干预中的巨大潜力，可能引领个性化学习领域的范式转变。",
+  "published_at": "2026-07-06",
+  "collected_at": "2026-07-06T04:14:05.072916+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 9,
+    "scoring_reasons": "该AI导师系统在真实学术环境中实现了超常规的教学效果提升，效应量远高于典型教育干预，接近甚至超越一对一辅导的黄金标准。这不仅验证了AI在高等教育中的可行性，更可能推动教育模式向大规模个性化转型，具有高实用价值和创新性。",
+    "scoring_dimensions": {
+      "tech_depth": 8,
+      "innovation": 9,
+      "usability": 9
+    },
+    "technical_highlights": [
+      "效应量0.71-1.30 SD，远超常规教育干预",
+      "在达特茅斯学院真实课程中验证，外部有效性高"
+    ]
+  },
+  "tags": [
+    "AI教育",
+    "个性化学习",
+    "教育技术",
+    "大规模部署",
+    "学术研究"
+  ]
+}

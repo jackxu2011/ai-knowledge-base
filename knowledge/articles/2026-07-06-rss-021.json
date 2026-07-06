@@ -1,0 +1,33 @@
+{
+  "id": "rss-20260706-021",
+  "title": "🤗 Kernels: Major Updates",
+  "source_url": "https://huggingface.co/blog/revamped-kernels",
+  "source_type": "rss",
+  "summary": "Hugging Face 团队发布了核心库的重大更新，涉及性能优化、新功能集成和API改进，旨在提升深度学习模型的训练与部署效率。此次更新包括对PyTorch、TensorFlow等框架的更好支持，以及更简洁的接口设计。",
+  "published_at": "2026-07-06",
+  "collected_at": "2026-07-06T04:14:05.072971+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hugging Face Blog",
+    "feed_url": "https://huggingface.co/blog/feed.xml"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "虽非颠覆性创新，但实用性强，直接提升AI开发效率，对社区有直接帮助。",
+    "scoring_dimensions": {
+      "tech_depth": 7,
+      "innovation": 5,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "关键库性能显著提升",
+      "API简化与扩展"
+    ]
+  },
+  "tags": [
+    "Hugging Face",
+    "深度学习",
+    "工具更新",
+    "性能优化"
+  ]
+}
