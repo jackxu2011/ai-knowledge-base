@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260707-003",
+  "title": "Pruning RAG context down to what the answer actually needs",
+  "source_url": "https://www.kapa.ai/blog/how-we-prune-rag-context",
+  "source_type": "rss",
+  "summary": "该技术专注于优化RAG（检索增强生成）上下文，通过剪枝策略仅保留回答问题所需的关键信息，减少冗余和噪声，提升生成效率和答案准确性。",
+  "published_at": "2026-07-07",
+  "collected_at": "2026-07-07T04:04:11.081098+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "直接提升RAG系统的实用性和效率，但属于现有技术优化而非突破性创新，适用于已部署RAG的场景。",
+    "scoring_dimensions": {
+      "tech_depth": 6,
+      "innovation": 5,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "精准上下文剪枝，减少token消耗",
+      "提升生成响应速度与相关性"
+    ]
+  },
+  "tags": [
+    "RAG优化",
+    "上下文压缩",
+    "LLM效率"
+  ]
+}

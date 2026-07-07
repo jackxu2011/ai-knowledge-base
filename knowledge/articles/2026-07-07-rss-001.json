@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260707-001",
+  "title": "GLM 5.2 and the coming AI margin collapse",
+  "source_url": "https://martinalderson.com/posts/the-upcoming-ai-margin-collapse-part-1-glm-5-2/",
+  "source_type": "rss",
+  "summary": "GLM 5.2 的出现可能加速AI行业利润率下降，其技术突破与开放策略将加剧市场竞争，促使企业转向差异化应用而非基础模型竞赛。",
+  "published_at": "2026-07-07",
+  "collected_at": "2026-07-07T04:04:11.081033+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 8,
+    "scoring_reasons": "该标题预测了AI领域的关键趋势——模型能力趋同导致的利润压缩，对行业战略有直接指导意义，但具体影响需观察实际部署。",
+    "scoring_dimensions": {
+      "tech_depth": 7,
+      "innovation": 9,
+      "usability": 7
+    },
+    "technical_highlights": [
+      "GLM 5.2 性能突破可能降低行业壁垒",
+      "AI模型商品化触发利润率暴跌"
+    ]
+  },
+  "tags": [
+    "大模型",
+    "行业趋势",
+    "竞争格局"
+  ]
+}

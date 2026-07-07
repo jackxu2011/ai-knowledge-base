@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260707-002",
+  "title": "Small AI Models Gain Traction In places with unreliable networks",
+  "source_url": "https://spectrum.ieee.org/small-language-models-ai-pharmaceuticals",
+  "source_type": "rss",
+  "summary": "小型AI模型在不可靠网络环境中获得关注，因其低带宽、低延迟和本地部署优势，适合离线或网络波动场景，推动边缘计算和物联网发展。",
+  "published_at": "2026-07-07",
+  "collected_at": "2026-07-07T04:04:11.081078+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该技术直接解决了网络不稳定地区的实际需求，实用性强，能提升边缘设备的AI应用效率，对工业、农业等领域有显著帮助。",
+    "scoring_dimensions": {
+      "tech_depth": 7,
+      "innovation": 7,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "小模型减少对云端依赖，实现本地推理",
+      "降低网络带宽和延迟要求，提升离线可用性"
+    ]
+  },
+  "tags": [
+    "小型AI模型",
+    "边缘计算",
+    "离线部署"
+  ]
+}

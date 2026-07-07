@@ -1,0 +1,33 @@
+{
+  "id": "rss-20260707-004",
+  "title": "AMD Ryzen AI Halo – $4k AI Dev Kit",
+  "source_url": "https://www.lttlabs.com/articles/2026/07/06/amd-ryzen-ai-halo",
+  "source_type": "rss",
+  "summary": "AMD推出的Ryzen AI Halo开发者套件，售价4000美元，专为AI开发设计，集成了高性能CPU、GPU和AI加速器，针对本地AI推理和训练优化。该套件旨在降低AI开发门槛，提供强大的异构计算能力，适合专业开发者进行边缘AI应用开发，但高价格可能限制其普及。",
+  "published_at": "2026-07-07",
+  "collected_at": "2026-07-07T04:04:11.081113+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该产品直接面向AI开发者，提供集成化的高性能硬件平台，降低了本地AI开发的复杂性，实用性强。但价格较高，且并非突破性技术，而是现有技术的优化组合，因此评分7分。",
+    "scoring_dimensions": {
+      "tech_depth": 8,
+      "innovation": 6,
+      "usability": 7
+    },
+    "technical_highlights": [
+      "集成CPU、GPU和AI加速器，支持异构计算",
+      "针对本地AI推理和训练优化，减少云依赖"
+    ]
+  },
+  "tags": [
+    "AMD Ryzen AI",
+    "AI开发套件",
+    "边缘计算",
+    "异构计算"
+  ]
+}
