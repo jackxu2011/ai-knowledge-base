@@ -1,0 +1,33 @@
+{
+  "id": "rss-20260709-006",
+  "title": "Benchmarking coding agents on Databricks&#x27; multi-million line codebase",
+  "source_url": "https://www.databricks.com/blog/benchmarking-coding-agents-databricks-multi-million-line-codebase",
+  "source_type": "rss",
+  "summary": "这是一项关于在Databricks数百万行代码库上对编码智能体进行基准测试的研究。它评估了AI编码助手在大型真实项目中的表现，揭示了当前技术在复杂代码库中的局限性。评测结果对企业和开发者选择编码工具具有参考价值。",
+  "published_at": "2026-07-09",
+  "collected_at": "2026-07-09T03:58:12.737958+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该研究聚焦于AI编码智能体在大型真实代码库中的表现，直接关联实际开发效率，实用性强。但方法论和结果尚未公开详细数据，且应用场景特指Databricks，普适性有限。",
+    "scoring_dimensions": {
+      "tech_depth": 6,
+      "innovation": 6,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "针对数百万行代码的复杂代码库进行基准测试",
+      "评估编码智能体在真实企业环境中的表现"
+    ]
+  },
+  "tags": [
+    "AI编码",
+    "基准测试",
+    "Databricks",
+    "代码库"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "rss-20260709-001",
+  "title": "John Deere owners will get the right to repair equipment under FTC settlement",
+  "source_url": "https://apnews.com/article/john-deere-right-to-repair-agriculture-equipment-cb7514ffedb95c130a976af661f2bc02",
+  "source_type": "rss",
+  "summary": "美国联邦贸易委员会（FTC）与约翰迪尔公司达成和解，允许农民和独立维修店修理迪尔设备。此前迪尔公司通过软件限制阻止第三方维修，引发农业社区不满。和解协议要求迪尔提供维修工具、软件及文档，并确保六年内不施加限制。此举是“维修权”运动的重要胜利，将降低维修成本并延长设备使用寿命。",
+  "published_at": "2026-07-09",
+  "collected_at": "2026-07-09T03:58:12.737865+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该事件涉及消费者权益与商业模式的重大调整，直接影响农业领域的技术获取成本，属于实用性强且具社会价值的进步，但非突破性底层技术。",
+    "scoring_dimensions": {
+      "tech_depth": 3,
+      "innovation": 6,
+      "usability": 9
+    },
+    "technical_highlights": [
+      "维修权运动推动设备软件与工具开放",
+      "消除制造商对维修市场垄断",
+      "农业设备生命周期延长与成本降低"
+    ]
+  },
+  "tags": [
+    "维修权",
+    "农业科技",
+    "消费者权益",
+    "FTC监管",
+    "反垄断"
+  ]
+}

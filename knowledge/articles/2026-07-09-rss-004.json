@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260709-004",
+  "title": "Mistral&#x27;s Robostral Navigate: a state of the art robotics navigation model",
+  "source_url": "https://mistral.ai/news/robostral-navigate/",
+  "source_type": "rss",
+  "summary": "Mistral发布了Robostral Navigate，一款最先进的机器人导航模型，结合了AI与机器人技术，可能通过强化学习或视觉感知实现自主避障与路径规划，提升了环境适应性。",
+  "published_at": "2026-07-09",
+  "collected_at": "2026-07-09T03:58:12.737938+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 8,
+    "scoring_reasons": "该模型针对机器人导航这一关键领域，具有直接实用价值，可能推动自动化与机器人应用的效率，但缺乏具体技术细节和创新性对比，评分稍高但合理。",
+    "scoring_dimensions": {
+      "tech_depth": 8,
+      "innovation": 7,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "集成最新AI模型提升导航精度",
+      "可能适用于复杂动态环境"
+    ]
+  },
+  "tags": [
+    "机器人导航",
+    "AI模型",
+    "Mistral"
+  ]
+}

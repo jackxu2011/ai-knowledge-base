@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260709-003",
+  "title": "We made Grok 4.5, GPT-5.5, and Claude build the same apps",
+  "source_url": "https://www.tryai.dev/blog/grok-4.5-vs-gpt-5.5-vs-claude-build-off",
+  "source_type": "rss",
+  "summary": "该内容探讨了让 Grok 4.5、GPT-5.5 和 Claude 三大 AI 模型开发相同应用的过程与结果，比较它们在代码生成、逻辑推理及实际开发中的表现差异。通过横向评测，揭示了各模型的独特优势与局限性，为开发者选择适配模型提供参考。",
+  "published_at": "2026-07-09",
+  "collected_at": "2026-07-09T03:58:12.737926+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 6,
+    "scoring_reasons": "内容具有实用对比价值，但缺乏突破性创新，且依赖特定模型版本（可能非官方），适用场景有限。",
+    "scoring_dimensions": {
+      "tech_depth": 6,
+      "innovation": 4,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "横向对比多模型同任务开发能力",
+      "揭示不同模型在代码生成与逻辑上的优劣"
+    ]
+  },
+  "tags": [
+    "AI模型对比",
+    "代码生成",
+    "应用开发"
+  ]
+}

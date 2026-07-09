@@ -1,0 +1,35 @@
+{
+  "id": "rss-20260709-007",
+  "title": "MIRA: Multiplayer Interactive World Models Trained on Rocket League",
+  "source_url": "https://mira-wm.com/",
+  "source_type": "rss",
+  "summary": "该研究提出MIRA（Multiplayer Interactive World Models），通过在Rocket League游戏中训练多玩家交互世界模型，实现基于视觉的动态环境预测。模型能理解并模拟多智能体交互的物理规则，为游戏AI、机器人仿真等交互场景提供新范式。",
+  "published_at": "2026-07-09",
+  "collected_at": "2026-07-09T03:58:12.737967+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 8,
+    "scoring_reasons": "该研究将世界模型扩展到多玩家交互场景，解决了传统模型仅处理单智能体环境的局限，在游戏AI和仿真领域具有直接应用价值，且方法通用性强。",
+    "scoring_dimensions": {
+      "tech_depth": 8,
+      "innovation": 9,
+      "usability": 7
+    },
+    "technical_highlights": [
+      "首次提出多玩家交互世界模型训练框架",
+      "在复杂竞技游戏Rocket League中实现高保真环境预测",
+      "模型可泛化到多智能体策略生成与交互模拟"
+    ]
+  },
+  "tags": [
+    "世界模型",
+    "多智能体",
+    "游戏AI",
+    "交互仿真",
+    "Rocket League"
+  ]
+}
