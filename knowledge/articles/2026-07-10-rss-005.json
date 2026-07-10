@@ -1,0 +1,33 @@
+{
+  "id": "rss-20260710-005",
+  "title": "Building a real-time AI tutor for 5-year-olds",
+  "source_url": "https://www.ello.com/blog/teaching-a-child-in-1000-ms",
+  "source_type": "rss",
+  "summary": "该项目专注于构建一个面向5岁儿童的实时AI辅导系统，利用自然语言处理和语音交互技术提供个性化教育。通过分析儿童行为和学习模式，系统能自适应调整教学内容，增强互动性和趣味性。该技术旨在解决早期教育中的个性化需求，但深度和成熟度有限。",
+  "published_at": "2026-07-10",
+  "collected_at": "2026-07-10T03:58:15.426951+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 6,
+    "scoring_reasons": "技术有明确应用场景，提升了儿童教育的互动性和个性化，但缺乏突破性创新，且实现细节和成熟度有待验证，适合了解但非必需。",
+    "scoring_dimensions": {
+      "tech_depth": 5,
+      "innovation": 6,
+      "usability": 7
+    },
+    "technical_highlights": [
+      "实时语音交互与自适应教学",
+      "针对5岁儿童的学习行为建模"
+    ]
+  },
+  "tags": [
+    "AI教育",
+    "实时交互",
+    "个性化学习",
+    "语音识别"
+  ]
+}

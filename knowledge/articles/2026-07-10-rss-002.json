@@ -1,0 +1,34 @@
+{
+  "id": "rss-20260710-002",
+  "title": "Train sim created by just one person is being called the best ever made",
+  "source_url": "https://kotaku.com/a-train-sim-created-by-just-one-person-is-being-called-the-best-ever-made-2000699429",
+  "source_type": "rss",
+  "summary": "一款由单人开发的火车模拟游戏被玩家誉为史上最佳。该游戏凭借其极高的细节还原度、真实的物理引擎以及单人开发者对模拟体验的执着追求，在社区中获得了广泛好评，展现了个人开发者在小众领域中也能实现卓越品质的突破。",
+  "published_at": "2026-07-10",
+  "collected_at": "2026-07-10T03:58:15.426900+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "虽然没有技术突破，但单人开发实现高水准模拟游戏对行业有启发意义，实用性强，能直接提升模拟游戏爱好者的体验，且体现个人开发者的巨大潜力。",
+    "scoring_dimensions": {
+      "tech_depth": 7,
+      "innovation": 6,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "单人开发实现高精度火车模拟",
+      "物理引擎与细节还原度获玩家高度认可"
+    ]
+  },
+  "tags": [
+    "游戏开发",
+    "模拟游戏",
+    "个人开发者",
+    "火车模拟",
+    "独立游戏"
+  ]
+}

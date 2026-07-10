@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260710-006",
+  "title": "Girls just wanna have fast MPMC queues with bounded waiting",
+  "source_url": "https://nahla.dev/blog/waitfree_queue/",
+  "source_type": "rss",
+  "summary": "该文章或项目探讨了在并发编程中实现多生产者多消费者（MPMC）队列时，如何通过有界等待机制来保证公平性和性能。标题以幽默方式强调快速与公平的平衡，可能涉及无锁数据结构或阻塞策略的优化，适合高性能计算场景。",
+  "published_at": "2026-07-10",
+  "collected_at": "2026-07-10T03:58:15.426964+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 6,
+    "scoring_reasons": "内容聚焦于并发编程中的具体技术点，有实用性但主题较窄，创新性中等，对于需要高并发队列的开发者有直接帮助，但对一般技术人员价值有限。",
+    "scoring_dimensions": {
+      "tech_depth": 7,
+      "innovation": 5,
+      "usability": 6
+    },
+    "technical_highlights": [
+      "有界等待机制提升MPMC队列公平性",
+      "可能涉及无锁或低锁并发优化"
+    ]
+  },
+  "tags": [
+    "并发编程",
+    "MPMC队列",
+    "有界等待"
+  ]
+}

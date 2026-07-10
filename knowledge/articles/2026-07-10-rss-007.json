@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260710-007",
+  "title": "Data for Agents",
+  "source_url": "https://huggingface.co/blog/nvidia/open-data-for-agents",
+  "source_type": "rss",
+  "summary": "该内容探讨了为智能代理（Agents）提供数据支持的相关技术、方法和架构，强调数据在提升代理决策能力、自主性和效率中的关键作用。可能涉及数据获取、处理、存储及与代理交互的流程，旨在优化代理系统的性能和应用效果。",
+  "published_at": "2026-07-10",
+  "collected_at": "2026-07-10T03:58:15.426978+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hugging Face Blog",
+    "feed_url": "https://huggingface.co/blog/feed.xml"
+  },
+  "analysis": {
+    "score": 6,
+    "scoring_reasons": "该主题对AI代理系统的发展具有实际意义，但描述较为宽泛，缺乏具体细节或创新突破，属于值得了解但非必须的领域。",
+    "scoring_dimensions": {
+      "tech_depth": 5,
+      "innovation": 4,
+      "usability": 7
+    },
+    "technical_highlights": [
+      "强调数据驱动代理决策",
+      "架构优化可能提升效率"
+    ]
+  },
+  "tags": [
+    "智能代理",
+    "数据架构",
+    "AI系统"
+  ]
+}

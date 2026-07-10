@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260710-004",
+  "title": "Apple Silicon Exec Explains Mac Mini AI Demand and On-Device Future",
+  "source_url": "https://www.macrumors.com/2026/07/06/apple-silicon-exec-explains-mac-mini-ai-demand/",
+  "source_type": "rss",
+  "summary": "苹果高管解释Apple Silicon芯片如何推动Mac Mini的AI需求，并强调设备端AI的未来发展方向。内容涉及芯片性能、本地化AI处理优势及对用户隐私和效率的提升。",
+  "published_at": "2026-07-10",
+  "collected_at": "2026-07-10T03:58:15.426936+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该内容直接关联苹果生态的AI技术布局，对开发者、AI从业者和苹果用户有实用参考价值，但信息较为基础，未突破性创新。",
+    "scoring_dimensions": {
+      "tech_depth": 6,
+      "innovation": 5,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "Apple Silicon对AI推理的本地化优化",
+      "Mac Mini作为AI边缘计算设备的潜力"
+    ]
+  },
+  "tags": [
+    "Apple Silicon",
+    "设备端AI",
+    "Mac Mini"
+  ]
+}
