@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260711-019",
+  "title": "Profiling in PyTorch (Part 3): Attention is all you profile",
+  "source_url": "https://huggingface.co/blog/torch-attention-profile",
+  "source_type": "rss",
+  "summary": "本文是PyTorch性能分析系列的第三部分，聚焦于注意力机制的profiling方法。通过详细分析Transformer架构中自注意力操作的计算和内存开销，展示了如何使用PyTorch Profiler等工具识别瓶颈、优化性能。文章强调了注意力机制在模型中的关键作用及其优化技巧。",
+  "published_at": "2026-07-11",
+  "collected_at": "2026-07-11T03:25:01.358041+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hugging Face Blog",
+    "feed_url": "https://huggingface.co/blog/feed.xml"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "实用性强，直接帮助深度学习开发者优化注意力机制性能，但主题特定并非普及性突破。",
+    "scoring_dimensions": {
+      "tech_depth": 8,
+      "innovation": 6,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "深入剖析注意力计算中的性能瓶颈",
+      "提供实战profiling和优化建议"
+    ]
+  },
+  "tags": [
+    "PyTorch",
+    "性能分析",
+    "注意力机制"
+  ]
+}

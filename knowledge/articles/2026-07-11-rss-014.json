@@ -1,0 +1,33 @@
+{
+  "id": "rss-20260711-014",
+  "title": "Apple sues OpenAI, accuses ex-employees of stealing trade secrets",
+  "source_url": "https://9to5mac.com/2026/07/10/apple-sues-openai-trade-secret-theft/",
+  "source_type": "rss",
+  "summary": "苹果公司起诉OpenAI，指控其前员工窃取商业机密，涉及技术泄露和知识产权纠纷。此案凸显科技巨头间的人才竞争与商业秘密保护冲突，可能影响AI行业合作与竞争格局。",
+  "published_at": "2026-07-11",
+  "collected_at": "2026-07-11T03:25:01.357953+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 6,
+    "scoring_reasons": "该事件涉及AI行业法律纠纷，但主要聚焦于商业机密和人才争议，而非技术突破。对AI从业者有一定警示意义，但直接价值有限。",
+    "scoring_dimensions": {
+      "tech_depth": 3,
+      "innovation": 2,
+      "usability": 4
+    },
+    "technical_highlights": [
+      "揭示了AI行业商业秘密保护的法律挑战",
+      "反映了科技巨头间人才流动的冲突与风险"
+    ]
+  },
+  "tags": [
+    "法律纠纷",
+    "商业机密",
+    "人才竞争",
+    "AI行业"
+  ]
+}

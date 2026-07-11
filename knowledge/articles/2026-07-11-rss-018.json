@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260711-018",
+  "title": "How the terrorist group Boko Haram uses frontier AI",
+  "source_url": "https://casp.ac/reports/ai-enabled-terrorism",
+  "source_type": "rss",
+  "summary": "该内容探讨了恐怖组织博科圣地如何利用前沿人工智能技术，包括使用AI生成虚假信息、策划攻击、规避监控以及招募成员。分析指出，AI工具降低了恐怖组织的技术门槛，使其能够更高效地传播极端思想并实施暴力活动，对全球安全构成新兴威胁。",
+  "published_at": "2026-07-11",
+  "collected_at": "2026-07-11T03:25:01.358033+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该内容揭示了AI在非传统安全领域的实际应用，具有较高的警示价值和社会意义，但属于对现有现象的深度分析，非技术突破。",
+    "scoring_dimensions": {
+      "tech_depth": 6,
+      "innovation": 7,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "详细分析了AI在恐怖宣传中的自动化内容生成与精准投放",
+      "揭示了AI辅助规避监控的技术手段"
+    ]
+  },
+  "tags": [
+    "AI安全",
+    "恐怖主义",
+    "前沿技术滥用"
+  ]
+}
