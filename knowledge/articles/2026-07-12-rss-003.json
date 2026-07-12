@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260712-003",
+  "title": "An agent in 100 lines of Lisp",
+  "source_url": "https://thebeach.dev/posts/lisp-agent/",
+  "source_type": "rss",
+  "summary": "该内容展示了仅用100行Lisp代码实现一个AI代理的可能性，强调Lisp语言的简洁性和表达力，以及如何高效构建代理系统。",
+  "published_at": "2026-07-12",
+  "collected_at": "2026-07-12T03:36:20.723324+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 6,
+    "scoring_reasons": "该内容展示了Lisp在快速实现AI代理方面的潜力，但实用性有限，主要面向Lisp爱好者或教育演示，非主流工具。",
+    "scoring_dimensions": {
+      "tech_depth": 7,
+      "innovation": 5,
+      "usability": 4
+    },
+    "technical_highlights": [
+      "用100行Lisp实现代理，体现语言简洁性",
+      "展示Lisp在AI代理构建中的表达力"
+    ]
+  },
+  "tags": [
+    "Lisp",
+    "AI代理",
+    "代码简洁性"
+  ]
+}

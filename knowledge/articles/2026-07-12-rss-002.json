@@ -1,0 +1,34 @@
+{
+  "id": "rss-20260712-002",
+  "title": "What xAI&#x27;s Grok Build CLI Actually Sends to xAI",
+  "source_url": "https://gist.github.com/cereblab/dc9a40bc26120f4540e4e09b75ffb547",
+  "source_type": "rss",
+  "summary": "本文分析了xAI的Grok Build CLI工具实际发送到xAI服务器的数据内容，揭示了其网络请求的具体细节和潜在隐私影响。",
+  "published_at": "2026-07-12",
+  "collected_at": "2026-07-12T03:36:20.723309+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 6,
+    "scoring_reasons": "该内容揭示了工具背后数据交互的实际情况，对关注隐私和透明度的开发者有一定价值，但面较窄，且非突破性技术。",
+    "scoring_dimensions": {
+      "tech_depth": 6,
+      "innovation": 5,
+      "usability": 5
+    },
+    "technical_highlights": [
+      "具体分析了CLI发送的数据包结构",
+      "揭示了隐私相关的潜在风险"
+    ]
+  },
+  "tags": [
+    "xAI",
+    "Grok",
+    "CLI",
+    "隐私分析",
+    "网络数据"
+  ]
+}
