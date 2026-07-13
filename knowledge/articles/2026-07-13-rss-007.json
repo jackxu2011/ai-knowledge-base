@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260713-007",
+  "title": "I love LLMs, I hate hype",
+  "source_url": "https://geohot.github.io//blog/jekyll/update/2026/07/12/i-love-llms.html",
+  "source_type": "rss",
+  "summary": "作者表达了对大型语言模型（LLM）的热爱，同时强烈反对围绕其的过度炒作。文章强调应客观看待LLM的能力与局限，避免不切实际的期待，倡导理性讨论和实际应用。",
+  "published_at": "2026-07-13",
+  "collected_at": "2026-07-13T03:39:37.969109+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 6,
+    "scoring_reasons": "内容具有现实批判意义，引导冷静思考，但缺乏新技术或方法论，价值在于警示而非创新。",
+    "scoring_dimensions": {
+      "tech_depth": 3,
+      "innovation": 2,
+      "usability": 7
+    },
+    "technical_highlights": [
+      "反对LLM领域的过度炒作",
+      "倡导理性使用和评估AI技术"
+    ]
+  },
+  "tags": [
+    "LLM",
+    "批判性思考",
+    "技术理性"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "rss-20260713-003",
+  "title": "Claude Code sends 33k tokens before reading the prompt; OpenCode sends 7k",
+  "source_url": "https://systima.ai/blog/claude-code-vs-opencode-token-overhead",
+  "source_type": "rss",
+  "summary": "本文对比了Claude Code和OpenCode在读取提示前的预置token数量，发现Claude Code需发送33k tokens，而OpenCode仅需7k。这一差异反映了不同AI编程助手在上下文处理效率上的优化程度，OpenCode的轻量设计可能带来更低的成本和更快的响应速度，对开发者更具实用性。",
+  "published_at": "2026-07-13",
+  "collected_at": "2026-07-13T03:39:37.969057+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该对比直接揭示了AI编码工具的效率差异，对开发者选择工具有实际参考价值，且通过具体数据强调优化重要性，但未涉及技术细节或应用场景，深度有限。",
+    "scoring_dimensions": {
+      "tech_depth": 5,
+      "innovation": 6,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "Claude Code预置token高达33k，远超OpenCode的7k",
+      "OpenCode的预置token优化可能降低成本和延迟"
+    ]
+  },
+  "tags": [
+    "AI编程",
+    "token效率",
+    "工具对比",
+    "成本优化"
+  ]
+}

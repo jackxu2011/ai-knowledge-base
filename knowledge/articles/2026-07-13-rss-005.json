@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260713-005",
+  "title": "Flash-MSA: Accelerating Million-Token Training with Sparse Attention Kernels",
+  "source_url": "https://nanduruganesh.github.io/flash-msa/",
+  "source_type": "rss",
+  "summary": "Flash-MSA是一种稀疏注意力核，旨在加速百万级token的训练。通过优化稀疏注意力计算，该技术显著提高了长序列处理效率，减少了内存占用和计算开销。这对于处理大规模语言模型和长文本理解任务具有直接帮助，能够降低训练成本并提升模型性能。",
+  "published_at": "2026-07-13",
+  "collected_at": "2026-07-13T03:39:37.969084+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 8,
+    "scoring_reasons": "该技术直接针对长序列训练瓶颈，提供高效稀疏注意力解决方案，实用性高，对AI领域有显著帮助，但尚未达到改变格局的范式转变级别。",
+    "scoring_dimensions": {
+      "tech_depth": 8,
+      "innovation": 7,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "优化稀疏注意力计算以加速百万token训练",
+      "减少内存占用和计算开销"
+    ]
+  },
+  "tags": [
+    "稀疏注意力",
+    "大规模训练",
+    "长序列处理"
+  ]
+}
