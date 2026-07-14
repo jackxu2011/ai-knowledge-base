@@ -1,0 +1,35 @@
+{
+  "id": "rss-20260714-002",
+  "title": "Building Food Metadata with LLM Juries",
+  "source_url": "https://careersatdoordash.com/blog/building-food-metadata-with-llm-juries-context-optimization-multimodal-ai/",
+  "source_type": "rss",
+  "summary": "本文探讨了利用大型语言模型（LLM）作为陪审团，自动构建食品元数据的方法。通过LLM的推理和生成能力，对食品图像、文本描述等数据进行标签提取、分类和关联，从而建立结构化的食品知识库。该方法旨在提高数据标注效率，降低人工成本，并提升元数据的准确性和丰富度。",
+  "published_at": "2026-07-14",
+  "collected_at": "2026-07-14T03:14:47.072850+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该方法直接应用于食品数据标注，实用性高，能显著提升效率。但并非突破性技术，而是LLM在特定领域的创新应用。",
+    "scoring_dimensions": {
+      "tech_depth": 7,
+      "innovation": 6,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "利用LLM进行自动化食品元数据生成",
+      "多模态数据融合与标签推理",
+      "降低人工标注成本并提高效率"
+    ]
+  },
+  "tags": [
+    "LLM",
+    "食品数据",
+    "元数据构建",
+    "自动化标注",
+    "多模态"
+  ]
+}

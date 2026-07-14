@@ -1,0 +1,33 @@
+{
+  "id": "rss-20260714-001",
+  "title": "Apple&#x27;s new SpeechAnalyzer API, benchmarked against Whisper and its predecessor",
+  "source_url": "https://get-inscribe.com/blog/apple-speech-api-benchmark.html",
+  "source_type": "rss",
+  "summary": "苹果发布全新SpeechAnalyzer API，专为语音识别与情感分析设计，支持实时、高精度转录与意图检测。据基准测试，其在嘈杂环境中的准确率比Whisper提升15%，且延迟更低，显着优于其前代API，可能成为开发者构建语音应用的优选工具。",
+  "published_at": "2026-07-14",
+  "collected_at": "2026-07-14T03:14:47.072806+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 8,
+    "scoring_reasons": "该API显著提升了语音识别在复杂场景下的性能，具备强实用性，直接赋能开发者，但尚未颠覆现有格局。",
+    "scoring_dimensions": {
+      "tech_depth": 8,
+      "innovation": 7,
+      "usability": 9
+    },
+    "technical_highlights": [
+      "在嘈杂环境中准确率比Whisper提升15%",
+      "实时转录与情感分析融合，延迟更低",
+      "易于集成，API接口简洁高效"
+    ]
+  },
+  "tags": [
+    "语音识别",
+    "苹果API",
+    "基准测试"
+  ]
+}

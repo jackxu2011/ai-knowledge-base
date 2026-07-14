@@ -1,0 +1,34 @@
+{
+  "id": "rss-20260714-007",
+  "title": "A Study of Microsoft&#x27;s Early 2026 Rollout of Claude Code and GitHub Copilot CLI",
+  "source_url": "https://arxiv.org/abs/2607.01418",
+  "source_type": "rss",
+  "summary": "微软于2026年初推出Claude Code和GitHub Copilot CLI，这表明微软正在整合AI工具以提升开发者命令行体验，推动AI辅助编程的普及。该研究分析了这些工具的功能、集成方式及对开发效率的潜在影响，反映了AI编程助手从IDE向命令行环境的扩展趋势。",
+  "published_at": "2026-07-14",
+  "collected_at": "2026-07-14T03:14:47.072923+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该内容直接关联微软AI编程工具的实用化进展，对开发者有直接帮助，但缺乏颠覆性创新，属于现有技术的整合与推广。",
+    "scoring_dimensions": {
+      "tech_depth": 6,
+      "innovation": 5,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "微软将Claude AI集成到命令行界面",
+      "GitHub Copilot CLI扩展了AI编程辅助场景"
+    ]
+  },
+  "tags": [
+    "AI编程",
+    "微软",
+    "GitHub Copilot",
+    "命令行工具",
+    "2026"
+  ]
+}

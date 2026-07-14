@@ -1,0 +1,35 @@
+{
+  "id": "rss-20260714-005",
+  "title": "Show HN: I implemented a neural network in SQL",
+  "source_url": "https://github.com/xqlsystems/xarray-sql/blob/claude/xarray-sql-mnist-demo/benchmarks/nn.py",
+  "source_type": "rss",
+  "summary": "该项目展示了如何在SQL中实现一个神经网络，包括前向传播和反向传播，使用纯SQL查询语句完成训练和推理，无需外部语言或库。",
+  "published_at": "2026-07-14",
+  "collected_at": "2026-07-14T03:14:47.072895+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该实现展示了SQL的图灵完备性和创造性应用，对数据库爱好者和教学有直接启发，但实用性和性能有限，适合特定场景。",
+    "scoring_dimensions": {
+      "tech_depth": 8,
+      "innovation": 9,
+      "usability": 5
+    },
+    "technical_highlights": [
+      "展示SQL的图灵完备性，实现神经网络的训练与推理",
+      "纯SQL实现反向传播，无需外部编程语言",
+      "提供完整可运行的SQL代码示例"
+    ]
+  },
+  "tags": [
+    "SQL",
+    "神经网络",
+    "数据库",
+    "机器学习",
+    "工程实现"
+  ]
+}
