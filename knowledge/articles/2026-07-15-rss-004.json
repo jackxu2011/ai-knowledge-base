@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260715-004",
+  "title": "LeMario: Training a JEPA World Model on Super Mario Bros",
+  "source_url": "https://www.benjamin-bai.com/projects/lemario",
+  "source_type": "rss",
+  "summary": "LeMario 项目提出了一种基于联合嵌入预测架构（JEPA）的世界模型，并应用于超级马里奥兄弟游戏。该模型通过自监督学习预测潜在空间中的未来状态，无需像素级重建，从而高效学习环境动态。实验表明，该模型在游戏模拟和规划任务上表现出色，为未来强化学习和机器人控制中的世界建模提供了新思路。",
+  "published_at": "2026-07-15",
+  "collected_at": "2026-07-15T03:13:59.988855+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 8,
+    "scoring_reasons": "该项目将 JEPA 架构应用于游戏世界建模，具有较高的创新性和实用性，直接提升了游戏模拟与规划效率，且技术深度扎实，对相关领域有显著启发。",
+    "scoring_dimensions": {
+      "tech_depth": 9,
+      "innovation": 8,
+      "usability": 7
+    },
+    "technical_highlights": [
+      "采用 JEPA 架构进行自监督世界建模，避免像素级重建",
+      "在超级马里奥环境中实现高效的状态预测与规划"
+    ]
+  },
+  "tags": [
+    "JEPA",
+    "世界模型",
+    "强化学习"
+  ]
+}

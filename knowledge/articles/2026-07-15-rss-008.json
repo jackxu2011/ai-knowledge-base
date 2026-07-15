@@ -1,0 +1,34 @@
+{
+  "id": "rss-20260715-008",
+  "title": "The zero-cost fallacy: open-source software in the agentic era",
+  "source_url": "https://www.thoughtworks.com/insights/blog/open-source/zero-cost-fallacy-open-source-agentic-era",
+  "source_type": "rss",
+  "summary": "本文探讨了在AI代理时代，开源软件不再意味着零成本的观点。随着智能体自主运行、调用API和消耗计算资源，开源模型的实际使用成本（包括许可、维护、安全及集成费用）被低估。文章呼吁重新评估开源的经济模型，并警示企业在采用开源代理时应全面考虑总拥有成本。",
+  "published_at": "2026-07-15",
+  "collected_at": "2026-07-15T03:13:59.988904+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 8,
+    "scoring_reasons": "该内容精准指出了AI代理时代开源软件被忽视的成本问题，对企业和开发者具有直接的决策指导价值，推动了对开源经济模型的重新审视，实用性强且具有前瞻性。",
+    "scoring_dimensions": {
+      "tech_depth": 8,
+      "innovation": 7,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "揭示代理模式下API调用与计算资源消耗带来的隐性成本",
+      "重新定义开源在AI时代的真实总拥有成本（TCO）"
+    ]
+  },
+  "tags": [
+    "开源软件",
+    "AI代理",
+    "成本分析",
+    "经济模型",
+    "企业决策"
+  ]
+}

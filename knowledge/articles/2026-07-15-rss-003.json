@@ -1,0 +1,34 @@
+{
+  "id": "rss-20260715-003",
+  "title": "Financing the AI boom: from cash flows to debt [pdf]",
+  "source_url": "https://www.bis.org/publ/bisbull120.pdf",
+  "source_type": "rss",
+  "summary": "本文探讨了AI行业繁荣背后的融资模式演变，从依赖内部现金流转向债务融资。分析指出，随着AI投资规模扩大，企业开始利用债务市场为算力、研发等资本密集型项目融资，这改变了传统科技公司的财务结构，并可能影响行业风险与回报格局。",
+  "published_at": "2026-07-15",
+  "collected_at": "2026-07-15T03:13:59.988841+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "直接揭示了AI行业融资趋势的关键转变，对投资者、创业者及财务决策者具有实用参考价值，但内容偏向金融市场分析而非技术突破，创新性中等。",
+    "scoring_dimensions": {
+      "tech_depth": 6,
+      "innovation": 5,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "分析了AI企业从内部现金流到债务融资的转变",
+      "探讨了债务融资对AI行业资本结构与风险的影响"
+    ]
+  },
+  "tags": [
+    "AI融资",
+    "债务市场",
+    "金融趋势",
+    "资本结构",
+    "行业分析"
+  ]
+}

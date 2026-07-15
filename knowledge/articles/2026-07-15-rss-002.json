@@ -1,0 +1,33 @@
+{
+  "id": "rss-20260715-002",
+  "title": "Bonsai 27B: A 27B-Class model that runs on a phone",
+  "source_url": "https://prismml.com/news/bonsai-27b",
+  "source_type": "rss",
+  "summary": "Bonsai 27B 是一款27B参数级别的模型，能够在手机上运行，实现了大型语言模型在移动设备上的高效部署。",
+  "published_at": "2026-07-15",
+  "collected_at": "2026-07-15T03:13:59.988822+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 8,
+    "scoring_reasons": "该技术显著降低了大型模型对硬件的要求，使得27B参数模型可在手机上运行，具有极高的实用性和创新性，直接提升了移动端AI应用的可行性。",
+    "scoring_dimensions": {
+      "tech_depth": 8,
+      "innovation": 9,
+      "usability": 9
+    },
+    "technical_highlights": [
+      "模型压缩与优化技术使得27B参数在手机上运行",
+      "移动端高效推理，突破硬件限制"
+    ]
+  },
+  "tags": [
+    "模型压缩",
+    "移动端AI",
+    "大语言模型",
+    "高效推理"
+  ]
+}

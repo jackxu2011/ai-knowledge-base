@@ -1,0 +1,33 @@
+{
+  "id": "rss-20260715-009",
+  "title": "Are we offloading too much of our thinking to AI?",
+  "source_url": "https://www.artfish.ai/p/offloading-thinking-to-ai",
+  "source_type": "rss",
+  "summary": "探讨人类是否过度依赖AI进行思考，分析认知外包的风险与收益，强调保持独立思考能力的重要性。",
+  "published_at": "2026-07-15",
+  "collected_at": "2026-07-15T03:13:59.988916+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "触及AI伦理与认知科学前沿话题，对技术使用者有直接警示价值，但讨论偏理论层面。",
+    "scoring_dimensions": {
+      "tech_depth": 6,
+      "innovation": 7,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "揭示AI辅助思考可能导致的认知能力退化",
+      "提出适度使用AI与维护人类决策权的平衡策略"
+    ]
+  },
+  "tags": [
+    "AI伦理",
+    "认知科学",
+    "人机协作",
+    "技术反思"
+  ]
+}

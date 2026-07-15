@@ -1,0 +1,33 @@
+{
+  "id": "rss-20260715-001",
+  "title": "TS-2026-009: Insecure argument handling in Tailscale SSH permitted root access",
+  "source_url": "https://tailscale.com/security-bulletins",
+  "source_type": "rss",
+  "summary": "Tailscale SSH 中发现一个不安全参数处理漏洞（TS-2026-009），该漏洞可能导致未经授权的 root 访问。攻击者可能利用此漏洞绕过安全限制，获得对系统的超级用户权限，从而完全控制受影响设备。",
+  "published_at": "2026-07-15",
+  "collected_at": "2026-07-15T03:13:59.988780+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该漏洞直接关系到 Tailscale SSH 的安全机制，影响面较广（涉及使用 Tailscale SSH 的用户），且可能导致严重的权限提升后果，具有较强的实用性和威胁性，但并非新型攻击技术，属于安全修复类。",
+    "scoring_dimensions": {
+      "tech_depth": 7,
+      "innovation": 3,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "漏洞允许绕过 SSH 参数安全检查实现权限提升",
+      "影响 Tailscale SSH 模块的安全隔离机制"
+    ]
+  },
+  "tags": [
+    "安全漏洞",
+    "权限提升",
+    "Tailscale",
+    "SSH"
+  ]
+}

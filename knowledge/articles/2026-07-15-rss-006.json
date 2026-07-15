@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260715-006",
+  "title": "The largest available Minecraft world, totalling 15 TB",
+  "source_url": "https://2b2t.place/1million",
+  "source_type": "rss",
+  "summary": "该项目构建了Minecraft历史上最大的可公开访问世界存档，总数据量达15TB。该世界通过算法生成和社区贡献，覆盖了游戏内几乎无限的可探索区域，为地图生成、游戏存档优化和大规模数据存储提供了新的研究案例。",
+  "published_at": "2026-07-15",
+  "collected_at": "2026-07-15T03:13:59.988879+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 6,
+    "scoring_reasons": "该技术虽非突破性创新，但展示了大规模数据存储与游戏工程结合的极限，对Minecraft社区和地图生成算法研究有参考价值，但实用性和直接应用场景有限。",
+    "scoring_dimensions": {
+      "tech_depth": 7,
+      "innovation": 5,
+      "usability": 4
+    },
+    "technical_highlights": [
+      "15TB的庞大数据量，刷新了Minecraft世界存档的规模记录",
+      "通过算法与社区协作实现世界生成，体现了分布式数据管理技术"
+    ]
+  },
+  "tags": [
+    "Minecraft",
+    "大规模数据存储",
+    "游戏存档技术"
+  ]
+}
