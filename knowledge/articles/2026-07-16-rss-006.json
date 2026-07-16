@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260716-006",
+  "title": "Model Routing Is Simple. Until It Isn’t.",
+  "source_url": "https://huggingface.co/blog/ibm-research/model-routing-is-simple-until-it-isnt",
+  "source_type": "rss",
+  "summary": "本文探讨了模型路由的复杂性。虽然表面概念简单，即根据输入特性选择最合适的模型，但实践中面临延迟、成本、效果等多目标优化，以及模型性能动态变化和用户需求多样性等挑战，使得高效路由变得极其困难且需要精细设计。",
+  "published_at": "2026-07-16",
+  "collected_at": "2026-07-16T03:20:39.976503+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hugging Face Blog",
+    "feed_url": "https://huggingface.co/blog/feed.xml"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "模型路由是当前AI部署中的关键实用问题，直接关系到推理成本、响应速度与结果质量之间的平衡。文章揭示了该领域易被忽视的深层难点，对工程实践有直接指导意义，但并非颠覆性理论突破。",
+    "scoring_dimensions": {
+      "tech_depth": 7,
+      "innovation": 6,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "揭示了模型路由在实际部署中的多目标优化复杂性",
+      "强调了动态性能评估和适应性路由的重要性"
+    ]
+  },
+  "tags": [
+    "模型路由",
+    "推理优化",
+    "AI工程实践"
+  ]
+}

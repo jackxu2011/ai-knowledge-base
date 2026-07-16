@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260716-005",
+  "title": "What building Shippy taught us about building agents",
+  "source_url": "https://huggingface.co/blog/allenai/shippy-tech-blog",
+  "source_type": "rss",
+  "summary": "文章探讨了如何从构建Shippy（一个AI代理）的过程中汲取经验教训，总结出构建高效、可靠代理的系统性方法。",
+  "published_at": "2026-07-16",
+  "collected_at": "2026-07-16T03:20:39.976495+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hugging Face Blog",
+    "feed_url": "https://huggingface.co/blog/feed.xml"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该内容直接分享了构建AI代理的实战经验，对开发者实用性强，能提升代理构建效率和质量，但并非突破性技术。",
+    "scoring_dimensions": {
+      "tech_depth": 7,
+      "innovation": 6,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "基于真实项目的代理构建经验总结",
+      "强调系统化方法与可靠性的重要性"
+    ]
+  },
+  "tags": [
+    "AI代理",
+    "构建经验",
+    "开发实践"
+  ]
+}

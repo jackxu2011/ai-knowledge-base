@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260716-004",
+  "title": "Designing APIs for Agents",
+  "source_url": "https://www.freestyle.sh/blog/opinion/designing-apis-for-agents",
+  "source_type": "rss",
+  "summary": "本文探讨了为AI智能体设计API时需考虑的关键原则，包括状态管理、异步通信、错误处理、可扩展性及安全机制。文章强调API应支持智能体的自主决策与交互需求，避免传统RESTful设计的局限性，并通过示例展示了如何优化API以提升智能体协作效率与可靠性。",
+  "published_at": "2026-07-16",
+  "collected_at": "2026-07-16T03:20:39.976487+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "直接针对AI智能体生态的实用设计指南，对开发者有显著参考价值，但非突破性范式创新。",
+    "scoring_dimensions": {
+      "tech_depth": 7,
+      "innovation": 6,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "提出面向智能体的状态驱动API设计模式",
+      "强调异步非阻塞通信以适配智能体决策延迟"
+    ]
+  },
+  "tags": [
+    "API设计",
+    "AI智能体",
+    "系统架构"
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "source": "rss",
+  "collected_at": "2026-07-16T03:20:08.651632+00:00",
+  "items": [
+    {
+      "title": "Governments, companies, nonprofits should invest in free, open source AI [pdf]",
+      "url": "https://www.siegelendowment.org/wp-content/uploads/2026/07/fortune-david-siegel-open-source-ai.pdf",
+      "summary": "",
+      "feed_name": "Hacker News Best",
+      "feed_url": "https://news.ycombinator.com/rss"
+    },
+    {
+      "title": "LLM Networking with MikroTik",
+      "url": "https://blog.greg.technology/2026/07/14/llm-networking-with-mikrotik.html",
+      "summary": "",
+      "feed_name": "Hacker News Best",
+      "feed_url": "https://news.ycombinator.com/rss"
+    },
+    {
+      "title": "Brainless: Shadcn components that look like Claude Code, Codex and Grok",
+      "url": "https://brainless.swerdlow.dev",
+      "summary": "",
+      "feed_name": "Hacker News Best",
+      "feed_url": "https://news.ycombinator.com/rss"
+    },
+    {
+      "title": "Designing APIs for Agents",
+      "url": "https://www.freestyle.sh/blog/opinion/designing-apis-for-agents",
+      "summary": "",
+      "feed_name": "Hacker News Best",
+      "feed_url": "https://news.ycombinator.com/rss"
+    },
+    {
+      "title": "What building Shippy taught us about building agents",
+      "url": "https://huggingface.co/blog/allenai/shippy-tech-blog",
+      "summary": "",
+      "feed_name": "Hugging Face Blog",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "title": "Model Routing Is Simple. Until It Isn’t.",
+      "url": "https://huggingface.co/blog/ibm-research/model-routing-is-simple-until-it-isnt",
+      "summary": "",
+      "feed_name": "Hugging Face Blog",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "title": "Welcome Inkling by Thinking Machines",
+      "url": "https://huggingface.co/blog/thinkingmachines-inkling",
+      "summary": "",
+      "feed_name": "Hugging Face Blog",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "title": "Introducing Real World VoiceEQ: Measuring the human quality of voice AI",
+      "url": "https://huggingface.co/blog/real-world-voiceeq",
+      "summary": "",
+      "feed_name": "Hugging Face Blog",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "title": "Profiling in PyTorch (Part 3): Attention is all you profile",
+      "url": "https://huggingface.co/blog/torch-attention-profile",
+      "summary": "",
+      "feed_name": "Hugging Face Blog",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "title": "Data for Agents",
+      "url": "https://huggingface.co/blog/nvidia/open-data-for-agents",
+      "summary": "",
+      "feed_name": "Hugging Face Blog",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "title": "Native-speed vLLM transformers modeling backend",
+      "url": "https://huggingface.co/blog/native-speed-vllm-transformers-backend",
+      "summary": "",
+      "feed_name": "Hugging Face Blog",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "title": "From Hugging Face to Amazon SageMaker Studio in one click",
+      "url": "https://huggingface.co/blog/amazon/one-click-to-sagemaker-studio",
+      "summary": "",
+      "feed_name": "Hugging Face Blog",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "title": "Hugging Face Models on Foundry Managed Compute",
+      "url": "https://huggingface.co/blog/microsoft/foundry-managed-compute",
+      "summary": "",
+      "feed_name": "Hugging Face Blog",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "title": "Run AI workloads on any cloud, store on Hugging Face: zero-egress storage with SkyPilot",
+      "url": "https://huggingface.co/blog/skypilot-hf-storage",
+      "summary": "",
+      "feed_name": "Hugging Face Blog",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "title": "LeRobot v0.6.0: Imagine, Evaluate, Improve",
+      "url": "https://huggingface.co/blog/lerobot-release-v060",
+      "summary": "",
+      "feed_name": "Hugging Face Blog",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "title": "PRX Part 4: Our Data Strategy",
+      "url": "https://huggingface.co/blog/Photoroom/prx-part4-data",
+      "summary": "",
+      "feed_name": "Hugging Face Blog",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "title": "🤗 Kernels: Major Updates",
+      "url": "https://huggingface.co/blog/revamped-kernels",
+      "summary": "",
+      "feed_name": "Hugging Face Blog",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "title": "Hugging Face and Cerebras bring Gemma 4 to real-time voice AI",
+      "url": "https://huggingface.co/blog/cerebras-gemma4-voice-ai",
+      "summary": "",
+      "feed_name": "Hugging Face Blog",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "title": "ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration",
+      "url": "https://huggingface.co/blog/ibm-research/scarfbench",
+      "summary": "",
+      "feed_name": "Hugging Face Blog",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "title": "Why Specialization Is Inevitable",
+      "url": "https://huggingface.co/blog/Dharma-AI/why-specialization-is-inevitable",
+      "summary": "",
+      "feed_name": "Hugging Face Blog",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "title": "Featuring Every Eval Ever Results on Hugging Face Model Pages",
+      "url": "https://huggingface.co/blog/eee-community-evals",
+      "summary": "",
+      "feed_name": "Hugging Face Blog",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "title": "DiScoFormer: One transformer for density and score, across distributions",
+      "url": "https://huggingface.co/blog/allenai/discoformer",
+      "summary": "",
+      "feed_name": "Hugging Face Blog",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "title": "Run a vLLM Server on HF Jobs in One Command",
+      "url": "https://huggingface.co/blog/vllm-jobs",
+      "summary": "",
+      "feed_name": "Hugging Face Blog",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "title": "Accelerating Transformers Fine-Tuning with NVIDIA NeMo AutoModel",
+      "url": "https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel",
+      "summary": "",
+      "feed_name": "Hugging Face Blog",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260716-001",
+  "title": "Governments, companies, nonprofits should invest in free, open source AI [pdf]",
+  "source_url": "https://www.siegelendowment.org/wp-content/uploads/2026/07/fortune-david-siegel-open-source-ai.pdf",
+  "source_type": "rss",
+  "summary": "该文档呼吁政府、企业和非营利组织投资于自由开源的AI技术，强调其透明度、可访问性和协作性，并指出开源AI可避免单一实体控制，促进创新和公平发展。",
+  "published_at": "2026-07-16",
+  "collected_at": "2026-07-16T03:20:39.976424+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 8,
+    "scoring_reasons": "该内容直接关联当前AI治理和开源生态的关键议题，提出实际可行的投资建议，对政策制定者和技术社区具有直接指导意义，但缺乏具体实施细节，故评为8分。",
+    "scoring_dimensions": {
+      "tech_depth": 6,
+      "innovation": 7,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "强调开源AI在避免垄断和促进透明性方面的优势",
+      "提出跨部门协作投资开源AI的具体路径"
+    ]
+  },
+  "tags": [
+    "开源AI",
+    "AI治理",
+    "政策建议"
+  ]
+}

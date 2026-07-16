@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260716-003",
+  "title": "Brainless: Shadcn components that look like Claude Code, Codex and Grok",
+  "source_url": "https://brainless.swerdlow.dev",
+  "source_type": "rss",
+  "summary": "Brainless 是一个提供类似于 Claude Code、Codex 和 Grok 风格的 Shadcn 组件集合，旨在帮助开发者快速构建具有现代 AI 产品视觉风格的界面。该项目通过复用成熟的设计模式，降低了 UI 开发门槛，提高了视觉一致性。",
+  "published_at": "2026-07-16",
+  "collected_at": "2026-07-16T03:20:39.976477+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该组件库直接借鉴了主流 AI 工具 (Claude Code, Codex, Grok) 的 UI 设计，实用性强，能显著提升前端开发效率。虽然不是突破性技术，但针对当前 AI 应用开发热潮提供了直接的视觉素材和组件，非常有用。",
+    "scoring_dimensions": {
+      "tech_depth": 4,
+      "innovation": 5,
+      "usability": 9
+    },
+    "technical_highlights": [
+      "直接复用 Shadcn 生态，易于集成和自定义",
+      "为 AI 产品 UI 提供了即用的设计模板，减少设计重复工作"
+    ]
+  },
+  "tags": [
+    "UI组件库",
+    "Shadcn",
+    "AI应用开发"
+  ]
+}
