@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260717-007",
+  "title": "The LLM Critics Are Right. I Use LLMs Anyway",
+  "source_url": "https://www.theocharis.dev/blog/llm-critics-are-right-i-use-llms-anyway/",
+  "source_type": "rss",
+  "summary": "文章针对LLM批评者观点展开，承认其合理之处，但作者仍坚持使用LLM，探讨了技术实用性与批评平衡的问题。",
+  "published_at": "2026-07-17",
+  "collected_at": "2026-07-17T03:23:50.895040+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 6,
+    "scoring_reasons": "内容具有一定思辨性，但无技术突破或实用创新，属于观点评论类，价值中等。",
+    "scoring_dimensions": {
+      "tech_depth": 3,
+      "innovation": 4,
+      "usability": 5
+    },
+    "technical_highlights": [
+      "承认LLM批评的合理性",
+      "强调实际使用中的权衡"
+    ]
+  },
+  "tags": [
+    "LLM",
+    "批评与反思",
+    "实用主义"
+  ]
+}

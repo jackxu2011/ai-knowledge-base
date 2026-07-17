@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260717-002",
+  "title": "$100 AI Music Video: Claude Fable 5 vs. GPT-5.6 Sol",
+  "source_url": "https://www.tryai.dev/blog/ai-music-video-arena-claude-vs-gpt-5.6",
+  "source_type": "rss",
+  "summary": "该内容对比了Claude Fable 5与GPT-5.6 Sol两个AI模型在生成音乐视频方面的表现，仅投入100美元成本。通过实际案例展示两者在创意、执行效率及输出质量上的差异，体现了低成本AI工具在多媒体创作中的潜力。",
+  "published_at": "2026-07-17",
+  "collected_at": "2026-07-17T03:23:50.894966+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 6,
+    "scoring_reasons": "这是一个有趣的AI模型对比实验，展示了低成本AI创作的可能性，但技术深度有限，且结果依赖于特定模型版本，未涉及突破性技术或广泛适用性。",
+    "scoring_dimensions": {
+      "tech_depth": 4,
+      "innovation": 5,
+      "usability": 6
+    },
+    "technical_highlights": [
+      "低成本AI音乐视频生成",
+      "模型间创意与效率对比"
+    ]
+  },
+  "tags": [
+    "AI对比",
+    "音乐视频",
+    "低成本创作"
+  ]
+}

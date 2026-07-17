@@ -1,0 +1,35 @@
+{
+  "id": "rss-20260717-006",
+  "title": "Launch HN: Traceforce (YC S26) – Company-wide security monitoring for AI apps",
+  "source_url": "https://news.ycombinator.com/item?id=48937020",
+  "source_type": "rss",
+  "summary": "Traceforce (YC S26) 推出了面向企业级AI应用的全公司安全监控平台，旨在解决AI应用部署中的安全风险。该平台通过实时监控、异常检测和合规性管理，帮助组织保护AI应用免受攻击和数据泄露。作为YC S26批次的项目，它代表了AI安全领域的新兴解决方案，有助于企业安全采用AI技术。",
+  "published_at": "2026-07-17",
+  "collected_at": "2026-07-17T03:23:50.895027+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该技术直接响应了企业AI应用安全监控的迫切需求，实用性强，能提升企业AI部署的安全性，促进AI应用落地。但作为初创项目，其成熟度和市场验证尚需时间，创新性处于行业跟进水平，评分7分。",
+    "scoring_dimensions": {
+      "tech_depth": 7,
+      "innovation": 6,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "企业级AI安全监控平台",
+      "实时异常检测与合规管理",
+      "应对AI应用数据泄露与攻击"
+    ]
+  },
+  "tags": [
+    "AI安全",
+    "企业监控",
+    "YC S26",
+    "合规管理",
+    "异常检测"
+  ]
+}
