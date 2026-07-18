@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260718-019",
+  "title": "Newer Models, Same Advantage",
+  "source_url": "https://huggingface.co/blog/Dharma-AI/newer-models-same-advantages",
+  "source_type": "rss",
+  "summary": "该文章探讨了AI模型发展中的持续性优势现象，指出尽管新模型不断涌现，但某些核心优势（如特定任务性能、推理效率或数据适应性）仍保持稳定。文章可能分析了模型迭代中的技术延续性，并强调了在快速变化中识别不变优势的重要性。",
+  "published_at": "2026-07-18",
+  "collected_at": "2026-07-18T03:12:42.536529+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hugging Face Blog",
+    "feed_url": "https://huggingface.co/blog/feed.xml"
+  },
+  "analysis": {
+    "score": 6,
+    "scoring_reasons": "观点具有启发性，但缺乏具体技术细节或实证数据支撑，实用性有限。",
+    "scoring_dimensions": {
+      "tech_depth": 5,
+      "innovation": 6,
+      "usability": 4
+    },
+    "technical_highlights": [
+      "强调模型迭代中的稳定性优势",
+      "提出关注核心优势的持续性视角"
+    ]
+  },
+  "tags": [
+    "AI模型",
+    "技术演进",
+    "性能分析"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "rss-20260718-017",
+  "title": "FAA lets Boeing sign off on 737 MAX, 787 airworthiness certificates again",
+  "source_url": "https://www.cnbc.com/2026/07/17/faa-boeing-737-max-787.html",
+  "source_type": "rss",
+  "summary": "美国联邦航空管理局（FAA）重新授权波音公司对737 MAX和787飞机进行适航认证，这意味着波音在经历了长期的安全审查和整改后，恢复了部分自我认证的权力。该决定基于波音在安全管理系统、质量控制和透明度方面的改进，但仍需接受FAA的监督。此举旨在加快飞机交付流程，同时确保安全标准不降低。",
+  "published_at": "2026-07-18",
+  "collected_at": "2026-07-18T03:12:42.536508+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该事件对航空制造业和监管体系有直接影响，体现了行业监管与生产自主权的平衡调整，但属于恢复性举措而非技术突破，对一般用户影响间接。",
+    "scoring_dimensions": {
+      "tech_depth": 6,
+      "innovation": 4,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "波音重新获得737 MAX和787的部分适航自我认证授权",
+      "FAA在安全管理系统和透明度方面附加了严格监督条件"
+    ]
+  },
+  "tags": [
+    "航空航天",
+    "监管政策",
+    "波音737 MAX",
+    "适航认证",
+    "安全改进"
+  ]
+}

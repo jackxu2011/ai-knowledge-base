@@ -1,0 +1,34 @@
+{
+  "id": "rss-20260718-014",
+  "title": "Kaiser nurses say AI, workplace surveillance are making their jobs, care worse",
+  "source_url": "https://localnewsmatters.org/2026/07/15/kaiser-nurses-say-ai-workplace-surveillance-are-making-their-jobs-and-patient-care-worse/",
+  "source_type": "rss",
+  "summary": "凯撒医疗机构的护士们表示，人工智能和职场监控技术正在恶化他们的工作条件和患者护理质量。护士们认为这些技术增加了工作量，降低了自主性，并导致患者关怀不足，引发了关于技术伦理和劳动权益的讨论。",
+  "published_at": "2026-07-18",
+  "collected_at": "2026-07-18T03:12:42.536438+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该内容直接反映了当前AI在医疗领域应用的现实问题，具有高度实用性和社会关注度，评分基于其对工作环境和患者体验的直接影响。",
+    "scoring_dimensions": {
+      "tech_depth": 6,
+      "innovation": 5,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "指出了AI与职场监控对护理工作的负面影响",
+      "强调了技术引入中的人性化需求与伦理考量"
+    ]
+  },
+  "tags": [
+    "AI伦理",
+    "医疗技术",
+    "职场监控",
+    "护士权益",
+    "人工智能应用"
+  ]
+}

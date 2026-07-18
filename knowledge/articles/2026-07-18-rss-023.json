@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260718-023",
+  "title": "Welcome Inkling by Thinking Machines",
+  "source_url": "https://huggingface.co/blog/thinkingmachines-inkling",
+  "source_type": "rss",
+  "summary": "Thinking Machines发布Inkling，一款专注于AI协作与创意表达的新工具，旨在提升用户与AI的交互体验。",
+  "published_at": "2026-07-18",
+  "collected_at": "2026-07-18T03:12:42.536554+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hugging Face Blog",
+    "feed_url": "https://huggingface.co/blog/feed.xml"
+  },
+  "analysis": {
+    "score": 6,
+    "scoring_reasons": "该新闻虽未提供具体技术细节，但涉及AI协作工具，具有一定实用性和创新性，但信息有限，影响范围中等。",
+    "scoring_dimensions": {
+      "tech_depth": 5,
+      "innovation": 6,
+      "usability": 7
+    },
+    "technical_highlights": [
+      "AI协作新工具发布",
+      "聚焦创意表达与交互提升"
+    ]
+  },
+  "tags": [
+    "AI工具",
+    "协作",
+    "创意表达"
+  ]
+}

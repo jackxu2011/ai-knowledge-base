@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260718-016",
+  "title": "The state of open source AI",
+  "source_url": "https://stateofopensource.ai/",
+  "source_type": "rss",
+  "summary": "该内容探讨了开源人工智能的当前状态，包括主要模型、工具、社区动态及发展趋势，揭示了开源AI在推动创新和可访问性方面的重要性。",
+  "published_at": "2026-07-18",
+  "collected_at": "2026-07-18T03:12:42.536495+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "内容直接概括了开源AI生态的关键进展，对开发者、研究人员和企业具有实用价值，但缺乏具体技术细节或突破性发现，因此评分较高但非顶级。",
+    "scoring_dimensions": {
+      "tech_depth": 6,
+      "innovation": 5,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "概述了开源AI模型和工具的现状",
+      "指出开源在推动AI民主化中的作用"
+    ]
+  },
+  "tags": [
+    "开源AI",
+    "AI生态",
+    "技术趋势"
+  ]
+}
