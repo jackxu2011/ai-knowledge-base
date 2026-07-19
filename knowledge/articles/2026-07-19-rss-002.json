@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260719-002",
+  "title": "Mayor Mamdani Says Landlords Can&#x27;t Use AI Images to Advertise",
+  "source_url": "https://petapixel.com/2026/07/16/mayor-mamdani-says-landlords-cant-secretly-use-ai-images-to-advertise-properties/",
+  "source_type": "rss",
+  "summary": "Mayor Mamdani宣布禁止房东在广告中使用AI生成的图像，以保护租客权益并防止虚假宣传。该政策旨在提高租赁市场的透明度，确保广告内容真实反映房产状况。",
+  "published_at": "2026-07-19",
+  "collected_at": "2026-07-19T03:32:54.893132+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 6,
+    "scoring_reasons": "该政策具有实际应用价值，直接解决租赁市场中的虚假宣传问题，但技术层面创新性较低，属于政策执行而非技术突破。",
+    "scoring_dimensions": {
+      "tech_depth": 3,
+      "innovation": 5,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "禁止AI图像应用于租赁广告",
+      "保护消费者免受视觉误导"
+    ]
+  },
+  "tags": [
+    "AI监管",
+    "房地产",
+    "消费者保护"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "rss-20260719-005",
+  "title": "Setting up your spare Mac for Claude Code to control, a step-by-step guide",
+  "source_url": "https://ykdojo.github.io/claude-controls-mac/",
+  "source_type": "rss",
+  "summary": "这是一篇关于如何将备用Mac电脑设置为Claude Code（一款AI编程助手）控制设备的详细步骤指南。文章从基础设置到高级配置，逐步指导用户如何利用闲置的Mac作为远程开发或AI控制的节点，提升开发效率。",
+  "published_at": "2026-07-19",
+  "collected_at": "2026-07-19T03:32:54.893176+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 6,
+    "scoring_reasons": "内容实用性强，针对特定用户群体（Claude Code用户）有明确帮助，但适用场景较窄，且为配置指南而非创新技术，因此得分中等偏上。",
+    "scoring_dimensions": {
+      "tech_depth": 5,
+      "innovation": 4,
+      "usability": 7
+    },
+    "technical_highlights": [
+      "详细步骤覆盖从硬件到软件的全流程",
+      "针对闲置Mac资源再利用提出明确方案"
+    ]
+  },
+  "tags": [
+    "Claude Code",
+    "Mac配置",
+    "AI开发工具",
+    "远程控制",
+    "闲置资源利用"
+  ]
+}

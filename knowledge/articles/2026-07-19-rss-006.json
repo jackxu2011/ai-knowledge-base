@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260719-006",
+  "title": "What AI did to stackoverflow in a graph",
+  "source_url": "https://data.stackexchange.com/stackoverflow/query/1953768#graph",
+  "source_type": "rss",
+  "summary": "该内容通过图表形式展示了AI技术对Stack Overflow社区的影响，可能包括用户行为变化、问答模式转变或平台流量波动。图表直观反映了AI工具（如ChatGPT）如何改变开发者获取信息的方式，导致传统问答平台的使用率下降或内容质量变化。",
+  "published_at": "2026-07-19",
+  "collected_at": "2026-07-19T03:32:54.893188+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该内容以数据可视化方式揭示了AI对技术社区的实际影响，具有直接洞察力和实用价值，有助于理解开发者行为演变，但需结合具体图表细节才能全面评估其创新性。",
+    "scoring_dimensions": {
+      "tech_depth": 6,
+      "innovation": 7,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "通过图表量化AI对Stack Overflow流量或交互模式的影响",
+      "揭示AI问答工具对传统开发者社区生态的冲击"
+    ]
+  },
+  "tags": [
+    "AI影响",
+    "Stack Overflow",
+    "数据可视化"
+  ]
+}

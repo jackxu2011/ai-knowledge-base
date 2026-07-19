@@ -1,0 +1,34 @@
+{
+  "id": "rss-20260719-001",
+  "title": "GPT-5.6 used a prompt to close a 30-year gap in convex optimization",
+  "source_url": "https://old.reddit.com/r/math/comments/1uxj3cy/after_openais_cdc_proof_announcement_gpt56_used_a/",
+  "source_type": "rss",
+  "summary": "该技术报告指出，GPT-5.6通过使用一个提示词，成功解决了凸优化领域一个长达30年的理论空白。这一成果展示了大型语言模型在高级数学和理论计算机科学领域的突破性潜力，可能推动相关算法与应用的快速发展。",
+  "published_at": "2026-07-19",
+  "collected_at": "2026-07-19T03:32:54.893092+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 9,
+    "scoring_reasons": "解决了长期存在的理论难题，展示了AI在数学发现中的范式转变，具有极高的创新性和影响力，可能改变该领域的研究方式。",
+    "scoring_dimensions": {
+      "tech_depth": 10,
+      "innovation": 10,
+      "usability": 7
+    },
+    "technical_highlights": [
+      "利用单一提示词解决30年未解难题",
+      "证明了LLM在理论数学和优化领域的应用潜力"
+    ]
+  },
+  "tags": [
+    "LLM",
+    "凸优化",
+    "数学发现",
+    "AI理论",
+    "突破性技术"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260719-004",
+  "title": "Fable 5 vs. GPT-5.6 Sol on an NP-Hard Problem: Does &#x2F;goal help?",
+  "source_url": "https://charlesazam.com/blog/fable-5-gpt-5-6-sol-goal/",
+  "source_type": "rss",
+  "summary": "本文对比了Fable 5与GPT-5.6在解决NP-Hard问题上的表现，探讨了'/goal'指令是否能提升模型性能。实验表明，Fable 5在特定问题结构上表现出色，而GPT-5.6在通用性上更优，'/goal'指令对部分模型有显著帮助，但效果因任务而异。",
+  "published_at": "2026-07-19",
+  "collected_at": "2026-07-19T03:32:54.893164+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该内容直接对比了两款前沿AI模型在NP-Hard问题上的表现，提供了实用的性能评估和'/goal'指令的效用分析，对AI开发者及研究人员有直接参考价值，但创新性有限，属于应用比较类研究。",
+    "scoring_dimensions": {
+      "tech_depth": 7,
+      "innovation": 5,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "Fable 5在特定NP-Hard问题结构上性能优于GPT-5.6",
+      "'/goal'指令可提升部分模型的解题效率，但效果因任务类型而异"
+    ]
+  },
+  "tags": [
+    "AI模型对比",
+    "NP-Hard问题",
+    "指令优化"
+  ]
+}

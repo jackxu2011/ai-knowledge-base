@@ -1,0 +1,33 @@
+{
+  "id": "rss-20260719-003",
+  "title": "AI Mania Is Eviscerating Global Decision-Making",
+  "source_url": "https://ludic.mataroa.blog/blog/ai-mania-is-eviscerating-global-decision-making/#fnref:3",
+  "source_type": "rss",
+  "summary": "该文章探讨了AI热潮对全球决策过程的负面影响，指出过度依赖AI可能导致决策质量下降，并引发认知偏差、信息过滤和算法偏见等问题。作者认为，AI的广泛应用正在削弱人类独立思考能力，带来决策机制的系统性风险。",
+  "published_at": "2026-07-19",
+  "collected_at": "2026-07-19T03:32:54.893149+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "文章提出了一个具有现实意义且较为尖锐的观点，直击AI当前应用中的潜在风险，对决策层和开发者有警示作用；但缺乏具体数据支撑和深度技术分析，整体偏向评论性而非技术性。",
+    "scoring_dimensions": {
+      "tech_depth": 4,
+      "innovation": 7,
+      "usability": 6
+    },
+    "technical_highlights": [
+      "指出AI在决策中可能引发认知偏差与信息茧房效应",
+      "强调算法偏见对人类判断的隐蔽侵蚀"
+    ]
+  },
+  "tags": [
+    "AI风险",
+    "决策质量",
+    "算法偏见",
+    "技术伦理"
+  ]
+}
