@@ -1,0 +1,35 @@
+{
+  "id": "rss-20260720-019",
+  "title": "Ollama: All Aboard Open Models",
+  "source_url": "https://ollama.com/blog/all-aboard-open-models",
+  "source_type": "rss",
+  "summary": "Ollama是一个友好的开源工具，旨在简化大型语言模型（LLM）的本地部署与运行，用户只需通过命令行即可轻松下载、运行和管理多种开源模型，如Llama、Mistral等，无需复杂配置。它降低了普通人接触和使用前沿AI技术的门槛，着重于本地隐私保护和离线可用性，鼓励社区参与和模型共享。",
+  "published_at": "2026-07-20",
+  "collected_at": "2026-07-20T03:47:51.380226+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "Ollama通过简洁的接口和跨平台支持，极大地降低了使用开源LLM的难度，对开发者和AI爱好者有直接且实用的帮助，代表了一种去中心化AI的趋势，但并非突破性技术，更多是工程优化与体验提升。",
+    "scoring_dimensions": {
+      "tech_depth": 6,
+      "innovation": 5,
+      "usability": 9
+    },
+    "technical_highlights": [
+      "单行命令即可下载并运行多种开源LLM（如Llama 2、Mistral）",
+      "支持本地运行，确保数据隐私与离线可用性",
+      "跨平台（macOS、Linux、Windows）且易于集成到自定义应用"
+    ]
+  },
+  "tags": [
+    "开源模型",
+    "本地部署",
+    "LLM工具",
+    "隐私保护",
+    "开发者工具"
+  ]
+}

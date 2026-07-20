@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260720-016",
+  "title": "Qwen 3.8",
+  "source_url": "https://twitter.com/Alibaba_Qwen/status/2078759124914098291",
+  "source_type": "rss",
+  "summary": "Qwen 3.8 是阿里云发布的最新大型语言模型，在自然语言理解、逻辑推理和多轮对话等方面表现优异，支持多语言，在多个基准测试中达到国际领先水平。该模型通过稀疏注意力机制和高效训练策略，提升了推理效率和准确性，尤其适合复杂任务和实时交互场景。",
+  "published_at": "2026-07-20",
+  "collected_at": "2026-07-20T03:47:51.380188+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 8,
+    "scoring_reasons": "该模型在性能上显著提升，接近顶尖闭源模型，但技术上仍属渐进式改进，未完全颠覆现有范式。实用性强，可直接应用于多种业务场景，因此评分较高。",
+    "scoring_dimensions": {
+      "tech_depth": 8,
+      "innovation": 7,
+      "usability": 9
+    },
+    "technical_highlights": [
+      "稀疏注意力机制显著降低计算成本",
+      "在多语言和复杂推理任务上表现突出"
+    ]
+  },
+  "tags": [
+    "大语言模型",
+    "阿里云",
+    "稀疏注意力"
+  ]
+}

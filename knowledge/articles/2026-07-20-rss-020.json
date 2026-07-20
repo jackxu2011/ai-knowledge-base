@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260720-020",
+  "title": "Moonshot AI suspends new subscriptions due to Kimi K3 demand",
+  "source_url": "https://twitter.com/kimi_moonshot/status/2078855608565207130",
+  "source_type": "rss",
+  "summary": "Moonshot AI因Kimi K3需求激增暂停新订阅，反映AI助手市场增长迅猛，但需应对基础设施压力。",
+  "published_at": "2026-07-20",
+  "collected_at": "2026-07-20T03:47:51.380236+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 7,
+    "scoring_reasons": "该事件直接关乎AI服务可用性与市场动态，实用性强，体现行业趋势，但非突破性技术。",
+    "scoring_dimensions": {
+      "tech_depth": 5,
+      "innovation": 4,
+      "usability": 8
+    },
+    "technical_highlights": [
+      "Kimi K3需求激增导致服务暂停",
+      "AI助手市场快速增长提示基础设施挑战"
+    ]
+  },
+  "tags": [
+    "AI助手",
+    "市场动态",
+    "基础设施"
+  ]
+}

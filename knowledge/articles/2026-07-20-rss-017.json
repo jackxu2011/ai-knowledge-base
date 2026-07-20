@@ -1,0 +1,32 @@
+{
+  "id": "rss-20260720-017",
+  "title": "AI advice made people less accurate but more confident – sudy",
+  "source_url": "https://thenextweb.com/news/ai-advice-suppresses-critical-thinking-wrong-answers-study",
+  "source_type": "rss",
+  "summary": "一项研究发现，AI建议会降低决策准确性，但增强人们的自信。这表明AI辅助可能带来认知偏差，用户需警惕过度依赖。",
+  "published_at": "2026-07-20",
+  "collected_at": "2026-07-20T03:47:51.380205+00:00",
+  "status": "draft",
+  "metadata": {
+    "feed_name": "Hacker News Best",
+    "feed_url": "https://news.ycombinator.com/rss"
+  },
+  "analysis": {
+    "score": 6,
+    "scoring_reasons": "该研究揭示了AI辅助决策的重要心理影响，对理解人机协作有启发，但本身非技术突破，实用性有限。",
+    "scoring_dimensions": {
+      "tech_depth": 5,
+      "innovation": 6,
+      "usability": 5
+    },
+    "technical_highlights": [
+      "揭示了AI建议对决策准确性的负面影响",
+      "发现AI增强用户自信的悖论现象"
+    ]
+  },
+  "tags": [
+    "AI伦理",
+    "人机交互",
+    "决策偏差"
+  ]
+}
